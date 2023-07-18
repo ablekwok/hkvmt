@@ -1,0 +1,1942 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1689720022848">
+  <folder name="css">
+    <file name="site_global.css" crc="4276098105"/>
+    <file name="master_storytelling-yellow.css" crc="4264843729" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
+    <file name="nomq_preview_master_storytelling-yellow.css" crc="102390746" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
+    <file name="master_normal.css" crc="234863859" ref="resources:index:aboutus:media_activities:partnership"/>
+    <file name="nomq_preview_master_normal.css" crc="4124262883" ref="resources:index:aboutus:media_activities:partnership"/>
+    <file name="master_storytelling-green.css" crc="265968175" ref="brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet"/>
+    <file name="nomq_preview_master_storytelling-green.css" crc="3866361183" ref="brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet"/>
+    <file name="dementia_intro.css" crc="323813800" ref="dementia_intro"/>
+    <file name="nomq_dementia_intro.css" crc="36661773" ref="dementia_intro"/>
+    <file name="brainhealth_emotions.css" crc="185652850" ref="brainhealth_emotions"/>
+    <file name="nomq_brainhealth_emotions.css" crc="3918782637" ref="brainhealth_emotions"/>
+    <file name="dementia_stages.css" crc="4034487679" ref="dementia_stages"/>
+    <file name="nomq_dementia_stages.css" crc="3843372280" ref="dementia_stages"/>
+    <file name="resources.css" crc="1815432" ref="resources"/>
+    <file name="nomq_resources.css" crc="3912931956" ref="resources"/>
+    <file name="brainhealth_social.css" crc="306059135" ref="brainhealth_social"/>
+    <file name="nomq_brainhealth_social.css" crc="39259037" ref="brainhealth_social"/>
+    <file name="dementia_causes.css" crc="412283329" ref="dementia_causes"/>
+    <file name="nomq_dementia_causes.css" crc="466800834" ref="dementia_causes"/>
+    <file name="brainhealth_intro.css" crc="3843184148" ref="brainhealth_intro"/>
+    <file name="nomq_brainhealth_intro.css" crc="4120669334" ref="brainhealth_intro"/>
+    <file name="index.css" crc="4112407803" ref="index"/>
+    <file name="nomq_index.css" crc="362103872" ref="index"/>
+    <file name="dementia_healing.css" crc="4034420148" ref="dementia_healing"/>
+    <file name="nomq_dementia_healing.css" crc="188473111" ref="dementia_healing"/>
+    <file name="brainhealth_exercises.css" crc="123393897" ref="brainhealth_exercises"/>
+    <file name="nomq_brainhealth_exercises.css" crc="418400879" ref="brainhealth_exercises"/>
+    <file name="aboutus.css" crc="429759080" ref="aboutus"/>
+    <file name="nomq_aboutus.css" crc="4051885987" ref="aboutus"/>
+    <file name="brainhealth_cognitive.css" crc="3902604205" ref="brainhealth_cognitive"/>
+    <file name="nomq_brainhealth_cognitive.css" crc="346017189" ref="brainhealth_cognitive"/>
+    <file name="media_activities.css" crc="4134478995" ref="media_activities"/>
+    <file name="nomq_media_activities.css" crc="3827035957" ref="media_activities"/>
+    <file name="brainhealth_diet.css" crc="4234944623" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="453772466" ref="brainhealth_diet"/>
+    <file name="partnership.css" crc="404878661" ref="partnership"/>
+    <file name="nomq_partnership.css" crc="4213010671" ref="partnership"/>
+  </folder>
+  <folder name="fonts">
+    <file name="fakepearl-light.woff" crc="145533271"/>
+    <file name="fakepearl-light.eot" crc="3986492076"/>
+    <file name="fakepearl-light.svg" crc="13062958"/>
+    <file name="fakepearl-regular.woff" crc="99009199"/>
+    <file name="fakepearl-regular.eot" crc="3931012199"/>
+    <file name="fakepearl-regular.svg" crc="4183474000"/>
+  </folder>
+  <folder name="assets">
+    <file name="footer_pullup.png" crc="4032338105" seo="true" mt="1617815516000"/>
+    <file name="footer_pullup_s.png" crc="161315202" seo="true" mt="1617815522000"/>
+    <file name="pullup_arrow.png" crc="384137369" seo="true" mt="1628322680000"/>
+    <file name="pic_targetaudiences.jpg" crc="147642879" seo="true" mt="1618115236000"/>
+    <file name="pic_holdhand.jpg" crc="23721391" seo="true" mt="1618115204000"/>
+    <file name="pic_research.jpg" crc="3803313799" seo="true" mt="1618115266000"/>
+    <file name="pullup_arrow_s.png" crc="349479707" seo="true" mt="1621781626000"/>
+    <file name="pic_family.jpeg" crc="4102352093" seo="true" mt="1621089782000"/>
+    <file name="close-white.png" crc="4231030171" seo="true" mt="1621827306000"/>
+    <file name="hk-vmt-user.mp4" crc="4149447906" seo="true" mt="1622167525000"/>
+    <file name="pic_event02.jpg" crc="70160691" seo="true" mt="1628158792000"/>
+    <file name="pic_event01.jpg" crc="532940384" seo="true" mt="1628158851000"/>
+    <file name="pic_event04.jpg" crc="4248193995" seo="true" mt="1629861031000"/>
+    <file name="pic_event03.jpg" crc="464455178" seo="true" mt="1628158705000"/>
+    <file name="pic_poster03.jpg" crc="317944118" seo="true" mt="1628167301000"/>
+    <file name="title.svg" crc="231789981" seo="true" mt="1628346555000"/>
+    <file name="title_frame.svg" crc="4141372188" seo="true" mt="1628346588000"/>
+    <file name="hi_intro_p1_1.svg" crc="3819105368" seo="true" mt="1628424171000"/>
+    <file name="hi_intro_p2_1.svg" crc="3763100464" seo="true" mt="1628424171000"/>
+    <file name="hi_intro_p3_1.svg" crc="4030546778" seo="true" mt="1628424171000"/>
+    <file name="hi_intro_p4_1.svg" crc="4058223669" seo="true" mt="1628424171000"/>
+    <file name="poster-mpil.jpg" crc="519179991" seo="true" mt="1615707257000"/>
+    <file name="poster-iatp.jpg" crc="398087019" seo="true" mt="1615707298000"/>
+    <file name="risk-factors-map.jpg" crc="58626929" seo="true" mt="1628491096000"/>
+    <file name="polyrnn-demo.gif" crc="3795956365" seo="true" mt="1622171374000"/>
+    <file name="poster-50plus.jpg" crc="527677553" seo="true" mt="1633357127000"/>
+    <file name="poster-butalk2.jpg" crc="92719520" seo="true" mt="1689715970000"/>
+    <file name="poster-talk1.jpg" crc="4253876290" seo="true" mt="1689715997000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="museutils.js" crc="3939489907" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="whatinput.js" crc="86476730" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="museconfig.js" crc="3936894949" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="jquery.watch.js" crc="522499760" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="html5shiv.js" crc="4241844378" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="require.js" crc="4177726516" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="webpro.js" crc="3856315280" ref="media_activities"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="media_activities"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="media_activities"/>
+    <file name="touchswipe.js" crc="3888935200" ref="media_activities"/>
+  </folder>
+  <folder name="images">
+    <file name="storytelling-yellow-favicon.ico" crc="3891198573" ref="dementia_intro"/>
+    <file name="hi_imagecircle.png" crc="4115236511" ref="dementia_intro:dementia_stages">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p1_3.png" crc="3846390893" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p1_2.png" crc="100295936" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p1_2_2x.png" crc="461867743" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p2_3.png" crc="447137468" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p2_3_2x.png" crc="214173981" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p2_2.png" crc="4224220860" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p3_3.png" crc="3919848335" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p3_2.png" crc="4025283651" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p4_3.png" crc="286550479" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p4_2.png" crc="4156688698" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="scrolldown.png" crc="4106020940" ref="dementia_intro:resources:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="home_btn_s.png" crc="433834539" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="home_btn_s_2x.png" crc="447052416" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="wave_lightorange.png" crc="3991728679" ref="dementia_intro:dementia_healing:dementia_stages:dementia_causes:brainhealth_diet">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p1_4-u467533-fr.png" crc="474895788" ref="dementia_intro"/>
+    <file name="hi_intro_p1_4-u467533-fr_2x.png" crc="94001594" ref="dementia_intro"/>
+    <file name="hi_intro_p2_4-u467547-fr.png" crc="162429916" ref="dementia_intro"/>
+    <file name="hi_intro_p2_4-u467547-fr_2x.png" crc="4017244462" ref="dementia_intro"/>
+    <file name="hi_intro_p3_4.png" crc="135438123" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p3_4_2x.png" crc="4154009806" ref="dementia_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p4_4-u467579-fr.png" crc="283007220" ref="dementia_intro"/>
+    <file name="hi_intro_p4_4-u467579-fr_2x.png" crc="3963674338" ref="dementia_intro"/>
+    <file name="hi_intro_p1_4-u467533-fr2.png" crc="160927514" ref="dementia_intro"/>
+    <file name="hi_intro_p1_4-u467533-fr_2x2.png" crc="168506703" ref="dementia_intro"/>
+    <file name="hi_intro_p2_4-u467547-fr2.png" crc="237807947" ref="dementia_intro"/>
+    <file name="hi_intro_p2_4-u467547-fr_2x2.png" crc="483603558" ref="dementia_intro"/>
+    <file name="hi_intro_p3_4-u467567-fr.png" crc="4130607661" ref="dementia_intro"/>
+    <file name="hi_intro_p3_4-u467567-fr_2x.png" crc="271049916" ref="dementia_intro"/>
+    <file name="hi_intro_p4_4-u467579-fr2.png" crc="245627062" ref="dementia_intro"/>
+    <file name="hi_intro_p4_4-u467579-fr_2x2.png" crc="4265950159" ref="dementia_intro"/>
+    <file name="down_arrow.png" crc="202551522" ref="dementia_intro:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="down_arrow_2x.png" crc="200641971" ref="dementia_intro:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="hi_intro_p1_4-u467533-fr3.png" crc="288699662" ref="dementia_intro"/>
+    <file name="hi_intro_p1_4-u467533-fr_2x3.png" crc="472371212" ref="dementia_intro"/>
+    <file name="hi_intro_p2_4-u467547-fr3.png" crc="3899263480" ref="dementia_intro"/>
+    <file name="hi_intro_p2_4-u467547-fr_2x3.png" crc="463832838" ref="dementia_intro"/>
+    <file name="hi_intro_p3_4-u467567-fr2.png" crc="274946363" ref="dementia_intro"/>
+    <file name="hi_intro_p3_4-u467567-fr_2x2.png" crc="4421243" ref="dementia_intro"/>
+    <file name="hi_intro_p4_4-u467579-fr3.png" crc="3783648444" ref="dementia_intro"/>
+    <file name="hi_intro_p4_4-u467579-fr_2x3.png" crc="487559350" ref="dementia_intro"/>
+    <file name="normal-favicon.ico" crc="3891198573" ref="resources"/>
+    <file name="cloud05.png" crc="251807930" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="cloud05_2x.png" crc="4249588096" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="長者通.jpg" crc="127766606" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="活出健康新方向.jpg" crc="192862582" ref="resources"/>
+    <file name="活出健康新方向_2x.jpg" crc="252020337" ref="resources"/>
+    <file name="長者健康服務站.jpg" crc="263416690" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="長者健康服務站_2x.jpg" crc="484080934" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="康樂及文化事務署.png" crc="80941150" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="衛生署衛生防護中心.png" crc="3960998941" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="wave_green_3.png" crc="329299748" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="resources-u402043-fr.png" crc="3851106870" ref="resources"/>
+    <file name="resources-u402043-fr_2x.png" crc="404218839" ref="resources"/>
+    <file name="icon_government.png" crc="325137272" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="icon_government_2x.png" crc="3890084673" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="icon_hospital.png" crc="185677914" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="icon_hospital_2x.png" crc="4213505714" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="icon_organization.png" crc="3986679407" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="icon_organization_2x.png" crc="3808015378" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="賽馬會智齡匯.jpg" crc="13798717" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="institute of active aging.jpg" crc="356434559" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="institute of active aging_2x.jpg" crc="4269074090" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="陳慧慧基金身心認知運動中心.jpg" crc="317859961" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="陳慧慧基金身心認知運動中心_2x.jpg" crc="4165723032" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="香港老年學會.svg" crc="4074852136" ref="resources"/>
+    <file name="香港老年學會_poster_u526913.png" crc="159553765" ref="resources"/>
+    <file name="椿齡智研學會.jpg" crc="4086188580" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="椿齡智研學會_2x.jpg" crc="4174380786" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="長者學院.jpg" crc="4283746748" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="長者學院_2x.jpg" crc="391654686" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="wave_white.png" crc="166148788" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="智友站.jpg" crc="3907749933" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東聯網營養資訊網.jpg" crc="4280059445" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="流動記憶診所.jpg" crc="4052330245" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東醒腦錦囊.jpg" crc="3866661841" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東醒腦錦囊_2x.jpg" crc="280529583" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="logo-website.png" crc="13589155" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="logo-website_2x.png" crc="135232956" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="resources-u402043-fr2.png" crc="3945070545" ref="resources"/>
+    <file name="resources-u402043-fr_2x2.png" crc="412003914" ref="resources"/>
+    <file name="cloud05-u405980-fr.png" crc="393771337" ref="resources"/>
+    <file name="cloud05-u405980-fr_2x.png" crc="215879176" ref="resources"/>
+    <file name="wave_green_32.png" crc="4055493320" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="wave_green_3_2x.png" crc="329299748" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="resources-u402043-fr3.png" crc="4080820316" ref="resources"/>
+    <file name="resources-u402043-fr_2x3.png" crc="177274202" ref="resources"/>
+    <file name="wave_white2.png" crc="4164721609" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="wave_white_2x.png" crc="166148788" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="wave_green_3-u402526-fr.png" crc="3786600122" ref="resources:aboutus:media_activities:partnership:index"/>
+    <file name="wave_green_3-u402526-fr_2x.png" crc="4258265015" ref="resources:aboutus:media_activities:partnership:index"/>
+    <file name="resources-u402043-fr4.png" crc="288763363" ref="resources"/>
+    <file name="resources-u402043-fr_2x4.png" crc="3982646810" ref="resources"/>
+    <file name="wave_white-u402528-fr.png" crc="238674640" ref="resources:media_activities:index"/>
+    <file name="wave_white-u402528-fr_2x.png" crc="283045851" ref="resources:media_activities:index"/>
+    <file name="cloud05-u405980-fr2.png" crc="109192438" ref="resources"/>
+    <file name="cloud05-u405980-fr_2x2.png" crc="379095647" ref="resources"/>
+    <file name="wave_green_3-u402526-fr2.png" crc="430339456" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="wave_green_3-u402526-fr_2x2.png" crc="33740835" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="resources-u402043-fr5.png" crc="121635680" ref="resources"/>
+    <file name="resources-u402043-fr_2x5.png" crc="383513094" ref="resources"/>
+    <file name="icon_government-u402271-fr.png" crc="4005357289" ref="resources"/>
+    <file name="icon_government-u402271-fr_2x.png" crc="4043465289" ref="resources"/>
+    <file name="icon_hospital-u402446-fr.png" crc="235841839" ref="resources"/>
+    <file name="icon_hospital-u402446-fr_2x.png" crc="3913044024" ref="resources"/>
+    <file name="icon_organization-u486462-fr.png" crc="4242989469" ref="resources"/>
+    <file name="icon_organization-u486462-fr_2x.png" crc="134762029" ref="resources"/>
+    <file name="wave_white-u402528-fr2.png" crc="4155253310" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="wave_white-u402528-fr_2x2.png" crc="169282724" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="cloud05-u405980-fr3.png" crc="269678539" ref="resources"/>
+    <file name="cloud05-u405980-fr_2x3.png" crc="420781493" ref="resources"/>
+    <file name="長者健康服務站-u402563-fr.jpg" crc="12635938" ref="resources"/>
+    <file name="長者健康服務站-u402563-fr_2x.jpg" crc="329092610" ref="resources"/>
+    <file name="wave_green_3-u402526-fr3.png" crc="3898868754" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="wave_green_3-u402526-fr_2x3.png" crc="4219979747" ref="resources:aboutus:media_activities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="resources-u402043-fr6.png" crc="3841401" ref="resources"/>
+    <file name="resources-u402043-fr_2x6.png" crc="3928584646" ref="resources"/>
+    <file name="institute of active aging-u403244-fr.jpg" crc="262869115" ref="resources"/>
+    <file name="institute of active aging-u403244-fr_2x.jpg" crc="3813233171" ref="resources"/>
+    <file name="賽馬會智齡匯2.jpg" crc="4057771481" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="賽馬會智齡匯_2x.jpg" crc="13798717" ref="resources:brainhealth_social">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="wave_white-u402528-fr3.png" crc="423110614" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="wave_white-u402528-fr_2x3.png" crc="4047513657" ref="resources:dementia_healing:media_activities:index:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="流動記憶診所2.jpg" crc="4288912982" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="流動記憶診所_2x.jpg" crc="4052330245" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東醒腦錦囊-u402147-fr.jpg" crc="3802276957" ref="resources"/>
+    <file name="港島東醒腦錦囊-u402147-fr_2x.jpg" crc="3888004959" ref="resources"/>
+    <file name="storytelling-green-favicon.ico" crc="3891198573" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr.png" crc="450255980" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr_2x.png" crc="384331060" ref="brainhealth_intro"/>
+    <file name="man-jumping-rope.png" crc="46601729" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="man-jumping-rope_2x.png" crc="4174370084" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="community.png" crc="4025402584" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="community_2x.png" crc="443193422" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="emotions.png" crc="4251865290" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="emotions_2x.png" crc="262841995" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="healthy-food.png" crc="45458285" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="healthy-food_2x.png" crc="3926914512" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="head.png" crc="63310888" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="head_2x.png" crc="4256728339" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="brainhealth01.png" crc="66786758" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="brainhealth01_2x.png" crc="342270414" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="home_btn.png" crc="246263674" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="home_btn_2x.png" crc="4074314466" ref="brainhealth_intro">
+      <caption webpage="brainhealth_intro" alt=""/>
+    </file>
+    <file name="heart-u46709-fr2.png" crc="4072111517" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr_2x2.png" crc="3797438904" ref="brainhealth_intro"/>
+    <file name="community-u46349-fr.png" crc="3826039995" ref="brainhealth_intro"/>
+    <file name="community-u46349-fr_2x.png" crc="124238828" ref="brainhealth_intro"/>
+    <file name="emotions-u46389-fr.png" crc="4255888786" ref="brainhealth_intro"/>
+    <file name="emotions-u46389-fr_2x.png" crc="19630280" ref="brainhealth_intro"/>
+    <file name="healthy-food-u46424-fr.png" crc="454443510" ref="brainhealth_intro"/>
+    <file name="healthy-food-u46424-fr_2x.png" crc="470162149" ref="brainhealth_intro"/>
+    <file name="man-jumping-rope-u46456-fr.png" crc="379715" ref="brainhealth_intro"/>
+    <file name="man-jumping-rope-u46456-fr_2x.png" crc="4062964886" ref="brainhealth_intro"/>
+    <file name="head-u46486-fr.png" crc="3766528953" ref="brainhealth_intro"/>
+    <file name="head-u46486-fr_2x.png" crc="3969550345" ref="brainhealth_intro"/>
+    <file name="brainhealth01-u134469-fr.png" crc="491406684" ref="brainhealth_intro"/>
+    <file name="brainhealth01-u134469-fr_2x.png" crc="58857190" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr3.png" crc="126934424" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr_2x3.png" crc="4090925346" ref="brainhealth_intro"/>
+    <file name="brainhealth01-u134469-fr2.png" crc="491412696" ref="brainhealth_intro"/>
+    <file name="brainhealth01-u134469-fr_2x2.png" crc="23005715" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr4.png" crc="219740981" ref="brainhealth_intro"/>
+    <file name="heart-u46709-fr_2x4.png" crc="41559710" ref="brainhealth_intro"/>
+    <file name="brainhealth01-u134469-fr3.png" crc="239665692" ref="brainhealth_intro"/>
+    <file name="brainhealth01-u134469-fr_2x3.png" crc="508730502" ref="brainhealth_intro"/>
+    <file name="hi_healing_p1-u426494-fr.png" crc="3811186294" ref="dementia_healing"/>
+    <file name="hi_healing_p1-u426494-fr_2x.png" crc="4007104246" ref="dementia_healing"/>
+    <file name="icon_nausea.png" crc="4266731612" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="icon_nausea_2x.png" crc="131424367" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="icon_loseweight.png" crc="4063561085" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="icon_loseweight_2x.png" crc="4274495821" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="icon_cramp.png" crc="208494857" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="icon_cramp_2x.png" crc="3863577528" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_aricept.jpg" crc="323273925" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_exelon.jpg" crc="211338608" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_reminyl.jpg" crc="4071695131" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_ebixa.jpg" crc="316965480" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="hi_healing_p2.png" crc="4292333063" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="hi_healing_p2_2x.png" crc="205579417" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_elderly exercise01.jpg" crc="465270098" ref="dementia_healing:brainhealth_exercises">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_elderly exercise01_2x.jpg" crc="400194949" ref="dementia_healing:brainhealth_exercises">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_elderly exercise06.png" crc="4234675617" ref="dementia_healing:brainhealth_exercises">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_elderly exercise06_2x.png" crc="348024347" ref="dementia_healing:brainhealth_exercises">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_cognitivetraining.jpg" crc="4063906348" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_cognitivetraining_2x.jpg" crc="26305440" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_familytime-u274865-fr.jpg" crc="379016922" ref="dementia_healing"/>
+    <file name="pic_familytime-u274865-fr_2x.jpg" crc="147295475" ref="dementia_healing"/>
+    <file name="pic_elderly music02.jpg" crc="4263538131" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_elderly music02_2x.jpg" crc="445973401" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_petdoctor.jpg" crc="94763791" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_petdoctor_2x.jpg" crc="366068567" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_drawtraining.jpg" crc="4121819217" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_drawtraining_2x.jpg" crc="507438265" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_elderly dance-u274829-fr.jpg" crc="3985296062" ref="dementia_healing"/>
+    <file name="pic_elderly dance-u274829-fr_2x.jpg" crc="3866733574" ref="dementia_healing"/>
+    <file name="pic_eldercare01.jpg" crc="3917964680" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_eldercare01_2x.jpg" crc="4294788700" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_eldercare04.jpg" crc="3933632723" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_eldercare04_2x.jpg" crc="3858314916" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_eldercare03.jpg" crc="462959778" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_eldercare03_2x.jpg" crc="266667159" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="pic_doctor-u274956-fr.jpg" crc="4206797644" ref="dementia_healing"/>
+    <file name="pic_doctor-u274956-fr_2x.jpg" crc="61753612" ref="dementia_healing"/>
+    <file name="wave_lightorange2.png" crc="3989455648" ref="dementia_healing:dementia_causes:brainhealth_diet">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="wave_lightorange_2x.png" crc="3991728679" ref="dementia_healing:dementia_causes:brainhealth_diet">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="hi_healing_p1-u426494-fr2.png" crc="3802072813" ref="dementia_healing"/>
+    <file name="hi_healing_p1-u426494-fr_2x2.png" crc="400719426" ref="dementia_healing"/>
+    <file name="medicine_aricept2.jpg" crc="371527240" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_aricept_2x.jpg" crc="323273925" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_exelon2.jpg" crc="24394134" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_exelon_2x.jpg" crc="211338608" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_reminyl2.jpg" crc="4229943062" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_reminyl_2x.jpg" crc="4071695131" ref="dementia_healing">
+      <caption webpage="dementia_healing" alt=""/>
+    </file>
+    <file name="medicine_ebixa-u427588-fr.jpg" crc="4230056637" ref="dementia_healing"/>
+    <file name="medicine_ebixa-u427588-fr_2x.jpg" crc="4024737864" ref="dementia_healing"/>
+    <file name="pic_elderly exercise01-u274851-fr.jpg" crc="4290561507" ref="dementia_healing"/>
+    <file name="pic_elderly exercise01-u274851-fr_2x.jpg" crc="57931313" ref="dementia_healing"/>
+    <file name="pic_elderly exercise06-u274828-fr.png" crc="471029523" ref="dementia_healing"/>
+    <file name="pic_elderly exercise06-u274828-fr_2x.png" crc="56326748" ref="dementia_healing"/>
+    <file name="pic_familytime-u274865-fr2.jpg" crc="410398320" ref="dementia_healing"/>
+    <file name="pic_familytime-u274865-fr_2x2.jpg" crc="4135198354" ref="dementia_healing"/>
+    <file name="pic_elderly dance-u274829-fr2.jpg" crc="3766123981" ref="dementia_healing"/>
+    <file name="pic_elderly dance-u274829-fr_2x2.jpg" crc="12771150" ref="dementia_healing"/>
+    <file name="pic_doctor-u274956-fr2.jpg" crc="146589050" ref="dementia_healing"/>
+    <file name="pic_doctor-u274956-fr_2x2.jpg" crc="3880751152" ref="dementia_healing"/>
+    <file name="wave_lightorange-u426490-fr.png" crc="52929611" ref="dementia_healing:dementia_causes:brainhealth_diet"/>
+    <file name="wave_lightorange-u426490-fr_2x.png" crc="4000947397" ref="dementia_healing:dementia_causes:brainhealth_diet"/>
+    <file name="hi_healing_p1-u426494-fr3.png" crc="192392530" ref="dementia_healing"/>
+    <file name="hi_healing_p1-u426494-fr_2x3.png" crc="4137366407" ref="dementia_healing"/>
+    <file name="hi_healing_p2-u427721-fr.png" crc="160353460" ref="dementia_healing"/>
+    <file name="hi_healing_p2-u427721-fr_2x.png" crc="129532763" ref="dementia_healing"/>
+    <file name="wave_lightorange-u426490-fr2.png" crc="319716249" ref="dementia_healing:dementia_causes:brainhealth_diet"/>
+    <file name="wave_lightorange-u426490-fr_2x2.png" crc="144322589" ref="dementia_healing:dementia_causes:brainhealth_diet"/>
+    <file name="hi_healing_p1-u426494-fr4.png" crc="501924196" ref="dementia_healing"/>
+    <file name="hi_healing_p1-u426494-fr_2x4.png" crc="446866941" ref="dementia_healing"/>
+    <file name="hi_healing_p2-u427721-fr2.png" crc="3776286826" ref="dementia_healing"/>
+    <file name="hi_healing_p2-u427721-fr_2x2.png" crc="3860925737" ref="dementia_healing"/>
+    <file name="pic_elderly exercise01-u274851-fr2.jpg" crc="191215794" ref="dementia_healing"/>
+    <file name="pic_elderly exercise01-u274851-fr_2x2.jpg" crc="4216308919" ref="dementia_healing"/>
+    <file name="pic_elderly exercise06-u274828-fr2.png" crc="392559869" ref="dementia_healing"/>
+    <file name="pic_elderly exercise06-u274828-fr_2x2.png" crc="4076944486" ref="dementia_healing"/>
+    <file name="pic_cognitivetraining-u274866-fr.jpg" crc="13155617" ref="dementia_healing"/>
+    <file name="pic_cognitivetraining-u274866-fr_2x.jpg" crc="225078472" ref="dementia_healing"/>
+    <file name="pic_familytime-u274865-fr3.jpg" crc="495518382" ref="dementia_healing"/>
+    <file name="pic_familytime-u274865-fr_2x3.jpg" crc="74570187" ref="dementia_healing"/>
+    <file name="pic_elderly music02-u274911-fr.jpg" crc="3910763724" ref="dementia_healing"/>
+    <file name="pic_elderly music02-u274911-fr_2x.jpg" crc="4237223871" ref="dementia_healing"/>
+    <file name="pic_petdoctor-u274910-fr.jpg" crc="50803760" ref="dementia_healing"/>
+    <file name="pic_petdoctor-u274910-fr_2x.jpg" crc="205968527" ref="dementia_healing"/>
+    <file name="pic_drawtraining-u274830-fr.jpg" crc="128409373" ref="dementia_healing"/>
+    <file name="pic_drawtraining-u274830-fr_2x.jpg" crc="3810494696" ref="dementia_healing"/>
+    <file name="pic_elderly dance-u274829-fr3.jpg" crc="3841249588" ref="dementia_healing"/>
+    <file name="pic_elderly dance-u274829-fr_2x3.jpg" crc="103182945" ref="dementia_healing"/>
+    <file name="pic_eldercare01-u274955-fr.jpg" crc="4243861236" ref="dementia_healing"/>
+    <file name="pic_eldercare01-u274955-fr_2x.jpg" crc="493548282" ref="dementia_healing"/>
+    <file name="pic_eldercare04-u274958-fr.jpg" crc="22443857" ref="dementia_healing"/>
+    <file name="pic_eldercare04-u274958-fr_2x.jpg" crc="3800189061" ref="dementia_healing"/>
+    <file name="pic_eldercare03-u274957-fr.jpg" crc="316598009" ref="dementia_healing"/>
+    <file name="pic_eldercare03-u274957-fr_2x.jpg" crc="3857569988" ref="dementia_healing"/>
+    <file name="pic_doctor-u274956-fr3.jpg" crc="3997672662" ref="dementia_healing"/>
+    <file name="pic_doctor-u274956-fr_2x3.jpg" crc="3834260029" ref="dementia_healing"/>
+    <file name="aboutus-favicon.ico" crc="3891198573" ref="aboutus"/>
+    <file name="pic_ada-fung.jpg" crc="357620375" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_ada-fung_2x.jpg" crc="3763856669" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_kevin-chan.jpg" crc="110257378" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_kevin-chan_2x.jpg" crc="4121780011" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_newman-lau.jpg" crc="3970021177" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_newman-lau_2x.jpg" crc="425242811" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_alex-choy.jpg" crc="299927367" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_alex-choy_2x.jpg" crc="4179513046" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_able.jpg" crc="167963245" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_able_2x.jpg" crc="4233758807" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_proflam.jpg" crc="3953434706" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="pic_proflam_2x.jpg" crc="4223219434" ref="aboutus">
+      <caption webpage="aboutus" alt=""/>
+    </file>
+    <file name="poster mpil.jpg" crc="4030295426" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster mpil_2x.jpg" crc="4105068211" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster butalk2.jpg" crc="500319328" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster butalk2_2x.jpg" crc="3803236720" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster talk1.jpg" crc="188141784" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster talk1_2x.jpg" crc="3980770216" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event04.jpg" crc="4248193995" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event03.jpg" crc="110085892" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event03_2x.jpg" crc="5090259" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event02.jpg" crc="4092920660" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event02_2x.jpg" crc="323951856" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event01.jpg" crc="3869354701" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event01_2x.jpg" crc="513320613" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_poster03-u528656-fr.jpg" crc="3802541281" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x.jpg" crc="3924151079" ref="media_activities"/>
+    <file name="pic_event06.jpg" crc="4288178121" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event05.jpg" crc="410962962" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event08.jpg" crc="3954015594" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event11.jpg" crc="21998430" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event11_2x.jpg" crc="498569573" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event04-u528148-fr.png" crc="4063236710" ref="media_activities"/>
+    <file name="pic_event04-u528148-fr_2x.png" crc="4033545977" ref="media_activities"/>
+    <file name="pic_event04-u528148-r-fr.jpg" crc="63347724" ref="media_activities"/>
+    <file name="pic_event04-u528148-r-fr_2x.jpg" crc="4051118666" ref="media_activities"/>
+    <file name="pic_event01-u528615-fr.png" crc="4153172368" ref="media_activities"/>
+    <file name="pic_event01-u528615-fr_2x.png" crc="4191726751" ref="media_activities"/>
+    <file name="pic_event01-u528615-r-fr.jpg" crc="436449748" ref="media_activities"/>
+    <file name="pic_event01-u528615-r-fr_2x.jpg" crc="4003361360" ref="media_activities"/>
+    <file name="pic_event05-u528694-fr.png" crc="505646478" ref="media_activities"/>
+    <file name="pic_event05-u528694-fr_2x.png" crc="397754844" ref="media_activities"/>
+    <file name="pic_event05-u528694-r-fr.jpg" crc="518741814" ref="media_activities"/>
+    <file name="pic_event05-u528694-r-fr_2x.jpg" crc="490495815" ref="media_activities"/>
+    <file name="pic_event03-u528557-fr.png" crc="3852139702" ref="media_activities"/>
+    <file name="pic_event03-u528557-fr_2x.png" crc="247027000" ref="media_activities"/>
+    <file name="pic_event03-u528557-r-fr.jpg" crc="4198041628" ref="media_activities"/>
+    <file name="pic_event03-u528557-r-fr_2x.jpg" crc="391355895" ref="media_activities"/>
+    <file name="pic_poster03-u528644-fr.png" crc="160670529" ref="media_activities"/>
+    <file name="pic_poster03-u528644-fr_2x.png" crc="333527271" ref="media_activities"/>
+    <file name="pic_poster03-u528644-r-fr.jpg" crc="520077174" ref="media_activities"/>
+    <file name="pic_poster03-u528644-r-fr_2x.jpg" crc="146072358" ref="media_activities"/>
+    <file name="pic_event08-u528731-fr.png" crc="4211937794" ref="media_activities"/>
+    <file name="pic_event08-u528731-fr_2x.png" crc="4146993154" ref="media_activities"/>
+    <file name="pic_event08-u528731-r-fr.jpg" crc="178597652" ref="media_activities"/>
+    <file name="pic_event08-u528731-r-fr_2x.jpg" crc="4260686351" ref="media_activities"/>
+    <file name="pic_event02-u528586-fr.png" crc="4290218463" ref="media_activities"/>
+    <file name="pic_event02-u528586-fr_2x.png" crc="3895627148" ref="media_activities"/>
+    <file name="pic_event02-u528586-r-fr.jpg" crc="4210408668" ref="media_activities"/>
+    <file name="pic_event02-u528586-r-fr_2x.jpg" crc="323792628" ref="media_activities"/>
+    <file name="pic_event06-u528665-fr.png" crc="208909174" ref="media_activities"/>
+    <file name="pic_event06-u528665-fr_2x.png" crc="3980077574" ref="media_activities"/>
+    <file name="pic_event06-u528665-r-fr.jpg" crc="115062355" ref="media_activities"/>
+    <file name="pic_event06-u528665-r-fr_2x.jpg" crc="122326000" ref="media_activities"/>
+    <file name="pic_event11-u530782-fr.png" crc="11047765" ref="media_activities"/>
+    <file name="pic_event11-u530782-fr_2x.png" crc="79973448" ref="media_activities"/>
+    <file name="pic_event11-u530782-r-fr.jpg" crc="4116637758" ref="media_activities"/>
+    <file name="pic_event11-u530782-r-fr_2x.jpg" crc="490672260" ref="media_activities"/>
+    <file name="pic_event13.jpg" crc="4240328294" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event12.jpg" crc="4094543703" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event10.jpg" crc="3887559874" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event09.jpg" crc="36473298" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event13-u528820-fr.png" crc="3937588493" ref="media_activities"/>
+    <file name="pic_event13-u528820-fr_2x.png" crc="4259331914" ref="media_activities"/>
+    <file name="pic_event13-u528820-r-fr.jpg" crc="394868555" ref="media_activities"/>
+    <file name="pic_event13-u528820-r-fr_2x.jpg" crc="409720600" ref="media_activities"/>
+    <file name="pic_event09-u528816-fr.png" crc="39307624" ref="media_activities"/>
+    <file name="pic_event09-u528816-fr_2x.png" crc="3861065265" ref="media_activities"/>
+    <file name="pic_event09-u528816-r-fr.jpg" crc="4145115519" ref="media_activities"/>
+    <file name="pic_event09-u528816-r-fr_2x.jpg" crc="3947177575" ref="media_activities"/>
+    <file name="pic_event12-u528814-fr.png" crc="319517777" ref="media_activities"/>
+    <file name="pic_event12-u528814-fr_2x.png" crc="4040737474" ref="media_activities"/>
+    <file name="pic_event12-u528814-r-fr.jpg" crc="3801702344" ref="media_activities"/>
+    <file name="pic_event12-u528814-r-fr_2x.jpg" crc="4015436304" ref="media_activities"/>
+    <file name="pic_event10-u528813-fr.png" crc="440037868" ref="media_activities"/>
+    <file name="pic_event10-u528813-fr_2x.png" crc="4051561872" ref="media_activities"/>
+    <file name="pic_event10-u528813-r-fr.jpg" crc="3900540310" ref="media_activities"/>
+    <file name="pic_event10-u528813-r-fr_2x.jpg" crc="121188453" ref="media_activities"/>
+    <file name="poster 50plus.jpg" crc="4035310916" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster 50plus_2x.jpg" crc="4037171085" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster iatp.jpg" crc="4122112325" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster iatp_2x.jpg" crc="180170352" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="facebook_s-u499059-fr.png" crc="301183119" ref="media_activities"/>
+    <file name="facebook_s-u499059-fr_2x.png" crc="129529778" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr.png" crc="434960246" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr_2x.png" crc="526248403" ref="media_activities"/>
+    <file name="st_news01.jpg" crc="224596415" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="media_photo01.jpg" crc="505134203" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event042.jpg" crc="141347311" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event04_2x.jpg" crc="4248193995" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_poster03-u528656-fr2.jpg" crc="352045900" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x2.jpg" crc="3905370087" ref="media_activities"/>
+    <file name="pic_event062.jpg" crc="4204182203" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event06_2x.jpg" crc="4288178121" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event052.jpg" crc="3758219503" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event05_2x.jpg" crc="410962962" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event04-u528140-fr.jpg" crc="320117082" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr_2x.jpg" crc="3820792083" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr.jpg" crc="487222784" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr_2x.jpg" crc="258881898" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr.jpg" crc="4030275355" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr_2x.jpg" crc="3947538137" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr.jpg" crc="3967606253" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr_2x.jpg" crc="294776038" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr3.jpg" crc="266557008" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x3.jpg" crc="4105293342" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr.jpg" crc="450844655" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr_2x.jpg" crc="483340663" ref="media_activities"/>
+    <file name="pic_event132.jpg" crc="446562538" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event13_2x.jpg" crc="4240328294" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event122.jpg" crc="188171724" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event12_2x.jpg" crc="4094543703" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="facebook_s-u499059-fr2.png" crc="188299485" ref="media_activities"/>
+    <file name="facebook_s-u499059-fr_2x2.png" crc="356282212" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr2.png" crc="487347874" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr_2x2.png" crc="3876160477" ref="media_activities"/>
+    <file name="st_news012.jpg" crc="3788685552" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="st_news01_2x.jpg" crc="224596415" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event04-u528140-fr2.jpg" crc="156440517" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr_2x2.jpg" crc="10581477" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr2.jpg" crc="3984552469" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr_2x2.jpg" crc="94364255" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr2.jpg" crc="4111879852" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr_2x2.jpg" crc="4146968235" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr2.jpg" crc="4291569989" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr_2x2.jpg" crc="3844979425" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr4.jpg" crc="4222310646" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x4.jpg" crc="173972236" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr.jpg" crc="58779891" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr_2x.jpg" crc="3890500772" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr.jpg" crc="168779764" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr_2x.jpg" crc="498461225" ref="media_activities"/>
+    <file name="pic_event082.jpg" crc="4124436365" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event08_2x.jpg" crc="3954015594" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event11-u530794-fr2.jpg" crc="374956533" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr_2x2.jpg" crc="3953423147" ref="media_activities"/>
+    <file name="st_news01-u523392-fr.jpg" crc="4253197102" ref="media_activities"/>
+    <file name="st_news01-u523392-fr_2x.jpg" crc="4049771306" ref="media_activities"/>
+    <file name="poster butalk2-u532738-fr.jpg" crc="26595186" ref="media_activities"/>
+    <file name="poster butalk2-u532738-fr_2x.jpg" crc="422475140" ref="media_activities"/>
+    <file name="poster talk1-u532708-fr.jpg" crc="4034678880" ref="media_activities"/>
+    <file name="poster talk1-u532708-fr_2x.jpg" crc="394566458" ref="media_activities"/>
+    <file name="poster 50plus-u524969-fr.jpg" crc="34982519" ref="media_activities"/>
+    <file name="poster 50plus-u524969-fr_2x.jpg" crc="327702012" ref="media_activities"/>
+    <file name="poster iatp-u408408-fr.jpg" crc="336713854" ref="media_activities"/>
+    <file name="poster iatp-u408408-fr_2x.jpg" crc="67969650" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr3.jpg" crc="496199847" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr_2x3.jpg" crc="4113241015" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr3.jpg" crc="3870365871" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr_2x3.jpg" crc="3889017517" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr3.jpg" crc="69175144" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr_2x3.jpg" crc="4064869546" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr3.jpg" crc="4190735846" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr_2x3.jpg" crc="4103433359" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr5.jpg" crc="4182285145" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x5.jpg" crc="272802102" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr2.jpg" crc="3339887" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr_2x2.jpg" crc="4184537296" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr2.jpg" crc="3977477718" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr_2x2.jpg" crc="3948446173" ref="media_activities"/>
+    <file name="pic_event08-u528743-fr.jpg" crc="168465771" ref="media_activities"/>
+    <file name="pic_event08-u528743-fr_2x.jpg" crc="497313421" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr3.jpg" crc="3798421618" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr_2x3.jpg" crc="4234695778" ref="media_activities"/>
+    <file name="st_news01-u523392-fr2.jpg" crc="3805435565" ref="media_activities"/>
+    <file name="st_news01-u523392-fr_2x2.jpg" crc="478947688" ref="media_activities"/>
+    <file name="partnership-favicon.ico" crc="3891198573" ref="partnership"/>
+    <file name="health centre for primary care.jpg" crc="493184963" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="health centre for primary care_2x.jpg" crc="198932121" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="lccc.jpg" crc="197181340" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="lccc_2x.jpg" crc="4137158349" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="循道衛理楊震社會服務處.png" crc="4175277706" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="循道衛理楊震社會服務處_2x.png" crc="4234471809" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="陳慶社會服務中心.jpg" crc="3799645152" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="陳慶社會服務中心_2x.jpg" crc="4159298587" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hklss_ecd.jpg" crc="359837649" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hklss_ecd_2x.jpg" crc="249486404" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hklss_toylibrary.jpg" crc="380853672" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hklss_toylibrary_2x.jpg" crc="3858131938" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hkhselderly_logo.jpg" crc="309351567" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hkhselderly_logo_2x.jpg" crc="337345968" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="careage foundation.jpg" crc="4105767933" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="careage foundation_2x.jpg" crc="3833051699" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="careage nurse station.jpg" crc="137794846" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="careage nurse station_2x.jpg" crc="338740927" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="精神健康資訊匯.jpg" crc="4096480091" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hi_stages_p1_4.png" crc="218790337" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p1_5.png" crc="3961173714" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p1_3.png" crc="81254337" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="wave_lightorange_3.png" crc="500304733" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p2_1.png" crc="4023000032" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p3_1.png" crc="3891964475" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_3.png" crc="4289487858" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_2.png" crc="3800853230" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_1.png" crc="4077814348" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p5.png" crc="3765854380" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p6.png" crc="506281043" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p7.png" crc="4065738496" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p1_3-u468038-fr.png" crc="4236210284" ref="dementia_stages"/>
+    <file name="hi_stages_p1_3-u468038-fr_2x.png" crc="4192267152" ref="dementia_stages"/>
+    <file name="hi_stages_p1_4-u468066-fr.png" crc="482104854" ref="dementia_stages"/>
+    <file name="hi_stages_p1_4-u468066-fr_2x.png" crc="136718323" ref="dementia_stages"/>
+    <file name="hi_stages_p1_5-u468078-fr.png" crc="4243109898" ref="dementia_stages"/>
+    <file name="hi_stages_p1_5-u468078-fr_2x.png" crc="3887963310" ref="dementia_stages"/>
+    <file name="u468168-5.png" crc="4182596147" ref="dementia_stages"/>
+    <file name="u468168-5_2x.png" crc="399720910" ref="dementia_stages"/>
+    <file name="hi_stages_p2_12.png" crc="4057559058" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p2_1_2x.png" crc="4023000032" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="u468189-5.png" crc="4062418193" ref="dementia_stages"/>
+    <file name="u468189-5_2x.png" crc="439912253" ref="dementia_stages"/>
+    <file name="hi_stages_p3_12.png" crc="3615230" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p3_1_2x.png" crc="3891964475" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="u468228-5.png" crc="307614503" ref="dementia_stages"/>
+    <file name="u468228-5_2x.png" crc="87400635" ref="dementia_stages"/>
+    <file name="hi_stages_p4_12.png" crc="4243243863" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_1_2x.png" crc="4077814348" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_22.png" crc="3856380035" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_2_2x.png" crc="3800853230" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_32.png" crc="347720899" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_3_2x.png" crc="4289487858" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p52.png" crc="3911691312" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p5_2x.png" crc="3765854380" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p62.png" crc="474460670" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p6_2x.png" crc="506281043" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p72.png" crc="427679136" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p7_2x.png" crc="4065738496" ref="dementia_stages">
+      <caption webpage="dementia_stages" alt=""/>
+    </file>
+    <file name="hi_stages_p1_3-u468038-fr2.png" crc="177190854" ref="dementia_stages"/>
+    <file name="hi_stages_p1_3-u468038-fr_2x2.png" crc="532284854" ref="dementia_stages"/>
+    <file name="hi_stages_p1_4-u468066-fr2.png" crc="222960078" ref="dementia_stages"/>
+    <file name="hi_stages_p1_4-u468066-fr_2x2.png" crc="4210342951" ref="dementia_stages"/>
+    <file name="hi_stages_p1_5-u468078-fr2.png" crc="159936005" ref="dementia_stages"/>
+    <file name="hi_stages_p1_5-u468078-fr_2x2.png" crc="101995226" ref="dementia_stages"/>
+    <file name="hi_stages_p2_1-u468176-fr.png" crc="252008815" ref="dementia_stages"/>
+    <file name="hi_stages_p2_1-u468176-fr_2x.png" crc="354571617" ref="dementia_stages"/>
+    <file name="u468168-52.png" crc="3836544497" ref="dementia_stages"/>
+    <file name="u468168-5_2x2.png" crc="332887476" ref="dementia_stages"/>
+    <file name="hi_stages_p3_1-u468215-fr.png" crc="57395188" ref="dementia_stages"/>
+    <file name="hi_stages_p3_1-u468215-fr_2x.png" crc="3796474291" ref="dementia_stages"/>
+    <file name="u468189-52.png" crc="4031646314" ref="dementia_stages"/>
+    <file name="u468189-5_2x2.png" crc="4285233925" ref="dementia_stages"/>
+    <file name="u468228-52.png" crc="3912232581" ref="dementia_stages"/>
+    <file name="u468228-5_2x2.png" crc="3844061803" ref="dementia_stages"/>
+    <file name="hi_stages_p4_1-u468248-fr.png" crc="3966576826" ref="dementia_stages"/>
+    <file name="hi_stages_p4_1-u468248-fr_2x.png" crc="463249651" ref="dementia_stages"/>
+    <file name="hi_stages_p4_2-u468249-fr.png" crc="179865137" ref="dementia_stages"/>
+    <file name="hi_stages_p4_2-u468249-fr_2x.png" crc="328380653" ref="dementia_stages"/>
+    <file name="hi_stages_p4_3-u468250-fr.png" crc="4167999555" ref="dementia_stages"/>
+    <file name="hi_stages_p4_3-u468250-fr_2x.png" crc="4148578034" ref="dementia_stages"/>
+    <file name="hi_stages_p5-u468279-fr.png" crc="250369432" ref="dementia_stages"/>
+    <file name="hi_stages_p5-u468279-fr_2x.png" crc="47769426" ref="dementia_stages"/>
+    <file name="hi_stages_p6-u468312-fr.png" crc="4135188680" ref="dementia_stages"/>
+    <file name="hi_stages_p6-u468312-fr_2x.png" crc="533104494" ref="dementia_stages"/>
+    <file name="hi_stages_p7-u468342-fr.png" crc="4049247275" ref="dementia_stages"/>
+    <file name="hi_stages_p7-u468342-fr_2x.png" crc="3790360832" ref="dementia_stages"/>
+    <file name="hi_stages_p1_3-u468038-fr3.png" crc="38671872" ref="dementia_stages"/>
+    <file name="hi_stages_p1_3-u468038-fr_2x3.png" crc="4245394176" ref="dementia_stages"/>
+    <file name="hi_stages_p1_4-u468066-fr3.png" crc="117742220" ref="dementia_stages"/>
+    <file name="hi_stages_p1_4-u468066-fr_2x3.png" crc="4065192403" ref="dementia_stages"/>
+    <file name="hi_stages_p1_5-u468078-fr3.png" crc="356123813" ref="dementia_stages"/>
+    <file name="hi_stages_p1_5-u468078-fr_2x3.png" crc="352630566" ref="dementia_stages"/>
+    <file name="u468168-53.png" crc="420957350" ref="dementia_stages"/>
+    <file name="u468168-5_2x3.png" crc="3916386581" ref="dementia_stages"/>
+    <file name="hi_stages_p2_1-u468176-fr2.png" crc="3809803232" ref="dementia_stages"/>
+    <file name="hi_stages_p2_1-u468176-fr_2x2.png" crc="12782745" ref="dementia_stages"/>
+    <file name="u468189-53.png" crc="3788610828" ref="dementia_stages"/>
+    <file name="u468189-5_2x3.png" crc="4096992131" ref="dementia_stages"/>
+    <file name="hi_stages_p3_1-u468215-fr2.png" crc="3809816593" ref="dementia_stages"/>
+    <file name="hi_stages_p3_1-u468215-fr_2x2.png" crc="50720547" ref="dementia_stages"/>
+    <file name="u468228-53.png" crc="383660199" ref="dementia_stages"/>
+    <file name="u468228-5_2x3.png" crc="248562590" ref="dementia_stages"/>
+    <file name="hi_stages_p4_1-u468248-fr2.png" crc="90876277" ref="dementia_stages"/>
+    <file name="hi_stages_p4_1-u468248-fr_2x2.png" crc="438456323" ref="dementia_stages"/>
+    <file name="hi_stages_p4_2-u468249-fr2.png" crc="4067362027" ref="dementia_stages"/>
+    <file name="hi_stages_p4_2-u468249-fr_2x2.png" crc="3938370783" ref="dementia_stages"/>
+    <file name="hi_stages_p4_3-u468250-fr2.png" crc="210376772" ref="dementia_stages"/>
+    <file name="hi_stages_p4_3-u468250-fr_2x2.png" crc="300673589" ref="dementia_stages"/>
+    <file name="hi_stages_p6-u468312-fr2.png" crc="4181488956" ref="dementia_stages"/>
+    <file name="hi_stages_p6-u468312-fr_2x2.png" crc="3813673175" ref="dementia_stages"/>
+    <file name="hi_stages_p7-u468342-fr2.png" crc="398696086" ref="dementia_stages"/>
+    <file name="hi_stages_p7-u468342-fr_2x2.png" crc="361626526" ref="dementia_stages"/>
+    <file name="hi_causes_p1.png" crc="22565087" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="hi_causes_p1_2x.png" crc="3843216539" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="dwhite.png" crc="105267172" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="dgreen.png" crc="45197981" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="dblue.png" crc="3786440126" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="dorange.png" crc="3760429829" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="hi_causes_p1-u271235-fr.png" crc="3854785331" ref="dementia_causes"/>
+    <file name="hi_causes_p1-u271235-fr_2x.png" crc="4270701930" ref="dementia_causes"/>
+    <file name="dwhite2.png" crc="170502286" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="dwhite_2x.png" crc="105267172" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="hi_causes_p1-u271235-fr2.png" crc="397905255" ref="dementia_causes"/>
+    <file name="hi_causes_p1-u271235-fr_2x2.png" crc="4096629443" ref="dementia_causes"/>
+    <file name="risk factors map.jpg" crc="4081047475" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="risk factors map_2x.jpg" crc="4007375010" ref="dementia_causes">
+      <caption webpage="dementia_causes" alt=""/>
+    </file>
+    <file name="hi_causes_p1-u271235-fr3.png" crc="56896277" ref="dementia_causes"/>
+    <file name="hi_causes_p1-u271235-fr_2x3.png" crc="3983245543" ref="dementia_causes"/>
+    <file name="risk factors map-u477772-fr.jpg" crc="3882915328" ref="dementia_causes"/>
+    <file name="risk factors map-u477772-fr_2x.jpg" crc="4229857960" ref="dementia_causes"/>
+    <file name="hkvmtipad_white.png" crc="374602106" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hkvmtipad_white_2x.png" crc="371933021" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chrome.png" crc="344475564" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chrome_2x.png" crc="446957462" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="safari.png" crc="3775934392" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="safari_2x.png" crc="4211142804" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_paperwork.jpg" crc="199255672" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_paperwork_2x.jpg" crc="4014997570" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hkvmtipad_white-u497972-fr.png" crc="266697558" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr_2x.png" crc="3895594797" ref="index"/>
+    <file name="tick-u497455-fr.png" crc="3788998114" ref="index"/>
+    <file name="tick-u497455-fr_2x.png" crc="420889105" ref="index"/>
+    <file name="tick - white.png" crc="3989606180" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tick - white_2x.png" crc="243703333" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hkvmtipad_white-u497972-fr2.png" crc="3935292212" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr_2x2.png" crc="4054345630" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr3.png" crc="78405082" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr_2x3.png" crc="90409809" ref="index"/>
+    <file name="tick-u497455-fr2.png" crc="138362233" ref="index"/>
+    <file name="tick-u497455-fr_2x2.png" crc="4136300594" ref="index"/>
+    <file name="hkvmtipad_white-u358561-fr.png" crc="4057545240" ref="index"/>
+    <file name="hkvmtipad_white-u358561-fr_2x.png" crc="53770777" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr4.png" crc="384932246" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr_2x4.png" crc="4141862733" ref="index"/>
+    <file name="tick-u497455-fr3.png" crc="3943322783" ref="index"/>
+    <file name="tick-u497455-fr_2x3.png" crc="3938059392" ref="index"/>
+    <file name="tick - white-u497466-fr.png" crc="35786149" ref="index"/>
+    <file name="tick - white-u497466-fr_2x.png" crc="125291290" ref="index"/>
+    <file name="pic_poster03-u488692-fr.jpg" crc="4250206244" ref="index"/>
+    <file name="pic_poster03-u488692-fr_2x.jpg" crc="178031242" ref="index"/>
+    <file name="hkvmtipad_white-u358561-fr2.png" crc="19500909" ref="index"/>
+    <file name="hkvmtipad_white-u358561-fr_2x2.png" crc="4035853479" ref="index"/>
+    <file name="safari-u358569-fr.png" crc="3934786294" ref="index"/>
+    <file name="safari-u358569-fr_2x.png" crc="4120927332" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr5.png" crc="3834297783" ref="index"/>
+    <file name="hkvmtipad_white-u497972-fr_2x5.png" crc="56088223" ref="index"/>
+    <file name="tick-u497455-fr4.png" crc="70964316" ref="index"/>
+    <file name="tick-u497455-fr_2x4.png" crc="189171708" ref="index"/>
+    <file name="tick - white-u497466-fr2.png" crc="4254143313" ref="index"/>
+    <file name="tick - white-u497466-fr_2x2.png" crc="3910916973" ref="index"/>
+    <file name="pyramid_exercise.png" crc="104434857" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pyramid_exercise_2x.png" crc="3976779882" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="cloud03.png" crc="275476878" ref="brainhealth_exercises:brainhealth_diet">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="cloud03_2x.png" crc="231305562" ref="brainhealth_exercises:brainhealth_diet">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="icon_blood-u397575-fr.png" crc="3838621525" ref="brainhealth_exercises"/>
+    <file name="icon_blood-u397575-fr_2x.png" crc="303073175" ref="brainhealth_exercises"/>
+    <file name="icon_psychology.png" crc="4155940864" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="icon_psychology_2x.png" crc="3858621208" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="icon_brainwave-u398025-fr.png" crc="4222026040" ref="brainhealth_exercises"/>
+    <file name="icon_brainwave-u398025-fr_2x.png" crc="4233146692" ref="brainhealth_exercises"/>
+    <file name="icon_satellitedish.png" crc="433607845" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="icon_satellitedish_2x.png" crc="4127457858" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="icon_neuron.png" crc="230562899" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="icon_neuron_2x.png" crc="4204701369" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="brainhealth02.png" crc="3869568068" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="brainhealth02_2x.png" crc="494677829" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_family.jpg" crc="221450326" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="walking 2.png" crc="232081048" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="walking 2_2x.png" crc="3934249376" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="housework.png" crc="4068377796" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="housework_2x.png" crc="55822557" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="planting.png" crc="83238575" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="planting_2x.png" crc="3990447919" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="caregiver.png" crc="96147636" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="caregiver_2x.png" crc="4234460468" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="carrying.png" crc="4089147442" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="carrying_2x.png" crc="3870942047" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise02.jpg" crc="501410173" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise03.jpg" crc="379000113" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise03_2x.jpg" crc="83682278" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise04.jpg" crc="178783856" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise04_2x.jpg" crc="15889687" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise05.jpg" crc="4084026624" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise05_2x.jpg" crc="4076045234" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly dance-u385735-fr.jpg" crc="4069683851" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr_2x.jpg" crc="3928450618" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise07.jpg" crc="3983843590" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise07_2x.jpg" crc="51820960" ref="brainhealth_exercises"/>
+    <file name="pic_elderly yoga 02.jpg" crc="3845172022" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly yoga 02_2x.jpg" crc="159569482" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise08-u385767-fr.jpg" crc="506995934" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr_2x.jpg" crc="4023185164" ref="brainhealth_exercises"/>
+    <file name="elderapp01.png" crc="369731505" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="elderapp01_2x.png" crc="409521707" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="app_store_btn.svg" crc="205710994" ref="brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="app_store_btn_poster_u139080.png" crc="4269226487" ref="brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="google_play_btn-u325575-fr.png" crc="3833108303" ref="brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="google_play_btn-u325575-fr_2x.png" crc="4220721082" ref="brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="cloud03-u404719-fr.png" crc="4015186005" ref="brainhealth_exercises"/>
+    <file name="cloud03-u404719-fr_2x.png" crc="109412777" ref="brainhealth_exercises"/>
+    <file name="brainhealth02-u325547-fr.png" crc="4225165004" ref="brainhealth_exercises"/>
+    <file name="brainhealth02-u325547-fr_2x.png" crc="3847126623" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise022.jpg" crc="180583066" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise02_2x.jpg" crc="501410173" ref="brainhealth_exercises">
+      <caption webpage="brainhealth_exercises" alt=""/>
+    </file>
+    <file name="pic_elderly exercise03-u325629-fr.jpg" crc="4221546455" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise03-u325629-fr_2x.jpg" crc="4215442687" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise04-u385699-fr.jpg" crc="181007682" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise04-u385699-fr_2x.jpg" crc="4034028412" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise05-u385711-fr.jpg" crc="3785406174" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise05-u385711-fr_2x.jpg" crc="73594210" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr2.jpg" crc="506144571" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr_2x2.jpg" crc="24754759" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise01-u385765-fr.jpg" crc="506201463" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise01-u385765-fr_2x.jpg" crc="509311821" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr2.jpg" crc="34674741" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr_2x2.jpg" crc="7397897" ref="brainhealth_exercises"/>
+    <file name="pyramid_exercise-u501227-fr.png" crc="393776405" ref="brainhealth_exercises"/>
+    <file name="pyramid_exercise-u501227-fr_2x.png" crc="3866617635" ref="brainhealth_exercises"/>
+    <file name="cloud03-u404719-fr2.png" crc="275915775" ref="brainhealth_exercises"/>
+    <file name="cloud03-u404719-fr_2x2.png" crc="17929643" ref="brainhealth_exercises"/>
+    <file name="icon_blood-u397575-fr2.png" crc="448536880" ref="brainhealth_exercises"/>
+    <file name="icon_blood-u397575-fr_2x2.png" crc="3776657880" ref="brainhealth_exercises"/>
+    <file name="icon_brainwave-u398025-fr2.png" crc="4164390862" ref="brainhealth_exercises"/>
+    <file name="icon_brainwave-u398025-fr_2x2.png" crc="50798141" ref="brainhealth_exercises"/>
+    <file name="icon_psychology-u398253-fr.png" crc="3923844244" ref="brainhealth_exercises"/>
+    <file name="icon_psychology-u398253-fr_2x.png" crc="530595812" ref="brainhealth_exercises"/>
+    <file name="icon_neuron-u398063-fr.png" crc="4025692373" ref="brainhealth_exercises"/>
+    <file name="icon_neuron-u398063-fr_2x.png" crc="3921800711" ref="brainhealth_exercises"/>
+    <file name="icon_satellitedish-u398082-fr.png" crc="97723353" ref="brainhealth_exercises"/>
+    <file name="icon_satellitedish-u398082-fr_2x.png" crc="4237704289" ref="brainhealth_exercises"/>
+    <file name="brainhealth02-u325547-fr2.png" crc="375785066" ref="brainhealth_exercises"/>
+    <file name="brainhealth02-u325547-fr_2x2.png" crc="285339121" ref="brainhealth_exercises"/>
+    <file name="pic_family-u325500-fr.jpg" crc="101459521" ref="brainhealth_exercises"/>
+    <file name="pic_family-u325500-fr_2x.jpg" crc="13402151" ref="brainhealth_exercises"/>
+    <file name="walking 2-u385315-fr.png" crc="37177097" ref="brainhealth_exercises"/>
+    <file name="walking 2-u385315-fr_2x.png" crc="4069599641" ref="brainhealth_exercises"/>
+    <file name="planting-u398542-fr.png" crc="211980211" ref="brainhealth_exercises"/>
+    <file name="planting-u398542-fr_2x.png" crc="282971895" ref="brainhealth_exercises"/>
+    <file name="caregiver-u386037-fr.png" crc="3878372935" ref="brainhealth_exercises"/>
+    <file name="caregiver-u386037-fr_2x.png" crc="4204886848" ref="brainhealth_exercises"/>
+    <file name="carrying-u398588-fr.png" crc="4076396392" ref="brainhealth_exercises"/>
+    <file name="carrying-u398588-fr_2x.png" crc="4167059015" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise02-u385437-fr.jpg" crc="4259548342" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise02-u385437-fr_2x.jpg" crc="447605320" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise03-u325629-fr2.jpg" crc="4218432813" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise03-u325629-fr_2x2.jpg" crc="76747691" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise04-u385699-fr2.jpg" crc="4008669867" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise04-u385699-fr_2x2.jpg" crc="387917941" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise05-u385711-fr2.jpg" crc="4260897080" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise05-u385711-fr_2x2.jpg" crc="4044079495" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr3.jpg" crc="210845938" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr_2x3.jpg" crc="4176142128" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise07-u385736-fr.jpg" crc="4136856407" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise07-u385736-fr_2x.jpg" crc="3927528594" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise06-u385737-fr.png" crc="388270316" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise06-u385737-fr_2x.png" crc="169305809" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise01-u385765-fr2.jpg" crc="3878564187" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise01-u385765-fr_2x2.jpg" crc="3813900404" ref="brainhealth_exercises"/>
+    <file name="pic_elderly yoga 02-u385766-fr.jpg" crc="62445850" ref="brainhealth_exercises"/>
+    <file name="pic_elderly yoga 02-u385766-fr_2x.jpg" crc="509706081" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr3.jpg" crc="4220127775" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr_2x3.jpg" crc="408375639" ref="brainhealth_exercises"/>
+    <file name="pyramid_exercise-u501227-fr2.png" crc="4262633388" ref="brainhealth_exercises"/>
+    <file name="pyramid_exercise-u501227-fr_2x2.png" crc="3762410464" ref="brainhealth_exercises"/>
+    <file name="cloud03-u404719-fr3.png" crc="3760307123" ref="brainhealth_exercises"/>
+    <file name="cloud03-u404719-fr_2x3.png" crc="4005369064" ref="brainhealth_exercises"/>
+    <file name="icon_blood-u397575-fr3.png" crc="4207031721" ref="brainhealth_exercises"/>
+    <file name="icon_blood-u397575-fr_2x3.png" crc="458583579" ref="brainhealth_exercises"/>
+    <file name="icon_brainwave-u398025-fr3.png" crc="3831544731" ref="brainhealth_exercises"/>
+    <file name="icon_brainwave-u398025-fr_2x3.png" crc="4165257093" ref="brainhealth_exercises"/>
+    <file name="icon_neuron-u398063-fr2.png" crc="4054990843" ref="brainhealth_exercises"/>
+    <file name="icon_neuron-u398063-fr_2x2.png" crc="3852238676" ref="brainhealth_exercises"/>
+    <file name="brainhealth02-u325547-fr3.png" crc="4122248180" ref="brainhealth_exercises"/>
+    <file name="brainhealth02-u325547-fr_2x3.png" crc="4095062145" ref="brainhealth_exercises"/>
+    <file name="pic_family-u325500-fr2.jpg" crc="4270111929" ref="brainhealth_exercises"/>
+    <file name="pic_family-u325500-fr_2x2.jpg" crc="334663481" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise02-u385437-fr2.jpg" crc="4261423977" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise02-u385437-fr_2x2.jpg" crc="339344140" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise03-u325629-fr3.jpg" crc="4025860547" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise03-u325629-fr_2x3.jpg" crc="18270461" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise04-u385699-fr3.jpg" crc="411712127" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise04-u385699-fr_2x3.jpg" crc="243380561" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise05-u385711-fr3.jpg" crc="4069556257" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise05-u385711-fr_2x3.jpg" crc="58123105" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr4.jpg" crc="4234560438" ref="brainhealth_exercises"/>
+    <file name="pic_elderly dance-u385735-fr_2x4.jpg" crc="4046978524" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise07-u385736-fr2.jpg" crc="496400663" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise07-u385736-fr_2x2.jpg" crc="86447072" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise06-u385737-fr2.png" crc="275827430" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise06-u385737-fr_2x2.png" crc="4186129296" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise01-u385765-fr3.jpg" crc="4080229266" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise01-u385765-fr_2x3.jpg" crc="3849183626" ref="brainhealth_exercises"/>
+    <file name="pic_elderly yoga 02-u385766-fr2.jpg" crc="82661398" ref="brainhealth_exercises"/>
+    <file name="pic_elderly yoga 02-u385766-fr_2x2.jpg" crc="3883638235" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr4.jpg" crc="243042446" ref="brainhealth_exercises"/>
+    <file name="pic_elderly exercise08-u385767-fr_2x4.jpg" crc="4294932566" ref="brainhealth_exercises"/>
+    <file name="cloud04.png" crc="104429840" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="cloud04_2x.png" crc="3507499" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="icon_talk-u399271-fr.png" crc="3944225241" ref="brainhealth_cognitive"/>
+    <file name="icon_talk-u399271-fr_2x.png" crc="4116048753" ref="brainhealth_cognitive"/>
+    <file name="icon_logic-u399008-fr.png" crc="3923019348" ref="brainhealth_cognitive"/>
+    <file name="icon_logic-u399008-fr_2x.png" crc="4044982754" ref="brainhealth_cognitive"/>
+    <file name="icon_dimension-u399053-fr.png" crc="3948545682" ref="brainhealth_cognitive"/>
+    <file name="icon_dimension-u399053-fr_2x.png" crc="383752829" ref="brainhealth_cognitive"/>
+    <file name="icon_reaction.png" crc="450032432" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="icon_reaction_2x.png" crc="120130634" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="pic_elderly reading.jpg" crc="4250823756" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="pic_elderly reading_2x.jpg" crc="4124815170" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="pic_calligraphy.jpg" crc="3814308152" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="pic_calligraphy_2x.jpg" crc="113372961" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="pic_mahjong.jpg" crc="9209629" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="pic_mahjong_2x.jpg" crc="3856059985" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="brainhealth03-u398637-fr.png" crc="353576532" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr_2x.png" crc="3940157700" ref="brainhealth_cognitive"/>
+    <file name="icon_memory-u398956-fr.png" crc="448055721" ref="brainhealth_cognitive"/>
+    <file name="icon_memory-u398956-fr_2x.png" crc="388582135" ref="brainhealth_cognitive"/>
+    <file name="icon_action-u399100-fr.png" crc="157592841" ref="brainhealth_cognitive"/>
+    <file name="icon_action-u399100-fr_2x.png" crc="4268130530" ref="brainhealth_cognitive"/>
+    <file name="icon_decision-u399147-fr.png" crc="349926728" ref="brainhealth_cognitive"/>
+    <file name="icon_decision-u399147-fr_2x.png" crc="71501584" ref="brainhealth_cognitive"/>
+    <file name="icon_focus-u399191-fr.png" crc="215014629" ref="brainhealth_cognitive"/>
+    <file name="icon_focus-u399191-fr_2x.png" crc="3936969802" ref="brainhealth_cognitive"/>
+    <file name="elderapp03.png" crc="454423253" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="elderapp03_2x.png" crc="296739370" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="elderapp05.jpg" crc="22169728" ref="brainhealth_cognitive">
+      <caption webpage="brainhealth_cognitive" alt=""/>
+    </file>
+    <file name="elderapp06-u327318-fr.png" crc="47209626" ref="brainhealth_cognitive"/>
+    <file name="elderapp06-u327318-fr_2x.png" crc="4049893613" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr2.png" crc="4220260499" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr_2x2.png" crc="5328706" ref="brainhealth_cognitive"/>
+    <file name="cloud04-u404998-fr.png" crc="356994403" ref="brainhealth_cognitive"/>
+    <file name="cloud04-u404998-fr_2x.png" crc="4079045263" ref="brainhealth_cognitive"/>
+    <file name="pic_elderly reading-u327381-fr.jpg" crc="3831970997" ref="brainhealth_cognitive"/>
+    <file name="pic_elderly reading-u327381-fr_2x.jpg" crc="4216133285" ref="brainhealth_cognitive"/>
+    <file name="pic_calligraphy-u327262-fr.jpg" crc="3785252952" ref="brainhealth_cognitive"/>
+    <file name="pic_calligraphy-u327262-fr_2x.jpg" crc="491434926" ref="brainhealth_cognitive"/>
+    <file name="pic_mahjong-u327276-fr.jpg" crc="115999452" ref="brainhealth_cognitive"/>
+    <file name="pic_mahjong-u327276-fr_2x.jpg" crc="447644814" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr3.png" crc="347366970" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr_2x3.png" crc="4207892656" ref="brainhealth_cognitive"/>
+    <file name="cloud04-u404998-fr2.png" crc="402365331" ref="brainhealth_cognitive"/>
+    <file name="cloud04-u404998-fr_2x2.png" crc="48045882" ref="brainhealth_cognitive"/>
+    <file name="icon_logic-u399008-fr2.png" crc="3902451128" ref="brainhealth_cognitive"/>
+    <file name="icon_logic-u399008-fr_2x2.png" crc="332361418" ref="brainhealth_cognitive"/>
+    <file name="icon_dimension-u399053-fr2.png" crc="144927247" ref="brainhealth_cognitive"/>
+    <file name="icon_dimension-u399053-fr_2x2.png" crc="4220905410" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr4.png" crc="4205371271" ref="brainhealth_cognitive"/>
+    <file name="brainhealth03-u398637-fr_2x4.png" crc="14115156" ref="brainhealth_cognitive"/>
+    <file name="pic_healthyfood-u327866-fr.png" crc="376922240" ref="brainhealth_diet"/>
+    <file name="arrow_green.png" crc="3854523882" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="arrow_green_2x.png" crc="424156880" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="earilyprevent_healthyfoodbook-u327894-fr.png" crc="4201418668" ref="brainhealth_diet"/>
+    <file name="brainhealth04.png" crc="4071110022" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="brainhealth04_2x.png" crc="285310690" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_1s.png" crc="3925151309" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_1.png" crc="518855185" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_2s.png" crc="4163444053" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_2.png" crc="89556347" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_3s.png" crc="4196493576" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_3s_2x.png" crc="45242651" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_3.png" crc="3848160013" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_3_2x.png" crc="483520229" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_4s.png" crc="3885611127" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_4s_2x.png" crc="3829510271" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_4.png" crc="522848426" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_4_2x.png" crc="512055233" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_5s.png" crc="4284082889" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_5s_2x.png" crc="3835566975" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_5.png" crc="53649286" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py1_5_2x.png" crc="59759737" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_1s.png" crc="187267633" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_1.png" crc="3840463359" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_1s.png" crc="3931964769" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_1s_2x.png" crc="4025398079" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_1.png" crc="3950704321" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_1_2x.png" crc="256110009" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_2s.png" crc="206679102" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_2s_2x.png" crc="3891681752" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_2.png" crc="28269781" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_2_2_2x.png" crc="472937767" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_1s.png" crc="275706997" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_1s_2x.png" crc="306934097" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_1.png" crc="201838993" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_1_2x.png" crc="145106216" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_2s.png" crc="471794517" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_2s_2x.png" crc="79269058" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_2.png" crc="4250843136" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_3_2_2x.png" crc="180644578" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_4s.png" crc="4285752063" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_4s_2x.png" crc="63573918" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_4.png" crc="509865702" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_4_2x.png" crc="61005418" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_5s.png" crc="3914130311" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_5s_2x.png" crc="16363754" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_5.png" crc="4174727407" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py2_5_2x.png" crc="4152096637" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_1s.png" crc="4277366520" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_1s_2x.png" crc="2036781" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_1.png" crc="274740681" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_1_2x.png" crc="99326125" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_2s.png" crc="397451292" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_2s_2x.png" crc="317468731" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_2.png" crc="5724384" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_2_2x.png" crc="306624298" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_4s.png" crc="3874005638" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_4s_2x.png" crc="4186398664" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_4.png" crc="344638350" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_4_2x.png" crc="4008772166" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_3s.png" crc="310461473" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_3s_2x.png" crc="4113604212" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_3.png" crc="306873609" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_3_2x.png" crc="439505233" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_5s.png" crc="4240182469" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_5s_2x.png" crc="259379344" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_5.png" crc="339377824" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_5_2x.png" crc="3779262328" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_6s.png" crc="212452664" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_6s_2x.png" crc="4294730584" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_6.png" crc="51013749" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_6_2x.png" crc="299034540" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_7s.png" crc="3776770334" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_7s_2x.png" crc="4099281026" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_7.png" crc="123481576" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_7_2x.png" crc="3902638497" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_8s.png" crc="4206995280" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_8s_2x.png" crc="120874010" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_8.png" crc="112160873" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_8_2x.png" crc="3948578359" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_10s.png" crc="4259133775" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_10s_2x.png" crc="4078996255" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_10.png" crc="3843374820" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_10_2x.png" crc="186386685" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_13s.png" crc="116878379" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_13s_2x.png" crc="180988808" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_13.png" crc="385093385" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_13_2x.png" crc="3838110180" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_11s.png" crc="3992091125" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_11s_2x.png" crc="4199142546" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_11.png" crc="118117848" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_11_2x.png" crc="3978522993" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_12s.png" crc="3950606867" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_12s_2x.png" crc="289514161" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_12.png" crc="503564147" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="py3_12_2x.png" crc="4243487657" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="brainhealth04-u386931-fr.png" crc="367306958" ref="brainhealth_diet"/>
+    <file name="brainhealth04-u386931-fr_2x.png" crc="3893668007" ref="brainhealth_diet"/>
+    <file name="cloud03-u405018-fr.png" crc="4084513256" ref="brainhealth_diet"/>
+    <file name="cloud03-u405018-fr_2x.png" crc="510170353" ref="brainhealth_diet"/>
+    <file name="brainhealth04-u386931-fr2.png" crc="3976216732" ref="brainhealth_diet"/>
+    <file name="brainhealth04-u386931-fr_2x2.png" crc="3792514885" ref="brainhealth_diet"/>
+    <file name="mediterranean diet.png" crc="3923115882" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="dash diet.png" crc="376650716" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="mind diet.png" crc="77670730" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="cloud03-u405018-fr2.png" crc="305987185" ref="brainhealth_diet"/>
+    <file name="cloud03-u405018-fr_2x2.png" crc="4286282300" ref="brainhealth_diet"/>
+    <file name="earilyprevent_healthyfoodbook-u327894-fr2.png" crc="3903860116" ref="brainhealth_diet"/>
+    <file name="earilyprevent_healthyfoodbook-u327894-fr_2x.png" crc="498979829" ref="brainhealth_diet"/>
+    <file name="brainhealth04-u386931-fr3.png" crc="4080460512" ref="brainhealth_diet"/>
+    <file name="brainhealth04-u386931-fr_2x3.png" crc="3920310087" ref="brainhealth_diet"/>
+    <file name="dash diet-u486412-fr.png" crc="325327636" ref="brainhealth_diet"/>
+    <file name="dash diet-u486412-fr_2x.png" crc="182377984" ref="brainhealth_diet"/>
+    <file name="mediterranean diet-u486400-fr.png" crc="4153312017" ref="brainhealth_diet"/>
+    <file name="mediterranean diet-u486400-fr_2x.png" crc="4113746200" ref="brainhealth_diet"/>
+    <file name="mind diet-u486424-fr.png" crc="3820589193" ref="brainhealth_diet"/>
+    <file name="mind diet-u486424-fr_2x.png" crc="4160013820" ref="brainhealth_diet"/>
+    <file name="cloud01.png" crc="3802696332" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="cloud01_2x.png" crc="4143415545" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="brainhealth05.png" crc="3897264076" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="brainhealth05_2x.png" crc="295054742" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_brainsystem.png" crc="113081781" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_brainsystem_2x.png" crc="4266718722" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_bloodpressure-u400698-fr.png" crc="367187375" ref="brainhealth_emotions"/>
+    <file name="icon_bloodpressure-u400698-fr_2x.png" crc="4171224145" ref="brainhealth_emotions"/>
+    <file name="icon_medicine-u400737-fr.png" crc="4179085110" ref="brainhealth_emotions"/>
+    <file name="icon_medicine-u400737-fr_2x.png" crc="3900382638" ref="brainhealth_emotions"/>
+    <file name="icon_healthycell.png" crc="3816165945" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_healthycell_2x.png" crc="3858028045" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_psychology-u400426-fr.png" crc="3921433404" ref="brainhealth_emotions"/>
+    <file name="icon_psychology-u400426-fr_2x.png" crc="487465432" ref="brainhealth_emotions"/>
+    <file name="icon_blood-u400474-fr.png" crc="230966077" ref="brainhealth_emotions"/>
+    <file name="icon_blood-u400474-fr_2x.png" crc="3811505807" ref="brainhealth_emotions"/>
+    <file name="icon_brainwave-u400522-fr.png" crc="519717477" ref="brainhealth_emotions"/>
+    <file name="icon_brainwave-u400522-fr_2x.png" crc="524359554" ref="brainhealth_emotions"/>
+    <file name="icon_cells.png" crc="121764000" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_cells_2x.png" crc="4034830042" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="icon_yoga-u400834-fr.png" crc="486241476" ref="brainhealth_emotions"/>
+    <file name="icon_yoga-u400834-fr_2x.png" crc="154426257" ref="brainhealth_emotions"/>
+    <file name="pic_elderly music.jpg" crc="280647747" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_elderly music_2x.jpg" crc="499304336" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_elderly draw.jpg" crc="4090804062" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_pray.jpg" crc="4121243845" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_elder talk.jpg" crc="3977694914" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_elder talk_2x.jpg" crc="3871848254" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_doctor.jpg" crc="506518022" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_doctor_2x.jpg" crc="4258109984" ref="brainhealth_emotions">
+      <caption webpage="brainhealth_emotions" alt=""/>
+    </file>
+    <file name="pic_elderly music-u401127-fr.jpg" crc="457937835" ref="brainhealth_emotions"/>
+    <file name="pic_elderly music-u401127-fr_2x.jpg" crc="4260752950" ref="brainhealth_emotions"/>
+    <file name="pic_elderly draw-u401132-fr.jpg" crc="3922992726" ref="brainhealth_emotions"/>
+    <file name="pic_elderly draw-u401132-fr_2x.jpg" crc="65339334" ref="brainhealth_emotions"/>
+    <file name="pic_pray-u401137-fr.jpg" crc="337819085" ref="brainhealth_emotions"/>
+    <file name="pic_pray-u401137-fr_2x.jpg" crc="71689759" ref="brainhealth_emotions"/>
+    <file name="cloud01-u405470-fr.png" crc="3811884132" ref="brainhealth_emotions"/>
+    <file name="cloud01-u405470-fr_2x.png" crc="3981323361" ref="brainhealth_emotions"/>
+    <file name="brainhealth05-u398758-fr.png" crc="4050233735" ref="brainhealth_emotions"/>
+    <file name="brainhealth05-u398758-fr_2x.png" crc="3981813289" ref="brainhealth_emotions"/>
+    <file name="icon_psychology-u400426-fr2.png" crc="210705965" ref="brainhealth_emotions"/>
+    <file name="icon_psychology-u400426-fr_2x2.png" crc="3803665693" ref="brainhealth_emotions"/>
+    <file name="icon_blood-u400474-fr2.png" crc="404774900" ref="brainhealth_emotions"/>
+    <file name="icon_blood-u400474-fr_2x2.png" crc="4234515627" ref="brainhealth_emotions"/>
+    <file name="icon_brainwave-u400522-fr2.png" crc="3926345901" ref="brainhealth_emotions"/>
+    <file name="icon_brainwave-u400522-fr_2x2.png" crc="479508467" ref="brainhealth_emotions"/>
+    <file name="icon_yoga-u400834-fr2.png" crc="160916187" ref="brainhealth_emotions"/>
+    <file name="icon_yoga-u400834-fr_2x2.png" crc="471655301" ref="brainhealth_emotions"/>
+    <file name="pic_elderly music-u401127-fr2.jpg" crc="3992606568" ref="brainhealth_emotions"/>
+    <file name="pic_elderly music-u401127-fr_2x2.jpg" crc="4119051630" ref="brainhealth_emotions"/>
+    <file name="pic_elderly draw-u401132-fr2.jpg" crc="29703207" ref="brainhealth_emotions"/>
+    <file name="pic_elderly draw-u401132-fr_2x2.jpg" crc="3850755987" ref="brainhealth_emotions"/>
+    <file name="pic_pray-u401137-fr2.jpg" crc="3844421168" ref="brainhealth_emotions"/>
+    <file name="pic_pray-u401137-fr_2x2.jpg" crc="4271298537" ref="brainhealth_emotions"/>
+    <file name="pic_elder talk-u401385-fr.jpg" crc="4036283394" ref="brainhealth_emotions"/>
+    <file name="pic_elder talk-u401385-fr_2x.jpg" crc="40563882" ref="brainhealth_emotions"/>
+    <file name="pic_doctor-u401460-fr.jpg" crc="3923571165" ref="brainhealth_emotions"/>
+    <file name="pic_doctor-u401460-fr_2x.jpg" crc="486151502" ref="brainhealth_emotions"/>
+    <file name="cloud01-u405470-fr2.png" crc="4181869454" ref="brainhealth_emotions"/>
+    <file name="cloud01-u405470-fr_2x2.png" crc="138099704" ref="brainhealth_emotions"/>
+    <file name="brainhealth05-u398758-fr2.png" crc="4095690585" ref="brainhealth_emotions"/>
+    <file name="brainhealth05-u398758-fr_2x2.png" crc="513582995" ref="brainhealth_emotions"/>
+    <file name="cloud02.png" crc="143839940" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="cloud02_2x.png" crc="364284200" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_family2.jpg" crc="487581382" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_family_2x.jpg" crc="4102352093" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_volunteer.jpg" crc="11838547" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_volunteer_2x.jpg" crc="4116495395" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_familytime04.jpg" crc="4122622813" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_familytime04_2x.jpg" crc="49077273" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="brainhealth06-u398787-fr.png" crc="4250014548" ref="brainhealth_social"/>
+    <file name="brainhealth06-u398787-fr_2x.png" crc="266390911" ref="brainhealth_social"/>
+    <file name="cloud022.png" crc="364284200" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="brainhealth06.png" crc="146513869" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="brainhealth06_2x.png" crc="4176834126" ref="brainhealth_social">
+      <caption webpage="brainhealth_social" alt=""/>
+    </file>
+    <file name="pic_family-u401737-fr.jpg" crc="95774129" ref="brainhealth_social"/>
+    <file name="pic_family-u401737-fr_2x.jpg" crc="395180687" ref="brainhealth_social"/>
+    <file name="pic_volunteer-u401739-fr.jpg" crc="4238497423" ref="brainhealth_social"/>
+    <file name="pic_volunteer-u401739-fr_2x.jpg" crc="4008766300" ref="brainhealth_social"/>
+    <file name="pic_familytime04-u401744-fr.jpg" crc="4004298737" ref="brainhealth_social"/>
+    <file name="pic_familytime04-u401744-fr_2x.jpg" crc="291687700" ref="brainhealth_social"/>
+    <file name="brainhealth06-u398787-fr2.png" crc="486106827" ref="brainhealth_social"/>
+    <file name="brainhealth06-u398787-fr_2x2.png" crc="115469458" ref="brainhealth_social"/>
+    <file name="cloud02-u405490-fr.png" crc="4003931260" ref="brainhealth_social"/>
+    <file name="cloud02-u405490-fr_2x.png" crc="17716418" ref="brainhealth_social"/>
+    <file name="brainhealth06-u398787-fr3.png" crc="209750448" ref="brainhealth_social"/>
+    <file name="brainhealth06-u398787-fr_2x3.png" crc="303947194" ref="brainhealth_social"/>
+    <file name="institute of active aging-u406262-fr.jpg" crc="3956468421" ref="brainhealth_social"/>
+    <file name="institute of active aging-u406262-fr_2x.jpg" crc="519080266" ref="brainhealth_social"/>
+    <file name="長者學院-u406274-fr.jpg" crc="4217934551" ref="brainhealth_social"/>
+    <file name="長者學院-u406274-fr_2x.jpg" crc="4194846302" ref="brainhealth_social"/>
+  </folder>
+  <file name="dementia_intro.html" crc="455346636" seo="true" mt="1689719844446" redirect="true"/>
+  <file name="resources.html" crc="4136463365" seo="true" mt="1689719844446" redirect="true"/>
+  <file name="brainhealth_intro.html" crc="3759396218" seo="true" mt="1689719844446" redirect="true"/>
+  <file name="dementia_healing.html" crc="398505775" seo="true" mt="1689719844447" redirect="true"/>
+  <file name="aboutus.html" crc="238727429" seo="true" mt="1689719844447" redirect="true"/>
+  <file name="media_activities.html" crc="3777359061" seo="true" mt="1689719844447" redirect="true"/>
+  <file name="partnership.html" crc="183902436" seo="true" mt="1689719844448" redirect="true"/>
+  <file name="dementia_stages.html" crc="4117873958" seo="true" mt="1689719844448" redirect="true"/>
+  <file name="dementia_causes.html" crc="4019588576" seo="true" mt="1689719844449" redirect="true"/>
+  <file name="index.html" crc="110007299" seo="true" mt="1689719856511" redirect="true"/>
+  <file name="brainhealth_exercises.html" crc="418748087" seo="true" mt="1689719844450" redirect="true"/>
+  <file name="brainhealth_cognitive.html" crc="309753128" seo="true" mt="1689719844450" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="4291148790" seo="true" mt="1689719844451" redirect="true"/>
+  <file name="brainhealth_emotions.html" crc="4126933565" seo="true" mt="1689719844451" redirect="true"/>
+  <file name="brainhealth_social.html" crc="4293098358" seo="true" mt="1689719844452" redirect="true"/>
+</manifest>
