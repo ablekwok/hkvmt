@@ -1,42 +1,42 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1689720022848">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1702304517782">
   <folder name="css">
     <file name="site_global.css" crc="4276098105"/>
-    <file name="master_storytelling-yellow.css" crc="4264843729" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
-    <file name="nomq_preview_master_storytelling-yellow.css" crc="102390746" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
-    <file name="master_normal.css" crc="234863859" ref="resources:index:aboutus:media_activities:partnership"/>
-    <file name="nomq_preview_master_normal.css" crc="4124262883" ref="resources:index:aboutus:media_activities:partnership"/>
-    <file name="master_storytelling-green.css" crc="265968175" ref="brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet"/>
-    <file name="nomq_preview_master_storytelling-green.css" crc="3866361183" ref="brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet"/>
-    <file name="dementia_intro.css" crc="323813800" ref="dementia_intro"/>
-    <file name="nomq_dementia_intro.css" crc="36661773" ref="dementia_intro"/>
-    <file name="brainhealth_emotions.css" crc="185652850" ref="brainhealth_emotions"/>
-    <file name="nomq_brainhealth_emotions.css" crc="3918782637" ref="brainhealth_emotions"/>
-    <file name="dementia_stages.css" crc="4034487679" ref="dementia_stages"/>
-    <file name="nomq_dementia_stages.css" crc="3843372280" ref="dementia_stages"/>
-    <file name="resources.css" crc="1815432" ref="resources"/>
-    <file name="nomq_resources.css" crc="3912931956" ref="resources"/>
-    <file name="brainhealth_social.css" crc="306059135" ref="brainhealth_social"/>
-    <file name="nomq_brainhealth_social.css" crc="39259037" ref="brainhealth_social"/>
-    <file name="dementia_causes.css" crc="412283329" ref="dementia_causes"/>
-    <file name="nomq_dementia_causes.css" crc="466800834" ref="dementia_causes"/>
-    <file name="brainhealth_intro.css" crc="3843184148" ref="brainhealth_intro"/>
-    <file name="nomq_brainhealth_intro.css" crc="4120669334" ref="brainhealth_intro"/>
-    <file name="index.css" crc="4112407803" ref="index"/>
-    <file name="nomq_index.css" crc="362103872" ref="index"/>
-    <file name="dementia_healing.css" crc="4034420148" ref="dementia_healing"/>
-    <file name="nomq_dementia_healing.css" crc="188473111" ref="dementia_healing"/>
-    <file name="brainhealth_exercises.css" crc="123393897" ref="brainhealth_exercises"/>
-    <file name="nomq_brainhealth_exercises.css" crc="418400879" ref="brainhealth_exercises"/>
-    <file name="aboutus.css" crc="429759080" ref="aboutus"/>
-    <file name="nomq_aboutus.css" crc="4051885987" ref="aboutus"/>
-    <file name="brainhealth_cognitive.css" crc="3902604205" ref="brainhealth_cognitive"/>
-    <file name="nomq_brainhealth_cognitive.css" crc="346017189" ref="brainhealth_cognitive"/>
-    <file name="media_activities.css" crc="4134478995" ref="media_activities"/>
-    <file name="nomq_media_activities.css" crc="3827035957" ref="media_activities"/>
-    <file name="brainhealth_diet.css" crc="4234944623" ref="brainhealth_diet"/>
-    <file name="nomq_brainhealth_diet.css" crc="453772466" ref="brainhealth_diet"/>
-    <file name="partnership.css" crc="404878661" ref="partnership"/>
-    <file name="nomq_partnership.css" crc="4213010671" ref="partnership"/>
+    <file name="master_storytelling-yellow.css" crc="78296629" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
+    <file name="nomq_preview_master_storytelling-yellow.css" crc="4170279668" ref="dementia_intro:dementia_stages:dementia_causes:dementia_healing"/>
+    <file name="master_normal.css" crc="241740823" ref="media_activities:partnership:resources:index:aboutus"/>
+    <file name="nomq_preview_master_normal.css" crc="3836118364" ref="media_activities:partnership:resources:index:aboutus"/>
+    <file name="master_storytelling-green.css" crc="297424405" ref="brainhealth_diet:brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="nomq_preview_master_storytelling-green.css" crc="375162364" ref="brainhealth_diet:brainhealth_emotions:brainhealth_social:brainhealth_intro:brainhealth_exercises:brainhealth_cognitive"/>
+    <file name="media_activities.css" crc="3899001731" ref="media_activities"/>
+    <file name="nomq_media_activities.css" crc="3824822342" ref="media_activities"/>
+    <file name="brainhealth_diet.css" crc="4084064989" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="175087051" ref="brainhealth_diet"/>
+    <file name="partnership.css" crc="45952875" ref="partnership"/>
+    <file name="nomq_partnership.css" crc="3776441563" ref="partnership"/>
+    <file name="dementia_intro.css" crc="189898243" ref="dementia_intro"/>
+    <file name="nomq_dementia_intro.css" crc="3929251997" ref="dementia_intro"/>
+    <file name="brainhealth_emotions.css" crc="73912907" ref="brainhealth_emotions"/>
+    <file name="nomq_brainhealth_emotions.css" crc="248911688" ref="brainhealth_emotions"/>
+    <file name="dementia_stages.css" crc="4126744385" ref="dementia_stages"/>
+    <file name="nomq_dementia_stages.css" crc="4103918604" ref="dementia_stages"/>
+    <file name="resources.css" crc="3767402549" ref="resources"/>
+    <file name="nomq_resources.css" crc="3931183682" ref="resources"/>
+    <file name="brainhealth_social.css" crc="4197221544" ref="brainhealth_social"/>
+    <file name="nomq_brainhealth_social.css" crc="247541058" ref="brainhealth_social"/>
+    <file name="dementia_causes.css" crc="383773178" ref="dementia_causes"/>
+    <file name="nomq_dementia_causes.css" crc="20666242" ref="dementia_causes"/>
+    <file name="brainhealth_intro.css" crc="362038484" ref="brainhealth_intro"/>
+    <file name="nomq_brainhealth_intro.css" crc="103513378" ref="brainhealth_intro"/>
+    <file name="index.css" crc="4118365170" ref="index"/>
+    <file name="nomq_index.css" crc="3916826581" ref="index"/>
+    <file name="dementia_healing.css" crc="3883334096" ref="dementia_healing"/>
+    <file name="nomq_dementia_healing.css" crc="522438528" ref="dementia_healing"/>
+    <file name="brainhealth_exercises.css" crc="3951462556" ref="brainhealth_exercises"/>
+    <file name="nomq_brainhealth_exercises.css" crc="4228684493" ref="brainhealth_exercises"/>
+    <file name="aboutus.css" crc="103877503" ref="aboutus"/>
+    <file name="nomq_aboutus.css" crc="103316211" ref="aboutus"/>
+    <file name="brainhealth_cognitive.css" crc="407874272" ref="brainhealth_cognitive"/>
+    <file name="nomq_brainhealth_cognitive.css" crc="464726194" ref="brainhealth_cognitive"/>
   </folder>
   <folder name="fonts">
     <file name="fakepearl-light.woff" crc="145533271"/>
@@ -47,21 +47,13 @@
     <file name="fakepearl-regular.svg" crc="4183474000"/>
   </folder>
   <folder name="assets">
-    <file name="footer_pullup.png" crc="4032338105" seo="true" mt="1617815516000"/>
-    <file name="footer_pullup_s.png" crc="161315202" seo="true" mt="1617815522000"/>
     <file name="pullup_arrow.png" crc="384137369" seo="true" mt="1628322680000"/>
     <file name="pic_targetaudiences.jpg" crc="147642879" seo="true" mt="1618115236000"/>
     <file name="pic_holdhand.jpg" crc="23721391" seo="true" mt="1618115204000"/>
     <file name="pic_research.jpg" crc="3803313799" seo="true" mt="1618115266000"/>
     <file name="pullup_arrow_s.png" crc="349479707" seo="true" mt="1621781626000"/>
     <file name="pic_family.jpeg" crc="4102352093" seo="true" mt="1621089782000"/>
-    <file name="close-white.png" crc="4231030171" seo="true" mt="1621827306000"/>
     <file name="hk-vmt-user.mp4" crc="4149447906" seo="true" mt="1622167525000"/>
-    <file name="pic_event02.jpg" crc="70160691" seo="true" mt="1628158792000"/>
-    <file name="pic_event01.jpg" crc="532940384" seo="true" mt="1628158851000"/>
-    <file name="pic_event04.jpg" crc="4248193995" seo="true" mt="1629861031000"/>
-    <file name="pic_event03.jpg" crc="464455178" seo="true" mt="1628158705000"/>
-    <file name="pic_poster03.jpg" crc="317944118" seo="true" mt="1628167301000"/>
     <file name="title.svg" crc="231789981" seo="true" mt="1628346555000"/>
     <file name="title_frame.svg" crc="4141372188" seo="true" mt="1628346588000"/>
     <file name="hi_intro_p1_1.svg" crc="3819105368" seo="true" mt="1628424171000"/>
@@ -75,6 +67,12 @@
     <file name="poster-50plus.jpg" crc="527677553" seo="true" mt="1633357127000"/>
     <file name="poster-butalk2.jpg" crc="92719520" seo="true" mt="1689715970000"/>
     <file name="poster-talk1.jpg" crc="4253876290" seo="true" mt="1689715997000"/>
+    <file name="spe_5386.jpg" crc="3767610378" seo="true" mt="1691315340000"/>
+    <file name="spe_5388.jpg" crc="4002652368" seo="true" mt="1691315627000"/>
+    <file name="spe_5113.jpg" crc="3903386424" seo="true" mt="1691315700000"/>
+    <file name="spe_5159.jpg" crc="4057681687" seo="true" mt="1691315534000"/>
+    <file name="spe_5144.jpg" crc="528517639" seo="true" mt="1691315540000"/>
+    <file name="pic_poster03.jpg" crc="317944118" seo="true" mt="1628167301000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
@@ -137,6 +135,18 @@
       <caption webpage="dementia_intro" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="dementia_intro:resources:brainhealth_intro:dementia_healing:aboutus:media_activities:partnership:dementia_stages:dementia_causes:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="facebook_s.png" crc="3868468483" ref="dementia_intro:resources:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="facebook_s_2x.png" crc="4022934257" ref="dementia_intro:resources:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="facebook.png" crc="407095473" ref="dementia_intro:resources:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
+    <file name="facebook_2x.png" crc="3869720609" ref="dementia_intro:resources:brainhealth_intro">
+      <caption webpage="dementia_intro" alt=""/>
+    </file>
     <file name="wave_lightorange.png" crc="3991728679" ref="dementia_intro:dementia_healing:dementia_stages:dementia_causes:brainhealth_diet">
       <caption webpage="dementia_intro" alt=""/>
     </file>
@@ -614,98 +624,250 @@
     <file name="pic_proflam_2x.jpg" crc="4223219434" ref="aboutus">
       <caption webpage="aboutus" alt=""/>
     </file>
-    <file name="poster mpil.jpg" crc="4030295426" ref="media_activities">
+    <file name="facebook_s-u499059-fr.png" crc="301183119" ref="media_activities"/>
+    <file name="facebook_s-u499059-fr_2x.png" crc="129529778" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr.png" crc="434960246" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr_2x.png" crc="526248403" ref="media_activities"/>
+    <file name="spe_5105.jpg" crc="4282328924" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="poster mpil_2x.jpg" crc="4105068211" ref="media_activities">
+    <file name="spe_5105_2x.jpg" crc="184151214" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="poster butalk2.jpg" crc="500319328" ref="media_activities">
+    <file name="spe_5106.jpg" crc="433792639" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="poster butalk2_2x.jpg" crc="3803236720" ref="media_activities">
+    <file name="spe_5106_2x.jpg" crc="484710570" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="poster talk1.jpg" crc="188141784" ref="media_activities">
+    <file name="spe_5109.jpg" crc="4135793206" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="poster talk1_2x.jpg" crc="3980770216" ref="media_activities">
+    <file name="spe_5109_2x.jpg" crc="380045625" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event04.jpg" crc="4248193995" ref="media_activities">
+    <file name="spe_5111.jpg" crc="3962896397" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event03.jpg" crc="110085892" ref="media_activities">
+    <file name="spe_5111_2x.jpg" crc="3781591477" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event03_2x.jpg" crc="5090259" ref="media_activities">
+    <file name="spe_5113.jpg" crc="3839872828" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event02.jpg" crc="4092920660" ref="media_activities">
+    <file name="spe_5113_2x.jpg" crc="449264026" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event02_2x.jpg" crc="323951856" ref="media_activities">
+    <file name="spe_5115.jpg" crc="475400654" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event01.jpg" crc="3869354701" ref="media_activities">
+    <file name="spe_5115_2x.jpg" crc="346154857" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event01_2x.jpg" crc="513320613" ref="media_activities">
+    <file name="spe_5124.jpg" crc="3764637275" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_poster03-u528656-fr.jpg" crc="3802541281" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr_2x.jpg" crc="3924151079" ref="media_activities"/>
-    <file name="pic_event06.jpg" crc="4288178121" ref="media_activities">
+    <file name="spe_5124_2x.jpg" crc="365711119" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event05.jpg" crc="410962962" ref="media_activities">
+    <file name="spe_5129.jpg" crc="11895322" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event08.jpg" crc="3954015594" ref="media_activities">
+    <file name="spe_5129_2x.jpg" crc="4141565906" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event11.jpg" crc="21998430" ref="media_activities">
+    <file name="spe_5144.jpg" crc="95339725" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event11_2x.jpg" crc="498569573" ref="media_activities">
+    <file name="spe_5144_2x.jpg" crc="131678992" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event04-u528148-fr.png" crc="4063236710" ref="media_activities"/>
-    <file name="pic_event04-u528148-fr_2x.png" crc="4033545977" ref="media_activities"/>
-    <file name="pic_event04-u528148-r-fr.jpg" crc="63347724" ref="media_activities"/>
-    <file name="pic_event04-u528148-r-fr_2x.jpg" crc="4051118666" ref="media_activities"/>
-    <file name="pic_event01-u528615-fr.png" crc="4153172368" ref="media_activities"/>
-    <file name="pic_event01-u528615-fr_2x.png" crc="4191726751" ref="media_activities"/>
-    <file name="pic_event01-u528615-r-fr.jpg" crc="436449748" ref="media_activities"/>
-    <file name="pic_event01-u528615-r-fr_2x.jpg" crc="4003361360" ref="media_activities"/>
-    <file name="pic_event05-u528694-fr.png" crc="505646478" ref="media_activities"/>
-    <file name="pic_event05-u528694-fr_2x.png" crc="397754844" ref="media_activities"/>
-    <file name="pic_event05-u528694-r-fr.jpg" crc="518741814" ref="media_activities"/>
-    <file name="pic_event05-u528694-r-fr_2x.jpg" crc="490495815" ref="media_activities"/>
-    <file name="pic_event03-u528557-fr.png" crc="3852139702" ref="media_activities"/>
-    <file name="pic_event03-u528557-fr_2x.png" crc="247027000" ref="media_activities"/>
-    <file name="pic_event03-u528557-r-fr.jpg" crc="4198041628" ref="media_activities"/>
-    <file name="pic_event03-u528557-r-fr_2x.jpg" crc="391355895" ref="media_activities"/>
-    <file name="pic_poster03-u528644-fr.png" crc="160670529" ref="media_activities"/>
-    <file name="pic_poster03-u528644-fr_2x.png" crc="333527271" ref="media_activities"/>
-    <file name="pic_poster03-u528644-r-fr.jpg" crc="520077174" ref="media_activities"/>
-    <file name="pic_poster03-u528644-r-fr_2x.jpg" crc="146072358" ref="media_activities"/>
-    <file name="pic_event08-u528731-fr.png" crc="4211937794" ref="media_activities"/>
-    <file name="pic_event08-u528731-fr_2x.png" crc="4146993154" ref="media_activities"/>
-    <file name="pic_event08-u528731-r-fr.jpg" crc="178597652" ref="media_activities"/>
-    <file name="pic_event08-u528731-r-fr_2x.jpg" crc="4260686351" ref="media_activities"/>
-    <file name="pic_event02-u528586-fr.png" crc="4290218463" ref="media_activities"/>
-    <file name="pic_event02-u528586-fr_2x.png" crc="3895627148" ref="media_activities"/>
-    <file name="pic_event02-u528586-r-fr.jpg" crc="4210408668" ref="media_activities"/>
-    <file name="pic_event02-u528586-r-fr_2x.jpg" crc="323792628" ref="media_activities"/>
-    <file name="pic_event06-u528665-fr.png" crc="208909174" ref="media_activities"/>
-    <file name="pic_event06-u528665-fr_2x.png" crc="3980077574" ref="media_activities"/>
-    <file name="pic_event06-u528665-r-fr.jpg" crc="115062355" ref="media_activities"/>
-    <file name="pic_event06-u528665-r-fr_2x.jpg" crc="122326000" ref="media_activities"/>
-    <file name="pic_event11-u530782-fr.png" crc="11047765" ref="media_activities"/>
-    <file name="pic_event11-u530782-fr_2x.png" crc="79973448" ref="media_activities"/>
-    <file name="pic_event11-u530782-r-fr.jpg" crc="4116637758" ref="media_activities"/>
-    <file name="pic_event11-u530782-r-fr_2x.jpg" crc="490672260" ref="media_activities"/>
+    <file name="spe_5159.jpg" crc="3932339702" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5159_2x.jpg" crc="3991965455" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5184.jpg" crc="493053650" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5184_2x.jpg" crc="3848976357" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5214.jpg" crc="3845020117" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5214_2x.jpg" crc="3948962865" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5233.jpg" crc="9657068" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5233_2x.jpg" crc="4012354680" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5270.jpg" crc="4116280144" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5270_2x.jpg" crc="105525454" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5287.jpg" crc="4143763165" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5287_2x.jpg" crc="442162701" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5295.jpg" crc="3913174680" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5295_2x.jpg" crc="4225803785" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5298.jpg" crc="4172329956" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5298_2x.jpg" crc="474863007" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5318.jpg" crc="4152407000" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5318_2x.jpg" crc="4200073096" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5339.jpg" crc="3783317894" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5339_2x.jpg" crc="3949354876" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5374.jpg" crc="4118414260" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5374_2x.jpg" crc="3840102778" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5382.jpg" crc="4251326673" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5382_2x.jpg" crc="3969730818" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5385.jpg" crc="3856279117" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5385_2x.jpg" crc="4108509118" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5386.jpg" crc="4054876641" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5386_2x.jpg" crc="410318025" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5388.jpg" crc="231531345" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5388_2x.jpg" crc="390149357" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="spe_5105-u538643-fr.png" crc="4120494837" ref="media_activities"/>
+    <file name="spe_5105-u538643-fr_2x.png" crc="4058364577" ref="media_activities"/>
+    <file name="spe_5105-u538643-r-fr.jpg" crc="3886182009" ref="media_activities"/>
+    <file name="spe_5105-u538643-r-fr_2x.jpg" crc="311084207" ref="media_activities"/>
+    <file name="spe_5111-u538650-fr.png" crc="4263742565" ref="media_activities"/>
+    <file name="spe_5111-u538650-fr_2x.png" crc="4232828984" ref="media_activities"/>
+    <file name="spe_5111-u538650-r-fr.jpg" crc="220075624" ref="media_activities"/>
+    <file name="spe_5111-u538650-r-fr_2x.jpg" crc="4135957127" ref="media_activities"/>
+    <file name="spe_5124-u538645-fr.png" crc="4039930574" ref="media_activities"/>
+    <file name="spe_5124-u538645-fr_2x.png" crc="4188445296" ref="media_activities"/>
+    <file name="spe_5124-u538645-r-fr.jpg" crc="3904707293" ref="media_activities"/>
+    <file name="spe_5124-u538645-r-fr_2x.jpg" crc="4024553315" ref="media_activities"/>
+    <file name="spe_5159-u538953-fr.png" crc="114216059" ref="media_activities"/>
+    <file name="spe_5159-u538953-fr_2x.png" crc="4092713776" ref="media_activities"/>
+    <file name="spe_5159-u538953-r-fr.jpg" crc="3972708975" ref="media_activities"/>
+    <file name="spe_5159-u538953-r-fr_2x.jpg" crc="4224417800" ref="media_activities"/>
+    <file name="spe_5233-u539010-fr.png" crc="213869226" ref="media_activities"/>
+    <file name="spe_5233-u539010-fr_2x.png" crc="502308915" ref="media_activities"/>
+    <file name="spe_5233-u539010-r-fr.jpg" crc="372768306" ref="media_activities"/>
+    <file name="spe_5233-u539010-r-fr_2x.jpg" crc="4134637382" ref="media_activities"/>
+    <file name="spe_5295-u539133-fr.png" crc="4164908339" ref="media_activities"/>
+    <file name="spe_5295-u539133-fr_2x.png" crc="3893729941" ref="media_activities"/>
+    <file name="spe_5295-u539133-r-fr.jpg" crc="386783778" ref="media_activities"/>
+    <file name="spe_5295-u539133-r-fr_2x.jpg" crc="20612587" ref="media_activities"/>
+    <file name="spe_5339-u539214-fr.png" crc="53791083" ref="media_activities"/>
+    <file name="spe_5339-u539214-fr_2x.png" crc="4027330617" ref="media_activities"/>
+    <file name="spe_5339-u539214-r-fr.jpg" crc="45998467" ref="media_activities"/>
+    <file name="spe_5339-u539214-r-fr_2x.jpg" crc="15825917" ref="media_activities"/>
+    <file name="spe_5385-u539295-fr.png" crc="3788719453" ref="media_activities"/>
+    <file name="spe_5385-u539295-fr_2x.png" crc="4060275368" ref="media_activities"/>
+    <file name="spe_5385-u539295-r-fr.jpg" crc="281086606" ref="media_activities"/>
+    <file name="spe_5385-u539295-r-fr_2x.jpg" crc="254829965" ref="media_activities"/>
+    <file name="spe_5106-u538646-fr.png" crc="4024983911" ref="media_activities"/>
+    <file name="spe_5106-u538646-fr_2x.png" crc="4231470126" ref="media_activities"/>
+    <file name="spe_5106-u538646-r-fr.jpg" crc="3789747651" ref="media_activities"/>
+    <file name="spe_5106-u538646-r-fr_2x.jpg" crc="447281359" ref="media_activities"/>
+    <file name="spe_5113-u538644-fr.png" crc="212341315" ref="media_activities"/>
+    <file name="spe_5113-u538644-fr_2x.png" crc="4196734140" ref="media_activities"/>
+    <file name="spe_5113-u538644-r-fr.jpg" crc="34620752" ref="media_activities"/>
+    <file name="spe_5113-u538644-r-fr_2x.jpg" crc="4065424851" ref="media_activities"/>
+    <file name="spe_5129-u538648-fr.png" crc="4115703665" ref="media_activities"/>
+    <file name="spe_5129-u538648-fr_2x.png" crc="483443727" ref="media_activities"/>
+    <file name="spe_5129-u538648-r-fr.jpg" crc="406478474" ref="media_activities"/>
+    <file name="spe_5129-u538648-r-fr_2x.jpg" crc="263221394" ref="media_activities"/>
+    <file name="spe_5184-u538974-fr.png" crc="326595569" ref="media_activities"/>
+    <file name="spe_5184-u538974-fr_2x.png" crc="473285238" ref="media_activities"/>
+    <file name="spe_5184-u538974-r-fr.jpg" crc="3957740510" ref="media_activities"/>
+    <file name="spe_5184-u538974-r-fr_2x.jpg" crc="105930340" ref="media_activities"/>
+    <file name="spe_5270-u539046-fr.png" crc="4042609366" ref="media_activities"/>
+    <file name="spe_5270-u539046-fr_2x.png" crc="4126812368" ref="media_activities"/>
+    <file name="spe_5270-u539046-r-fr.jpg" crc="4253342477" ref="media_activities"/>
+    <file name="spe_5270-u539046-r-fr_2x.jpg" crc="4079321269" ref="media_activities"/>
+    <file name="spe_5298-u539151-fr.png" crc="97699497" ref="media_activities"/>
+    <file name="spe_5298-u539151-fr_2x.png" crc="3787779533" ref="media_activities"/>
+    <file name="spe_5298-u539151-r-fr.jpg" crc="399459685" ref="media_activities"/>
+    <file name="spe_5298-u539151-r-fr_2x.jpg" crc="4229847068" ref="media_activities"/>
+    <file name="spe_5374-u539232-fr.png" crc="4224430194" ref="media_activities"/>
+    <file name="spe_5374-u539232-fr_2x.png" crc="265024501" ref="media_activities"/>
+    <file name="spe_5374-u539232-r-fr.jpg" crc="203254276" ref="media_activities"/>
+    <file name="spe_5374-u539232-r-fr_2x.jpg" crc="266228425" ref="media_activities"/>
+    <file name="spe_5386-u539313-fr.png" crc="309515316" ref="media_activities"/>
+    <file name="spe_5386-u539313-fr_2x.png" crc="4279856738" ref="media_activities"/>
+    <file name="spe_5386-u539313-r-fr.jpg" crc="461781911" ref="media_activities"/>
+    <file name="spe_5386-u539313-r-fr_2x.jpg" crc="3994451599" ref="media_activities"/>
+    <file name="spe_5109-u538647-fr.png" crc="3810421995" ref="media_activities"/>
+    <file name="spe_5109-u538647-fr_2x.png" crc="4205899964" ref="media_activities"/>
+    <file name="spe_5109-u538647-r-fr.jpg" crc="222372847" ref="media_activities"/>
+    <file name="spe_5109-u538647-r-fr_2x.jpg" crc="3858804474" ref="media_activities"/>
+    <file name="spe_5115-u538649-fr.png" crc="45606467" ref="media_activities"/>
+    <file name="spe_5115-u538649-fr_2x.png" crc="3783701253" ref="media_activities"/>
+    <file name="spe_5115-u538649-r-fr.jpg" crc="3787312280" ref="media_activities"/>
+    <file name="spe_5115-u538649-r-fr_2x.jpg" crc="124673516" ref="media_activities"/>
+    <file name="spe_5144-u538642-fr.png" crc="3776108856" ref="media_activities"/>
+    <file name="spe_5144-u538642-fr_2x.png" crc="3859725410" ref="media_activities"/>
+    <file name="spe_5144-u538642-r-fr.jpg" crc="4202210219" ref="media_activities"/>
+    <file name="spe_5144-u538642-r-fr_2x.jpg" crc="4161063077" ref="media_activities"/>
+    <file name="spe_5214-u538992-fr.png" crc="431499850" ref="media_activities"/>
+    <file name="spe_5214-u538992-fr_2x.png" crc="36496275" ref="media_activities"/>
+    <file name="spe_5214-u538992-r-fr.jpg" crc="4100888308" ref="media_activities"/>
+    <file name="spe_5214-u538992-r-fr_2x.jpg" crc="4220236523" ref="media_activities"/>
+    <file name="spe_5287-u539112-fr.png" crc="4010749518" ref="media_activities"/>
+    <file name="spe_5287-u539112-fr_2x.png" crc="4067799962" ref="media_activities"/>
+    <file name="spe_5287-u539112-r-fr.jpg" crc="309941474" ref="media_activities"/>
+    <file name="spe_5287-u539112-r-fr_2x.jpg" crc="3936446111" ref="media_activities"/>
+    <file name="spe_5318-u539193-fr.png" crc="4034016820" ref="media_activities"/>
+    <file name="spe_5318-u539193-fr_2x.png" crc="4058527042" ref="media_activities"/>
+    <file name="spe_5318-u539193-r-fr.jpg" crc="504129528" ref="media_activities"/>
+    <file name="spe_5318-u539193-r-fr_2x.jpg" crc="139488928" ref="media_activities"/>
+    <file name="spe_5382-u539274-fr.png" crc="3868555368" ref="media_activities"/>
+    <file name="spe_5382-u539274-fr_2x.png" crc="4260256289" ref="media_activities"/>
+    <file name="spe_5382-u539274-r-fr.jpg" crc="4073424722" ref="media_activities"/>
+    <file name="spe_5382-u539274-r-fr_2x.jpg" crc="3950239998" ref="media_activities"/>
+    <file name="spe_5388-u539355-fr.png" crc="19631213" ref="media_activities"/>
+    <file name="spe_5388-u539355-fr_2x.png" crc="3831090733" ref="media_activities"/>
+    <file name="spe_5388-u539355-r-fr.jpg" crc="317905933" ref="media_activities"/>
+    <file name="spe_5388-u539355-r-fr_2x.jpg" crc="3789205604" ref="media_activities"/>
     <file name="pic_event13.jpg" crc="4240328294" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
@@ -718,22 +880,114 @@
     <file name="pic_event09.jpg" crc="36473298" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event13-u528820-fr.png" crc="3937588493" ref="media_activities"/>
-    <file name="pic_event13-u528820-fr_2x.png" crc="4259331914" ref="media_activities"/>
-    <file name="pic_event13-u528820-r-fr.jpg" crc="394868555" ref="media_activities"/>
-    <file name="pic_event13-u528820-r-fr_2x.jpg" crc="409720600" ref="media_activities"/>
-    <file name="pic_event09-u528816-fr.png" crc="39307624" ref="media_activities"/>
-    <file name="pic_event09-u528816-fr_2x.png" crc="3861065265" ref="media_activities"/>
-    <file name="pic_event09-u528816-r-fr.jpg" crc="4145115519" ref="media_activities"/>
-    <file name="pic_event09-u528816-r-fr_2x.jpg" crc="3947177575" ref="media_activities"/>
-    <file name="pic_event12-u528814-fr.png" crc="319517777" ref="media_activities"/>
-    <file name="pic_event12-u528814-fr_2x.png" crc="4040737474" ref="media_activities"/>
-    <file name="pic_event12-u528814-r-fr.jpg" crc="3801702344" ref="media_activities"/>
-    <file name="pic_event12-u528814-r-fr_2x.jpg" crc="4015436304" ref="media_activities"/>
-    <file name="pic_event10-u528813-fr.png" crc="440037868" ref="media_activities"/>
-    <file name="pic_event10-u528813-fr_2x.png" crc="4051561872" ref="media_activities"/>
-    <file name="pic_event10-u528813-r-fr.jpg" crc="3900540310" ref="media_activities"/>
-    <file name="pic_event10-u528813-r-fr_2x.jpg" crc="121188453" ref="media_activities"/>
+    <file name="pic_event13-u538365-fr.png" crc="3937588493" ref="media_activities"/>
+    <file name="pic_event13-u538365-fr_2x.png" crc="4259331914" ref="media_activities"/>
+    <file name="pic_event13-u538365-r-fr.jpg" crc="394868555" ref="media_activities"/>
+    <file name="pic_event13-u538365-r-fr_2x.jpg" crc="409720600" ref="media_activities"/>
+    <file name="pic_event09-u538372-fr.png" crc="39307624" ref="media_activities"/>
+    <file name="pic_event09-u538372-fr_2x.png" crc="3861065265" ref="media_activities"/>
+    <file name="pic_event09-u538372-r-fr.jpg" crc="4145115519" ref="media_activities"/>
+    <file name="pic_event09-u538372-r-fr_2x.jpg" crc="3947177575" ref="media_activities"/>
+    <file name="pic_event12-u538368-fr.png" crc="319517777" ref="media_activities"/>
+    <file name="pic_event12-u538368-fr_2x.png" crc="4040737474" ref="media_activities"/>
+    <file name="pic_event12-u538368-r-fr.jpg" crc="3801702344" ref="media_activities"/>
+    <file name="pic_event12-u538368-r-fr_2x.jpg" crc="4015436304" ref="media_activities"/>
+    <file name="pic_event10-u538369-fr.png" crc="440037868" ref="media_activities"/>
+    <file name="pic_event10-u538369-fr_2x.png" crc="4051561872" ref="media_activities"/>
+    <file name="pic_event10-u538369-r-fr.jpg" crc="3900540310" ref="media_activities"/>
+    <file name="pic_event10-u538369-r-fr_2x.jpg" crc="121188453" ref="media_activities"/>
+    <file name="pic_event04.jpg" crc="4248193995" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event03.jpg" crc="4199615360" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event03_2x.jpg" crc="136297966" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event02.jpg" crc="3874365559" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event02_2x.jpg" crc="4104047115" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event01.jpg" crc="27731300" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event01_2x.jpg" crc="4156397909" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_poster03-u528656-fr.jpg" crc="140958700" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x.jpg" crc="194297163" ref="media_activities"/>
+    <file name="pic_event06.jpg" crc="4288178121" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event05.jpg" crc="410962962" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event08.jpg" crc="3954015594" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event11.jpg" crc="324538214" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event11_2x.jpg" crc="348771813" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event04-u528148-fr.png" crc="4063236710" ref="media_activities"/>
+    <file name="pic_event04-u528148-fr_2x.png" crc="4033545977" ref="media_activities"/>
+    <file name="pic_event04-u528148-r-fr.jpg" crc="63347724" ref="media_activities"/>
+    <file name="pic_event04-u528148-r-fr_2x.jpg" crc="4051118666" ref="media_activities"/>
+    <file name="pic_event01-u528615-fr.png" crc="337292888" ref="media_activities"/>
+    <file name="pic_event01-u528615-fr_2x.png" crc="127972595" ref="media_activities"/>
+    <file name="pic_event01-u528615-r-fr.jpg" crc="4210345613" ref="media_activities"/>
+    <file name="pic_event01-u528615-r-fr_2x.jpg" crc="170335979" ref="media_activities"/>
+    <file name="pic_event05-u528694-fr.png" crc="505646478" ref="media_activities"/>
+    <file name="pic_event05-u528694-fr_2x.png" crc="397754844" ref="media_activities"/>
+    <file name="pic_event05-u528694-r-fr.jpg" crc="518741814" ref="media_activities"/>
+    <file name="pic_event05-u528694-r-fr_2x.jpg" crc="490495815" ref="media_activities"/>
+    <file name="pic_event03-u528557-fr.png" crc="3846217655" ref="media_activities"/>
+    <file name="pic_event03-u528557-fr_2x.png" crc="3986917090" ref="media_activities"/>
+    <file name="pic_event03-u528557-r-fr.jpg" crc="3775125073" ref="media_activities"/>
+    <file name="pic_event03-u528557-r-fr_2x.jpg" crc="4221179328" ref="media_activities"/>
+    <file name="pic_poster03-u528644-fr.png" crc="160670529" ref="media_activities"/>
+    <file name="pic_poster03-u528644-fr_2x.png" crc="333527271" ref="media_activities"/>
+    <file name="pic_poster03-u528644-r-fr.jpg" crc="520077174" ref="media_activities"/>
+    <file name="pic_poster03-u528644-r-fr_2x.jpg" crc="146072358" ref="media_activities"/>
+    <file name="pic_event08-u528731-fr.png" crc="4211937794" ref="media_activities"/>
+    <file name="pic_event08-u528731-fr_2x.png" crc="4146993154" ref="media_activities"/>
+    <file name="pic_event08-u528731-r-fr.jpg" crc="178597652" ref="media_activities"/>
+    <file name="pic_event08-u528731-r-fr_2x.jpg" crc="4260686351" ref="media_activities"/>
+    <file name="pic_event02-u528586-fr.png" crc="420463218" ref="media_activities"/>
+    <file name="pic_event02-u528586-fr_2x.png" crc="345942439" ref="media_activities"/>
+    <file name="pic_event02-u528586-r-fr.jpg" crc="3776596792" ref="media_activities"/>
+    <file name="pic_event02-u528586-r-fr_2x.jpg" crc="3937401871" ref="media_activities"/>
+    <file name="pic_event06-u528665-fr.png" crc="208909174" ref="media_activities"/>
+    <file name="pic_event06-u528665-fr_2x.png" crc="3980077574" ref="media_activities"/>
+    <file name="pic_event06-u528665-r-fr.jpg" crc="115062355" ref="media_activities"/>
+    <file name="pic_event06-u528665-r-fr_2x.jpg" crc="122326000" ref="media_activities"/>
+    <file name="pic_event11-u530782-fr.png" crc="3837325571" ref="media_activities"/>
+    <file name="pic_event11-u530782-fr_2x.png" crc="3936120891" ref="media_activities"/>
+    <file name="pic_event11-u530782-r-fr.jpg" crc="25649006" ref="media_activities"/>
+    <file name="pic_event11-u530782-r-fr_2x.jpg" crc="50863709" ref="media_activities"/>
+    <file name="poster butalk2.jpg" crc="500319328" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster butalk2_2x.jpg" crc="3803236720" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster talk1.jpg" crc="188141784" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster talk1_2x.jpg" crc="3980770216" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster mpil.jpg" crc="418497242" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="poster mpil_2x.jpg" crc="333973418" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
     <file name="poster 50plus.jpg" crc="4035310916" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
@@ -746,48 +1000,18 @@
     <file name="poster iatp_2x.jpg" crc="180170352" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="facebook_s-u499059-fr.png" crc="301183119" ref="media_activities"/>
-    <file name="facebook_s-u499059-fr_2x.png" crc="129529778" ref="media_activities"/>
-    <file name="facebook-u499059-r-fr.png" crc="434960246" ref="media_activities"/>
-    <file name="facebook-u499059-r-fr_2x.png" crc="526248403" ref="media_activities"/>
     <file name="st_news01.jpg" crc="224596415" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
     <file name="media_photo01.jpg" crc="505134203" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event042.jpg" crc="141347311" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04_2x.jpg" crc="4248193995" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_poster03-u528656-fr2.jpg" crc="352045900" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr_2x2.jpg" crc="3905370087" ref="media_activities"/>
-    <file name="pic_event062.jpg" crc="4204182203" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event06_2x.jpg" crc="4288178121" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event052.jpg" crc="3758219503" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event05_2x.jpg" crc="410962962" ref="media_activities">
-      <caption webpage="media_activities" alt=""/>
-    </file>
-    <file name="pic_event04-u528140-fr.jpg" crc="320117082" ref="media_activities"/>
-    <file name="pic_event04-u528140-fr_2x.jpg" crc="3820792083" ref="media_activities"/>
-    <file name="pic_event03-u528569-fr.jpg" crc="487222784" ref="media_activities"/>
-    <file name="pic_event03-u528569-fr_2x.jpg" crc="258881898" ref="media_activities"/>
-    <file name="pic_event02-u528598-fr.jpg" crc="4030275355" ref="media_activities"/>
-    <file name="pic_event02-u528598-fr_2x.jpg" crc="3947538137" ref="media_activities"/>
-    <file name="pic_event01-u528627-fr.jpg" crc="3967606253" ref="media_activities"/>
-    <file name="pic_event01-u528627-fr_2x.jpg" crc="294776038" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr3.jpg" crc="266557008" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr_2x3.jpg" crc="4105293342" ref="media_activities"/>
-    <file name="pic_event11-u530794-fr.jpg" crc="450844655" ref="media_activities"/>
-    <file name="pic_event11-u530794-fr_2x.jpg" crc="483340663" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr2.jpg" crc="4046172631" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x2.jpg" crc="3988411815" ref="media_activities"/>
+    <file name="facebook_s-u499059-fr2.png" crc="188299485" ref="media_activities"/>
+    <file name="facebook_s-u499059-fr_2x2.png" crc="356282212" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr2.png" crc="487347874" ref="media_activities"/>
+    <file name="facebook-u499059-r-fr_2x2.png" crc="3876160477" ref="media_activities"/>
     <file name="pic_event132.jpg" crc="446562538" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
@@ -800,68 +1024,258 @@
     <file name="pic_event12_2x.jpg" crc="4094543703" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="facebook_s-u499059-fr2.png" crc="188299485" ref="media_activities"/>
-    <file name="facebook_s-u499059-fr_2x2.png" crc="356282212" ref="media_activities"/>
-    <file name="facebook-u499059-r-fr2.png" crc="487347874" ref="media_activities"/>
-    <file name="facebook-u499059-r-fr_2x2.png" crc="3876160477" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr.jpg" crc="320117082" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr_2x.jpg" crc="3820792083" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr.jpg" crc="4023152994" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr_2x.jpg" crc="3883023152" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr.jpg" crc="3821608157" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr_2x.jpg" crc="4136754287" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr.jpg" crc="502703241" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr_2x.jpg" crc="4088542793" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr3.jpg" crc="282037951" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x3.jpg" crc="3819554040" ref="media_activities"/>
+    <file name="pic_event062.jpg" crc="4204182203" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event06_2x.jpg" crc="4288178121" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event052.jpg" crc="3758219503" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event05_2x.jpg" crc="410962962" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="pic_event11-u530794-fr.jpg" crc="4205975228" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr_2x.jpg" crc="82160952" ref="media_activities"/>
+    <file name="poster talk1-u532708-fr.jpg" crc="4171276683" ref="media_activities"/>
+    <file name="poster talk1-u532708-fr_2x.jpg" crc="108686658" ref="media_activities"/>
+    <file name="poster 50plus-u524969-fr.jpg" crc="3920165722" ref="media_activities"/>
+    <file name="poster 50plus-u524969-fr_2x.jpg" crc="4052067522" ref="media_activities"/>
+    <file name="poster mpil-u408395-fr.jpg" crc="106049786" ref="media_activities"/>
+    <file name="poster mpil-u408395-fr_2x.jpg" crc="4134864777" ref="media_activities"/>
+    <file name="poster iatp-u408408-fr.jpg" crc="111183155" ref="media_activities"/>
+    <file name="poster iatp-u408408-fr_2x.jpg" crc="101909668" ref="media_activities"/>
+    <file name="spe_5105-u538628-fr.jpg" crc="3909778497" ref="media_activities"/>
+    <file name="spe_5105-u538628-fr_2x.jpg" crc="3936539492" ref="media_activities"/>
+    <file name="spe_5106-u538633-fr.jpg" crc="360460173" ref="media_activities"/>
+    <file name="spe_5106-u538633-fr_2x.jpg" crc="3831206723" ref="media_activities"/>
+    <file name="spe_5109-u538634-fr.jpg" crc="3810118096" ref="media_activities"/>
+    <file name="spe_5109-u538634-fr_2x.jpg" crc="4101338165" ref="media_activities"/>
+    <file name="spe_5111-u538636-fr.jpg" crc="425871615" ref="media_activities"/>
+    <file name="spe_5111-u538636-fr_2x.jpg" crc="315816952" ref="media_activities"/>
+    <file name="spe_5113-u538629-fr.jpg" crc="333071434" ref="media_activities"/>
+    <file name="spe_5113-u538629-fr_2x.jpg" crc="513858630" ref="media_activities"/>
+    <file name="spe_5115-u538630-fr.jpg" crc="4147338641" ref="media_activities"/>
+    <file name="spe_5115-u538630-fr_2x.jpg" crc="4262611718" ref="media_activities"/>
+    <file name="spe_5124-u538631-fr.jpg" crc="198518868" ref="media_activities"/>
+    <file name="spe_5124-u538631-fr_2x.jpg" crc="4103714072" ref="media_activities"/>
+    <file name="spe_5129-u538632-fr.jpg" crc="4074095894" ref="media_activities"/>
+    <file name="spe_5129-u538632-fr_2x.jpg" crc="3804903165" ref="media_activities"/>
+    <file name="spe_5144-u538635-fr.jpg" crc="80094621" ref="media_activities"/>
+    <file name="spe_5144-u538635-fr_2x.jpg" crc="3875412830" ref="media_activities"/>
+    <file name="spe_5159-u538965-fr.jpg" crc="156079254" ref="media_activities"/>
+    <file name="spe_5159-u538965-fr_2x.jpg" crc="457384212" ref="media_activities"/>
+    <file name="spe_5184-u538983-fr.jpg" crc="3992747869" ref="media_activities"/>
+    <file name="spe_5184-u538983-fr_2x.jpg" crc="287119307" ref="media_activities"/>
+    <file name="spe_5214-u539001-fr.jpg" crc="4278475286" ref="media_activities"/>
+    <file name="spe_5214-u539001-fr_2x.jpg" crc="48524502" ref="media_activities"/>
+    <file name="spe_5233-u539019-fr.jpg" crc="311068072" ref="media_activities"/>
+    <file name="spe_5233-u539019-fr_2x.jpg" crc="246995435" ref="media_activities"/>
+    <file name="spe_5270-u539055-fr.jpg" crc="4164043384" ref="media_activities"/>
+    <file name="spe_5270-u539055-fr_2x.jpg" crc="3909863743" ref="media_activities"/>
+    <file name="spe_5287-u539124-fr.jpg" crc="3906125655" ref="media_activities"/>
+    <file name="spe_5287-u539124-fr_2x.jpg" crc="115019914" ref="media_activities"/>
+    <file name="spe_5295-u539142-fr.jpg" crc="452278407" ref="media_activities"/>
+    <file name="spe_5295-u539142-fr_2x.jpg" crc="4111589421" ref="media_activities"/>
+    <file name="spe_5298-u539160-fr.jpg" crc="378412857" ref="media_activities"/>
+    <file name="spe_5298-u539160-fr_2x.jpg" crc="104404928" ref="media_activities"/>
+    <file name="spe_5318-u539205-fr.jpg" crc="525030989" ref="media_activities"/>
+    <file name="spe_5318-u539205-fr_2x.jpg" crc="400305745" ref="media_activities"/>
+    <file name="spe_5339-u539223-fr.jpg" crc="59239984" ref="media_activities"/>
+    <file name="spe_5339-u539223-fr_2x.jpg" crc="4249221074" ref="media_activities"/>
+    <file name="spe_5374-u539241-fr.jpg" crc="116492349" ref="media_activities"/>
+    <file name="spe_5374-u539241-fr_2x.jpg" crc="476000922" ref="media_activities"/>
+    <file name="spe_5382-u539286-fr.jpg" crc="4281657257" ref="media_activities"/>
+    <file name="spe_5382-u539286-fr_2x.jpg" crc="312642966" ref="media_activities"/>
+    <file name="spe_5385-u539304-fr.jpg" crc="4001651390" ref="media_activities"/>
+    <file name="spe_5385-u539304-fr_2x.jpg" crc="4242579885" ref="media_activities"/>
+    <file name="spe_5386-u539322-fr.jpg" crc="70799430" ref="media_activities"/>
+    <file name="spe_5386-u539322-fr_2x.jpg" crc="4145371683" ref="media_activities"/>
+    <file name="spe_5388-u539367-fr.jpg" crc="150891529" ref="media_activities"/>
+    <file name="spe_5388-u539367-fr_2x.jpg" crc="196654407" ref="media_activities"/>
     <file name="st_news012.jpg" crc="3788685552" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
     <file name="st_news01_2x.jpg" crc="224596415" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event04-u528140-fr2.jpg" crc="156440517" ref="media_activities"/>
-    <file name="pic_event04-u528140-fr_2x2.jpg" crc="10581477" ref="media_activities"/>
-    <file name="pic_event03-u528569-fr2.jpg" crc="3984552469" ref="media_activities"/>
-    <file name="pic_event03-u528569-fr_2x2.jpg" crc="94364255" ref="media_activities"/>
-    <file name="pic_event02-u528598-fr2.jpg" crc="4111879852" ref="media_activities"/>
-    <file name="pic_event02-u528598-fr_2x2.jpg" crc="4146968235" ref="media_activities"/>
-    <file name="pic_event01-u528627-fr2.jpg" crc="4291569989" ref="media_activities"/>
-    <file name="pic_event01-u528627-fr_2x2.jpg" crc="3844979425" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr4.jpg" crc="4222310646" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr_2x4.jpg" crc="173972236" ref="media_activities"/>
-    <file name="pic_event06-u528677-fr.jpg" crc="58779891" ref="media_activities"/>
-    <file name="pic_event06-u528677-fr_2x.jpg" crc="3890500772" ref="media_activities"/>
-    <file name="pic_event05-u528706-fr.jpg" crc="168779764" ref="media_activities"/>
-    <file name="pic_event05-u528706-fr_2x.jpg" crc="498461225" ref="media_activities"/>
+    <file name="spe_5105-u538628-fr2.jpg" crc="4129188399" ref="media_activities"/>
+    <file name="spe_5105-u538628-fr_2x2.jpg" crc="227105933" ref="media_activities"/>
+    <file name="spe_5106-u538633-fr2.jpg" crc="4021885027" ref="media_activities"/>
+    <file name="spe_5106-u538633-fr_2x2.jpg" crc="4019331043" ref="media_activities"/>
+    <file name="spe_5109-u538634-fr2.jpg" crc="4062759267" ref="media_activities"/>
+    <file name="spe_5109-u538634-fr_2x2.jpg" crc="3976619940" ref="media_activities"/>
+    <file name="spe_5111-u538636-fr2.jpg" crc="3847753634" ref="media_activities"/>
+    <file name="spe_5111-u538636-fr_2x2.jpg" crc="4117106652" ref="media_activities"/>
+    <file name="spe_5113-u538629-fr2.jpg" crc="117623895" ref="media_activities"/>
+    <file name="spe_5113-u538629-fr_2x2.jpg" crc="87359828" ref="media_activities"/>
+    <file name="spe_5115-u538630-fr2.jpg" crc="4023797666" ref="media_activities"/>
+    <file name="spe_5115-u538630-fr_2x2.jpg" crc="3984937165" ref="media_activities"/>
+    <file name="spe_5124-u538631-fr2.jpg" crc="3973721197" ref="media_activities"/>
+    <file name="spe_5124-u538631-fr_2x2.jpg" crc="3950414158" ref="media_activities"/>
+    <file name="spe_5129-u538632-fr2.jpg" crc="3866968746" ref="media_activities"/>
+    <file name="spe_5129-u538632-fr_2x2.jpg" crc="4260156201" ref="media_activities"/>
+    <file name="spe_5144-u538635-fr2.jpg" crc="536106694" ref="media_activities"/>
+    <file name="spe_5144-u538635-fr_2x2.jpg" crc="3811212016" ref="media_activities"/>
+    <file name="spe_5159-u538965-fr2.jpg" crc="4214819807" ref="media_activities"/>
+    <file name="spe_5159-u538965-fr_2x2.jpg" crc="498045439" ref="media_activities"/>
+    <file name="spe_5184-u538983-fr2.jpg" crc="408708650" ref="media_activities"/>
+    <file name="spe_5184-u538983-fr_2x2.jpg" crc="487592162" ref="media_activities"/>
+    <file name="spe_5214-u539001-fr2.jpg" crc="3845816028" ref="media_activities"/>
+    <file name="spe_5214-u539001-fr_2x2.jpg" crc="4167562383" ref="media_activities"/>
+    <file name="spe_5233-u539019-fr2.jpg" crc="39893930" ref="media_activities"/>
+    <file name="spe_5233-u539019-fr_2x2.jpg" crc="4100621289" ref="media_activities"/>
+    <file name="spe_5270-u539055-fr2.jpg" crc="3804580716" ref="media_activities"/>
+    <file name="spe_5270-u539055-fr_2x2.jpg" crc="3786808718" ref="media_activities"/>
+    <file name="spe_5287-u539124-fr2.jpg" crc="4152014239" ref="media_activities"/>
+    <file name="spe_5287-u539124-fr_2x2.jpg" crc="390282612" ref="media_activities"/>
+    <file name="spe_5295-u539142-fr2.jpg" crc="3834227951" ref="media_activities"/>
+    <file name="spe_5295-u539142-fr_2x2.jpg" crc="203696721" ref="media_activities"/>
+    <file name="spe_5298-u539160-fr2.jpg" crc="3825077056" ref="media_activities"/>
+    <file name="spe_5298-u539160-fr_2x2.jpg" crc="4026016557" ref="media_activities"/>
+    <file name="spe_5318-u539205-fr2.jpg" crc="3964545080" ref="media_activities"/>
+    <file name="spe_5318-u539205-fr_2x2.jpg" crc="218347573" ref="media_activities"/>
+    <file name="spe_5339-u539223-fr2.jpg" crc="4186235909" ref="media_activities"/>
+    <file name="spe_5339-u539223-fr_2x2.jpg" crc="3980002902" ref="media_activities"/>
+    <file name="spe_5374-u539241-fr2.jpg" crc="530678782" ref="media_activities"/>
+    <file name="spe_5374-u539241-fr_2x2.jpg" crc="3996523485" ref="media_activities"/>
+    <file name="spe_5382-u539286-fr2.jpg" crc="3855819048" ref="media_activities"/>
+    <file name="spe_5382-u539286-fr_2x2.jpg" crc="3866512091" ref="media_activities"/>
+    <file name="spe_5385-u539304-fr2.jpg" crc="481083667" ref="media_activities"/>
+    <file name="spe_5385-u539304-fr_2x2.jpg" crc="3786542665" ref="media_activities"/>
+    <file name="spe_5386-u539322-fr2.jpg" crc="4171768494" ref="media_activities"/>
+    <file name="spe_5386-u539322-fr_2x2.jpg" crc="4271397092" ref="media_activities"/>
+    <file name="spe_5388-u539367-fr2.jpg" crc="4097142512" ref="media_activities"/>
+    <file name="spe_5388-u539367-fr_2x2.jpg" crc="4173513605" ref="media_activities"/>
+    <file name="pic_event13-u538350-fr.jpg" crc="4112791685" ref="media_activities"/>
+    <file name="pic_event13-u538350-fr_2x.jpg" crc="281283262" ref="media_activities"/>
+    <file name="pic_event12-u538355-fr.jpg" crc="72286575" ref="media_activities"/>
+    <file name="pic_event12-u538355-fr_2x.jpg" crc="381756689" ref="media_activities"/>
+    <file name="pic_event09-u538358-fr.jpg" crc="4046410814" ref="media_activities"/>
+    <file name="pic_event09-u538358-fr_2x.jpg" crc="3786357901" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr2.jpg" crc="3899915184" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr_2x2.jpg" crc="55796704" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr2.jpg" crc="4051662140" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr_2x2.jpg" crc="53293557" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr2.jpg" crc="4116127374" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr_2x2.jpg" crc="274346680" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr2.jpg" crc="4019061045" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr_2x2.jpg" crc="448981710" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr4.jpg" crc="3901550706" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x4.jpg" crc="272048129" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr.jpg" crc="3834274079" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr_2x.jpg" crc="23030965" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr.jpg" crc="4168819066" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr_2x.jpg" crc="208660917" ref="media_activities"/>
     <file name="pic_event082.jpg" crc="4124436365" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
     <file name="pic_event08_2x.jpg" crc="3954015594" ref="media_activities">
       <caption webpage="media_activities" alt=""/>
     </file>
-    <file name="pic_event11-u530794-fr2.jpg" crc="374956533" ref="media_activities"/>
-    <file name="pic_event11-u530794-fr_2x2.jpg" crc="3953423147" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr2.jpg" crc="3819417347" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr_2x2.jpg" crc="397858107" ref="media_activities"/>
     <file name="st_news01-u523392-fr.jpg" crc="4253197102" ref="media_activities"/>
     <file name="st_news01-u523392-fr_2x.jpg" crc="4049771306" ref="media_activities"/>
-    <file name="poster butalk2-u532738-fr.jpg" crc="26595186" ref="media_activities"/>
-    <file name="poster butalk2-u532738-fr_2x.jpg" crc="422475140" ref="media_activities"/>
-    <file name="poster talk1-u532708-fr.jpg" crc="4034678880" ref="media_activities"/>
-    <file name="poster talk1-u532708-fr_2x.jpg" crc="394566458" ref="media_activities"/>
-    <file name="poster 50plus-u524969-fr.jpg" crc="34982519" ref="media_activities"/>
-    <file name="poster 50plus-u524969-fr_2x.jpg" crc="327702012" ref="media_activities"/>
-    <file name="poster iatp-u408408-fr.jpg" crc="336713854" ref="media_activities"/>
-    <file name="poster iatp-u408408-fr_2x.jpg" crc="67969650" ref="media_activities"/>
-    <file name="pic_event04-u528140-fr3.jpg" crc="496199847" ref="media_activities"/>
-    <file name="pic_event04-u528140-fr_2x3.jpg" crc="4113241015" ref="media_activities"/>
-    <file name="pic_event03-u528569-fr3.jpg" crc="3870365871" ref="media_activities"/>
-    <file name="pic_event03-u528569-fr_2x3.jpg" crc="3889017517" ref="media_activities"/>
-    <file name="pic_event02-u528598-fr3.jpg" crc="69175144" ref="media_activities"/>
-    <file name="pic_event02-u528598-fr_2x3.jpg" crc="4064869546" ref="media_activities"/>
-    <file name="pic_event01-u528627-fr3.jpg" crc="4190735846" ref="media_activities"/>
-    <file name="pic_event01-u528627-fr_2x3.jpg" crc="4103433359" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr5.jpg" crc="4182285145" ref="media_activities"/>
-    <file name="pic_poster03-u528656-fr_2x5.jpg" crc="272802102" ref="media_activities"/>
-    <file name="pic_event06-u528677-fr2.jpg" crc="3339887" ref="media_activities"/>
-    <file name="pic_event06-u528677-fr_2x2.jpg" crc="4184537296" ref="media_activities"/>
-    <file name="pic_event05-u528706-fr2.jpg" crc="3977477718" ref="media_activities"/>
-    <file name="pic_event05-u528706-fr_2x2.jpg" crc="3948446173" ref="media_activities"/>
-    <file name="pic_event08-u528743-fr.jpg" crc="168465771" ref="media_activities"/>
-    <file name="pic_event08-u528743-fr_2x.jpg" crc="497313421" ref="media_activities"/>
-    <file name="pic_event11-u530794-fr3.jpg" crc="3798421618" ref="media_activities"/>
-    <file name="pic_event11-u530794-fr_2x3.jpg" crc="4234695778" ref="media_activities"/>
-    <file name="st_news01-u523392-fr2.jpg" crc="3805435565" ref="media_activities"/>
-    <file name="st_news01-u523392-fr_2x2.jpg" crc="478947688" ref="media_activities"/>
+    <file name="poster butalk2-u532738-fr.jpg" crc="275460617" ref="media_activities"/>
+    <file name="poster butalk2-u532738-fr_2x.jpg" crc="155085907" ref="media_activities"/>
+    <file name="poster talk1-u532708-fr2.jpg" crc="241025245" ref="media_activities"/>
+    <file name="poster talk1-u532708-fr_2x2.jpg" crc="3863089596" ref="media_activities"/>
+    <file name="poster mpil-u408395-fr2.jpg" crc="220569824" ref="media_activities"/>
+    <file name="poster mpil-u408395-fr_2x2.jpg" crc="70106623" ref="media_activities"/>
+    <file name="poster iatp-u408408-fr2.jpg" crc="3991458793" ref="media_activities"/>
+    <file name="poster iatp-u408408-fr_2x2.jpg" crc="4148639351" ref="media_activities"/>
+    <file name="poster 50plus-u524969-fr2.jpg" crc="76670330" ref="media_activities"/>
+    <file name="poster 50plus-u524969-fr_2x2.jpg" crc="3822026524" ref="media_activities"/>
+    <file name="spe_5105-u538628-fr3.jpg" crc="3772898881" ref="media_activities"/>
+    <file name="spe_5105-u538628-fr_2x3.jpg" crc="395434428" ref="media_activities"/>
+    <file name="spe_5106-u538633-fr3.jpg" crc="355667207" ref="media_activities"/>
+    <file name="spe_5106-u538633-fr_2x3.jpg" crc="4055317166" ref="media_activities"/>
+    <file name="spe_5109-u538634-fr3.jpg" crc="3918793669" ref="media_activities"/>
+    <file name="spe_5109-u538634-fr_2x3.jpg" crc="326213194" ref="media_activities"/>
+    <file name="spe_5111-u538636-fr3.jpg" crc="4114695729" ref="media_activities"/>
+    <file name="spe_5111-u538636-fr_2x3.jpg" crc="4027306682" ref="media_activities"/>
+    <file name="spe_5113-u538629-fr3.jpg" crc="4184244211" ref="media_activities"/>
+    <file name="spe_5113-u538629-fr_2x3.jpg" crc="4099608810" ref="media_activities"/>
+    <file name="spe_5115-u538630-fr3.jpg" crc="3807520025" ref="media_activities"/>
+    <file name="spe_5115-u538630-fr_2x3.jpg" crc="4037049875" ref="media_activities"/>
+    <file name="spe_5124-u538631-fr3.jpg" crc="527126232" ref="media_activities"/>
+    <file name="spe_5124-u538631-fr_2x3.jpg" crc="3860498637" ref="media_activities"/>
+    <file name="spe_5129-u538632-fr3.jpg" crc="11098204" ref="media_activities"/>
+    <file name="spe_5129-u538632-fr_2x3.jpg" crc="3760326606" ref="media_activities"/>
+    <file name="spe_5144-u538635-fr3.jpg" crc="500262376" ref="media_activities"/>
+    <file name="spe_5144-u538635-fr_2x3.jpg" crc="318295443" ref="media_activities"/>
+    <file name="spe_5159-u538965-fr3.jpg" crc="3918949260" ref="media_activities"/>
+    <file name="spe_5159-u538965-fr_2x3.jpg" crc="47572770" ref="media_activities"/>
+    <file name="spe_5184-u538983-fr3.jpg" crc="3768346859" ref="media_activities"/>
+    <file name="spe_5184-u538983-fr_2x3.jpg" crc="238501885" ref="media_activities"/>
+    <file name="spe_5214-u539001-fr3.jpg" crc="3867086479" ref="media_activities"/>
+    <file name="spe_5214-u539001-fr_2x3.jpg" crc="119858973" ref="media_activities"/>
+    <file name="spe_5233-u539019-fr3.jpg" crc="433882003" ref="media_activities"/>
+    <file name="spe_5233-u539019-fr_2x3.jpg" crc="4288850490" ref="media_activities"/>
+    <file name="spe_5270-u539055-fr3.jpg" crc="3916804555" ref="media_activities"/>
+    <file name="spe_5270-u539055-fr_2x3.jpg" crc="4141604787" ref="media_activities"/>
+    <file name="spe_5287-u539124-fr3.jpg" crc="3814800584" ref="media_activities"/>
+    <file name="spe_5287-u539124-fr_2x3.jpg" crc="4073321094" ref="media_activities"/>
+    <file name="spe_5295-u539142-fr3.jpg" crc="4033299672" ref="media_activities"/>
+    <file name="spe_5295-u539142-fr_2x3.jpg" crc="4001671037" ref="media_activities"/>
+    <file name="spe_5298-u539160-fr3.jpg" crc="3774467638" ref="media_activities"/>
+    <file name="spe_5298-u539160-fr_2x3.jpg" crc="118154815" ref="media_activities"/>
+    <file name="spe_5318-u539205-fr3.jpg" crc="4012446995" ref="media_activities"/>
+    <file name="spe_5318-u539205-fr_2x3.jpg" crc="4260071793" ref="media_activities"/>
+    <file name="spe_5339-u539223-fr3.jpg" crc="4150369455" ref="media_activities"/>
+    <file name="spe_5339-u539223-fr_2x3.jpg" crc="1085713" ref="media_activities"/>
+    <file name="spe_5374-u539241-fr3.jpg" crc="3820190031" ref="media_activities"/>
+    <file name="spe_5374-u539241-fr_2x3.jpg" crc="3766512406" ref="media_activities"/>
+    <file name="spe_5382-u539286-fr3.jpg" crc="467338204" ref="media_activities"/>
+    <file name="spe_5382-u539286-fr_2x3.jpg" crc="18651873" ref="media_activities"/>
+    <file name="spe_5385-u539304-fr3.jpg" crc="75613848" ref="media_activities"/>
+    <file name="spe_5385-u539304-fr_2x3.jpg" crc="476950032" ref="media_activities"/>
+    <file name="spe_5386-u539322-fr3.jpg" crc="3948613785" ref="media_activities"/>
+    <file name="spe_5386-u539322-fr_2x3.jpg" crc="313744159" ref="media_activities"/>
+    <file name="spe_5388-u539367-fr3.jpg" crc="501135536" ref="media_activities"/>
+    <file name="spe_5388-u539367-fr_2x3.jpg" crc="208105711" ref="media_activities"/>
+    <file name="pic_event13-u538350-fr2.jpg" crc="374592857" ref="media_activities"/>
+    <file name="pic_event13-u538350-fr_2x2.jpg" crc="3932369219" ref="media_activities"/>
+    <file name="pic_event12-u538355-fr2.jpg" crc="4212940836" ref="media_activities"/>
+    <file name="pic_event12-u538355-fr_2x2.jpg" crc="506657669" ref="media_activities"/>
+    <file name="pic_event09-u538358-fr2.jpg" crc="4106167473" ref="media_activities"/>
+    <file name="pic_event09-u538358-fr_2x2.jpg" crc="68619831" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr3.jpg" crc="3878257029" ref="media_activities"/>
+    <file name="pic_event04-u528140-fr_2x3.jpg" crc="223670517" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr3.jpg" crc="4200588451" ref="media_activities"/>
+    <file name="pic_event03-u528569-fr_2x3.jpg" crc="535870701" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr3.jpg" crc="104479441" ref="media_activities"/>
+    <file name="pic_event02-u528598-fr_2x3.jpg" crc="259614104" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr3.jpg" crc="305958341" ref="media_activities"/>
+    <file name="pic_event01-u528627-fr_2x3.jpg" crc="3831487434" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr5.jpg" crc="3945356677" ref="media_activities"/>
+    <file name="pic_poster03-u528656-fr_2x5.jpg" crc="331486539" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr2.jpg" crc="352910317" ref="media_activities"/>
+    <file name="pic_event06-u528677-fr_2x2.jpg" crc="218345068" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr2.jpg" crc="3984625152" ref="media_activities"/>
+    <file name="pic_event05-u528706-fr_2x2.jpg" crc="3970875807" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr3.jpg" crc="3848986670" ref="media_activities"/>
+    <file name="pic_event11-u530794-fr_2x3.jpg" crc="3780398280" ref="media_activities"/>
+    <file name="st_news01-u523392-fr2.jpg" crc="311886188" ref="media_activities"/>
+    <file name="st_news01-u523392-fr_2x2.jpg" crc="417900547" ref="media_activities"/>
+    <file name="media_photo012.jpg" crc="462617272" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
+    <file name="media_photo01_2x.jpg" crc="505134203" ref="media_activities">
+      <caption webpage="media_activities" alt=""/>
+    </file>
     <file name="partnership-favicon.ico" crc="3891198573" ref="partnership"/>
     <file name="health centre for primary care.jpg" crc="493184963" ref="partnership">
       <caption webpage="partnership" alt=""/>
@@ -1924,19 +2338,19 @@
     <file name="長者學院-u406274-fr.jpg" crc="4217934551" ref="brainhealth_social"/>
     <file name="長者學院-u406274-fr_2x.jpg" crc="4194846302" ref="brainhealth_social"/>
   </folder>
-  <file name="dementia_intro.html" crc="455346636" seo="true" mt="1689719844446" redirect="true"/>
-  <file name="resources.html" crc="4136463365" seo="true" mt="1689719844446" redirect="true"/>
-  <file name="brainhealth_intro.html" crc="3759396218" seo="true" mt="1689719844446" redirect="true"/>
-  <file name="dementia_healing.html" crc="398505775" seo="true" mt="1689719844447" redirect="true"/>
-  <file name="aboutus.html" crc="238727429" seo="true" mt="1689719844447" redirect="true"/>
-  <file name="media_activities.html" crc="3777359061" seo="true" mt="1689719844447" redirect="true"/>
-  <file name="partnership.html" crc="183902436" seo="true" mt="1689719844448" redirect="true"/>
-  <file name="dementia_stages.html" crc="4117873958" seo="true" mt="1689719844448" redirect="true"/>
-  <file name="dementia_causes.html" crc="4019588576" seo="true" mt="1689719844449" redirect="true"/>
-  <file name="index.html" crc="110007299" seo="true" mt="1689719856511" redirect="true"/>
-  <file name="brainhealth_exercises.html" crc="418748087" seo="true" mt="1689719844450" redirect="true"/>
-  <file name="brainhealth_cognitive.html" crc="309753128" seo="true" mt="1689719844450" redirect="true"/>
-  <file name="brainhealth_diet.html" crc="4291148790" seo="true" mt="1689719844451" redirect="true"/>
-  <file name="brainhealth_emotions.html" crc="4126933565" seo="true" mt="1689719844451" redirect="true"/>
-  <file name="brainhealth_social.html" crc="4293098358" seo="true" mt="1689719844452" redirect="true"/>
+  <file name="dementia_intro.html" crc="4165775625" seo="true" mt="1702273900952" redirect="true"/>
+  <file name="resources.html" crc="3964848568" seo="true" mt="1702274010896" redirect="true"/>
+  <file name="brainhealth_intro.html" crc="519841359" seo="true" mt="1702273969478" redirect="true"/>
+  <file name="dementia_healing.html" crc="337817875" seo="true" mt="1702273958673" redirect="true"/>
+  <file name="aboutus.html" crc="272148374" seo="true" mt="1702274075333" redirect="true"/>
+  <file name="media_activities.html" crc="3759204873" seo="true" mt="1702304316772" redirect="true"/>
+  <file name="partnership.html" crc="4070316755" seo="true" mt="1702274083312" redirect="true"/>
+  <file name="dementia_stages.html" crc="14000272" seo="true" mt="1702273909497" redirect="true"/>
+  <file name="dementia_causes.html" crc="3889749621" seo="true" mt="1702273932913" redirect="true"/>
+  <file name="index.html" crc="3920614198" seo="true" mt="1702273725070" redirect="true"/>
+  <file name="brainhealth_exercises.html" crc="18790005" seo="true" mt="1702273975977" redirect="true"/>
+  <file name="brainhealth_cognitive.html" crc="4210372750" seo="true" mt="1702273983390" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="260462774" seo="true" mt="1702273990128" redirect="true"/>
+  <file name="brainhealth_emotions.html" crc="4032158065" seo="true" mt="1702273998547" redirect="true"/>
+  <file name="brainhealth_social.html" crc="103085253" seo="true" mt="1702274004343" redirect="true"/>
 </manifest>
