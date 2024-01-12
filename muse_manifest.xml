@@ -1,40 +1,40 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1703033391875">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1705023114252">
   <folder name="css">
-    <file name="site_global.css" crc="4276098105"/>
-    <file name="master_normal.css" crc="524676872" ref="index:healing:brainhealth_exercises:aboutus:brainhealth_cognitive:mediaactivities:brainhealth_diet:partnership:brainhealth:brainhealth_emotions:stages:resources:brainhealth_social:risks:healthtips:abouthk-vmt"/>
-    <file name="nomq_preview_master_normal.css" crc="4231677656" ref="index:healing:brainhealth_exercises:aboutus:brainhealth_cognitive:mediaactivities:brainhealth_diet:partnership:brainhealth:brainhealth_emotions:stages:resources:brainhealth_social:risks:healthtips:abouthk-vmt"/>
-    <file name="index.css" crc="222273990" ref="index"/>
-    <file name="nomq_index.css" crc="103829145" ref="index"/>
-    <file name="healing.css" crc="188359606" ref="healing"/>
-    <file name="nomq_healing.css" crc="134019229" ref="healing"/>
-    <file name="brainhealth_exercises.css" crc="65478909" ref="brainhealth_exercises"/>
-    <file name="nomq_brainhealth_exercises.css" crc="3932261115" ref="brainhealth_exercises"/>
-    <file name="aboutus.css" crc="4270293098" ref="aboutus"/>
-    <file name="nomq_aboutus.css" crc="3862778147" ref="aboutus"/>
-    <file name="brainhealth_cognitive.css" crc="492294285" ref="brainhealth_cognitive"/>
-    <file name="nomq_brainhealth_cognitive.css" crc="395489010" ref="brainhealth_cognitive"/>
-    <file name="mediaactivities.css" crc="105929082" ref="mediaactivities"/>
-    <file name="nomq_mediaactivities.css" crc="48616982" ref="mediaactivities"/>
-    <file name="brainhealth_diet.css" crc="491967272" ref="brainhealth_diet"/>
-    <file name="nomq_brainhealth_diet.css" crc="4095912328" ref="brainhealth_diet"/>
-    <file name="partnership.css" crc="10850579" ref="partnership"/>
-    <file name="nomq_partnership.css" crc="3794292461" ref="partnership"/>
-    <file name="brainhealth.css" crc="3781011408" ref="brainhealth"/>
-    <file name="nomq_brainhealth.css" crc="4146782485" ref="brainhealth"/>
-    <file name="brainhealth_emotions.css" crc="4237258642" ref="brainhealth_emotions"/>
-    <file name="nomq_brainhealth_emotions.css" crc="3872285815" ref="brainhealth_emotions"/>
-    <file name="stages.css" crc="3997381924" ref="stages"/>
-    <file name="nomq_stages.css" crc="4204583077" ref="stages"/>
-    <file name="resources.css" crc="358625626" ref="resources"/>
-    <file name="nomq_resources.css" crc="4077232809" ref="resources"/>
-    <file name="brainhealth_social.css" crc="230976023" ref="brainhealth_social"/>
-    <file name="nomq_brainhealth_social.css" crc="3925575608" ref="brainhealth_social"/>
-    <file name="risks.css" crc="436353783" ref="risks"/>
-    <file name="nomq_risks.css" crc="29558359" ref="risks"/>
-    <file name="healthtips.css" crc="3960061963" ref="healthtips"/>
-    <file name="nomq_healthtips.css" crc="3915423473" ref="healthtips"/>
-    <file name="abouthk-vmt.css" crc="3877962439" ref="abouthk-vmt"/>
-    <file name="nomq_abouthk-vmt.css" crc="88282744" ref="abouthk-vmt"/>
+    <file name="site_global.css" crc="433226833"/>
+    <file name="master_main.css" crc="4288163257" ref="index:healing:faq:mediaactivities:partnership:brainhealth:stages:risks"/>
+    <file name="nomq_preview_master_main.css" crc="3905767008" ref="index:healing:faq:mediaactivities:partnership:brainhealth:stages:risks"/>
+    <file name="master_normal.css" crc="3894227419" ref="brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:resources:brainhealth_social:healthtips"/>
+    <file name="nomq_preview_master_normal.css" crc="4030298680" ref="brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:resources:brainhealth_social:healthtips"/>
+    <file name="index.css" crc="3838564757" ref="index"/>
+    <file name="nomq_index.css" crc="343283596" ref="index"/>
+    <file name="healing.css" crc="4083772259" ref="healing"/>
+    <file name="nomq_healing.css" crc="303233068" ref="healing"/>
+    <file name="faq.css" crc="426574062" ref="faq"/>
+    <file name="nomq_faq.css" crc="504156024" ref="faq"/>
+    <file name="brainhealth_exercises.css" crc="156063846" ref="brainhealth_exercises"/>
+    <file name="nomq_brainhealth_exercises.css" crc="410138960" ref="brainhealth_exercises"/>
+    <file name="brainhealth_cognitive.css" crc="4209097652" ref="brainhealth_cognitive"/>
+    <file name="nomq_brainhealth_cognitive.css" crc="524256883" ref="brainhealth_cognitive"/>
+    <file name="mediaactivities.css" crc="42261339" ref="mediaactivities"/>
+    <file name="nomq_mediaactivities.css" crc="323910264" ref="mediaactivities"/>
+    <file name="brainhealth_diet.css" crc="4168990768" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="19059610" ref="brainhealth_diet"/>
+    <file name="partnership.css" crc="147640087" ref="partnership"/>
+    <file name="nomq_partnership.css" crc="369739124" ref="partnership"/>
+    <file name="brainhealth.css" crc="3947850400" ref="brainhealth"/>
+    <file name="nomq_brainhealth.css" crc="4112934050" ref="brainhealth"/>
+    <file name="brainhealth_emotions.css" crc="4115953710" ref="brainhealth_emotions"/>
+    <file name="nomq_brainhealth_emotions.css" crc="4180858960" ref="brainhealth_emotions"/>
+    <file name="stages.css" crc="476138862" ref="stages"/>
+    <file name="nomq_stages.css" crc="3783531673" ref="stages"/>
+    <file name="resources.css" crc="496188308" ref="resources"/>
+    <file name="nomq_resources.css" crc="431351249" ref="resources"/>
+    <file name="brainhealth_social.css" crc="3973103895" ref="brainhealth_social"/>
+    <file name="nomq_brainhealth_social.css" crc="124319987" ref="brainhealth_social"/>
+    <file name="risks.css" crc="4266655956" ref="risks"/>
+    <file name="nomq_risks.css" crc="495978183" ref="risks"/>
+    <file name="healthtips.css" crc="14299588" ref="healthtips"/>
+    <file name="nomq_healthtips.css" crc="3856243583" ref="healthtips"/>
   </folder>
   <folder name="fonts">
     <file name="fakepearl-light.woff" crc="145533271"/>
@@ -71,103 +71,110 @@
     <file name="pic_poster03.jpg" crc="317944118" seo="true" mt="1628167301000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="museutils.js" crc="3939489907" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="whatinput.js" crc="86476730" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="museconfig.js" crc="3936894949" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="jquery.musemenu.js" crc="4139692962" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="jquery.watch.js" crc="522499760" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="html5shiv.js" crc="4241844378" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="jquery.museresponsive.js" crc="95814420" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="require.js" crc="4177726516" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="webpro.js" crc="3856315280" ref="mediaactivities"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="museutils.js" crc="3939489907" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="whatinput.js" crc="86476730" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="museconfig.js" crc="3936894949" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social"/>
+    <file name="jquery.watch.js" crc="522499760" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="html5shiv.js" crc="4241844378" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="require.js" crc="4177726516" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="webpro.js" crc="3856315280" ref="mediaactivities:partnership"/>
     <file name="musewpslideshow.js" crc="244150766" ref="mediaactivities"/>
     <file name="jquery.museoverlay.js" crc="3877667098" ref="mediaactivities"/>
     <file name="touchswipe.js" crc="3888935200" ref="mediaactivities"/>
+    <file name="form_check.php" crc="4108222811" ref="partnership"/>
+    <file name="form_throttle.php" crc="503802655" ref="partnership"/>
+    <file name="form_process.php" crc="260214869" ref="partnership"/>
+    <file name="form-u598280.php" crc="3854679566" ref="partnership"/>
   </folder>
   <folder name="images">
-    <file name="normal-favicon.ico" crc="3891198573" ref="brainhealth"/>
-    <file name="hi_imagecircle.png" crc="4115236511" ref="brainhealth:stages">
+    <file name="main-favicon.ico" crc="3891198573" ref="brainhealth"/>
+    <file name="hi_imagecircle.png" crc="153742880" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p1_3.png" crc="3846390893" ref="brainhealth">
+    <file name="hi_imagecircle_2x.png" crc="4115236511" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p1_2.png" crc="100295936" ref="brainhealth">
+    <file name="hi_intro_p1_3-u467034-fr.png" crc="3979243269" ref="brainhealth"/>
+    <file name="hi_intro_p1_3-u467034-fr_2x.png" crc="49268130" ref="brainhealth"/>
+    <file name="hi_intro_p1_2-u117270-fr.png" crc="434138796" ref="brainhealth"/>
+    <file name="hi_intro_p1_2-u117270-fr_2x.png" crc="4237581995" ref="brainhealth"/>
+    <file name="hi_imagecircle2.png" crc="4115236511" ref="brainhealth:stages">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p1_2_2x.png" crc="461867743" ref="brainhealth">
+    <file name="hi_intro_p2_3-u467063-fr.png" crc="300233734" ref="brainhealth"/>
+    <file name="hi_intro_p2_3-u467063-fr_2x.png" crc="3837216163" ref="brainhealth"/>
+    <file name="hi_intro_p2_2.png" crc="4048984848" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p2_3.png" crc="447137468" ref="brainhealth">
+    <file name="hi_intro_p2_2_2x.png" crc="4224220860" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p2_3_2x.png" crc="214173981" ref="brainhealth">
+    <file name="hi_intro_p3_3.png" crc="496887484" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p2_2.png" crc="4224220860" ref="brainhealth">
+    <file name="hi_intro_p3_3_2x.png" crc="3919848335" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p3_3.png" crc="3919848335" ref="brainhealth">
+    <file name="hi_intro_p3_2.png" crc="3891626805" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p3_2.png" crc="4025283651" ref="brainhealth">
+    <file name="hi_intro_p3_2_2x.png" crc="4025283651" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p4_3.png" crc="286550479" ref="brainhealth">
+    <file name="hi_intro_p4_3.png" crc="4186863533" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p4_2.png" crc="4156688698" ref="brainhealth">
+    <file name="hi_intro_p4_3_2x.png" crc="286550479" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="scrolldown.png" crc="4106020940" ref="brainhealth">
+    <file name="hi_intro_p4_2.png" crc="3867737714" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="brainhealth:resources:healthtips:healing:aboutus:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="logo-website.png" crc="13589155" ref="brainhealth">
+    <file name="hi_intro_p4_2_2x.png" crc="4156688698" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="logo-website_2x.png" crc="135232956" ref="brainhealth">
+    <file name="scrolldown.png" crc="4106020940" ref="brainhealth:resources">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook_s.png" crc="3868468483" ref="brainhealth">
+    <file name="hkvmtlogo_short.png" crc="3846147912" ref="brainhealth">
+      <caption webpage="brainhealth" alt=""/>
+      <caption webpage="brainhealth" alt=""/>
+      <caption webpage="brainhealth" alt=""/>
+      <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook_s_2x.png" crc="4022934257" ref="brainhealth">
+    <file name="hkvmtlogo_short_2x.png" crc="3846147912" ref="brainhealth">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook.png" crc="407095473" ref="brainhealth">
+    <file name="facebook_s.png" crc="3868468483" ref="brainhealth:resources">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook_2x.png" crc="3869720609" ref="brainhealth">
+    <file name="facebook_s_2x.png" crc="4022934257" ref="brainhealth:resources">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_imagecircle-u120893-fr.png" crc="3958995617" ref="brainhealth"/>
-    <file name="hi_imagecircle-u120893-fr_2x.png" crc="342961314" ref="brainhealth"/>
-    <file name="hi_intro_p1_3-u467034-fr.png" crc="4072749658" ref="brainhealth"/>
-    <file name="hi_intro_p1_3-u467034-fr_2x.png" crc="3926262231" ref="brainhealth"/>
-    <file name="hi_intro_p1_2-u117270-fr.png" crc="4019178012" ref="brainhealth"/>
-    <file name="hi_intro_p1_2-u117270-fr_2x.png" crc="26439418" ref="brainhealth"/>
-    <file name="hi_imagecircle2.png" crc="153742880" ref="brainhealth:stages">
+    <file name="facebook.png" crc="407095473" ref="brainhealth:resources">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_imagecircle_2x.png" crc="4115236511" ref="brainhealth:stages">
+    <file name="facebook_2x.png" crc="3869720609" ref="brainhealth:resources">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hi_intro_p2_3-u467063-fr.png" crc="3848840561" ref="brainhealth"/>
-    <file name="hi_intro_p2_3-u467063-fr_2x.png" crc="286851919" ref="brainhealth"/>
-    <file name="hi_intro_p2_2-u465785-fr.png" crc="4236259925" ref="brainhealth"/>
-    <file name="hi_intro_p2_2-u465785-fr_2x.png" crc="4214338256" ref="brainhealth"/>
-    <file name="hi_intro_p3_3-u467133-fr.png" crc="78765586" ref="brainhealth"/>
-    <file name="hi_intro_p3_3-u467133-fr_2x.png" crc="251703352" ref="brainhealth"/>
-    <file name="hi_intro_p3_2-u465866-fr.png" crc="3792973106" ref="brainhealth"/>
-    <file name="hi_intro_p3_2-u465866-fr_2x.png" crc="3961897419" ref="brainhealth"/>
-    <file name="hi_intro_p4_3-u467181-fr.png" crc="460850840" ref="brainhealth"/>
-    <file name="hi_intro_p4_3-u467181-fr_2x.png" crc="356016113" ref="brainhealth"/>
-    <file name="hi_intro_p4_2-u465902-fr.png" crc="223579915" ref="brainhealth"/>
-    <file name="hi_intro_p4_2-u465902-fr_2x.png" crc="206942201" ref="brainhealth"/>
-    <file name="wave_lightorange.png" crc="3991728679" ref="brainhealth:healing:stages:risks:brainhealth_diet">
+    <file name="hi_intro_p1_3-u467034-fr2.png" crc="255727820" ref="brainhealth"/>
+    <file name="hi_intro_p1_3-u467034-fr_2x2.png" crc="3801858886" ref="brainhealth"/>
+    <file name="hi_intro_p1_2-u117270-fr2.png" crc="356844174" ref="brainhealth"/>
+    <file name="hi_intro_p1_2-u117270-fr_2x2.png" crc="4291790138" ref="brainhealth"/>
+    <file name="hi_intro_p2_3-u467063-fr2.png" crc="275141849" ref="brainhealth"/>
+    <file name="hi_intro_p2_3-u467063-fr_2x2.png" crc="3949140584" ref="brainhealth"/>
+    <file name="hi_intro_p2_2-u465785-fr.png" crc="12447645" ref="brainhealth"/>
+    <file name="hi_intro_p2_2-u465785-fr_2x.png" crc="4236555348" ref="brainhealth"/>
+    <file name="hi_intro_p3_2-u465866-fr.png" crc="422733063" ref="brainhealth"/>
+    <file name="hi_intro_p3_2-u465866-fr_2x.png" crc="49335535" ref="brainhealth"/>
+    <file name="hi_intro_p4_3-u467181-fr.png" crc="76816614" ref="brainhealth"/>
+    <file name="hi_intro_p4_3-u467181-fr_2x.png" crc="58030976" ref="brainhealth"/>
+    <file name="wave_lightgreen.png" crc="83923621" ref="brainhealth:healing:stages:risks">
       <caption webpage="brainhealth" alt=""/>
     </file>
     <file name="hi_intro_p1_4-u467533-fr.png" crc="474895788" ref="brainhealth"/>
@@ -198,6 +205,8 @@
     <file name="hi_intro_p3_4-u467567-fr_2x2.png" crc="4421243" ref="brainhealth"/>
     <file name="hi_intro_p4_4-u467579-fr3.png" crc="3783648444" ref="brainhealth"/>
     <file name="hi_intro_p4_4-u467579-fr_2x3.png" crc="487559350" ref="brainhealth"/>
+    <file name="blank.gif" crc="4208392903" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq"/>
+    <file name="normal-favicon.ico" crc="3891198573" ref="resources"/>
     <file name="cloud05.png" crc="251807930" ref="resources">
       <caption webpage="resources" alt=""/>
     </file>
@@ -221,7 +230,7 @@
     <file name="衛生署衛生防護中心.png" crc="3960998941" ref="resources">
       <caption webpage="resources" alt=""/>
     </file>
-    <file name="wave_green_3.png" crc="329299748" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt">
+    <file name="wave_green_3.png" crc="329299748" ref="resources:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social">
       <caption webpage="resources" alt=""/>
     </file>
     <file name="resources-u402043-fr.png" crc="3851106870" ref="resources"/>
@@ -273,7 +282,7 @@
     <file name="長者學院_2x.jpg" crc="391654686" ref="resources:brainhealth_social">
       <caption webpage="resources" alt=""/>
     </file>
-    <file name="wave_white.png" crc="166148788" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt">
+    <file name="wave_white.png" crc="166148788" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions">
       <caption webpage="resources" alt=""/>
     </file>
     <file name="智友站.jpg" crc="3907749933" ref="resources">
@@ -291,34 +300,40 @@
     <file name="港島東醒腦錦囊_2x.jpg" crc="280529583" ref="resources">
       <caption webpage="resources" alt=""/>
     </file>
+    <file name="logo-website.png" crc="13589155" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="logo-website_2x.png" crc="135232956" ref="resources">
+      <caption webpage="resources" alt=""/>
+    </file>
     <file name="resources-u402043-fr2.png" crc="3945070545" ref="resources"/>
     <file name="resources-u402043-fr_2x2.png" crc="412003914" ref="resources"/>
     <file name="cloud05-u405980-fr.png" crc="393771337" ref="resources"/>
     <file name="cloud05-u405980-fr_2x.png" crc="215879176" ref="resources"/>
-    <file name="wave_green_32.png" crc="4055493320" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt">
+    <file name="wave_green_32.png" crc="4055493320" ref="resources:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social">
       <caption webpage="resources" alt=""/>
     </file>
-    <file name="wave_green_3_2x.png" crc="329299748" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt">
+    <file name="wave_green_3_2x.png" crc="329299748" ref="resources:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social">
       <caption webpage="resources" alt=""/>
     </file>
     <file name="resources-u402043-fr3.png" crc="4080820316" ref="resources"/>
     <file name="resources-u402043-fr_2x3.png" crc="177274202" ref="resources"/>
-    <file name="wave_white2.png" crc="4164721609" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt">
+    <file name="wave_white2.png" crc="4164721609" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions">
       <caption webpage="resources" alt=""/>
     </file>
-    <file name="wave_white_2x.png" crc="166148788" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt">
+    <file name="wave_white_2x.png" crc="166148788" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions">
       <caption webpage="resources" alt=""/>
     </file>
-    <file name="wave_green_3-u402526-fr.png" crc="3786600122" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="wave_green_3-u402526-fr_2x.png" crc="4258265015" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
+    <file name="wave_green_3-u402526-fr.png" crc="3786600122" ref="resources:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="wave_green_3-u402526-fr_2x.png" crc="4258265015" ref="resources:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
     <file name="resources-u402043-fr4.png" crc="288763363" ref="resources"/>
     <file name="resources-u402043-fr_2x4.png" crc="3982646810" ref="resources"/>
-    <file name="wave_white-u402528-fr.png" crc="238674640" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt"/>
-    <file name="wave_white-u402528-fr_2x.png" crc="283045851" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt"/>
+    <file name="wave_white-u402528-fr.png" crc="238674640" ref="resources:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="wave_white-u402528-fr_2x.png" crc="283045851" ref="resources:brainhealth_exercises:brainhealth_emotions"/>
     <file name="cloud05-u405980-fr2.png" crc="109192438" ref="resources"/>
     <file name="cloud05-u405980-fr_2x2.png" crc="379095647" ref="resources"/>
-    <file name="wave_green_3-u402526-fr2.png" crc="430339456" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="wave_green_3-u402526-fr_2x2.png" crc="33740835" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
+    <file name="wave_green_3-u402526-fr2.png" crc="430339456" ref="resources:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="wave_green_3-u402526-fr_2x2.png" crc="33740835" ref="resources:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
     <file name="resources-u402043-fr5.png" crc="121635680" ref="resources"/>
     <file name="resources-u402043-fr_2x5.png" crc="383513094" ref="resources"/>
     <file name="icon_government-u402271-fr.png" crc="4005357289" ref="resources"/>
@@ -327,14 +342,14 @@
     <file name="icon_hospital-u402446-fr_2x.png" crc="3913044024" ref="resources"/>
     <file name="icon_organization-u486462-fr.png" crc="4242989469" ref="resources"/>
     <file name="icon_organization-u486462-fr_2x.png" crc="134762029" ref="resources"/>
-    <file name="wave_white-u402528-fr2.png" crc="4155253310" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt"/>
-    <file name="wave_white-u402528-fr_2x2.png" crc="169282724" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt"/>
+    <file name="wave_white-u402528-fr2.png" crc="4155253310" ref="resources:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="wave_white-u402528-fr_2x2.png" crc="169282724" ref="resources:brainhealth_exercises:brainhealth_emotions"/>
     <file name="cloud05-u405980-fr3.png" crc="269678539" ref="resources"/>
     <file name="cloud05-u405980-fr_2x3.png" crc="420781493" ref="resources"/>
     <file name="長者健康服務站-u402563-fr.jpg" crc="12635938" ref="resources"/>
     <file name="長者健康服務站-u402563-fr_2x.jpg" crc="329092610" ref="resources"/>
-    <file name="wave_green_3-u402526-fr3.png" crc="3898868754" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
-    <file name="wave_green_3-u402526-fr_2x3.png" crc="4219979747" ref="resources:aboutus:mediaactivities:partnership:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:abouthk-vmt"/>
+    <file name="wave_green_3-u402526-fr3.png" crc="3898868754" ref="resources:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
+    <file name="wave_green_3-u402526-fr_2x3.png" crc="4219979747" ref="resources:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social"/>
     <file name="resources-u402043-fr6.png" crc="3841401" ref="resources"/>
     <file name="resources-u402043-fr_2x6.png" crc="3928584646" ref="resources"/>
     <file name="institute of active aging-u403244-fr.jpg" crc="262869115" ref="resources"/>
@@ -345,8 +360,8 @@
     <file name="賽馬會智齡匯_2x.jpg" crc="13798717" ref="resources:brainhealth_social">
       <caption webpage="resources" alt=""/>
     </file>
-    <file name="wave_white-u402528-fr3.png" crc="423110614" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt"/>
-    <file name="wave_white-u402528-fr_2x3.png" crc="4047513657" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:abouthk-vmt"/>
+    <file name="wave_white-u402528-fr3.png" crc="423110614" ref="resources:brainhealth_exercises:brainhealth_emotions"/>
+    <file name="wave_white-u402528-fr_2x3.png" crc="4047513657" ref="resources:brainhealth_exercises:brainhealth_emotions"/>
     <file name="流動記憶診所2.jpg" crc="4288912982" ref="resources">
       <caption webpage="resources" alt=""/>
     </file>
@@ -446,7 +461,10 @@
     <file name="medicine_reminyl.jpg" crc="4071695131" ref="healing">
       <caption webpage="healing" alt=""/>
     </file>
-    <file name="medicine_ebixa.jpg" crc="316965480" ref="healing">
+    <file name="medicine_ebixa.jpg" crc="402145774" ref="healing">
+      <caption webpage="healing" alt=""/>
+    </file>
+    <file name="medicine_ebixa_2x.jpg" crc="316965480" ref="healing">
       <caption webpage="healing" alt=""/>
     </file>
     <file name="hi_healing_p2.png" crc="4292333063" ref="healing">
@@ -515,16 +533,10 @@
     </file>
     <file name="pic_doctor-u274956-fr.jpg" crc="4206797644" ref="healing"/>
     <file name="pic_doctor-u274956-fr_2x.jpg" crc="61753612" ref="healing"/>
-    <file name="medicine_ebixa2.jpg" crc="402145774" ref="healing">
+    <file name="wave_lightgreen2.png" crc="502540162" ref="healing:risks">
       <caption webpage="healing" alt=""/>
     </file>
-    <file name="medicine_ebixa_2x.jpg" crc="316965480" ref="healing">
-      <caption webpage="healing" alt=""/>
-    </file>
-    <file name="wave_lightorange2.png" crc="3989455648" ref="healing:risks:brainhealth_diet">
-      <caption webpage="healing" alt=""/>
-    </file>
-    <file name="wave_lightorange_2x.png" crc="3991728679" ref="healing:risks:brainhealth_diet">
+    <file name="wave_lightgreen_2x.png" crc="83923621" ref="healing:risks">
       <caption webpage="healing" alt=""/>
     </file>
     <file name="hi_healing_p1-u426494-fr2.png" crc="3802072813" ref="healing"/>
@@ -559,18 +571,20 @@
     <file name="pic_elderly dance-u274829-fr_2x2.jpg" crc="12771150" ref="healing"/>
     <file name="pic_doctor-u274956-fr2.jpg" crc="146589050" ref="healing"/>
     <file name="pic_doctor-u274956-fr_2x2.jpg" crc="3880751152" ref="healing"/>
-    <file name="wave_lightorange-u426490-fr.png" crc="76995648" ref="healing:risks:brainhealth_diet"/>
-    <file name="wave_lightorange-u426490-fr_2x.png" crc="263273042" ref="healing:risks:brainhealth_diet"/>
-    <file name="wave_lightorange-u426490-fr2.png" crc="52929611" ref="healing:risks:brainhealth_diet"/>
-    <file name="wave_lightorange-u426490-fr_2x2.png" crc="4000947397" ref="healing:risks:brainhealth_diet"/>
+    <file name="wave_lightgreen-u426490-fr.png" crc="267328438" ref="healing:risks"/>
+    <file name="wave_lightgreen-u426490-fr_2x.png" crc="4217787930" ref="healing:risks"/>
     <file name="hi_healing_p1-u426494-fr3.png" crc="192392530" ref="healing"/>
     <file name="hi_healing_p1-u426494-fr_2x3.png" crc="4137366407" ref="healing"/>
+    <file name="wave_white-u427993-fr.png" crc="3758545539" ref="healing:mediaactivities:index"/>
+    <file name="wave_white-u427993-fr_2x.png" crc="4024927879" ref="healing:mediaactivities:index"/>
     <file name="hi_healing_p2-u427721-fr.png" crc="160353460" ref="healing"/>
     <file name="hi_healing_p2-u427721-fr_2x.png" crc="129532763" ref="healing"/>
-    <file name="wave_lightorange-u426490-fr3.png" crc="319716249" ref="healing:risks:brainhealth_diet"/>
-    <file name="wave_lightorange-u426490-fr_2x3.png" crc="144322589" ref="healing:risks:brainhealth_diet"/>
-    <file name="hi_healing_p1-u426494-fr4.png" crc="501924196" ref="healing"/>
-    <file name="hi_healing_p1-u426494-fr_2x4.png" crc="446866941" ref="healing"/>
+    <file name="wave_lightgreen-u426490-fr2.png" crc="4196324584" ref="healing:risks"/>
+    <file name="wave_lightgreen-u426490-fr_2x2.png" crc="4186205142" ref="healing:risks"/>
+    <file name="hi_healing_p1-u426494-fr4.png" crc="44921337" ref="healing"/>
+    <file name="hi_healing_p1-u426494-fr_2x4.png" crc="65823653" ref="healing"/>
+    <file name="wave_white-u427993-fr2.png" crc="96282923" ref="healing:mediaactivities:index"/>
+    <file name="wave_white-u427993-fr_2x2.png" crc="486936186" ref="healing:mediaactivities:index"/>
     <file name="hi_healing_p2-u427721-fr2.png" crc="3776286826" ref="healing"/>
     <file name="hi_healing_p2-u427721-fr_2x2.png" crc="3860925737" ref="healing"/>
     <file name="pic_elderly exercise01-u274851-fr2.jpg" crc="191215794" ref="healing"/>
@@ -597,43 +611,6 @@
     <file name="pic_eldercare03-u274957-fr_2x.jpg" crc="3857569988" ref="healing"/>
     <file name="pic_doctor-u274956-fr3.jpg" crc="3997672662" ref="healing"/>
     <file name="pic_doctor-u274956-fr_2x3.jpg" crc="3834260029" ref="healing"/>
-    <file name="aboutus-favicon.ico" crc="3891198573" ref="aboutus"/>
-    <file name="pic_ada-fung.jpg" crc="357620375" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_ada-fung_2x.jpg" crc="3763856669" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_kevin-chan.jpg" crc="110257378" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_kevin-chan_2x.jpg" crc="4121780011" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_newman-lau.jpg" crc="3970021177" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_newman-lau_2x.jpg" crc="425242811" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_alex-choy.jpg" crc="299927367" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_alex-choy_2x.jpg" crc="4179513046" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_able.jpg" crc="167963245" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_able_2x.jpg" crc="4233758807" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_proflam.jpg" crc="3953434706" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
-    <file name="pic_proflam_2x.jpg" crc="4223219434" ref="aboutus:abouthk-vmt">
-      <caption webpage="aboutus" alt=""/>
-    </file>
     <file name="poster butalk2.jpg" crc="4025890746" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
@@ -642,24 +619,126 @@
     </file>
     <file name="poster talk1-u532708-fr.jpg" crc="479909724" ref="mediaactivities"/>
     <file name="poster talk1-u532708-fr_2x.jpg" crc="19874855" ref="mediaactivities"/>
+    <file name="facebook post 50plusreset.png" crc="3887145854" ref="mediaactivities">
+      <caption webpage="mediaactivities" alt=""/>
+    </file>
+    <file name="facebook post 50plusreset_2x.png" crc="3803474258" ref="mediaactivities">
+      <caption webpage="mediaactivities" alt=""/>
+    </file>
+    <file name="facebook-post-feedback-survey-v3.jpg" crc="4264187167" ref="mediaactivities">
+      <caption webpage="mediaactivities" alt=""/>
+    </file>
+    <file name="facebook-post-feedback-survey-v3_2x.jpg" crc="3771325166" ref="mediaactivities">
+      <caption webpage="mediaactivities" alt=""/>
+    </file>
     <file name="poster 50plus-u524969-fr.jpg" crc="3810599911" ref="mediaactivities"/>
     <file name="poster 50plus-u524969-fr_2x.jpg" crc="4176030187" ref="mediaactivities"/>
     <file name="poster mpil-u408395-fr.jpg" crc="129916827" ref="mediaactivities"/>
     <file name="poster mpil-u408395-fr_2x.jpg" crc="230683764" ref="mediaactivities"/>
     <file name="poster iatp-u408408-fr.jpg" crc="4047142177" ref="mediaactivities"/>
     <file name="poster iatp-u408408-fr_2x.jpg" crc="4277567785" ref="mediaactivities"/>
-    <file name="facebook post 50plusreset.png" crc="3887145854" ref="mediaactivities:index">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
-    <file name="facebook post 50plusreset_2x.png" crc="3803474258" ref="mediaactivities:index">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
     <file name="st_news01_low.jpg" crc="4114639184" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
     <file name="media_photo01.jpg" crc="505134203" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
+    <file name="spe_5105-u538643-fr.png" crc="4120494837" ref="mediaactivities"/>
+    <file name="spe_5105-u538643-fr_2x.png" crc="4058364577" ref="mediaactivities"/>
+    <file name="spe_5105-u538643-r-fr.jpg" crc="3886182009" ref="mediaactivities"/>
+    <file name="spe_5105-u538643-r-fr_2x.jpg" crc="311084207" ref="mediaactivities"/>
+    <file name="spe_5106-u538646-fr.png" crc="4024983911" ref="mediaactivities"/>
+    <file name="spe_5106-u538646-fr_2x.png" crc="4231470126" ref="mediaactivities"/>
+    <file name="spe_5106-u538646-r-fr.jpg" crc="3789747651" ref="mediaactivities"/>
+    <file name="spe_5106-u538646-r-fr_2x.jpg" crc="447281359" ref="mediaactivities"/>
+    <file name="spe_5109-u538647-fr.png" crc="3810421995" ref="mediaactivities"/>
+    <file name="spe_5109-u538647-fr_2x.png" crc="4205899964" ref="mediaactivities"/>
+    <file name="spe_5109-u538647-r-fr.jpg" crc="222372847" ref="mediaactivities"/>
+    <file name="spe_5109-u538647-r-fr_2x.jpg" crc="3858804474" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-fr.png" crc="4263742565" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-fr_2x.png" crc="4232828984" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-r-fr.jpg" crc="220075624" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-r-fr_2x.jpg" crc="4135957127" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-fr.png" crc="212341315" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-fr_2x.png" crc="4196734140" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-r-fr.jpg" crc="34620752" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-r-fr_2x.jpg" crc="4065424851" ref="mediaactivities"/>
+    <file name="spe_5115-u538649-fr.png" crc="45606467" ref="mediaactivities"/>
+    <file name="spe_5115-u538649-fr_2x.png" crc="3783701253" ref="mediaactivities"/>
+    <file name="spe_5115-u538649-r-fr.jpg" crc="3787312280" ref="mediaactivities"/>
+    <file name="spe_5115-u538649-r-fr_2x.jpg" crc="124673516" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-fr.png" crc="4039930574" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-fr_2x.png" crc="4188445296" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-r-fr.jpg" crc="3904707293" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-r-fr_2x.jpg" crc="4024553315" ref="mediaactivities"/>
+    <file name="spe_5129-u538648-fr.png" crc="4115703665" ref="mediaactivities"/>
+    <file name="spe_5129-u538648-fr_2x.png" crc="483443727" ref="mediaactivities"/>
+    <file name="spe_5129-u538648-r-fr.jpg" crc="406478474" ref="mediaactivities"/>
+    <file name="spe_5129-u538648-r-fr_2x.jpg" crc="263221394" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-fr.png" crc="3776108856" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-fr_2x.png" crc="3859725410" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-r-fr.jpg" crc="4202210219" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-r-fr_2x.jpg" crc="4161063077" ref="mediaactivities"/>
+    <file name="spe_5159-u538953-fr.png" crc="114216059" ref="mediaactivities"/>
+    <file name="spe_5159-u538953-fr_2x.png" crc="4092713776" ref="mediaactivities"/>
+    <file name="spe_5159-u538953-r-fr.jpg" crc="3972708975" ref="mediaactivities"/>
+    <file name="spe_5159-u538953-r-fr_2x.jpg" crc="4224417800" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-fr.png" crc="326595569" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-fr_2x.png" crc="473285238" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-r-fr.jpg" crc="3957740510" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-r-fr_2x.jpg" crc="105930340" ref="mediaactivities"/>
+    <file name="spe_5214-u538992-fr.png" crc="431499850" ref="mediaactivities"/>
+    <file name="spe_5214-u538992-fr_2x.png" crc="36496275" ref="mediaactivities"/>
+    <file name="spe_5214-u538992-r-fr.jpg" crc="4100888308" ref="mediaactivities"/>
+    <file name="spe_5214-u538992-r-fr_2x.jpg" crc="4220236523" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-fr.png" crc="213869226" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-fr_2x.png" crc="502308915" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-r-fr.jpg" crc="372768306" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-r-fr_2x.jpg" crc="4134637382" ref="mediaactivities"/>
+    <file name="spe_5270-u539046-fr.png" crc="4042609366" ref="mediaactivities"/>
+    <file name="spe_5270-u539046-fr_2x.png" crc="4126812368" ref="mediaactivities"/>
+    <file name="spe_5270-u539046-r-fr.jpg" crc="4253342477" ref="mediaactivities"/>
+    <file name="spe_5270-u539046-r-fr_2x.jpg" crc="4079321269" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-fr.png" crc="3771718884" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-fr_2x.png" crc="3770025943" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-r-fr.jpg" crc="3955429471" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-r-fr_2x.jpg" crc="3978987751" ref="mediaactivities"/>
+    <file name="spe_5295-u539133-fr.png" crc="4164908339" ref="mediaactivities"/>
+    <file name="spe_5295-u539133-fr_2x.png" crc="3893729941" ref="mediaactivities"/>
+    <file name="spe_5295-u539133-r-fr.jpg" crc="386783778" ref="mediaactivities"/>
+    <file name="spe_5295-u539133-r-fr_2x.jpg" crc="20612587" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-fr.png" crc="97699497" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-fr_2x.png" crc="3787779533" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-r-fr.jpg" crc="399459685" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-r-fr_2x.jpg" crc="4229847068" ref="mediaactivities"/>
+    <file name="spe_5318-u539193-fr.png" crc="4034016820" ref="mediaactivities"/>
+    <file name="spe_5318-u539193-fr_2x.png" crc="4058527042" ref="mediaactivities"/>
+    <file name="spe_5318-u539193-r-fr.jpg" crc="504129528" ref="mediaactivities"/>
+    <file name="spe_5318-u539193-r-fr_2x.jpg" crc="139488928" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-fr.png" crc="4199654555" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-fr_2x.png" crc="4036683446" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-r-fr.jpg" crc="404474712" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-r-fr_2x.jpg" crc="447551675" ref="mediaactivities"/>
+    <file name="spe_5374-u539232-fr.png" crc="4224430194" ref="mediaactivities"/>
+    <file name="spe_5374-u539232-fr_2x.png" crc="265024501" ref="mediaactivities"/>
+    <file name="spe_5374-u539232-r-fr.jpg" crc="203254276" ref="mediaactivities"/>
+    <file name="spe_5374-u539232-r-fr_2x.jpg" crc="266228425" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-fr.png" crc="3868555368" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-fr_2x.png" crc="4260256289" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-r-fr.jpg" crc="4073424722" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-r-fr_2x.jpg" crc="3950239998" ref="mediaactivities"/>
+    <file name="spe_5385-u539295-fr.png" crc="3788719453" ref="mediaactivities"/>
+    <file name="spe_5385-u539295-fr_2x.png" crc="4060275368" ref="mediaactivities"/>
+    <file name="spe_5385-u539295-r-fr.jpg" crc="281086606" ref="mediaactivities"/>
+    <file name="spe_5385-u539295-r-fr_2x.jpg" crc="254829965" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-fr.png" crc="309515316" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-fr_2x.png" crc="4279856738" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-r-fr.jpg" crc="461781911" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-r-fr_2x.jpg" crc="3994451599" ref="mediaactivities"/>
+    <file name="spe_5388-u539355-fr.png" crc="62859341" ref="mediaactivities"/>
+    <file name="spe_5388-u539355-fr_2x.png" crc="174914852" ref="mediaactivities"/>
+    <file name="spe_5388-u539355-r-fr.jpg" crc="4224079416" ref="mediaactivities"/>
+    <file name="spe_5388-u539355-r-fr_2x.jpg" crc="4232326518" ref="mediaactivities"/>
     <file name="spe_5105.jpg" crc="4282328924" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
@@ -798,102 +877,22 @@
     <file name="spe_5388_2x.jpg" crc="99751200" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
-    <file name="spe_5105-u538643-fr.png" crc="4120494837" ref="mediaactivities"/>
-    <file name="spe_5105-u538643-fr_2x.png" crc="4058364577" ref="mediaactivities"/>
-    <file name="spe_5105-u538643-r-fr.jpg" crc="3886182009" ref="mediaactivities"/>
-    <file name="spe_5105-u538643-r-fr_2x.jpg" crc="311084207" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-fr.png" crc="4263742565" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-fr_2x.png" crc="4232828984" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-r-fr.jpg" crc="220075624" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-r-fr_2x.jpg" crc="4135957127" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-fr.png" crc="4039930574" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-fr_2x.png" crc="4188445296" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-r-fr.jpg" crc="3904707293" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-r-fr_2x.jpg" crc="4024553315" ref="mediaactivities"/>
-    <file name="spe_5159-u538953-fr.png" crc="114216059" ref="mediaactivities"/>
-    <file name="spe_5159-u538953-fr_2x.png" crc="4092713776" ref="mediaactivities"/>
-    <file name="spe_5159-u538953-r-fr.jpg" crc="3972708975" ref="mediaactivities"/>
-    <file name="spe_5159-u538953-r-fr_2x.jpg" crc="4224417800" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-fr.png" crc="213869226" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-fr_2x.png" crc="502308915" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-r-fr.jpg" crc="372768306" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-r-fr_2x.jpg" crc="4134637382" ref="mediaactivities"/>
-    <file name="spe_5295-u539133-fr.png" crc="4164908339" ref="mediaactivities"/>
-    <file name="spe_5295-u539133-fr_2x.png" crc="3893729941" ref="mediaactivities"/>
-    <file name="spe_5295-u539133-r-fr.jpg" crc="386783778" ref="mediaactivities"/>
-    <file name="spe_5295-u539133-r-fr_2x.jpg" crc="20612587" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-fr.png" crc="4199654555" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-fr_2x.png" crc="4036683446" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-r-fr.jpg" crc="404474712" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-r-fr_2x.jpg" crc="447551675" ref="mediaactivities"/>
-    <file name="spe_5385-u539295-fr.png" crc="3788719453" ref="mediaactivities"/>
-    <file name="spe_5385-u539295-fr_2x.png" crc="4060275368" ref="mediaactivities"/>
-    <file name="spe_5385-u539295-r-fr.jpg" crc="281086606" ref="mediaactivities"/>
-    <file name="spe_5385-u539295-r-fr_2x.jpg" crc="254829965" ref="mediaactivities"/>
-    <file name="spe_5106-u538646-fr.png" crc="4024983911" ref="mediaactivities"/>
-    <file name="spe_5106-u538646-fr_2x.png" crc="4231470126" ref="mediaactivities"/>
-    <file name="spe_5106-u538646-r-fr.jpg" crc="3789747651" ref="mediaactivities"/>
-    <file name="spe_5106-u538646-r-fr_2x.jpg" crc="447281359" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-fr.png" crc="212341315" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-fr_2x.png" crc="4196734140" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-r-fr.jpg" crc="34620752" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-r-fr_2x.jpg" crc="4065424851" ref="mediaactivities"/>
-    <file name="spe_5129-u538648-fr.png" crc="4115703665" ref="mediaactivities"/>
-    <file name="spe_5129-u538648-fr_2x.png" crc="483443727" ref="mediaactivities"/>
-    <file name="spe_5129-u538648-r-fr.jpg" crc="406478474" ref="mediaactivities"/>
-    <file name="spe_5129-u538648-r-fr_2x.jpg" crc="263221394" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-fr.png" crc="326595569" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-fr_2x.png" crc="473285238" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-r-fr.jpg" crc="3957740510" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-r-fr_2x.jpg" crc="105930340" ref="mediaactivities"/>
-    <file name="spe_5270-u539046-fr.png" crc="4042609366" ref="mediaactivities"/>
-    <file name="spe_5270-u539046-fr_2x.png" crc="4126812368" ref="mediaactivities"/>
-    <file name="spe_5270-u539046-r-fr.jpg" crc="4253342477" ref="mediaactivities"/>
-    <file name="spe_5270-u539046-r-fr_2x.jpg" crc="4079321269" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-fr.png" crc="97699497" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-fr_2x.png" crc="3787779533" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-r-fr.jpg" crc="399459685" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-r-fr_2x.jpg" crc="4229847068" ref="mediaactivities"/>
-    <file name="spe_5374-u539232-fr.png" crc="4224430194" ref="mediaactivities"/>
-    <file name="spe_5374-u539232-fr_2x.png" crc="265024501" ref="mediaactivities"/>
-    <file name="spe_5374-u539232-r-fr.jpg" crc="203254276" ref="mediaactivities"/>
-    <file name="spe_5374-u539232-r-fr_2x.jpg" crc="266228425" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-fr.png" crc="309515316" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-fr_2x.png" crc="4279856738" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-r-fr.jpg" crc="461781911" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-r-fr_2x.jpg" crc="3994451599" ref="mediaactivities"/>
-    <file name="spe_5109-u538647-fr.png" crc="3810421995" ref="mediaactivities"/>
-    <file name="spe_5109-u538647-fr_2x.png" crc="4205899964" ref="mediaactivities"/>
-    <file name="spe_5109-u538647-r-fr.jpg" crc="222372847" ref="mediaactivities"/>
-    <file name="spe_5109-u538647-r-fr_2x.jpg" crc="3858804474" ref="mediaactivities"/>
-    <file name="spe_5115-u538649-fr.png" crc="45606467" ref="mediaactivities"/>
-    <file name="spe_5115-u538649-fr_2x.png" crc="3783701253" ref="mediaactivities"/>
-    <file name="spe_5115-u538649-r-fr.jpg" crc="3787312280" ref="mediaactivities"/>
-    <file name="spe_5115-u538649-r-fr_2x.jpg" crc="124673516" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-fr.png" crc="3776108856" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-fr_2x.png" crc="3859725410" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-r-fr.jpg" crc="4202210219" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-r-fr_2x.jpg" crc="4161063077" ref="mediaactivities"/>
-    <file name="spe_5214-u538992-fr.png" crc="431499850" ref="mediaactivities"/>
-    <file name="spe_5214-u538992-fr_2x.png" crc="36496275" ref="mediaactivities"/>
-    <file name="spe_5214-u538992-r-fr.jpg" crc="4100888308" ref="mediaactivities"/>
-    <file name="spe_5214-u538992-r-fr_2x.jpg" crc="4220236523" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-fr.png" crc="3771718884" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-fr_2x.png" crc="3770025943" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-r-fr.jpg" crc="3955429471" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-r-fr_2x.jpg" crc="3978987751" ref="mediaactivities"/>
-    <file name="spe_5318-u539193-fr.png" crc="4034016820" ref="mediaactivities"/>
-    <file name="spe_5318-u539193-fr_2x.png" crc="4058527042" ref="mediaactivities"/>
-    <file name="spe_5318-u539193-r-fr.jpg" crc="504129528" ref="mediaactivities"/>
-    <file name="spe_5318-u539193-r-fr_2x.jpg" crc="139488928" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-fr.png" crc="3868555368" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-fr_2x.png" crc="4260256289" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-r-fr.jpg" crc="4073424722" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-r-fr_2x.jpg" crc="3950239998" ref="mediaactivities"/>
-    <file name="spe_5388-u539355-fr.png" crc="62859341" ref="mediaactivities"/>
-    <file name="spe_5388-u539355-fr_2x.png" crc="174914852" ref="mediaactivities"/>
-    <file name="spe_5388-u539355-r-fr.jpg" crc="4224079416" ref="mediaactivities"/>
-    <file name="spe_5388-u539355-r-fr_2x.jpg" crc="4232326518" ref="mediaactivities"/>
+    <file name="pic_event13-u538365-fr.png" crc="3937588493" ref="mediaactivities"/>
+    <file name="pic_event13-u538365-fr_2x.png" crc="4259331914" ref="mediaactivities"/>
+    <file name="pic_event13-u538365-r-fr.jpg" crc="394868555" ref="mediaactivities"/>
+    <file name="pic_event13-u538365-r-fr_2x.jpg" crc="409720600" ref="mediaactivities"/>
+    <file name="pic_event12-u538368-fr.png" crc="319517777" ref="mediaactivities"/>
+    <file name="pic_event12-u538368-fr_2x.png" crc="4040737474" ref="mediaactivities"/>
+    <file name="pic_event12-u538368-r-fr.jpg" crc="3801702344" ref="mediaactivities"/>
+    <file name="pic_event12-u538368-r-fr_2x.jpg" crc="4015436304" ref="mediaactivities"/>
+    <file name="pic_event10-u538369-fr.png" crc="440037868" ref="mediaactivities"/>
+    <file name="pic_event10-u538369-fr_2x.png" crc="4051561872" ref="mediaactivities"/>
+    <file name="pic_event10-u538369-r-fr.jpg" crc="3900540310" ref="mediaactivities"/>
+    <file name="pic_event10-u538369-r-fr_2x.jpg" crc="121188453" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-fr.png" crc="39307624" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-fr_2x.png" crc="3861065265" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-r-fr.jpg" crc="4145115519" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-r-fr_2x.jpg" crc="3947177575" ref="mediaactivities"/>
     <file name="pic_event13.jpg" crc="4240328294" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
@@ -906,22 +905,42 @@
     <file name="pic_event09.jpg" crc="36473298" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
-    <file name="pic_event13-u538365-fr.png" crc="3937588493" ref="mediaactivities"/>
-    <file name="pic_event13-u538365-fr_2x.png" crc="4259331914" ref="mediaactivities"/>
-    <file name="pic_event13-u538365-r-fr.jpg" crc="394868555" ref="mediaactivities"/>
-    <file name="pic_event13-u538365-r-fr_2x.jpg" crc="409720600" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-fr.png" crc="39307624" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-fr_2x.png" crc="3861065265" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-r-fr.jpg" crc="4145115519" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-r-fr_2x.jpg" crc="3947177575" ref="mediaactivities"/>
-    <file name="pic_event12-u538368-fr.png" crc="319517777" ref="mediaactivities"/>
-    <file name="pic_event12-u538368-fr_2x.png" crc="4040737474" ref="mediaactivities"/>
-    <file name="pic_event12-u538368-r-fr.jpg" crc="3801702344" ref="mediaactivities"/>
-    <file name="pic_event12-u538368-r-fr_2x.jpg" crc="4015436304" ref="mediaactivities"/>
-    <file name="pic_event10-u538369-fr.png" crc="440037868" ref="mediaactivities"/>
-    <file name="pic_event10-u538369-fr_2x.png" crc="4051561872" ref="mediaactivities"/>
-    <file name="pic_event10-u538369-r-fr.jpg" crc="3900540310" ref="mediaactivities"/>
-    <file name="pic_event10-u538369-r-fr_2x.jpg" crc="121188453" ref="mediaactivities"/>
+    <file name="pic_event04-u528148-fr.png" crc="4063236710" ref="mediaactivities"/>
+    <file name="pic_event04-u528148-fr_2x.png" crc="4033545977" ref="mediaactivities"/>
+    <file name="pic_event04-u528148-r-fr.jpg" crc="63347724" ref="mediaactivities"/>
+    <file name="pic_event04-u528148-r-fr_2x.jpg" crc="4051118666" ref="mediaactivities"/>
+    <file name="pic_event03-u528557-fr.png" crc="3825708838" ref="mediaactivities"/>
+    <file name="pic_event03-u528557-fr_2x.png" crc="3967028018" ref="mediaactivities"/>
+    <file name="pic_event03-u528557-r-fr.jpg" crc="4036618863" ref="mediaactivities"/>
+    <file name="pic_event03-u528557-r-fr_2x.jpg" crc="99356175" ref="mediaactivities"/>
+    <file name="pic_event02-u528586-fr.png" crc="110830941" ref="mediaactivities"/>
+    <file name="pic_event02-u528586-fr_2x.png" crc="130943899" ref="mediaactivities"/>
+    <file name="pic_event02-u528586-r-fr.jpg" crc="4251410821" ref="mediaactivities"/>
+    <file name="pic_event02-u528586-r-fr_2x.jpg" crc="3805293657" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-fr.png" crc="337292888" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-fr_2x.png" crc="127972595" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-r-fr.jpg" crc="4210345613" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-r-fr_2x.jpg" crc="170335979" ref="mediaactivities"/>
+    <file name="pic_poster03-u528644-fr.png" crc="90466018" ref="mediaactivities"/>
+    <file name="pic_poster03-u528644-fr_2x.png" crc="341792094" ref="mediaactivities"/>
+    <file name="pic_poster03-u528644-r-fr.jpg" crc="364572398" ref="mediaactivities"/>
+    <file name="pic_poster03-u528644-r-fr_2x.jpg" crc="3761343435" ref="mediaactivities"/>
+    <file name="pic_event06-u528665-fr.png" crc="4257704489" ref="mediaactivities"/>
+    <file name="pic_event06-u528665-fr_2x.png" crc="278277597" ref="mediaactivities"/>
+    <file name="pic_event06-u528665-r-fr.jpg" crc="4219048425" ref="mediaactivities"/>
+    <file name="pic_event06-u528665-r-fr_2x.jpg" crc="299086435" ref="mediaactivities"/>
+    <file name="pic_event05-u528694-fr.png" crc="3975679091" ref="mediaactivities"/>
+    <file name="pic_event05-u528694-fr_2x.png" crc="105752807" ref="mediaactivities"/>
+    <file name="pic_event05-u528694-r-fr.jpg" crc="106077093" ref="mediaactivities"/>
+    <file name="pic_event05-u528694-r-fr_2x.jpg" crc="107176740" ref="mediaactivities"/>
+    <file name="pic_event08-u528731-fr.png" crc="4211937794" ref="mediaactivities"/>
+    <file name="pic_event08-u528731-fr_2x.png" crc="4146993154" ref="mediaactivities"/>
+    <file name="pic_event08-u528731-r-fr.jpg" crc="178597652" ref="mediaactivities"/>
+    <file name="pic_event08-u528731-r-fr_2x.jpg" crc="4260686351" ref="mediaactivities"/>
+    <file name="pic_event11-u530782-fr.png" crc="3837325571" ref="mediaactivities"/>
+    <file name="pic_event11-u530782-fr_2x.png" crc="3936120891" ref="mediaactivities"/>
+    <file name="pic_event11-u530782-r-fr.jpg" crc="25649006" ref="mediaactivities"/>
+    <file name="pic_event11-u530782-r-fr_2x.jpg" crc="50863709" ref="mediaactivities"/>
     <file name="pic_event04.jpg" crc="4248193995" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
@@ -964,46 +983,13 @@
     <file name="pic_event11_2x.jpg" crc="348771813" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
-    <file name="pic_event04-u528148-fr.png" crc="4063236710" ref="mediaactivities"/>
-    <file name="pic_event04-u528148-fr_2x.png" crc="4033545977" ref="mediaactivities"/>
-    <file name="pic_event04-u528148-r-fr.jpg" crc="63347724" ref="mediaactivities"/>
-    <file name="pic_event04-u528148-r-fr_2x.jpg" crc="4051118666" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-fr.png" crc="337292888" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-fr_2x.png" crc="127972595" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-r-fr.jpg" crc="4210345613" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-r-fr_2x.jpg" crc="170335979" ref="mediaactivities"/>
-    <file name="pic_event05-u528694-fr.png" crc="3975679091" ref="mediaactivities"/>
-    <file name="pic_event05-u528694-fr_2x.png" crc="105752807" ref="mediaactivities"/>
-    <file name="pic_event05-u528694-r-fr.jpg" crc="106077093" ref="mediaactivities"/>
-    <file name="pic_event05-u528694-r-fr_2x.jpg" crc="107176740" ref="mediaactivities"/>
-    <file name="pic_event03-u528557-fr.png" crc="3825708838" ref="mediaactivities"/>
-    <file name="pic_event03-u528557-fr_2x.png" crc="3967028018" ref="mediaactivities"/>
-    <file name="pic_event03-u528557-r-fr.jpg" crc="4036618863" ref="mediaactivities"/>
-    <file name="pic_event03-u528557-r-fr_2x.jpg" crc="99356175" ref="mediaactivities"/>
-    <file name="pic_poster03-u528644-fr.png" crc="90466018" ref="mediaactivities"/>
-    <file name="pic_poster03-u528644-fr_2x.png" crc="341792094" ref="mediaactivities"/>
-    <file name="pic_poster03-u528644-r-fr.jpg" crc="364572398" ref="mediaactivities"/>
-    <file name="pic_poster03-u528644-r-fr_2x.jpg" crc="3761343435" ref="mediaactivities"/>
-    <file name="pic_event08-u528731-fr.png" crc="4211937794" ref="mediaactivities"/>
-    <file name="pic_event08-u528731-fr_2x.png" crc="4146993154" ref="mediaactivities"/>
-    <file name="pic_event08-u528731-r-fr.jpg" crc="178597652" ref="mediaactivities"/>
-    <file name="pic_event08-u528731-r-fr_2x.jpg" crc="4260686351" ref="mediaactivities"/>
-    <file name="pic_event02-u528586-fr.png" crc="110830941" ref="mediaactivities"/>
-    <file name="pic_event02-u528586-fr_2x.png" crc="130943899" ref="mediaactivities"/>
-    <file name="pic_event02-u528586-r-fr.jpg" crc="4251410821" ref="mediaactivities"/>
-    <file name="pic_event02-u528586-r-fr_2x.jpg" crc="3805293657" ref="mediaactivities"/>
-    <file name="pic_event06-u528665-fr.png" crc="4257704489" ref="mediaactivities"/>
-    <file name="pic_event06-u528665-fr_2x.png" crc="278277597" ref="mediaactivities"/>
-    <file name="pic_event06-u528665-r-fr.jpg" crc="4219048425" ref="mediaactivities"/>
-    <file name="pic_event06-u528665-r-fr_2x.jpg" crc="299086435" ref="mediaactivities"/>
-    <file name="pic_event11-u530782-fr.png" crc="3837325571" ref="mediaactivities"/>
-    <file name="pic_event11-u530782-fr_2x.png" crc="3936120891" ref="mediaactivities"/>
-    <file name="pic_event11-u530782-r-fr.jpg" crc="25649006" ref="mediaactivities"/>
-    <file name="pic_event11-u530782-r-fr_2x.jpg" crc="50863709" ref="mediaactivities"/>
     <file name="facebook_s-u499059-fr.png" crc="301183119" ref="mediaactivities"/>
     <file name="facebook_s-u499059-fr_2x.png" crc="129529778" ref="mediaactivities"/>
     <file name="facebook-u499059-r-fr.png" crc="434960246" ref="mediaactivities"/>
     <file name="facebook-u499059-r-fr_2x.png" crc="526248403" ref="mediaactivities"/>
+    <file name="facebook-post-feedback-survey-v32.jpg" crc="3771325166" ref="mediaactivities">
+      <caption webpage="mediaactivities" alt=""/>
+    </file>
     <file name="poster talk1.jpg" crc="4055163975" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
@@ -1118,6 +1104,8 @@
     </file>
     <file name="pic_event11-u530794-fr.jpg" crc="4205975228" ref="mediaactivities"/>
     <file name="pic_event11-u530794-fr_2x.jpg" crc="82160952" ref="mediaactivities"/>
+    <file name="wave_green_3-u406680-fr.png" crc="4075100511" ref="mediaactivities:partnership:index"/>
+    <file name="wave_green_3-u406680-fr_2x.png" crc="4182332899" ref="mediaactivities:partnership:index"/>
     <file name="poster 50plus-u524969-fr2.jpg" crc="4059477083" ref="mediaactivities"/>
     <file name="poster 50plus-u524969-fr_2x2.jpg" crc="93917628" ref="mediaactivities"/>
     <file name="poster mpil-u408395-fr2.jpg" crc="4240261281" ref="mediaactivities"/>
@@ -1126,102 +1114,10 @@
     <file name="poster iatp-u408408-fr_2x2.jpg" crc="4075040123" ref="mediaactivities"/>
     <file name="st_news01_low-u523392-fr.jpg" crc="3988494323" ref="mediaactivities"/>
     <file name="st_news01_low-u523392-fr_2x.jpg" crc="4264916390" ref="mediaactivities"/>
-    <file name="spe_5105-u538628-fr2.jpg" crc="124738106" ref="mediaactivities"/>
-    <file name="spe_5105-u538628-fr_2x2.jpg" crc="57589888" ref="mediaactivities"/>
-    <file name="spe_5106-u538633-fr2.jpg" crc="231829447" ref="mediaactivities"/>
-    <file name="spe_5106-u538633-fr_2x2.jpg" crc="3786145905" ref="mediaactivities"/>
-    <file name="spe_5109-u538634-fr2.jpg" crc="126111960" ref="mediaactivities"/>
-    <file name="spe_5109-u538634-fr_2x2.jpg" crc="281304009" ref="mediaactivities"/>
-    <file name="spe_5111-u538636-fr2.jpg" crc="422803064" ref="mediaactivities"/>
-    <file name="spe_5111-u538636-fr_2x2.jpg" crc="3836008883" ref="mediaactivities"/>
-    <file name="spe_5113-u538629-fr2.jpg" crc="4100531944" ref="mediaactivities"/>
-    <file name="spe_5113-u538629-fr_2x2.jpg" crc="4124847968" ref="mediaactivities"/>
-    <file name="spe_5115-u538630-fr2.jpg" crc="3987476915" ref="mediaactivities"/>
-    <file name="spe_5115-u538630-fr_2x2.jpg" crc="225731826" ref="mediaactivities"/>
-    <file name="spe_5124-u538631-fr2.jpg" crc="126134378" ref="mediaactivities"/>
-    <file name="spe_5124-u538631-fr_2x2.jpg" crc="306441189" ref="mediaactivities"/>
-    <file name="spe_5129-u538632-fr2.jpg" crc="238312039" ref="mediaactivities"/>
-    <file name="spe_5129-u538632-fr_2x2.jpg" crc="4061498645" ref="mediaactivities"/>
-    <file name="spe_5144-u538635-fr2.jpg" crc="356003582" ref="mediaactivities"/>
-    <file name="spe_5144-u538635-fr_2x2.jpg" crc="249067042" ref="mediaactivities"/>
-    <file name="spe_5159-u538965-fr2.jpg" crc="4137161161" ref="mediaactivities"/>
-    <file name="spe_5159-u538965-fr_2x2.jpg" crc="3807095415" ref="mediaactivities"/>
-    <file name="spe_5184-u538983-fr2.jpg" crc="92086848" ref="mediaactivities"/>
-    <file name="spe_5184-u538983-fr_2x2.jpg" crc="4291073007" ref="mediaactivities"/>
-    <file name="spe_5214-u539001-fr2.jpg" crc="3965723190" ref="mediaactivities"/>
-    <file name="spe_5214-u539001-fr_2x2.jpg" crc="3952610512" ref="mediaactivities"/>
-    <file name="spe_5233-u539019-fr2.jpg" crc="250691109" ref="mediaactivities"/>
-    <file name="spe_5233-u539019-fr_2x2.jpg" crc="90488637" ref="mediaactivities"/>
-    <file name="spe_5270-u539055-fr2.jpg" crc="3968132401" ref="mediaactivities"/>
-    <file name="spe_5270-u539055-fr_2x2.jpg" crc="3772246997" ref="mediaactivities"/>
-    <file name="spe_5287-u539124-fr2.jpg" crc="4233129416" ref="mediaactivities"/>
-    <file name="spe_5287-u539124-fr_2x2.jpg" crc="376828816" ref="mediaactivities"/>
-    <file name="spe_5295-u539142-fr2.jpg" crc="456423738" ref="mediaactivities"/>
-    <file name="spe_5295-u539142-fr_2x2.jpg" crc="4090527029" ref="mediaactivities"/>
-    <file name="spe_5298-u539160-fr2.jpg" crc="351766302" ref="mediaactivities"/>
-    <file name="spe_5298-u539160-fr_2x2.jpg" crc="4026857404" ref="mediaactivities"/>
-    <file name="spe_5318-u539205-fr2.jpg" crc="508175713" ref="mediaactivities"/>
-    <file name="spe_5318-u539205-fr_2x2.jpg" crc="3929878303" ref="mediaactivities"/>
-    <file name="spe_5339-u539223-fr2.jpg" crc="3912759554" ref="mediaactivities"/>
-    <file name="spe_5339-u539223-fr_2x2.jpg" crc="4235725079" ref="mediaactivities"/>
-    <file name="spe_5374-u539241-fr2.jpg" crc="320263669" ref="mediaactivities"/>
-    <file name="spe_5374-u539241-fr_2x2.jpg" crc="4126033599" ref="mediaactivities"/>
-    <file name="spe_5382-u539286-fr2.jpg" crc="4039409808" ref="mediaactivities"/>
-    <file name="spe_5382-u539286-fr_2x2.jpg" crc="3878276749" ref="mediaactivities"/>
-    <file name="spe_5385-u539304-fr2.jpg" crc="42364669" ref="mediaactivities"/>
-    <file name="spe_5385-u539304-fr_2x2.jpg" crc="22016657" ref="mediaactivities"/>
-    <file name="spe_5386-u539322-fr2.jpg" crc="43089891" ref="mediaactivities"/>
-    <file name="spe_5386-u539322-fr_2x2.jpg" crc="278221320" ref="mediaactivities"/>
-    <file name="spe_5388-u539367-fr2.jpg" crc="274807960" ref="mediaactivities"/>
-    <file name="spe_5388-u539367-fr_2x2.jpg" crc="478863060" ref="mediaactivities"/>
     <file name="spe_5105-u538643-fr2.png" crc="13791384" ref="mediaactivities"/>
     <file name="spe_5105-u538643-fr_2x2.png" crc="106469743" ref="mediaactivities"/>
     <file name="spe_5105-u538643-r-fr2.jpg" crc="488091279" ref="mediaactivities"/>
     <file name="spe_5105-u538643-r-fr_2x2.jpg" crc="94988592" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-fr2.png" crc="3971759405" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-fr_2x2.png" crc="176630165" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-r-fr2.jpg" crc="4188171391" ref="mediaactivities"/>
-    <file name="spe_5111-u538650-r-fr_2x2.jpg" crc="325431718" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-fr2.png" crc="4017509211" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-fr_2x2.png" crc="3989689538" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-r-fr2.jpg" crc="3768916432" ref="mediaactivities"/>
-    <file name="spe_5113-u538644-r-fr_2x2.jpg" crc="4082476973" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-fr2.png" crc="340741467" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-fr_2x2.png" crc="423017328" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-r-fr2.jpg" crc="497478773" ref="mediaactivities"/>
-    <file name="spe_5124-u538645-r-fr_2x2.jpg" crc="258815078" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-fr2.png" crc="380322784" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-fr_2x2.png" crc="461191780" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-r-fr2.jpg" crc="229975189" ref="mediaactivities"/>
-    <file name="spe_5144-u538642-r-fr_2x2.jpg" crc="4159288303" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-fr2.png" crc="443079293" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-fr_2x2.png" crc="457602040" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-r-fr2.jpg" crc="4188310715" ref="mediaactivities"/>
-    <file name="spe_5184-u538974-r-fr_2x2.jpg" crc="136315955" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-fr2.png" crc="3843245561" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-fr_2x2.png" crc="4068517681" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-r-fr2.jpg" crc="3859069219" ref="mediaactivities"/>
-    <file name="spe_5233-u539010-r-fr_2x2.jpg" crc="393267788" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-fr2.png" crc="3998314656" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-fr_2x2.png" crc="4284449293" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-r-fr2.jpg" crc="4283525208" ref="mediaactivities"/>
-    <file name="spe_5287-u539112-r-fr_2x2.jpg" crc="4091593555" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-fr2.png" crc="4025686438" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-fr_2x2.png" crc="168244238" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-r-fr2.jpg" crc="4163480871" ref="mediaactivities"/>
-    <file name="spe_5298-u539151-r-fr_2x2.jpg" crc="379060633" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-fr2.png" crc="4275918233" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-fr_2x2.png" crc="378821822" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-r-fr2.jpg" crc="140136603" ref="mediaactivities"/>
-    <file name="spe_5339-u539214-r-fr_2x2.jpg" crc="161944937" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-fr2.png" crc="153839855" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-fr_2x2.png" crc="4003130001" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-r-fr2.jpg" crc="372375151" ref="mediaactivities"/>
-    <file name="spe_5382-u539274-r-fr_2x2.jpg" crc="55707749" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-fr2.png" crc="3878970454" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-fr_2x2.png" crc="75188020" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-r-fr2.jpg" crc="5210100" ref="mediaactivities"/>
-    <file name="spe_5386-u539313-r-fr_2x2.jpg" crc="207195329" ref="mediaactivities"/>
     <file name="spe_5106-u538646-fr2.png" crc="3956297042" ref="mediaactivities"/>
     <file name="spe_5106-u538646-fr_2x2.png" crc="3840484775" ref="mediaactivities"/>
     <file name="spe_5106-u538646-r-fr2.jpg" crc="316301268" ref="mediaactivities"/>
@@ -1230,60 +1126,94 @@
     <file name="spe_5109-u538647-fr_2x2.png" crc="341759586" ref="mediaactivities"/>
     <file name="spe_5109-u538647-r-fr2.jpg" crc="268154685" ref="mediaactivities"/>
     <file name="spe_5109-u538647-r-fr_2x2.jpg" crc="3786704800" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-fr2.png" crc="3971759405" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-fr_2x2.png" crc="176630165" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-r-fr2.jpg" crc="4188171391" ref="mediaactivities"/>
+    <file name="spe_5111-u538650-r-fr_2x2.jpg" crc="325431718" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-fr2.png" crc="4017509211" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-fr_2x2.png" crc="3989689538" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-r-fr2.jpg" crc="3768916432" ref="mediaactivities"/>
+    <file name="spe_5113-u538644-r-fr_2x2.jpg" crc="4082476973" ref="mediaactivities"/>
     <file name="spe_5115-u538649-fr2.png" crc="495637789" ref="mediaactivities"/>
     <file name="spe_5115-u538649-fr_2x2.png" crc="430791543" ref="mediaactivities"/>
     <file name="spe_5115-u538649-r-fr2.jpg" crc="3890550438" ref="mediaactivities"/>
     <file name="spe_5115-u538649-r-fr_2x2.jpg" crc="4163372056" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-fr2.png" crc="340741467" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-fr_2x2.png" crc="423017328" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-r-fr2.jpg" crc="497478773" ref="mediaactivities"/>
+    <file name="spe_5124-u538645-r-fr_2x2.jpg" crc="258815078" ref="mediaactivities"/>
     <file name="spe_5129-u538648-fr2.png" crc="352594059" ref="mediaactivities"/>
     <file name="spe_5129-u538648-fr_2x2.png" crc="4257320136" ref="mediaactivities"/>
     <file name="spe_5129-u538648-r-fr2.jpg" crc="451103001" ref="mediaactivities"/>
     <file name="spe_5129-u538648-r-fr_2x2.jpg" crc="10294521" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-fr2.png" crc="380322784" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-fr_2x2.png" crc="461191780" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-r-fr2.jpg" crc="229975189" ref="mediaactivities"/>
+    <file name="spe_5144-u538642-r-fr_2x2.jpg" crc="4159288303" ref="mediaactivities"/>
     <file name="spe_5159-u538953-fr2.png" crc="24144304" ref="mediaactivities"/>
     <file name="spe_5159-u538953-fr_2x2.png" crc="3995987791" ref="mediaactivities"/>
     <file name="spe_5159-u538953-r-fr2.jpg" crc="194574274" ref="mediaactivities"/>
     <file name="spe_5159-u538953-r-fr_2x2.jpg" crc="4005577105" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-fr2.png" crc="443079293" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-fr_2x2.png" crc="457602040" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-r-fr2.jpg" crc="4188310715" ref="mediaactivities"/>
+    <file name="spe_5184-u538974-r-fr_2x2.jpg" crc="136315955" ref="mediaactivities"/>
     <file name="spe_5214-u538992-fr2.png" crc="34760739" ref="mediaactivities"/>
     <file name="spe_5214-u538992-fr_2x2.png" crc="87821559" ref="mediaactivities"/>
     <file name="spe_5214-u538992-r-fr2.jpg" crc="4217349538" ref="mediaactivities"/>
     <file name="spe_5214-u538992-r-fr_2x2.jpg" crc="4098656106" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-fr2.png" crc="3843245561" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-fr_2x2.png" crc="4068517681" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-r-fr2.jpg" crc="3859069219" ref="mediaactivities"/>
+    <file name="spe_5233-u539010-r-fr_2x2.jpg" crc="393267788" ref="mediaactivities"/>
     <file name="spe_5270-u539046-fr2.png" crc="87352731" ref="mediaactivities"/>
     <file name="spe_5270-u539046-fr_2x2.png" crc="4195317430" ref="mediaactivities"/>
     <file name="spe_5270-u539046-r-fr2.jpg" crc="3765717801" ref="mediaactivities"/>
     <file name="spe_5270-u539046-r-fr_2x2.jpg" crc="175238431" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-fr2.png" crc="3998314656" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-fr_2x2.png" crc="4284449293" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-r-fr2.jpg" crc="4283525208" ref="mediaactivities"/>
+    <file name="spe_5287-u539112-r-fr_2x2.jpg" crc="4091593555" ref="mediaactivities"/>
     <file name="spe_5295-u539133-fr2.png" crc="301951468" ref="mediaactivities"/>
     <file name="spe_5295-u539133-fr_2x2.png" crc="527434155" ref="mediaactivities"/>
     <file name="spe_5295-u539133-r-fr2.jpg" crc="76721388" ref="mediaactivities"/>
     <file name="spe_5295-u539133-r-fr_2x2.jpg" crc="106498492" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-fr2.png" crc="4025686438" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-fr_2x2.png" crc="168244238" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-r-fr2.jpg" crc="4163480871" ref="mediaactivities"/>
+    <file name="spe_5298-u539151-r-fr_2x2.jpg" crc="379060633" ref="mediaactivities"/>
     <file name="spe_5318-u539193-fr2.png" crc="313591474" ref="mediaactivities"/>
     <file name="spe_5318-u539193-fr_2x2.png" crc="439579245" ref="mediaactivities"/>
     <file name="spe_5318-u539193-r-fr2.jpg" crc="311173117" ref="mediaactivities"/>
     <file name="spe_5318-u539193-r-fr_2x2.jpg" crc="56161528" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-fr2.png" crc="4275918233" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-fr_2x2.png" crc="378821822" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-r-fr2.jpg" crc="140136603" ref="mediaactivities"/>
+    <file name="spe_5339-u539214-r-fr_2x2.jpg" crc="161944937" ref="mediaactivities"/>
     <file name="spe_5374-u539232-fr2.png" crc="473384813" ref="mediaactivities"/>
     <file name="spe_5374-u539232-fr_2x2.png" crc="427492815" ref="mediaactivities"/>
     <file name="spe_5374-u539232-r-fr2.jpg" crc="281157137" ref="mediaactivities"/>
     <file name="spe_5374-u539232-r-fr_2x2.jpg" crc="3968584001" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-fr2.png" crc="153839855" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-fr_2x2.png" crc="4003130001" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-r-fr2.jpg" crc="372375151" ref="mediaactivities"/>
+    <file name="spe_5382-u539274-r-fr_2x2.jpg" crc="55707749" ref="mediaactivities"/>
     <file name="spe_5385-u539295-fr2.png" crc="4150333535" ref="mediaactivities"/>
     <file name="spe_5385-u539295-fr_2x2.png" crc="530160488" ref="mediaactivities"/>
     <file name="spe_5385-u539295-r-fr2.jpg" crc="333420673" ref="mediaactivities"/>
     <file name="spe_5385-u539295-r-fr_2x2.jpg" crc="4015903980" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-fr2.png" crc="3878970454" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-fr_2x2.png" crc="75188020" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-r-fr2.jpg" crc="5210100" ref="mediaactivities"/>
+    <file name="spe_5386-u539313-r-fr_2x2.jpg" crc="207195329" ref="mediaactivities"/>
     <file name="spe_5388-u539355-fr2.png" crc="406471953" ref="mediaactivities"/>
     <file name="spe_5388-u539355-fr_2x2.png" crc="4129860456" ref="mediaactivities"/>
     <file name="spe_5388-u539355-r-fr2.jpg" crc="4041302766" ref="mediaactivities"/>
     <file name="spe_5388-u539355-r-fr_2x2.jpg" crc="442224165" ref="mediaactivities"/>
-    <file name="pic_event092.jpg" crc="452233459" ref="mediaactivities">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
-    <file name="pic_event09_2x.jpg" crc="36473298" ref="mediaactivities">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
     <file name="pic_event13-u538365-fr2.png" crc="3928892085" ref="mediaactivities"/>
     <file name="pic_event13-u538365-fr_2x2.png" crc="52590815" ref="mediaactivities"/>
     <file name="pic_event13-u538365-r-fr2.jpg" crc="267713893" ref="mediaactivities"/>
     <file name="pic_event13-u538365-r-fr_2x2.jpg" crc="502613560" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-fr2.png" crc="181323337" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-fr_2x2.png" crc="94645142" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-r-fr2.jpg" crc="110786434" ref="mediaactivities"/>
-    <file name="pic_event09-u538372-r-fr_2x2.jpg" crc="4085042385" ref="mediaactivities"/>
     <file name="pic_event12-u538368-fr2.png" crc="480976123" ref="mediaactivities"/>
     <file name="pic_event12-u538368-fr_2x2.png" crc="4049179835" ref="mediaactivities"/>
     <file name="pic_event12-u538368-r-fr2.jpg" crc="491116857" ref="mediaactivities"/>
@@ -1292,14 +1222,10 @@
     <file name="pic_event10-u538369-fr_2x2.png" crc="3797105215" ref="mediaactivities"/>
     <file name="pic_event10-u538369-r-fr2.jpg" crc="92862964" ref="mediaactivities"/>
     <file name="pic_event10-u538369-r-fr_2x2.jpg" crc="176848115" ref="mediaactivities"/>
-    <file name="pic_event04-u528140-fr2.jpg" crc="4258831504" ref="mediaactivities"/>
-    <file name="pic_event04-u528140-fr_2x2.jpg" crc="52331929" ref="mediaactivities"/>
-    <file name="pic_poster03-u528656-fr2.jpg" crc="4127776445" ref="mediaactivities"/>
-    <file name="pic_poster03-u528656-fr_2x2.jpg" crc="3861946257" ref="mediaactivities"/>
-    <file name="pic_event06-u528677-fr.jpg" crc="128218572" ref="mediaactivities"/>
-    <file name="pic_event06-u528677-fr_2x.jpg" crc="4074575489" ref="mediaactivities"/>
-    <file name="pic_event05-u528706-fr.jpg" crc="319851806" ref="mediaactivities"/>
-    <file name="pic_event05-u528706-fr_2x.jpg" crc="3806890825" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-fr2.png" crc="181323337" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-fr_2x2.png" crc="94645142" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-r-fr2.jpg" crc="110786434" ref="mediaactivities"/>
+    <file name="pic_event09-u538372-r-fr_2x2.jpg" crc="4085042385" ref="mediaactivities"/>
     <file name="pic_event04-u528148-fr2.png" crc="269266682" ref="mediaactivities"/>
     <file name="pic_event04-u528148-fr_2x2.png" crc="4085721630" ref="mediaactivities"/>
     <file name="pic_event04-u528148-r-fr2.jpg" crc="4244043496" ref="mediaactivities"/>
@@ -1308,14 +1234,14 @@
     <file name="pic_event03-u528557-fr_2x2.png" crc="4180365415" ref="mediaactivities"/>
     <file name="pic_event03-u528557-r-fr2.jpg" crc="402056619" ref="mediaactivities"/>
     <file name="pic_event03-u528557-r-fr_2x2.jpg" crc="3849067567" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-fr2.png" crc="487099433" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-fr_2x2.png" crc="373523764" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-r-fr2.jpg" crc="4132089035" ref="mediaactivities"/>
-    <file name="pic_event01-u528615-r-fr_2x2.jpg" crc="4122058059" ref="mediaactivities"/>
     <file name="pic_event02-u528586-fr2.png" crc="431858630" ref="mediaactivities"/>
     <file name="pic_event02-u528586-fr_2x2.png" crc="3839106950" ref="mediaactivities"/>
     <file name="pic_event02-u528586-r-fr2.jpg" crc="523973844" ref="mediaactivities"/>
     <file name="pic_event02-u528586-r-fr_2x2.jpg" crc="403173220" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-fr2.png" crc="487099433" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-fr_2x2.png" crc="373523764" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-r-fr2.jpg" crc="4132089035" ref="mediaactivities"/>
+    <file name="pic_event01-u528615-r-fr_2x2.jpg" crc="4122058059" ref="mediaactivities"/>
     <file name="pic_poster03-u528644-fr2.png" crc="48650549" ref="mediaactivities"/>
     <file name="pic_poster03-u528644-fr_2x2.png" crc="4027366890" ref="mediaactivities"/>
     <file name="pic_poster03-u528644-r-fr2.jpg" crc="467235824" ref="mediaactivities"/>
@@ -1346,6 +1272,8 @@
     <file name="poster talk1-u532708-fr_2x2.jpg" crc="382679709" ref="mediaactivities"/>
     <file name="facebook post 50plusreset-u551614-fr.png" crc="3862487161" ref="mediaactivities"/>
     <file name="facebook post 50plusreset-u551614-fr_2x.png" crc="415841124" ref="mediaactivities"/>
+    <file name="wave_green_3-u406680-fr2.png" crc="348521965" ref="mediaactivities:partnership:index"/>
+    <file name="wave_green_3-u406680-fr_2x2.png" crc="294883304" ref="mediaactivities:partnership:index"/>
     <file name="poster 50plus-u524969-fr3.jpg" crc="4085449062" ref="mediaactivities"/>
     <file name="poster 50plus-u524969-fr_2x3.jpg" crc="3938853838" ref="mediaactivities"/>
     <file name="poster mpil-u408395-fr3.jpg" crc="97591315" ref="mediaactivities"/>
@@ -1360,54 +1288,54 @@
     <file name="media_photo01_2x.jpg" crc="505134203" ref="mediaactivities">
       <caption webpage="mediaactivities" alt=""/>
     </file>
-    <file name="spe_5105-u538628-fr3.jpg" crc="4029386645" ref="mediaactivities"/>
-    <file name="spe_5105-u538628-fr_2x3.jpg" crc="4166118507" ref="mediaactivities"/>
-    <file name="spe_5106-u538633-fr3.jpg" crc="405015691" ref="mediaactivities"/>
-    <file name="spe_5106-u538633-fr_2x3.jpg" crc="354862380" ref="mediaactivities"/>
-    <file name="spe_5109-u538634-fr3.jpg" crc="4192823734" ref="mediaactivities"/>
-    <file name="spe_5109-u538634-fr_2x3.jpg" crc="229113705" ref="mediaactivities"/>
-    <file name="spe_5111-u538636-fr3.jpg" crc="277462473" ref="mediaactivities"/>
-    <file name="spe_5111-u538636-fr_2x3.jpg" crc="4036200952" ref="mediaactivities"/>
-    <file name="spe_5113-u538629-fr3.jpg" crc="3758424815" ref="mediaactivities"/>
-    <file name="spe_5113-u538629-fr_2x3.jpg" crc="15700567" ref="mediaactivities"/>
-    <file name="spe_5115-u538630-fr3.jpg" crc="284583232" ref="mediaactivities"/>
-    <file name="spe_5115-u538630-fr_2x3.jpg" crc="4127140091" ref="mediaactivities"/>
-    <file name="spe_5124-u538631-fr3.jpg" crc="469739053" ref="mediaactivities"/>
-    <file name="spe_5124-u538631-fr_2x3.jpg" crc="4106198034" ref="mediaactivities"/>
-    <file name="spe_5129-u538632-fr3.jpg" crc="476932699" ref="mediaactivities"/>
-    <file name="spe_5129-u538632-fr_2x3.jpg" crc="281538446" ref="mediaactivities"/>
-    <file name="spe_5144-u538635-fr3.jpg" crc="136988397" ref="mediaactivities"/>
-    <file name="spe_5144-u538635-fr_2x3.jpg" crc="3836261440" ref="mediaactivities"/>
-    <file name="spe_5159-u538965-fr3.jpg" crc="121086915" ref="mediaactivities"/>
-    <file name="spe_5159-u538965-fr_2x3.jpg" crc="3951692450" ref="mediaactivities"/>
-    <file name="spe_5184-u538983-fr3.jpg" crc="4102077707" ref="mediaactivities"/>
-    <file name="spe_5184-u538983-fr_2x3.jpg" crc="524798731" ref="mediaactivities"/>
-    <file name="spe_5214-u539001-fr3.jpg" crc="3899457452" ref="mediaactivities"/>
-    <file name="spe_5214-u539001-fr_2x3.jpg" crc="136456831" ref="mediaactivities"/>
-    <file name="spe_5233-u539019-fr3.jpg" crc="500525684" ref="mediaactivities"/>
-    <file name="spe_5233-u539019-fr_2x3.jpg" crc="4196211560" ref="mediaactivities"/>
-    <file name="spe_5270-u539055-fr3.jpg" crc="306046430" ref="mediaactivities"/>
-    <file name="spe_5270-u539055-fr_2x3.jpg" crc="1466091" ref="mediaactivities"/>
-    <file name="spe_5287-u539124-fr3.jpg" crc="335280183" ref="mediaactivities"/>
-    <file name="spe_5287-u539124-fr_2x3.jpg" crc="81250414" ref="mediaactivities"/>
-    <file name="spe_5295-u539142-fr3.jpg" crc="297564959" ref="mediaactivities"/>
-    <file name="spe_5295-u539142-fr_2x3.jpg" crc="3867282904" ref="mediaactivities"/>
-    <file name="spe_5298-u539160-fr3.jpg" crc="3946705991" ref="mediaactivities"/>
-    <file name="spe_5298-u539160-fr_2x3.jpg" crc="336030095" ref="mediaactivities"/>
-    <file name="spe_5318-u539205-fr3.jpg" crc="312692290" ref="mediaactivities"/>
-    <file name="spe_5318-u539205-fr_2x3.jpg" crc="3826974826" ref="mediaactivities"/>
-    <file name="spe_5339-u539223-fr3.jpg" crc="3859221340" ref="mediaactivities"/>
-    <file name="spe_5339-u539223-fr_2x3.jpg" crc="3761122625" ref="mediaactivities"/>
-    <file name="spe_5374-u539241-fr3.jpg" crc="163505028" ref="mediaactivities"/>
-    <file name="spe_5374-u539241-fr_2x3.jpg" crc="4089155638" ref="mediaactivities"/>
-    <file name="spe_5382-u539286-fr3.jpg" crc="488840498" ref="mediaactivities"/>
-    <file name="spe_5382-u539286-fr_2x3.jpg" crc="4153557836" ref="mediaactivities"/>
-    <file name="spe_5385-u539304-fr3.jpg" crc="3888171790" ref="mediaactivities"/>
-    <file name="spe_5385-u539304-fr_2x3.jpg" crc="52071738" ref="mediaactivities"/>
-    <file name="spe_5386-u539322-fr3.jpg" crc="258631613" ref="mediaactivities"/>
-    <file name="spe_5386-u539322-fr_2x3.jpg" crc="4271153634" ref="mediaactivities"/>
-    <file name="spe_5388-u539367-fr3.jpg" crc="3864918402" ref="mediaactivities"/>
-    <file name="spe_5388-u539367-fr_2x3.jpg" crc="3776198564" ref="mediaactivities"/>
+    <file name="spe_5105-u538628-fr2.jpg" crc="153353594" ref="mediaactivities"/>
+    <file name="spe_5105-u538628-fr_2x2.jpg" crc="4204791633" ref="mediaactivities"/>
+    <file name="spe_5106-u538633-fr2.jpg" crc="90006425" ref="mediaactivities"/>
+    <file name="spe_5106-u538633-fr_2x2.jpg" crc="3789672145" ref="mediaactivities"/>
+    <file name="spe_5109-u538634-fr2.jpg" crc="504935318" ref="mediaactivities"/>
+    <file name="spe_5109-u538634-fr_2x2.jpg" crc="3781451119" ref="mediaactivities"/>
+    <file name="spe_5111-u538636-fr2.jpg" crc="4011129407" ref="mediaactivities"/>
+    <file name="spe_5111-u538636-fr_2x2.jpg" crc="3905597385" ref="mediaactivities"/>
+    <file name="spe_5113-u538629-fr2.jpg" crc="165831718" ref="mediaactivities"/>
+    <file name="spe_5113-u538629-fr_2x2.jpg" crc="448393019" ref="mediaactivities"/>
+    <file name="spe_5115-u538630-fr2.jpg" crc="1165014" ref="mediaactivities"/>
+    <file name="spe_5115-u538630-fr_2x2.jpg" crc="299042321" ref="mediaactivities"/>
+    <file name="spe_5124-u538631-fr2.jpg" crc="35650933" ref="mediaactivities"/>
+    <file name="spe_5124-u538631-fr_2x2.jpg" crc="4077644452" ref="mediaactivities"/>
+    <file name="spe_5129-u538632-fr2.jpg" crc="82540365" ref="mediaactivities"/>
+    <file name="spe_5129-u538632-fr_2x2.jpg" crc="245509481" ref="mediaactivities"/>
+    <file name="spe_5144-u538635-fr2.jpg" crc="4274356832" ref="mediaactivities"/>
+    <file name="spe_5144-u538635-fr_2x2.jpg" crc="63492702" ref="mediaactivities"/>
+    <file name="spe_5159-u538965-fr2.jpg" crc="4021158839" ref="mediaactivities"/>
+    <file name="spe_5159-u538965-fr_2x2.jpg" crc="4187406738" ref="mediaactivities"/>
+    <file name="spe_5184-u538983-fr2.jpg" crc="4136018372" ref="mediaactivities"/>
+    <file name="spe_5184-u538983-fr_2x2.jpg" crc="146048404" ref="mediaactivities"/>
+    <file name="spe_5214-u539001-fr2.jpg" crc="135726398" ref="mediaactivities"/>
+    <file name="spe_5214-u539001-fr_2x2.jpg" crc="4021588355" ref="mediaactivities"/>
+    <file name="spe_5233-u539019-fr2.jpg" crc="465663995" ref="mediaactivities"/>
+    <file name="spe_5233-u539019-fr_2x2.jpg" crc="3948138141" ref="mediaactivities"/>
+    <file name="spe_5270-u539055-fr2.jpg" crc="4249911785" ref="mediaactivities"/>
+    <file name="spe_5270-u539055-fr_2x2.jpg" crc="287279919" ref="mediaactivities"/>
+    <file name="spe_5287-u539124-fr2.jpg" crc="196181376" ref="mediaactivities"/>
+    <file name="spe_5287-u539124-fr_2x2.jpg" crc="4014024816" ref="mediaactivities"/>
+    <file name="spe_5295-u539142-fr2.jpg" crc="86397205" ref="mediaactivities"/>
+    <file name="spe_5295-u539142-fr_2x2.jpg" crc="3888312970" ref="mediaactivities"/>
+    <file name="spe_5298-u539160-fr2.jpg" crc="4256423451" ref="mediaactivities"/>
+    <file name="spe_5298-u539160-fr_2x2.jpg" crc="210734944" ref="mediaactivities"/>
+    <file name="spe_5318-u539205-fr2.jpg" crc="519833323" ref="mediaactivities"/>
+    <file name="spe_5318-u539205-fr_2x2.jpg" crc="3867346784" ref="mediaactivities"/>
+    <file name="spe_5339-u539223-fr2.jpg" crc="3890411239" ref="mediaactivities"/>
+    <file name="spe_5339-u539223-fr_2x2.jpg" crc="3849742411" ref="mediaactivities"/>
+    <file name="spe_5374-u539241-fr2.jpg" crc="3832186460" ref="mediaactivities"/>
+    <file name="spe_5374-u539241-fr_2x2.jpg" crc="3984808556" ref="mediaactivities"/>
+    <file name="spe_5382-u539286-fr2.jpg" crc="196660613" ref="mediaactivities"/>
+    <file name="spe_5382-u539286-fr_2x2.jpg" crc="234983097" ref="mediaactivities"/>
+    <file name="spe_5385-u539304-fr2.jpg" crc="490635332" ref="mediaactivities"/>
+    <file name="spe_5385-u539304-fr_2x2.jpg" crc="3767569628" ref="mediaactivities"/>
+    <file name="spe_5386-u539322-fr2.jpg" crc="257962567" ref="mediaactivities"/>
+    <file name="spe_5386-u539322-fr_2x2.jpg" crc="110444106" ref="mediaactivities"/>
+    <file name="spe_5388-u539367-fr2.jpg" crc="422046350" ref="mediaactivities"/>
+    <file name="spe_5388-u539367-fr_2x2.jpg" crc="4001779809" ref="mediaactivities"/>
     <file name="spe_5106-u538646-fr3.png" crc="3857628465" ref="mediaactivities"/>
     <file name="spe_5106-u538646-fr_2x3.png" crc="4239266152" ref="mediaactivities"/>
     <file name="spe_5106-u538646-r-fr3.jpg" crc="363126134" ref="mediaactivities"/>
@@ -1504,18 +1432,12 @@
     <file name="spe_5386-u539313-fr_2x3.png" crc="4019324394" ref="mediaactivities"/>
     <file name="spe_5386-u539313-r-fr3.jpg" crc="520360088" ref="mediaactivities"/>
     <file name="spe_5386-u539313-r-fr_2x3.jpg" crc="476925416" ref="mediaactivities"/>
-    <file name="pic_event13-u538350-fr.jpg" crc="502613560" ref="mediaactivities"/>
-    <file name="pic_event13-u538350-fr_2x.jpg" crc="4100205469" ref="mediaactivities"/>
-    <file name="pic_event12-u538355-fr.jpg" crc="467779931" ref="mediaactivities"/>
-    <file name="pic_event12-u538355-fr_2x.jpg" crc="3981572286" ref="mediaactivities"/>
-    <file name="pic_event102.jpg" crc="295663579" ref="mediaactivities">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
-    <file name="pic_event10_2x.jpg" crc="3887559874" ref="mediaactivities">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
-    <file name="pic_event09-u538358-fr.jpg" crc="502821195" ref="mediaactivities"/>
-    <file name="pic_event09-u538358-fr_2x.jpg" crc="3920826254" ref="mediaactivities"/>
+    <file name="pic_event13-u538350-fr.jpg" crc="507212152" ref="mediaactivities"/>
+    <file name="pic_event13-u538350-fr_2x.jpg" crc="3783449717" ref="mediaactivities"/>
+    <file name="pic_event12-u538355-fr.jpg" crc="4218649890" ref="mediaactivities"/>
+    <file name="pic_event12-u538355-fr_2x.jpg" crc="3946998724" ref="mediaactivities"/>
+    <file name="pic_event09-u538358-fr.jpg" crc="66901701" ref="mediaactivities"/>
+    <file name="pic_event09-u538358-fr_2x.jpg" crc="3839738469" ref="mediaactivities"/>
     <file name="pic_event13-u538365-fr3.png" crc="4153771624" ref="mediaactivities"/>
     <file name="pic_event13-u538365-fr_2x3.png" crc="353594866" ref="mediaactivities"/>
     <file name="pic_event13-u538365-r-fr3.jpg" crc="221428339" ref="mediaactivities"/>
@@ -1532,28 +1454,22 @@
     <file name="pic_event10-u538369-fr_2x3.png" crc="4272238346" ref="mediaactivities"/>
     <file name="pic_event10-u538369-r-fr3.jpg" crc="391825104" ref="mediaactivities"/>
     <file name="pic_event10-u538369-r-fr_2x3.jpg" crc="3994240852" ref="mediaactivities"/>
-    <file name="pic_event04-u528140-fr3.jpg" crc="29029684" ref="mediaactivities"/>
-    <file name="pic_event04-u528140-fr_2x3.jpg" crc="179329184" ref="mediaactivities"/>
-    <file name="pic_event03-u528569-fr2.jpg" crc="4101677704" ref="mediaactivities"/>
-    <file name="pic_event03-u528569-fr_2x2.jpg" crc="477262333" ref="mediaactivities"/>
-    <file name="pic_event02-u528598-fr2.jpg" crc="3916851139" ref="mediaactivities"/>
-    <file name="pic_event02-u528598-fr_2x2.jpg" crc="216317235" ref="mediaactivities"/>
-    <file name="pic_event01-u528627-fr2.jpg" crc="366399027" ref="mediaactivities"/>
-    <file name="pic_event01-u528627-fr_2x2.jpg" crc="3800601073" ref="mediaactivities"/>
-    <file name="pic_poster03-u528656-fr3.jpg" crc="3988273131" ref="mediaactivities"/>
-    <file name="pic_poster03-u528656-fr_2x3.jpg" crc="150428756" ref="mediaactivities"/>
-    <file name="pic_event06-u528677-fr2.jpg" crc="4061489891" ref="mediaactivities"/>
-    <file name="pic_event06-u528677-fr_2x2.jpg" crc="313137668" ref="mediaactivities"/>
-    <file name="pic_event05-u528706-fr2.jpg" crc="243517075" ref="mediaactivities"/>
-    <file name="pic_event05-u528706-fr_2x2.jpg" crc="3978155982" ref="mediaactivities"/>
-    <file name="pic_event082.jpg" crc="4124436365" ref="mediaactivities">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
-    <file name="pic_event08_2x.jpg" crc="3954015594" ref="mediaactivities">
-      <caption webpage="mediaactivities" alt=""/>
-    </file>
-    <file name="pic_event11-u530794-fr2.jpg" crc="4150232357" ref="mediaactivities"/>
-    <file name="pic_event11-u530794-fr_2x2.jpg" crc="4245627910" ref="mediaactivities"/>
+    <file name="pic_event04-u528140-fr2.jpg" crc="309911130" ref="mediaactivities"/>
+    <file name="pic_event04-u528140-fr_2x2.jpg" crc="3833266574" ref="mediaactivities"/>
+    <file name="pic_event03-u528569-fr2.jpg" crc="159426000" ref="mediaactivities"/>
+    <file name="pic_event03-u528569-fr_2x2.jpg" crc="534083793" ref="mediaactivities"/>
+    <file name="pic_event02-u528598-fr2.jpg" crc="4008107596" ref="mediaactivities"/>
+    <file name="pic_event02-u528598-fr_2x2.jpg" crc="4054911509" ref="mediaactivities"/>
+    <file name="pic_event01-u528627-fr2.jpg" crc="4251812370" ref="mediaactivities"/>
+    <file name="pic_event01-u528627-fr_2x2.jpg" crc="4110745015" ref="mediaactivities"/>
+    <file name="pic_poster03-u528656-fr2.jpg" crc="3960518871" ref="mediaactivities"/>
+    <file name="pic_poster03-u528656-fr_2x2.jpg" crc="3843176411" ref="mediaactivities"/>
+    <file name="pic_event06-u528677-fr.jpg" crc="3927419049" ref="mediaactivities"/>
+    <file name="pic_event06-u528677-fr_2x.jpg" crc="4250242430" ref="mediaactivities"/>
+    <file name="pic_event05-u528706-fr.jpg" crc="4161548744" ref="mediaactivities"/>
+    <file name="pic_event05-u528706-fr_2x.jpg" crc="63066576" ref="mediaactivities"/>
+    <file name="pic_event11-u530794-fr2.jpg" crc="531901989" ref="mediaactivities"/>
+    <file name="pic_event11-u530794-fr_2x2.jpg" crc="3944110254" ref="mediaactivities"/>
     <file name="pic_event04-u528148-fr3.png" crc="4002292025" ref="mediaactivities"/>
     <file name="pic_event04-u528148-fr_2x3.png" crc="240607656" ref="mediaactivities"/>
     <file name="pic_event04-u528148-r-fr3.jpg" crc="3797496702" ref="mediaactivities"/>
@@ -1594,7 +1510,6 @@
     <file name="facebook_s-u499059-fr_2x3.png" crc="3902609232" ref="mediaactivities"/>
     <file name="facebook-u499059-r-fr3.png" crc="531734817" ref="mediaactivities"/>
     <file name="facebook-u499059-r-fr_2x3.png" crc="3852967" ref="mediaactivities"/>
-    <file name="partnership-favicon.ico" crc="3891198573" ref="partnership"/>
     <file name="health centre for primary care.jpg" crc="493184963" ref="partnership">
       <caption webpage="partnership" alt=""/>
     </file>
@@ -1652,16 +1567,58 @@
     <file name="精神健康資訊匯.jpg" crc="4096480091" ref="partnership">
       <caption webpage="partnership" alt=""/>
     </file>
-    <file name="hi_stages_p1_4.png" crc="218790337" ref="stages">
+    <file name="radiobuttonunchecked.png" crc="3976871150" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonunchecked_2x.png" crc="513732622" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedrollover.png" crc="4276313674" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedrollover_2x.png" crc="4247830771" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedmousedown.png" crc="54863585" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonuncheckedmousedown_2x.png" crc="488488871" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonchecked.png" crc="4193302265" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttonchecked_2x.png" crc="511964773" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedrollover.png" crc="88928956" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedrollover_2x.png" crc="3892053348" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedmousedown.png" crc="4280357799" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="radiobuttoncheckedmousedown_2x.png" crc="4195749169" ref="partnership">
+      <caption webpage="partnership" alt=""/>
+    </file>
+    <file name="hi_stages_p1_4.png" crc="379521766" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p1_5.png" crc="3961173714" ref="stages">
+    <file name="hi_stages_p1_4_2x.png" crc="218790337" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p1_3.png" crc="81254337" ref="stages">
+    <file name="hi_stages_p1_5.png" crc="457432439" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="wave_lightorange_3.png" crc="500304733" ref="stages">
+    <file name="hi_stages_p1_5_2x.png" crc="3961173714" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p1_3.png" crc="299605573" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p1_3_2x.png" crc="81254337" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
     <file name="hi_stages_p2_1.png" crc="4023000032" ref="stages">
@@ -1670,13 +1627,22 @@
     <file name="hi_stages_p3_1.png" crc="3891964475" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p4_3.png" crc="4289487858" ref="stages">
+    <file name="hi_stages_p4_3.png" crc="347720899" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p4_2.png" crc="3800853230" ref="stages">
+    <file name="hi_stages_p4_3_2x.png" crc="4289487858" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p4_1.png" crc="4077814348" ref="stages">
+    <file name="hi_stages_p4_2.png" crc="3856380035" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_2_2x.png" crc="3800853230" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_1.png" crc="4243243863" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_1_2x.png" crc="4077814348" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
     <file name="hi_stages_p5.png" crc="3765854380" ref="stages">
@@ -1688,12 +1654,12 @@
     <file name="hi_stages_p7.png" crc="4065738496" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p1_4-u124660-fr.png" crc="4121162426" ref="stages"/>
-    <file name="hi_stages_p1_4-u124660-fr_2x.png" crc="3989999154" ref="stages"/>
-    <file name="hi_stages_p1_5-u124676-fr.png" crc="216095825" ref="stages"/>
-    <file name="hi_stages_p1_5-u124676-fr_2x.png" crc="3950976972" ref="stages"/>
-    <file name="hi_stages_p1_3-u124644-fr.png" crc="459476417" ref="stages"/>
-    <file name="hi_stages_p1_3-u124644-fr_2x.png" crc="38605212" ref="stages"/>
+    <file name="hi_stages_p1_3-u468038-fr.png" crc="4236210284" ref="stages"/>
+    <file name="hi_stages_p1_3-u468038-fr_2x.png" crc="4192267152" ref="stages"/>
+    <file name="hi_stages_p1_4-u468066-fr.png" crc="482104854" ref="stages"/>
+    <file name="hi_stages_p1_4-u468066-fr_2x.png" crc="136718323" ref="stages"/>
+    <file name="hi_stages_p1_5-u468078-fr.png" crc="4243109898" ref="stages"/>
+    <file name="hi_stages_p1_5-u468078-fr_2x.png" crc="3887963310" ref="stages"/>
     <file name="hi_stages_p2_12.png" crc="4057559058" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
@@ -1706,12 +1672,15 @@
     <file name="hi_stages_p3_1_2x.png" crc="3891964475" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p4_3-u421207-fr.png" crc="4121295083" ref="stages"/>
-    <file name="hi_stages_p4_3-u421207-fr_2x.png" crc="3821761514" ref="stages"/>
-    <file name="hi_stages_p4_2-u421222-fr.png" crc="3928915561" ref="stages"/>
-    <file name="hi_stages_p4_2-u421222-fr_2x.png" crc="4051713547" ref="stages"/>
-    <file name="hi_stages_p4_1-u421243-fr.png" crc="3875010284" ref="stages"/>
-    <file name="hi_stages_p4_1-u421243-fr_2x.png" crc="75606117" ref="stages"/>
+    <file name="hi_stages_p4_12.png" crc="4077814348" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_22.png" crc="3800853230" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
+    <file name="hi_stages_p4_32.png" crc="4289487858" ref="stages">
+      <caption webpage="stages" alt=""/>
+    </file>
     <file name="hi_stages_p52.png" crc="3911691312" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
@@ -1730,96 +1699,40 @@
     <file name="hi_stages_p7_2x.png" crc="4065738496" ref="stages">
       <caption webpage="stages" alt=""/>
     </file>
-    <file name="hi_stages_p1_3-u468038-fr.png" crc="4236210284" ref="stages"/>
-    <file name="hi_stages_p1_3-u468038-fr_2x.png" crc="4192267152" ref="stages"/>
-    <file name="hi_stages_p1_4-u468066-fr.png" crc="482104854" ref="stages"/>
-    <file name="hi_stages_p1_4-u468066-fr_2x.png" crc="136718323" ref="stages"/>
-    <file name="hi_stages_p1_5-u468078-fr.png" crc="4243109898" ref="stages"/>
-    <file name="hi_stages_p1_5-u468078-fr_2x.png" crc="3887963310" ref="stages"/>
-    <file name="u468168-5.png" crc="4182596147" ref="stages"/>
-    <file name="u468168-5_2x.png" crc="399720910" ref="stages"/>
-    <file name="u468189-5.png" crc="4062418193" ref="stages"/>
-    <file name="u468189-5_2x.png" crc="439912253" ref="stages"/>
-    <file name="u468228-5.png" crc="307614503" ref="stages"/>
-    <file name="u468228-5_2x.png" crc="87400635" ref="stages"/>
-    <file name="hi_stages_p4_12.png" crc="4243243863" ref="stages">
-      <caption webpage="stages" alt=""/>
-    </file>
-    <file name="hi_stages_p4_1_2x.png" crc="4077814348" ref="stages">
-      <caption webpage="stages" alt=""/>
-    </file>
-    <file name="hi_stages_p4_22.png" crc="3856380035" ref="stages">
-      <caption webpage="stages" alt=""/>
-    </file>
-    <file name="hi_stages_p4_2_2x.png" crc="3800853230" ref="stages">
-      <caption webpage="stages" alt=""/>
-    </file>
-    <file name="hi_stages_p4_32.png" crc="347720899" ref="stages">
-      <caption webpage="stages" alt=""/>
-    </file>
-    <file name="hi_stages_p4_3_2x.png" crc="4289487858" ref="stages">
-      <caption webpage="stages" alt=""/>
-    </file>
-    <file name="u468168-52.png" crc="4182596147" ref="stages"/>
-    <file name="u468168-5_2x2.png" crc="399720910" ref="stages"/>
-    <file name="u468189-52.png" crc="4062418193" ref="stages"/>
-    <file name="u468189-5_2x2.png" crc="439912253" ref="stages"/>
-    <file name="u468228-52.png" crc="3772437282" ref="stages"/>
-    <file name="u468228-5_2x2.png" crc="169971152" ref="stages"/>
-    <file name="hi_stages_p1_3-u468038-fr2.png" crc="177190854" ref="stages"/>
-    <file name="hi_stages_p1_3-u468038-fr_2x2.png" crc="532284854" ref="stages"/>
-    <file name="hi_stages_p1_4-u468066-fr2.png" crc="222960078" ref="stages"/>
-    <file name="hi_stages_p1_4-u468066-fr_2x2.png" crc="4210342951" ref="stages"/>
-    <file name="hi_stages_p1_5-u468078-fr2.png" crc="159936005" ref="stages"/>
-    <file name="hi_stages_p1_5-u468078-fr_2x2.png" crc="101995226" ref="stages"/>
+    <file name="hi_stages_p1_3-u468038-fr2.png" crc="263238889" ref="stages"/>
+    <file name="hi_stages_p1_3-u468038-fr_2x2.png" crc="3774372384" ref="stages"/>
+    <file name="hi_stages_p1_4-u468066-fr2.png" crc="3988276829" ref="stages"/>
+    <file name="hi_stages_p1_4-u468066-fr_2x2.png" crc="4276420757" ref="stages"/>
+    <file name="hi_stages_p1_5-u468078-fr2.png" crc="4178675429" ref="stages"/>
+    <file name="hi_stages_p1_5-u468078-fr_2x2.png" crc="3979430536" ref="stages"/>
     <file name="hi_stages_p2_1-u468176-fr.png" crc="252008815" ref="stages"/>
     <file name="hi_stages_p2_1-u468176-fr_2x.png" crc="354571617" ref="stages"/>
-    <file name="u468168-53.png" crc="3836544497" ref="stages"/>
-    <file name="u468168-5_2x3.png" crc="332887476" ref="stages"/>
-    <file name="hi_stages_p3_1-u468215-fr.png" crc="57395188" ref="stages"/>
-    <file name="hi_stages_p3_1-u468215-fr_2x.png" crc="3796474291" ref="stages"/>
-    <file name="u468189-53.png" crc="4031646314" ref="stages"/>
-    <file name="u468189-5_2x3.png" crc="4285233925" ref="stages"/>
-    <file name="u468228-53.png" crc="3912232581" ref="stages"/>
-    <file name="u468228-5_2x3.png" crc="3844061803" ref="stages"/>
-    <file name="hi_stages_p4_1-u468248-fr.png" crc="3966576826" ref="stages"/>
-    <file name="hi_stages_p4_1-u468248-fr_2x.png" crc="463249651" ref="stages"/>
-    <file name="hi_stages_p4_2-u468249-fr.png" crc="179865137" ref="stages"/>
-    <file name="hi_stages_p4_2-u468249-fr_2x.png" crc="328380653" ref="stages"/>
-    <file name="hi_stages_p4_3-u468250-fr.png" crc="4167999555" ref="stages"/>
-    <file name="hi_stages_p4_3-u468250-fr_2x.png" crc="4148578034" ref="stages"/>
+    <file name="hi_stages_p3_1-u468215-fr.png" crc="3885045310" ref="stages"/>
+    <file name="hi_stages_p3_1-u468215-fr_2x.png" crc="3992522626" ref="stages"/>
+    <file name="hi_stages_p4_1-u468248-fr.png" crc="3842641799" ref="stages"/>
+    <file name="hi_stages_p4_1-u468248-fr_2x.png" crc="425423883" ref="stages"/>
+    <file name="hi_stages_p4_2-u468249-fr.png" crc="190311148" ref="stages"/>
+    <file name="hi_stages_p4_2-u468249-fr_2x.png" crc="4220027025" ref="stages"/>
+    <file name="hi_stages_p4_3-u468250-fr.png" crc="393209854" ref="stages"/>
+    <file name="hi_stages_p4_3-u468250-fr_2x.png" crc="222479709" ref="stages"/>
     <file name="hi_stages_p5-u468279-fr.png" crc="250369432" ref="stages"/>
     <file name="hi_stages_p5-u468279-fr_2x.png" crc="47769426" ref="stages"/>
-    <file name="hi_stages_p6-u468312-fr.png" crc="4135188680" ref="stages"/>
-    <file name="hi_stages_p6-u468312-fr_2x.png" crc="533104494" ref="stages"/>
-    <file name="hi_stages_p7-u468342-fr.png" crc="4049247275" ref="stages"/>
-    <file name="hi_stages_p7-u468342-fr_2x.png" crc="3790360832" ref="stages"/>
+    <file name="hi_stages_p6-u468312-fr.png" crc="4149780324" ref="stages"/>
+    <file name="hi_stages_p6-u468312-fr_2x.png" crc="4047263774" ref="stages"/>
+    <file name="hi_stages_p7-u468342-fr.png" crc="398696086" ref="stages"/>
+    <file name="hi_stages_p7-u468342-fr_2x.png" crc="361626526" ref="stages"/>
     <file name="hi_stages_p1_3-u468038-fr3.png" crc="38671872" ref="stages"/>
     <file name="hi_stages_p1_3-u468038-fr_2x3.png" crc="4245394176" ref="stages"/>
     <file name="hi_stages_p1_4-u468066-fr3.png" crc="117742220" ref="stages"/>
     <file name="hi_stages_p1_4-u468066-fr_2x3.png" crc="4065192403" ref="stages"/>
     <file name="hi_stages_p1_5-u468078-fr3.png" crc="356123813" ref="stages"/>
     <file name="hi_stages_p1_5-u468078-fr_2x3.png" crc="352630566" ref="stages"/>
-    <file name="u468168-54.png" crc="420957350" ref="stages"/>
-    <file name="u468168-5_2x4.png" crc="3916386581" ref="stages"/>
-    <file name="hi_stages_p2_1-u468176-fr2.png" crc="3809803232" ref="stages"/>
-    <file name="hi_stages_p2_1-u468176-fr_2x2.png" crc="12782745" ref="stages"/>
-    <file name="u468189-54.png" crc="3788610828" ref="stages"/>
-    <file name="u468189-5_2x4.png" crc="4096992131" ref="stages"/>
-    <file name="hi_stages_p3_1-u468215-fr2.png" crc="3809816593" ref="stages"/>
-    <file name="hi_stages_p3_1-u468215-fr_2x2.png" crc="50720547" ref="stages"/>
-    <file name="u468228-54.png" crc="383660199" ref="stages"/>
-    <file name="u468228-5_2x4.png" crc="248562590" ref="stages"/>
     <file name="hi_stages_p4_1-u468248-fr2.png" crc="90876277" ref="stages"/>
     <file name="hi_stages_p4_1-u468248-fr_2x2.png" crc="438456323" ref="stages"/>
     <file name="hi_stages_p4_2-u468249-fr2.png" crc="4067362027" ref="stages"/>
     <file name="hi_stages_p4_2-u468249-fr_2x2.png" crc="3938370783" ref="stages"/>
     <file name="hi_stages_p4_3-u468250-fr2.png" crc="210376772" ref="stages"/>
     <file name="hi_stages_p4_3-u468250-fr_2x2.png" crc="300673589" ref="stages"/>
-    <file name="hi_stages_p6-u468312-fr2.png" crc="4181488956" ref="stages"/>
-    <file name="hi_stages_p6-u468312-fr_2x2.png" crc="3813673175" ref="stages"/>
-    <file name="hi_stages_p7-u468342-fr2.png" crc="398696086" ref="stages"/>
-    <file name="hi_stages_p7-u468342-fr_2x2.png" crc="361626526" ref="stages"/>
     <file name="hi_causes_p1.png" crc="22565087" ref="risks">
       <caption webpage="risks" alt=""/>
     </file>
@@ -1856,88 +1769,92 @@
     </file>
     <file name="hi_causes_p1-u271235-fr3.png" crc="56896277" ref="risks"/>
     <file name="hi_causes_p1-u271235-fr_2x3.png" crc="3983245543" ref="risks"/>
-    <file name="risk factors map-u477772-fr.jpg" crc="3882915328" ref="risks"/>
-    <file name="risk factors map-u477772-fr_2x.jpg" crc="4229857960" ref="risks"/>
-    <file name="hkvmtipad_white.png" crc="4159553189" ref="index:abouthk-vmt">
+    <file name="risk factors map-u477772-fr.jpg" crc="3924663389" ref="risks"/>
+    <file name="risk factors map-u477772-fr_2x.jpg" crc="3791235372" ref="risks"/>
+    <file name="hkvmtipad_white.png" crc="4159553189" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="hkvmtipad_white_2x.png" crc="4034403455" ref="index:abouthk-vmt">
+    <file name="hkvmtipad_white_2x.png" crc="4034403455" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="chrome.png" crc="344475564" ref="index:abouthk-vmt">
+    <file name="chrome.png" crc="344475564" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="chrome_2x.png" crc="446957462" ref="index:abouthk-vmt">
+    <file name="chrome_2x.png" crc="446957462" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="safari.png" crc="3775934392" ref="index:abouthk-vmt">
+    <file name="safari.png" crc="3775934392" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="safari_2x.png" crc="4211142804" ref="index:abouthk-vmt">
+    <file name="safari_2x.png" crc="4211142804" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="facebook post 50plusreset-u547051-fr.png" crc="341482327" ref="index"/>
-    <file name="facebook post 50plusreset-u547051-fr_2x.png" crc="4035467521" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770.png" crc="69360655" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770_2x.png" crc="529749455" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r.png" crc="491328038" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r_2x.png" crc="3985116937" ref="index"/>
-    <file name="coverbutton_healthtips-u549785.png" crc="286592147" ref="index"/>
-    <file name="coverbutton_healthtips-u549785_2x.png" crc="63971431" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r.png" crc="132647655" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r_2x.png" crc="202932955" ref="index"/>
-    <file name="qrcode-test.jpg" crc="68071919" ref="index">
+    <file name="pic_paperwork.jpg" crc="199255672" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="qrcode-test_2x.jpg" crc="3767428617" ref="index">
+    <file name="pic_paperwork_2x.jpg" crc="4014997570" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="facebook post 50plusreset-u547051-fr2.png" crc="4259307964" ref="index"/>
-    <file name="facebook post 50plusreset-u547051-fr_2x2.png" crc="97489627" ref="index"/>
-    <file name="coverbutton_brainhealth-u5497702.png" crc="69360655" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770_2x2.png" crc="529749455" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r2.png" crc="491328038" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r_2x2.png" crc="3985116937" ref="index"/>
-    <file name="coverbutton_healthtips-u5497852.png" crc="286592147" ref="index"/>
-    <file name="coverbutton_healthtips-u549785_2x2.png" crc="63971431" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r2.png" crc="132647655" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r_2x2.png" crc="202932955" ref="index"/>
-    <file name="coverbutton_brainhealth-u5497703.png" crc="3871984256" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770_2x3.png" crc="277890101" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r3.png" crc="456348590" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r_2x3.png" crc="4083224444" ref="index"/>
-    <file name="coverbutton_healthtips-u5497853.png" crc="4272519494" ref="index"/>
-    <file name="coverbutton_healthtips-u549785_2x3.png" crc="4107035479" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r3.png" crc="4162938852" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r_2x3.png" crc="191012060" ref="index"/>
-    <file name="coverbutton_brainhealth-u5497704.png" crc="3871984256" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770_2x4.png" crc="277890101" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r4.png" crc="456348590" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r_2x4.png" crc="4083224444" ref="index"/>
-    <file name="coverbutton_healthtips-u5497854.png" crc="4272519494" ref="index"/>
-    <file name="coverbutton_healthtips-u549785_2x4.png" crc="4107035479" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r4.png" crc="4162938852" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r_2x4.png" crc="191012060" ref="index"/>
-    <file name="hkvmtipad_white-u358561-fr.png" crc="411286784" ref="index:abouthk-vmt"/>
-    <file name="hkvmtipad_white-u358561-fr_2x.png" crc="4094939187" ref="index:abouthk-vmt"/>
-    <file name="coverbutton_brainhealth-u5497705.png" crc="513465224" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770_2x5.png" crc="4271231964" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r5.png" crc="19394040" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r_2x5.png" crc="515257315" ref="index"/>
-    <file name="coverbutton_healthtips-u5497855.png" crc="4260516359" ref="index"/>
-    <file name="coverbutton_healthtips-u549785_2x5.png" crc="148187149" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r5.png" crc="4254532949" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r_2x5.png" crc="296489222" ref="index"/>
-    <file name="hkvmtipad_white-u358561-fr2.png" crc="458316458" ref="index:abouthk-vmt"/>
-    <file name="hkvmtipad_white-u358561-fr_2x2.png" crc="288782752" ref="index:abouthk-vmt"/>
-    <file name="coverbutton_brainhealth-u5497706.png" crc="98714392" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770_2x6.png" crc="3814576083" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r6.png" crc="136905866" ref="index"/>
-    <file name="coverbutton_brainhealth-u549770-r_2x6.png" crc="4186295699" ref="index"/>
-    <file name="coverbutton_healthtips-u5497856.png" crc="4209279506" ref="index"/>
-    <file name="coverbutton_healthtips-u549785_2x6.png" crc="3984750821" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r6.png" crc="4165533667" ref="index"/>
-    <file name="coverbutton_healthtips-u549785-r_2x6.png" crc="3986147893" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr.png" crc="4156496237" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr_2x.png" crc="3938379747" ref="index"/>
+    <file name="tick-u582695-fr.png" crc="3788998114" ref="index"/>
+    <file name="tick-u582695-fr_2x.png" crc="420889105" ref="index"/>
+    <file name="tick - white.png" crc="3989606180" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tick - white_2x.png" crc="243703333" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_ada-fung.jpg" crc="357620375" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_ada-fung_2x.jpg" crc="3763856669" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_kevin-chan.jpg" crc="110257378" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_kevin-chan_2x.jpg" crc="4121780011" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_newman-lau.jpg" crc="3970021177" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_newman-lau_2x.jpg" crc="425242811" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_alex-choy.jpg" crc="299927367" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_alex-choy_2x.jpg" crc="4179513046" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_able.jpg" crc="167963245" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_able_2x.jpg" crc="4233758807" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_proflam.jpg" crc="3953434706" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pic_proflam_2x.jpg" crc="4223219434" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hkvmtipad_white-u582708-fr2.png" crc="4135418099" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr_2x2.png" crc="252698818" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr3.png" crc="3762290734" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr_2x3.png" crc="341609268" ref="index"/>
+    <file name="tick-u582695-fr2.png" crc="138362233" ref="index"/>
+    <file name="tick-u582695-fr_2x2.png" crc="4136300594" ref="index"/>
+    <file name="hkvmtipad_white-u578856-fr.png" crc="320950466" ref="index"/>
+    <file name="hkvmtipad_white-u578856-fr_2x.png" crc="373205087" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr4.png" crc="507050453" ref="index"/>
+    <file name="hkvmtipad_white-u582708-fr_2x4.png" crc="4074286500" ref="index"/>
+    <file name="tick-u582695-fr3.png" crc="3943322783" ref="index"/>
+    <file name="tick-u582695-fr_2x3.png" crc="3938059392" ref="index"/>
+    <file name="tick - white-u582706-fr.png" crc="35786149" ref="index"/>
+    <file name="tick - white-u582706-fr_2x.png" crc="125291290" ref="index"/>
     <file name="pyramid_exercise.png" crc="104434857" ref="brainhealth_exercises">
       <caption webpage="brainhealth_exercises" alt=""/>
     </file>
@@ -2244,6 +2161,9 @@
     <file name="brainhealth03-u398637-fr6.png" crc="4205371271" ref="brainhealth_cognitive"/>
     <file name="brainhealth03-u398637-fr_2x6.png" crc="14115156" ref="brainhealth_cognitive"/>
     <file name="pic_healthyfood-u327866-fr.png" crc="376922240" ref="brainhealth_diet"/>
+    <file name="wave_lightorange.png" crc="3991728679" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
     <file name="arrow_green.png" crc="3854523882" ref="brainhealth_diet">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
@@ -2529,12 +2449,22 @@
     </file>
     <file name="brainhealth04-u386931-fr.png" crc="242924024" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr_2x.png" crc="289455051" ref="brainhealth_diet"/>
+    <file name="wave_lightorange2.png" crc="3989455648" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
+    <file name="wave_lightorange_2x.png" crc="3991728679" ref="brainhealth_diet">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
     <file name="brainhealth04-u386931-fr2.png" crc="367306958" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr_2x2.png" crc="3893668007" ref="brainhealth_diet"/>
+    <file name="wave_lightorange-u386925-fr.png" crc="76995648" ref="brainhealth_diet"/>
+    <file name="wave_lightorange-u386925-fr_2x.png" crc="263273042" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr3.png" crc="3853845622" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr_2x3.png" crc="311623976" ref="brainhealth_diet"/>
     <file name="cloud03-u405018-fr.png" crc="4084513256" ref="brainhealth_diet"/>
     <file name="cloud03-u405018-fr_2x.png" crc="510170353" ref="brainhealth_diet"/>
+    <file name="wave_lightorange-u386925-fr2.png" crc="52929611" ref="brainhealth_diet"/>
+    <file name="wave_lightorange-u386925-fr_2x2.png" crc="4000947397" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr4.png" crc="3976216732" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr_2x4.png" crc="3792514885" ref="brainhealth_diet"/>
     <file name="mediterranean diet.png" crc="3923115882" ref="brainhealth_diet">
@@ -2548,6 +2478,8 @@
     </file>
     <file name="cloud03-u405018-fr2.png" crc="305987185" ref="brainhealth_diet"/>
     <file name="cloud03-u405018-fr_2x2.png" crc="4286282300" ref="brainhealth_diet"/>
+    <file name="wave_lightorange-u386925-fr3.png" crc="319716249" ref="brainhealth_diet"/>
+    <file name="wave_lightorange-u386925-fr_2x3.png" crc="144322589" ref="brainhealth_diet"/>
     <file name="earilyprevent_healthyfoodbook-u327894-fr2.png" crc="3903860116" ref="brainhealth_diet"/>
     <file name="earilyprevent_healthyfoodbook-u327894-fr_2x.png" crc="498979829" ref="brainhealth_diet"/>
     <file name="brainhealth04-u386931-fr5.png" crc="4080460512" ref="brainhealth_diet"/>
@@ -2711,55 +2643,20 @@
     <file name="institute of active aging-u406262-fr_2x.jpg" crc="519080266" ref="brainhealth_social"/>
     <file name="長者學院-u406274-fr.jpg" crc="4217934551" ref="brainhealth_social"/>
     <file name="長者學院-u406274-fr_2x.jpg" crc="4194846302" ref="brainhealth_social"/>
-    <file name="pic_paperwork.jpg" crc="199255672" ref="abouthk-vmt">
-      <caption webpage="abouthk-vmt" alt=""/>
-    </file>
-    <file name="pic_paperwork_2x.jpg" crc="4014997570" ref="abouthk-vmt">
-      <caption webpage="abouthk-vmt" alt=""/>
-    </file>
-    <file name="hkvmtipad_white-u549162-fr.png" crc="4156496237" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr_2x.png" crc="3938379747" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr.png" crc="3788998114" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr_2x.png" crc="420889105" ref="abouthk-vmt"/>
-    <file name="tick - white.png" crc="3989606180" ref="abouthk-vmt">
-      <caption webpage="abouthk-vmt" alt=""/>
-    </file>
-    <file name="tick - white_2x.png" crc="243703333" ref="abouthk-vmt">
-      <caption webpage="abouthk-vmt" alt=""/>
-    </file>
-    <file name="hkvmtipad_white-u549162-fr2.png" crc="4135418099" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr_2x2.png" crc="252698818" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr3.png" crc="3762290734" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr_2x3.png" crc="341609268" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr2.png" crc="138362233" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr_2x2.png" crc="4136300594" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr4.png" crc="277003618" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr_2x4.png" crc="4004958571" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr3.png" crc="3943322783" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr_2x3.png" crc="3938059392" ref="abouthk-vmt"/>
-    <file name="tick - white-u549174-fr.png" crc="35786149" ref="abouthk-vmt"/>
-    <file name="tick - white-u549174-fr_2x.png" crc="125291290" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr5.png" crc="263996960" ref="abouthk-vmt"/>
-    <file name="hkvmtipad_white-u549162-fr_2x5.png" crc="347316552" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr4.png" crc="70964316" ref="abouthk-vmt"/>
-    <file name="tick-u549177-fr_2x4.png" crc="189171708" ref="abouthk-vmt"/>
-    <file name="tick - white-u549174-fr2.png" crc="4254143313" ref="abouthk-vmt"/>
-    <file name="tick - white-u549174-fr_2x2.png" crc="3910916973" ref="abouthk-vmt"/>
   </folder>
-  <file name="brainhealth.html" crc="3979569144" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="resources.html" crc="179192630" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="healthtips.html" crc="3971587831" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="healing.html" crc="3871480697" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="aboutus.html" crc="3788549133" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="mediaactivities.html" crc="203774021" seo="true" mt="1703029787215" redirect="true"/>
-  <file name="partnership.html" crc="4228049346" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="stages.html" crc="4216492570" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="risks.html" crc="3933432941" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="index.html" crc="4240961809" seo="true" mt="1703029787559" redirect="true"/>
-  <file name="brainhealth_exercises.html" crc="88949237" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="brainhealth_cognitive.html" crc="3889073652" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="brainhealth_diet.html" crc="100866199" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="brainhealth_emotions.html" crc="4176440157" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="brainhealth_social.html" crc="323785122" seo="true" mt="1703027360134" redirect="true"/>
-  <file name="abouthk-vmt.html" crc="3828549294" seo="true" mt="1703027360134" redirect="true"/>
+  <file name="brainhealth.html" crc="4015518686" seo="true" mt="1705020082818" redirect="true"/>
+  <file name="resources.html" crc="430924828" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="healthtips.html" crc="4078990064" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="healing.html" crc="3998788459" seo="true" mt="1705020082818" redirect="true"/>
+  <file name="mediaactivities.html" crc="3816565128" seo="true" mt="1705020102514" redirect="true"/>
+  <file name="partnership.html" crc="184136969" seo="true" mt="1705020082818" redirect="true"/>
+  <file name="stages.html" crc="361581949" seo="true" mt="1705020082818" redirect="true"/>
+  <file name="risks.html" crc="48177540" seo="true" mt="1705020082818" redirect="true"/>
+  <file name="index.html" crc="3811769535" seo="true" mt="1705020575400" redirect="true"/>
+  <file name="brainhealth_exercises.html" crc="4097836611" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="brainhealth_cognitive.html" crc="352865512" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="500331209" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="brainhealth_emotions.html" crc="3796118367" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="brainhealth_social.html" crc="4215125563" seo="true" mt="1705010022244" redirect="true"/>
+  <file name="faq.html" crc="3941679065" seo="true" mt="1705020082818" redirect="true"/>
 </manifest>
