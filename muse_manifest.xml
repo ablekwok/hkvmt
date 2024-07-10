@@ -1,76 +1,78 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1720568715753">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://hkvmt.com" resolutions="1x,2x" timestamp="1720608986406">
   <folder name="css">
     <file name="site_global.css" crc="455485524"/>
-    <file name="master_global-hk.css" crc="4029879834" ref="brainhealth_diet:brainhealth_emotions:brainhealth:brainhealth_social:resources:faq:healthtips:healing:disclaimer:mediaactivities:partnership:stages:risks:brainhealth_exercises:brainhealth_cognitive"/>
-    <file name="nomq_preview_master_global-hk.css" crc="529347304" ref="brainhealth_diet:brainhealth_emotions:brainhealth:brainhealth_social:resources:faq:healthtips:healing:disclaimer:mediaactivities:partnership:stages:risks:brainhealth_exercises:brainhealth_cognitive"/>
-    <file name="master_home-hk.css" crc="224900648" ref="index"/>
-    <file name="nomq_preview_master_home-hk.css" crc="4171685295" ref="index"/>
-    <file name="master_global-en.css" crc="440512195" ref="brainhealth_cognitive-en:brainhealth_diet-en:brainhealth_emotions-en:brainhealth_social-en:resources-en:mediaactivities-en:home-en:partnership-en:brainhealth-en:faq-en:stages-en:disclaimer-en:risks-en:healing-en:healthtips-en:brainhealth_exercises-en"/>
-    <file name="nomq_preview_master_global-en.css" crc="454562282" ref="brainhealth_cognitive-en:brainhealth_diet-en:brainhealth_emotions-en:brainhealth_social-en:resources-en:mediaactivities-en:home-en:partnership-en:brainhealth-en:faq-en:stages-en:disclaimer-en:risks-en:healing-en:healthtips-en:brainhealth_exercises-en"/>
-    <file name="brainhealth_diet.css" crc="514580979" ref="brainhealth_diet"/>
-    <file name="nomq_brainhealth_diet.css" crc="4051820663" ref="brainhealth_diet"/>
-    <file name="brainhealth_cognitive-en.css" crc="4117180537" ref="brainhealth_cognitive-en"/>
-    <file name="nomq_brainhealth_cognitive-en.css" crc="3903132603" ref="brainhealth_cognitive-en"/>
-    <file name="brainhealth_emotions.css" crc="4199201427" ref="brainhealth_emotions"/>
-    <file name="nomq_brainhealth_emotions.css" crc="3787909632" ref="brainhealth_emotions"/>
-    <file name="brainhealth_diet-en.css" crc="4004187999" ref="brainhealth_diet-en"/>
-    <file name="nomq_brainhealth_diet-en.css" crc="4218310045" ref="brainhealth_diet-en"/>
-    <file name="brainhealth.css" crc="3938957077" ref="brainhealth"/>
-    <file name="nomq_brainhealth.css" crc="3957415045" ref="brainhealth"/>
-    <file name="brainhealth_social.css" crc="14315472" ref="brainhealth_social"/>
-    <file name="nomq_brainhealth_social.css" crc="363419994" ref="brainhealth_social"/>
-    <file name="brainhealth_emotions-en.css" crc="4078165973" ref="brainhealth_emotions-en"/>
-    <file name="nomq_brainhealth_emotions-en.css" crc="4066455017" ref="brainhealth_emotions-en"/>
-    <file name="resources.css" crc="420115263" ref="resources"/>
-    <file name="nomq_resources.css" crc="477047436" ref="resources"/>
-    <file name="faq.css" crc="4220089848" ref="faq"/>
-    <file name="nomq_faq.css" crc="333660179" ref="faq"/>
-    <file name="brainhealth_social-en.css" crc="325924241" ref="brainhealth_social-en"/>
-    <file name="nomq_brainhealth_social-en.css" crc="4235660696" ref="brainhealth_social-en"/>
-    <file name="healthtips.css" crc="116218229" ref="healthtips"/>
-    <file name="nomq_healthtips.css" crc="474401079" ref="healthtips"/>
-    <file name="resources-en.css" crc="451193094" ref="resources-en"/>
-    <file name="nomq_resources-en.css" crc="374558598" ref="resources-en"/>
-    <file name="healing.css" crc="4239011276" ref="healing"/>
-    <file name="nomq_healing.css" crc="78610217" ref="healing"/>
-    <file name="disclaimer.css" crc="4045216804" ref="disclaimer"/>
-    <file name="nomq_disclaimer.css" crc="3798884112" ref="disclaimer"/>
-    <file name="mediaactivities-en.css" crc="4289819146" ref="mediaactivities-en"/>
-    <file name="nomq_mediaactivities-en.css" crc="4006206776" ref="mediaactivities-en"/>
-    <file name="mediaactivities.css" crc="4052404304" ref="mediaactivities"/>
-    <file name="nomq_mediaactivities.css" crc="3892765172" ref="mediaactivities"/>
-    <file name="home-en.css" crc="3781610303" ref="home-en"/>
-    <file name="nomq_home-en.css" crc="4046667057" ref="home-en"/>
-    <file name="partnership-en.css" crc="3842622644" ref="partnership-en"/>
-    <file name="nomq_partnership-en.css" crc="3826712083" ref="partnership-en"/>
-    <file name="partnership.css" crc="298397896" ref="partnership"/>
-    <file name="nomq_partnership.css" crc="3991148056" ref="partnership"/>
-    <file name="brainhealth-en.css" crc="392907066" ref="brainhealth-en"/>
-    <file name="nomq_brainhealth-en.css" crc="4241683081" ref="brainhealth-en"/>
-    <file name="faq-en.css" crc="4281158091" ref="faq-en"/>
-    <file name="nomq_faq-en.css" crc="3890167902" ref="faq-en"/>
-    <file name="stages.css" crc="3953326565" ref="stages"/>
-    <file name="nomq_stages.css" crc="186217812" ref="stages"/>
-    <file name="stages-en.css" crc="3935404558" ref="stages-en"/>
-    <file name="nomq_stages-en.css" crc="4291828862" ref="stages-en"/>
-    <file name="disclaimer-en.css" crc="4191536368" ref="disclaimer-en"/>
-    <file name="nomq_disclaimer-en.css" crc="3766931911" ref="disclaimer-en"/>
-    <file name="risks.css" crc="513612671" ref="risks"/>
-    <file name="nomq_risks.css" crc="3882037004" ref="risks"/>
-    <file name="risks-en.css" crc="515527332" ref="risks-en"/>
-    <file name="nomq_risks-en.css" crc="267161562" ref="risks-en"/>
-    <file name="index.css" crc="172582747" ref="index"/>
-    <file name="nomq_index.css" crc="4234933066" ref="index"/>
-    <file name="healing-en.css" crc="2611913" ref="healing-en"/>
-    <file name="nomq_healing-en.css" crc="4132022838" ref="healing-en"/>
-    <file name="brainhealth_exercises.css" crc="4046025275" ref="brainhealth_exercises"/>
-    <file name="nomq_brainhealth_exercises.css" crc="3888787819" ref="brainhealth_exercises"/>
-    <file name="healthtips-en.css" crc="290342654" ref="healthtips-en"/>
-    <file name="nomq_healthtips-en.css" crc="3962121217" ref="healthtips-en"/>
-    <file name="brainhealth_cognitive.css" crc="448353810" ref="brainhealth_cognitive"/>
-    <file name="nomq_brainhealth_cognitive.css" crc="174153027" ref="brainhealth_cognitive"/>
-    <file name="brainhealth_exercises-en.css" crc="3758950181" ref="brainhealth_exercises-en"/>
-    <file name="nomq_brainhealth_exercises-en.css" crc="3950192501" ref="brainhealth_exercises-en"/>
+    <file name="master_global-en.css" crc="315681089" ref="resources-en:mediaactivities-en:partnership-en:brainhealth-en:faq-en:stages-en:disclaimer-en:risks-en:healing-en:healthtips-en:brainhealth_exercises-en:brainhealth_cognitive-en:brainhealth_diet-en:brainhealth_emotions-en:brainhealth_social-en"/>
+    <file name="nomq_preview_master_global-en.css" crc="4028513709" ref="resources-en:mediaactivities-en:partnership-en:brainhealth-en:faq-en:stages-en:disclaimer-en:risks-en:healing-en:healthtips-en:brainhealth_exercises-en:brainhealth_cognitive-en:brainhealth_diet-en:brainhealth_emotions-en:brainhealth_social-en"/>
+    <file name="master_home-hk.css" crc="3834970539" ref="index"/>
+    <file name="nomq_preview_master_home-hk.css" crc="366168586" ref="index"/>
+    <file name="master_global-hk.css" crc="161377420" ref="healthtips:healing:disclaimer:mediaactivities:partnership:stages:risks:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth:brainhealth_social:resources:faq"/>
+    <file name="nomq_preview_master_global-hk.css" crc="4207325371" ref="healthtips:healing:disclaimer:mediaactivities:partnership:stages:risks:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth:brainhealth_social:resources:faq"/>
+    <file name="master_home-en.css" crc="3989780153" ref="home-en"/>
+    <file name="nomq_preview_master_home-en.css" crc="499308567" ref="home-en"/>
+    <file name="healthtips.css" crc="3948649385" ref="healthtips"/>
+    <file name="nomq_healthtips.css" crc="184459749" ref="healthtips"/>
+    <file name="resources-en.css" crc="3881134091" ref="resources-en"/>
+    <file name="nomq_resources-en.css" crc="340354207" ref="resources-en"/>
+    <file name="healing.css" crc="4250669917" ref="healing"/>
+    <file name="nomq_healing.css" crc="73383955" ref="healing"/>
+    <file name="disclaimer.css" crc="172670882" ref="disclaimer"/>
+    <file name="nomq_disclaimer.css" crc="52114545" ref="disclaimer"/>
+    <file name="mediaactivities-en.css" crc="26796794" ref="mediaactivities-en"/>
+    <file name="nomq_mediaactivities-en.css" crc="239199803" ref="mediaactivities-en"/>
+    <file name="mediaactivities.css" crc="145973036" ref="mediaactivities"/>
+    <file name="nomq_mediaactivities.css" crc="4096850742" ref="mediaactivities"/>
+    <file name="home-en.css" crc="3845832776" ref="home-en"/>
+    <file name="nomq_home-en.css" crc="4218167107" ref="home-en"/>
+    <file name="partnership-en.css" crc="3989021835" ref="partnership-en"/>
+    <file name="nomq_partnership-en.css" crc="4265796941" ref="partnership-en"/>
+    <file name="partnership.css" crc="250911451" ref="partnership"/>
+    <file name="nomq_partnership.css" crc="3900868927" ref="partnership"/>
+    <file name="brainhealth-en.css" crc="211885866" ref="brainhealth-en"/>
+    <file name="nomq_brainhealth-en.css" crc="3912586767" ref="brainhealth-en"/>
+    <file name="faq-en.css" crc="453620421" ref="faq-en"/>
+    <file name="nomq_faq-en.css" crc="181826364" ref="faq-en"/>
+    <file name="stages.css" crc="3982353593" ref="stages"/>
+    <file name="nomq_stages.css" crc="3796675731" ref="stages"/>
+    <file name="stages-en.css" crc="4169544463" ref="stages-en"/>
+    <file name="nomq_stages-en.css" crc="362734" ref="stages-en"/>
+    <file name="disclaimer-en.css" crc="67026645" ref="disclaimer-en"/>
+    <file name="nomq_disclaimer-en.css" crc="427862200" ref="disclaimer-en"/>
+    <file name="risks.css" crc="195275471" ref="risks"/>
+    <file name="nomq_risks.css" crc="113779061" ref="risks"/>
+    <file name="risks-en.css" crc="248630417" ref="risks-en"/>
+    <file name="nomq_risks-en.css" crc="3871783388" ref="risks-en"/>
+    <file name="index.css" crc="99958007" ref="index"/>
+    <file name="nomq_index.css" crc="306401052" ref="index"/>
+    <file name="healing-en.css" crc="3814832186" ref="healing-en"/>
+    <file name="nomq_healing-en.css" crc="383234368" ref="healing-en"/>
+    <file name="brainhealth_exercises.css" crc="4280231409" ref="brainhealth_exercises"/>
+    <file name="nomq_brainhealth_exercises.css" crc="431097106" ref="brainhealth_exercises"/>
+    <file name="healthtips-en.css" crc="3834335163" ref="healthtips-en"/>
+    <file name="nomq_healthtips-en.css" crc="332374360" ref="healthtips-en"/>
+    <file name="brainhealth_cognitive.css" crc="344145872" ref="brainhealth_cognitive"/>
+    <file name="nomq_brainhealth_cognitive.css" crc="235567970" ref="brainhealth_cognitive"/>
+    <file name="brainhealth_exercises-en.css" crc="151794101" ref="brainhealth_exercises-en"/>
+    <file name="nomq_brainhealth_exercises-en.css" crc="35831112" ref="brainhealth_exercises-en"/>
+    <file name="brainhealth_diet.css" crc="3961516983" ref="brainhealth_diet"/>
+    <file name="nomq_brainhealth_diet.css" crc="438690587" ref="brainhealth_diet"/>
+    <file name="brainhealth_cognitive-en.css" crc="341736698" ref="brainhealth_cognitive-en"/>
+    <file name="nomq_brainhealth_cognitive-en.css" crc="3768617605" ref="brainhealth_cognitive-en"/>
+    <file name="brainhealth_emotions.css" crc="442150429" ref="brainhealth_emotions"/>
+    <file name="nomq_brainhealth_emotions.css" crc="76268224" ref="brainhealth_emotions"/>
+    <file name="brainhealth_diet-en.css" crc="169465144" ref="brainhealth_diet-en"/>
+    <file name="nomq_brainhealth_diet-en.css" crc="4242072675" ref="brainhealth_diet-en"/>
+    <file name="brainhealth.css" crc="376515774" ref="brainhealth"/>
+    <file name="nomq_brainhealth.css" crc="281836634" ref="brainhealth"/>
+    <file name="brainhealth_social.css" crc="4121201937" ref="brainhealth_social"/>
+    <file name="nomq_brainhealth_social.css" crc="4114134526" ref="brainhealth_social"/>
+    <file name="brainhealth_emotions-en.css" crc="384571308" ref="brainhealth_emotions-en"/>
+    <file name="nomq_brainhealth_emotions-en.css" crc="4230308344" ref="brainhealth_emotions-en"/>
+    <file name="resources.css" crc="3880053969" ref="resources"/>
+    <file name="nomq_resources.css" crc="354083930" ref="resources"/>
+    <file name="faq.css" crc="494515609" ref="faq"/>
+    <file name="nomq_faq.css" crc="4063024498" ref="faq"/>
+    <file name="brainhealth_social-en.css" crc="3923593178" ref="brainhealth_social-en"/>
+    <file name="nomq_brainhealth_social-en.css" crc="4207028216" ref="brainhealth_social-en"/>
   </folder>
   <folder name="fonts">
     <file name="gensenrounded-r.woff" crc="508509137"/>
@@ -94,8 +96,7 @@
     <file name="poster-50plus.jpg" crc="527677553" seo="true" mt="1633357127000"/>
     <file name="poster-butalk2.jpg" crc="92719520" seo="true" mt="1689715970000"/>
     <file name="poster-talk1.jpg" crc="289095730" seo="true" mt="1702463577000"/>
-    <file name="pullup_arrow_eng.png" crc="504085475" seo="true" mt="1720156712000"/>
-    <file name="pullup_arrow_s_eng.png" crc="89892497" seo="true" mt="1720156735000"/>
+    <file name="videobg.mp4" crc="4149447906" seo="true" mt="1622167525000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="brainhealth:resources:healthtips:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_diet:brainhealth_emotions:brainhealth_social:faq:disclaimer:home-en:brainhealth-en:stages-en:risks-en:healing-en:healthtips-en:brainhealth_exercises-en:brainhealth_cognitive-en:brainhealth_diet-en:brainhealth_emotions-en:brainhealth_social-en:resources-en:mediaactivities-en:partnership-en:faq-en:disclaimer-en"/>
@@ -162,10 +163,10 @@
     <file name="hi_intro_p4_2.png" crc="4156688698" ref="brainhealth:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="scrolldown.png" crc="446641215" ref="brainhealth:index:home-en">
+    <file name="scrolldown.png" crc="446641215" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="scrolldown_2x.png" crc="4106020940" ref="brainhealth:index:home-en">
+    <file name="scrolldown_2x.png" crc="4106020940" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
     <file name="pullup_arrow.png" crc="384137369" ref="brainhealth:index">
@@ -174,39 +175,44 @@
     <file name="pullup_arrow_s.png" crc="349479707" ref="brainhealth:index">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="hkvmtlogo_short.png" crc="3846147912" ref="brainhealth:index:home-en">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="hkvmtlogo_short.png" crc="3846147912" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
       <caption webpage="home-en" alt=""/>
       <caption webpage="home-en" alt=""/>
       <caption webpage="home-en" alt=""/>
       <caption webpage="home-en" alt=""/>
       <caption webpage="home-en" alt=""/>
     </file>
-    <file name="hkvmtlogo_short_2x.png" crc="3846147912" ref="brainhealth:index:home-en">
+    <file name="hkvmtlogo_short_2x.png" crc="3846147912" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
     <file name="scrolldown2.png" crc="4106020940" ref="brainhealth:index">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook_s.png" crc="3868468483" ref="brainhealth:index:home-en">
+    <file name="facebook_s.png" crc="3868468483" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook_s_2x.png" crc="4022934257" ref="brainhealth:index:home-en">
+    <file name="facebook_s_2x.png" crc="4022934257" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook.png" crc="407095473" ref="brainhealth:index:home-en">
+    <file name="facebook.png" crc="407095473" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="facebook_2x.png" crc="3869720609" ref="brainhealth:index:home-en">
+    <file name="facebook_2x.png" crc="3869720609" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
     <file name="hi_imagecircle-u730674-fr_2x2.png" crc="200066747" ref="brainhealth:brainhealth-en"/>
@@ -239,38 +245,42 @@
     <file name="wave_green_3-u467607-fr_2x.png" crc="4232324775" ref="brainhealth:resources:healing:mediaactivities:partnership:stages:risks:index:brainhealth_exercises:brainhealth_cognitive:brainhealth_emotions:brainhealth_social:home-en:brainhealth-en:stages-en:risks-en:healing-en:brainhealth_exercises-en:brainhealth_cognitive-en:brainhealth_emotions-en:brainhealth_social-en:resources-en:mediaactivities-en:partnership-en"/>
     <file name="hi_intro_p1_4-u467533-fr2.png" crc="242369409" ref="brainhealth:brainhealth-en"/>
     <file name="hi_intro_p1_4-u467533-fr_2x2.png" crc="3944829704" ref="brainhealth:brainhealth-en"/>
-    <file name="arrow_down.png" crc="3819000874" ref="brainhealth:index:home-en">
+    <file name="arrow_down.png" crc="3819000874" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt="關於HK-VMT"/>
     </file>
-    <file name="arrow_down_2x.png" crc="3798454600" ref="brainhealth:index:home-en">
+    <file name="arrow_down_2x.png" crc="3798454600" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt="關於HK-VMT"/>
     </file>
-    <file name="arrow_up.png" crc="84800730" ref="brainhealth:index:home-en">
+    <file name="arrow_up.png" crc="84800730" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt="關於HK-VMT"/>
     </file>
-    <file name="arrow_up_2x.png" crc="463882155" ref="brainhealth:index:home-en">
+    <file name="arrow_up_2x.png" crc="463882155" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt="關於HK-VMT"/>
     </file>
-    <file name="menu_btn.png" crc="180641591" ref="brainhealth:index:home-en">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="menu_btn.png" crc="180641591" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
       <caption webpage="home-en" alt=""/>
       <caption webpage="home-en" alt=""/>
     </file>
-    <file name="menu_btn_2x.png" crc="180641591" ref="brainhealth:index:home-en">
+    <file name="menu_btn_2x.png" crc="180641591" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
-    <file name="menu_close_btn.png" crc="366506802" ref="brainhealth:index:home-en">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="menu_close_btn.png" crc="366506802" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
       <caption webpage="brainhealth" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
+      <caption webpage="brainhealth-en" alt=""/>
       <caption webpage="home-en" alt=""/>
       <caption webpage="home-en" alt=""/>
     </file>
-    <file name="menu_close_btn_2x.png" crc="366506802" ref="brainhealth:index:home-en">
+    <file name="menu_close_btn_2x.png" crc="366506802" ref="brainhealth:index:home-en:brainhealth-en">
       <caption webpage="brainhealth" alt=""/>
     </file>
     <file name="hi_intro_p2_4-u467547-fr2.png" crc="4258267041" ref="brainhealth:brainhealth-en"/>
@@ -336,6 +346,24 @@
     <file name="icon_organization_2x.png" crc="3808015378" ref="resources:resources-en">
       <caption webpage="resources" alt=""/>
     </file>
+    <file name="wave_white.png" crc="166148788" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:home-en:healing-en:brainhealth_exercises-en:brainhealth_emotions-en:resources-en:mediaactivities-en">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="智友站.jpg" crc="3907749933" ref="resources:resources-en">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東聯網營養資訊網.jpg" crc="4280059445" ref="resources:resources-en">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="流動記憶診所.jpg" crc="4052330245" ref="resources:resources-en">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東醒腦錦囊.jpg" crc="3866661841" ref="resources:resources-en">
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="港島東醒腦錦囊_2x.jpg" crc="280529583" ref="resources:resources-en">
+      <caption webpage="resources" alt=""/>
+    </file>
     <file name="賽馬會智齡匯.jpg" crc="13798717" ref="resources:brainhealth_social:brainhealth_social-en:resources-en">
       <caption webpage="resources" alt=""/>
     </file>
@@ -357,30 +385,6 @@
       <caption webpage="resources" alt=""/>
     </file>
     <file name="椿齡智研學會_2x.jpg" crc="4174380786" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="長者學院.jpg" crc="4283746748" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="長者學院_2x.jpg" crc="391654686" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="wave_white.png" crc="166148788" ref="resources:healing:mediaactivities:index:brainhealth_exercises:brainhealth_emotions:home-en:healing-en:brainhealth_exercises-en:brainhealth_emotions-en:resources-en:mediaactivities-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="智友站.jpg" crc="3907749933" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="港島東聯網營養資訊網.jpg" crc="4280059445" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="流動記憶診所.jpg" crc="4052330245" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="港島東醒腦錦囊.jpg" crc="3866661841" ref="resources:resources-en">
-      <caption webpage="resources" alt=""/>
-    </file>
-    <file name="港島東醒腦錦囊_2x.jpg" crc="280529583" ref="resources:resources-en">
       <caption webpage="resources" alt=""/>
     </file>
     <file name="resources-u402043-fr2.png" crc="3945070545" ref="resources:resources-en"/>
@@ -2429,7 +2433,9 @@
     <file name="icon_dimension-u399053-fr_2x2.png" crc="4220905410" ref="brainhealth_cognitive"/>
     <file name="brainhealth03-u398637-fr4.png" crc="237603645" ref="brainhealth_cognitive:brainhealth_cognitive-en"/>
     <file name="brainhealth03-u398637-fr_2x4.png" crc="179077171" ref="brainhealth_cognitive:brainhealth_cognitive-en"/>
-    <file name="pic_healthyfood-u327866-fr.png" crc="376922240" ref="brainhealth_diet:brainhealth_diet-en"/>
+    <file name="pic_healthyfood.jpg" crc="3987092162" ref="brainhealth_diet:brainhealth_diet-en">
+      <caption webpage="brainhealth_diet" alt=""/>
+    </file>
     <file name="arrow_green.png" crc="3854523882" ref="brainhealth_diet:brainhealth_diet-en">
       <caption webpage="brainhealth_diet" alt=""/>
     </file>
@@ -2885,20 +2891,12 @@
     </file>
     <file name="brainhealth06-u398787-fr.png" crc="4250014548" ref="brainhealth_social:brainhealth_social-en"/>
     <file name="brainhealth06-u398787-fr_2x.png" crc="266390911" ref="brainhealth_social:brainhealth_social-en"/>
-    <file name="gov_decc.jpg" crc="72636970" ref="brainhealth_social">
-      <caption webpage="brainhealth_social" alt=""/>
-    </file>
-    <file name="gov_decc_2x.jpg" crc="7207291" ref="brainhealth_social">
-      <caption webpage="brainhealth_social" alt=""/>
-    </file>
     <file name="cloud022.png" crc="143839940" ref="brainhealth_social:brainhealth_social-en">
       <caption webpage="brainhealth_social" alt=""/>
     </file>
     <file name="cloud02_2x.png" crc="364284200" ref="brainhealth_social:brainhealth_social-en">
       <caption webpage="brainhealth_social" alt=""/>
     </file>
-    <file name="gov_decc-u808650-fr.jpg" crc="337429371" ref="brainhealth_social"/>
-    <file name="gov_decc-u808650-fr_2x.jpg" crc="342701218" ref="brainhealth_social"/>
     <file name="brainhealth06.png" crc="146513869" ref="brainhealth_social:brainhealth_social-en">
       <caption webpage="brainhealth_social" alt=""/>
     </file>
@@ -2925,16 +2923,14 @@
     <file name="brainhealth06-u398787-fr_2x3.png" crc="263280876" ref="brainhealth_social:brainhealth_social-en"/>
     <file name="rcgfs logo-u808646-fr.png" crc="110492813" ref="brainhealth_social:brainhealth_social-en"/>
     <file name="rcgfs logo-u808646-fr_2x.png" crc="3815454685" ref="brainhealth_social:brainhealth_social-en"/>
-    <file name="gov_decc-u808650-fr2.jpg" crc="3989378069" ref="brainhealth_social"/>
-    <file name="gov_decc-u808650-fr_2x2.jpg" crc="4108304233" ref="brainhealth_social"/>
-    <file name="global-en-favicon.ico" crc="3891198573" ref="home-en"/>
-    <file name="pullup_arrow_eng.png" crc="504085475" ref="home-en">
+    <file name="home-en-favicon.ico" crc="3891198573" ref="home-en"/>
+    <file name="pullup_arrow_eng.png" crc="504085475" ref="home-en:brainhealth-en">
       <caption webpage="home-en" alt=""/>
     </file>
-    <file name="pullup_arrow_s_eng.png" crc="89892497" ref="home-en">
+    <file name="pullup_arrow_s_eng.png" crc="89892497" ref="home-en:brainhealth-en">
       <caption webpage="home-en" alt=""/>
     </file>
-    <file name="scrolldown_eng.png" crc="26214147" ref="home-en">
+    <file name="scrolldown_eng.png" crc="26214147" ref="home-en:brainhealth-en">
       <caption webpage="home-en" alt=""/>
     </file>
     <file name="hkvmt test ipad mockup-u781217-fr.png" crc="4124496714" ref="home-en"/>
@@ -2943,6 +2939,7 @@
     <file name="cars test ipad mockup-u781281-fr_2x.png" crc="94174545" ref="home-en"/>
     <file name="hkvmtipad_white-u781249-fr.png" crc="473117139" ref="home-en"/>
     <file name="hkvmtipad_white-u781249-fr_2x.png" crc="132582875" ref="home-en"/>
+    <file name="global-en-favicon.ico" crc="3891198573" ref="brainhealth-en"/>
     <file name="hi_intro_p4_4-u784243-fr.png" crc="4129215694" ref="brainhealth-en"/>
     <file name="hi_intro_p4_4-u784243-fr_2x.png" crc="3787946981" ref="brainhealth-en"/>
     <file name="hi_causes_p1-u785219.png" crc="3793209905" ref="risks-en"/>
@@ -2977,50 +2974,40 @@
     <file name="arrow_green-u803116-fr_2x2.png" crc="3800340598" ref="brainhealth_diet-en"/>
     <file name="earilyprevent_healthyfoodbook-u803191-r-fr2.png" crc="3851376633" ref="brainhealth_diet-en"/>
     <file name="earilyprevent_healthyfoodbook-u803191-r-fr_2x.png" crc="3818271398" ref="brainhealth_diet-en"/>
-    <file name="gov_decc-u804006.png" crc="97050422" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u804006_2x.png" crc="29067192" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u8040062.png" crc="4014114056" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u804006_2x2.png" crc="3791338746" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u8040063.png" crc="80699584" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u804006_2x3.png" crc="3758868636" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u8040064.png" crc="3778391522" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u804006_2x4.png" crc="242164753" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u8040065.png" crc="19132345" ref="brainhealth_social-en"/>
-    <file name="gov_decc-u804006_2x5.png" crc="3953553490" ref="brainhealth_social-en"/>
     <file name="陳慧慧基金身心認知運動中心2.jpg" crc="4165723032" ref="resources-en">
       <caption webpage="resources-en" alt=""/>
     </file>
   </folder>
-  <file name="brainhealth.html" crc="39140998" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="resources.html" crc="430339481" seo="true" mt="1720564079713" redirect="true"/>
-  <file name="healthtips.html" crc="3934996191" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="healing.html" crc="4281884548" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="mediaactivities.html" crc="4078327133" seo="true" mt="1720564962913" redirect="true"/>
-  <file name="partnership.html" crc="3897637410" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="stages.html" crc="3833961352" seo="true" mt="1720519702622" redirect="true"/>
-  <file name="risks.html" crc="3997636253" seo="true" mt="1720534057093" redirect="true"/>
-  <file name="index.html" crc="57477894" seo="true" mt="1720554183814" redirect="true"/>
-  <file name="brainhealth_exercises.html" crc="4159708320" seo="true" mt="1720554179599" redirect="true"/>
-  <file name="brainhealth_cognitive.html" crc="525241558" seo="true" mt="1720549264622" redirect="true"/>
-  <file name="brainhealth_diet.html" crc="281101411" seo="true" mt="1720567378137" redirect="true"/>
-  <file name="brainhealth_emotions.html" crc="3845157103" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="brainhealth_social.html" crc="4065604409" seo="true" mt="1720567382624" redirect="true"/>
-  <file name="faq.html" crc="227583450" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="disclaimer.html" crc="3799921613" seo="true" mt="1720505214332" redirect="true"/>
-  <file name="home-en.html" crc="458935065" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="brainhealth-en.html" crc="4082941137" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="stages-en.html" crc="426869900" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="risks-en.html" crc="3832209551" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="healing-en.html" crc="4236791807" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="healthtips-en.html" crc="4005073212" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="brainhealth_exercises-en.html" crc="25919886" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="brainhealth_cognitive-en.html" crc="87619915" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="brainhealth_diet-en.html" crc="3970662956" seo="true" mt="1720567378139" redirect="true"/>
-  <file name="brainhealth_emotions-en.html" crc="212173027" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="brainhealth_social-en.html" crc="130430612" seo="true" mt="1720567382622" redirect="true"/>
-  <file name="resources-en.html" crc="4074044794" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="mediaactivities-en.html" crc="3952023250" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="partnership-en.html" crc="3888383979" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="faq-en.html" crc="38756938" seo="true" mt="1720567345783" redirect="true"/>
-  <file name="disclaimer-en.html" crc="3878671213" seo="true" mt="1720567345783" redirect="true"/>
+  <file name="brainhealth.html" crc="4116157025" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="resources.html" crc="409201643" seo="true" mt="1720607514170" redirect="true"/>
+  <file name="healthtips.html" crc="736770" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="healing.html" crc="3993251177" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="mediaactivities.html" crc="3983148513" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="partnership.html" crc="346452908" seo="true" mt="1720607628342" redirect="true"/>
+  <file name="stages.html" crc="3990489744" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="risks.html" crc="4081651304" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="index.html" crc="4240697535" seo="true" mt="1720607396532" redirect="true"/>
+  <file name="brainhealth_exercises.html" crc="297136406" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="brainhealth_cognitive.html" crc="3940191404" seo="true" mt="1720607863844" redirect="true"/>
+  <file name="brainhealth_diet.html" crc="306281793" seo="true" mt="1720607863914" redirect="true"/>
+  <file name="brainhealth_emotions.html" crc="414259724" seo="true" mt="1720607863904" redirect="true"/>
+  <file name="brainhealth_social.html" crc="358626757" seo="true" mt="1720607863869" redirect="true"/>
+  <file name="faq.html" crc="4076459336" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="disclaimer.html" crc="3785422207" seo="true" mt="1720607319980" redirect="true"/>
+  <file name="home-en.html" crc="4046171867" seo="true" mt="1720607418220" redirect="true"/>
+  <file name="brainhealth-en.html" crc="461239021" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="stages-en.html" crc="314246453" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="risks-en.html" crc="4033915172" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="healing-en.html" crc="3881368966" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="healthtips-en.html" crc="464656297" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="brainhealth_exercises-en.html" crc="334608970" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="brainhealth_cognitive-en.html" crc="362861753" seo="true" mt="1720607863957" redirect="true"/>
+  <file name="brainhealth_diet-en.html" crc="453001725" seo="true" mt="1720607863947" redirect="true"/>
+  <file name="brainhealth_emotions-en.html" crc="191967762" seo="true" mt="1720607863833" redirect="true"/>
+  <file name="brainhealth_social-en.html" crc="3955683423" seo="true" mt="1720607863856" redirect="true"/>
+  <file name="resources-en.html" crc="4040576542" seo="true" mt="1720607599265" redirect="true"/>
+  <file name="mediaactivities-en.html" crc="4049551879" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="partnership-en.html" crc="478353170" seo="true" mt="1720607746502" redirect="true"/>
+  <file name="faq-en.html" crc="375723828" seo="true" mt="1720607350747" redirect="true"/>
+  <file name="disclaimer-en.html" crc="166821440" seo="true" mt="1720607350747" redirect="true"/>
 </manifest>

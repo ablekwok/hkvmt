@@ -19,6 +19,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://hkvmt.com/brainhealth_emotions.html</loc>
+    <lastmod>2024-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hkvmt.com/faq-en.html</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -61,20 +67,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/brainhealth_cognitive-en.html</loc>
-    <lastmod>2024-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/brainhealth_emotions-en.html</loc>
-    <lastmod>2024-07-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://hkvmt.com/brainhealth.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -86,13 +80,13 @@
   </url>
   <url>
     <loc>https://hkvmt.com/healthtips.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hkvmt.com/healing.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -104,25 +98,25 @@
   </url>
   <url>
     <loc>https://hkvmt.com/partnership.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hkvmt.com/stages.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hkvmt.com/risks.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://hkvmt.com/disclaimer.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -139,14 +133,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/brainhealth-en.html</loc>
+    <loc>https://hkvmt.com/brainhealth_cognitive-en.html</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/brainhealth_emotions.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <loc>https://hkvmt.com/brainhealth_emotions-en.html</loc>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -158,7 +152,7 @@
   </url>
   <url>
     <loc>https://hkvmt.com/faq.html</loc>
-    <lastmod>2024-07-09</lastmod>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -175,7 +169,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/brainhealth_exercises-en.html</loc>
+    <loc>https://hkvmt.com/brainhealth-en.html</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -187,62 +181,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/healing-en.html</loc>
+    <loc>https://hkvmt.com/brainhealth_exercises-en.html</loc>
     <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/assets/pullup_arrow_s_eng.png</loc>
-    <lastmod>2024-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/pullup_arrow_eng.png</loc>
-    <lastmod>2024-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/hi_intro_p2_1.svg</loc>
-    <lastmod>2021-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/poster-50plus.jpg</loc>
-    <lastmod>2021-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/poster-talk1.jpg</loc>
-    <lastmod>2023-12-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/poster-butalk2.jpg</loc>
-    <lastmod>2023-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/poster-mpil.jpg</loc>
-    <lastmod>2021-03-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/risk-factors-map.jpg</loc>
-    <lastmod>2024-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://hkvmt.com/assets/poster-iatp.jpg</loc>
-    <lastmod>2021-03-14</lastmod>
+    <loc>https://hkvmt.com/healing-en.html</loc>
+    <lastmod>2024-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -253,13 +199,61 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hkvmt.com/assets/hi_intro_p4_1.svg</loc>
+    <loc>https://hkvmt.com/assets/hi_intro_p2_1.svg</loc>
     <lastmod>2021-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://hkvmt.com/assets/poster-butalk2.jpg</loc>
+    <lastmod>2023-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/videobg.mp4</loc>
+    <lastmod>2021-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/poster-talk1.jpg</loc>
+    <lastmod>2023-12-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/poster-iatp.jpg</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/poster-50plus.jpg</loc>
+    <lastmod>2021-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/risk-factors-map.jpg</loc>
+    <lastmod>2024-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://hkvmt.com/assets/hi_intro_p3_1.svg</loc>
+    <lastmod>2021-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/poster-mpil.jpg</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hkvmt.com/assets/hi_intro_p4_1.svg</loc>
     <lastmod>2021-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

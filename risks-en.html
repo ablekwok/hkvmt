@@ -20,12 +20,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>高危因素</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
-  <link rel="stylesheet" type="text/css" href="css/master_global-en.css?crc=440512195"/>
-  <link rel="stylesheet" type="text/css" href="css/risks-en.css?crc=515527332" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_global-en.css?crc=315681089"/>
+  <link rel="stylesheet" type="text/css" href="css/risks-en.css?crc=248630417" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_global-en.css?crc=454562282"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_risks-en.css?crc=267161562" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_global-en.css?crc=4028513709"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_risks-en.css?crc=3871783388" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -110,7 +110,7 @@ tcLangBtns.forEach(btn => {
     const currentUrl = window.location.href;
 
     if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('-en.html', 'html');
+      const newUrl = currentUrl.replace('-en.html', '.html');
       window.location.href = newUrl;
     } else {
       alert('T Chinese Version Webpage Error');
