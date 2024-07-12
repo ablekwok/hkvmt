@@ -20,12 +20,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>資源站</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
-  <link rel="stylesheet" type="text/css" href="css/master_global-en.css?crc=315681089"/>
-  <link rel="stylesheet" type="text/css" href="css/resources-en.css?crc=3881134091" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_global-en.css?crc=2659164"/>
+  <link rel="stylesheet" type="text/css" href="css/resources-en.css?crc=3942942568" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_global-en.css?crc=4028513709"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_resources-en.css?crc=340354207" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_global-en.css?crc=454562282"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_resources-en.css?crc=19101044" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -34,7 +34,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <!--custom head HTML-->
   <style>
   body {
-    width:100% !important;
+    width: 100% !important;
     overflow-x: hidden !important;
   }
 
@@ -60,15 +60,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
   .backtotop {
     transition: opacity 0.5s ease-in-out;
-    opacity: 1; 
+    opacity: 1;
     cursor: pointer;
   }
 
   .backtotop.hidden {
-    opacity: 0 ;
+    opacity: 0;
   }
 
   .waviy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
   }
@@ -97,74 +100,84 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     animation: bounce 2s ease infinite;
   }
 
+  .sclangbtn{
+    cursor: pointer;
+  }
+  .tclangbtn{
+    cursor: pointer;
+  }
+  .englangbtn{
+    cursor: pointer;
+  }
+
 </style>
 
 <script>
-  
-document.addEventListener('DOMContentLoaded', () => {
 
-const tcLangBtns = document.querySelectorAll('.tclangbtn');
+  document.addEventListener('DOMContentLoaded', () => {
 
-tcLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
+    const tcLangBtns = document.querySelectorAll('.tclangbtn');
 
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('-en.html', '.html');
-      window.location.href = newUrl;
-    } else {
-      alert('T Chinese Version Webpage Error');
-    }
-  });
-});
+    tcLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
 
-const scLangBtns = document.querySelectorAll('.sclangbtn');
-
-scLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
-
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('-en.html', '-sc.html');
-      window.location.href = newUrl;
-    } else {
-      alert('S Chinese Version Webpage Error');
-    }
-  });
-});
-
-
-  const scrolldownBtn = document.querySelector('.pulldown');
-  scrolldownBtn.style.opacity = 1;
-  window.addEventListener('scroll', () => {
-    const opacity = 1 - (window.scrollY / 200);
-    scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
-  });
-
-  const backtotopBtn = document.querySelector('.backtotop');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      backtotopBtn.style.opacity = 1;
-    } else {
-      backtotopBtn.style.opacity = 0;
-    }
-  });
-
-  backtotopBtn.addEventListener('click', () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('-en.html', '.html');
+          window.location.href = newUrl;
+        } else {
+          alert('T Chinese Version Webpage Error');
+        }
+      });
     });
+
+    const scLangBtns = document.querySelectorAll('.sclangbtn');
+
+    scLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
+
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('-en.html', '-sc.html');
+          window.location.href = newUrl;
+        } else {
+          alert('S Chinese Version Webpage Error');
+        }
+      });
+    });
+
+
+    const scrolldownBtn = document.querySelector('.pulldown');
+    scrolldownBtn.style.opacity = 1;
+    window.addEventListener('scroll', () => {
+      const opacity = 1 - (window.scrollY / 200);
+      scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
+    });
+
+    const backtotopBtn = document.querySelector('.backtotop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backtotopBtn.style.opacity = 1;
+      } else {
+        backtotopBtn.style.opacity = 0;
+      }
+    });
+
+    backtotopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
   });
 
-});
 
 
-
-document.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-});
+  document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
 
 
 </script>
@@ -321,7 +334,7 @@ document.addEventListener('contextmenu', function (e) {
     </div>
     <div class="clearfix grpelem" id="pu769805"><!-- group -->
      <div id="u769805" class="shared_content" data-content-guid="u769805_content"><!-- simple frame --></div>
-     <a class="nonblock nontext shared_content" id="u770045" href="index.html" data-content-guid="u770045_content"><!-- simple frame --></a>
+     <a class="nonblock nontext shared_content" id="u770045" href="home-en.html" data-content-guid="u770045_content"><!-- simple frame --></a>
      <div id="u770046" class="shared_content" data-content-guid="u770046_content"><!-- simple frame --></div>
      <div class="tclangbtn clearfix shared_content" id="u770047-4" data-content-guid="u770047-4_content"><!-- content -->
       <p id="u770047-2">繁</p>
@@ -849,14 +862,14 @@ document.addEventListener('contextmenu', function (e) {
         <div class="ContainerGroup clearfix" id="u777074"><!-- stack box -->
          <div class="Container invi clearfix grpelem" id="u777075"><!-- group -->
           <ul class="AccordionWidget clearfix grpelem" id="accordionu777076"><!-- vertical box -->
-           <li class="AccordionPanel clearfix colelem" id="u777125"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777131-6"><!-- content --><div class="noticeboard shared_content" id="u777131-5" data-content-guid="u777131-5_content"><p id="u777131-4"><span><a class="nonblock" href="index.html"><span id="u777131">About HK-VMT</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777126"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u777128-4" href="home-en.html#intro" data-content-guid="u777128-4_content"><!-- content --><div id="u777128-3"><p id="u777128-2">Test Introduction</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777129-4" href="home-en.html#compare" data-content-guid="u777129-4_content"><!-- content --><div id="u777129-3"><p id="u777129-2">Test Features</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777127-4" href="home-en.html#mission" data-content-guid="u777127-4_content"><!-- content --><div id="u777127-3"><p id="u777127-2">Establishing Aims</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777130-4" href="home-en.html#team" data-content-guid="u777130-4_content"><!-- content --><div id="u777130-3"><p id="u777130-2">R&amp;D Team</p></div></a></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u777125"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777131-6"><!-- content --><div class="noticeboard shared_content" id="u777131-5" data-content-guid="u777131-5_content"><p id="u777131-4"><span><a class="nonblock" href="home-en.html"><span id="u777131">About HK-VMT</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777126"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u777128-4" href="home-en.html#intro" data-content-guid="u777128-4_content"><!-- content --><div id="u777128-3"><p id="u777128-2">Test Introduction</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777129-4" href="home-en.html#compare" data-content-guid="u777129-4_content"><!-- content --><div id="u777129-3"><p id="u777129-2">Test Features</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777127-4" href="home-en.html#mission" data-content-guid="u777127-4_content"><!-- content --><div id="u777127-3"><p id="u777127-2">Establishing Aims</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777130-4" href="home-en.html#team" data-content-guid="u777130-4_content"><!-- content --><div id="u777130-3"><p id="u777130-2">R&amp;D Team</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u777077"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777078-4"><!-- content --><div class="noticeboard shared_content" id="u777078-3" data-content-guid="u777078-3_content"><p id="u777078-2"><span id="u777078">Test NOW</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777079"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u777080-4" href="https://hkbu.questionpro.com/UserEntrance" target="_blank" data-content-guid="u777080-4_content"><!-- content --><div id="u777080-3"><p id="u777080-2">Login</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777082-4" href="https://hkbu.questionpro.com/registration" target="_blank" data-content-guid="u777082-4_content"><!-- content --><div id="u777082-3"><p id="u777082-2">User Registration</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777083-4" href="https://hkbu.questionpro.com/hkvmt-desktop" target="_blank" data-content-guid="u777083-4_content"><!-- content --><div id="u777083-3"><p id="u777083-2">HK-VMT Test</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777084-4" href="https://hkbu.questionpro.com/CARSTest" target="_blank" data-content-guid="u777084-4_content"><!-- content --><div id="u777084-3"><p id="u777084-2">CARS Test</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777081-4" href="https://hkbu.questionpro.com/personalCMS" target="_blank" data-content-guid="u777081-4_content"><!-- content --><div id="u777081-3"><p id="u777081-2">Central Management Platform</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u777090"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777091-4"><!-- content --><div class="noticeboard shared_content" id="u777091-3" data-content-guid="u777091-3_content"><p id="u777091-2"><span id="u777091">What's New</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777092"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u777094-4" href="mediaactivities-en.html#talks" data-content-guid="u777094-4_content"><!-- content --><div id="u777094-3"><p id="u777094-2">Public Talks</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777096-4" href="mediaactivities-en.html#research" data-content-guid="u777096-4_content"><!-- content --><div id="u777096-3"><p id="u777096-2">Research Participation</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777093-4" href="mediaactivities-en.html#news" data-content-guid="u777093-4_content"><!-- content --><div id="u777093-3"><p id="u777093-2">Media Reports</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777095-4" href="mediaactivities-en.html#gallery" data-content-guid="u777095-4_content"><!-- content --><div id="u777095-3"><p id="u777095-2">Photo Albums</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u777097"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777098-6"><!-- content --><div class="noticeboard shared_content" id="u777098-5" data-content-guid="u777098-5_content"><p id="u777098-4"><span><a class="nonblock" href="brainhealth-en.html"><span id="u777098">Brain Health Information</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777099"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u777108-4" href="stages-en.html" data-content-guid="u777108-4_content"><!-- content --><div id="u777108-3"><p id="u777108-2">Different Stages of Cognitive Decline</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777105-4" href="risks-en.html" data-content-guid="u777105-4_content"><!-- content --><div id="u777105-3"><p id="u777105-2">Risk Factors</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777102-4" href="healthtips-en.html" data-content-guid="u777102-4_content"><!-- content --><div id="u777102-3"><p id="u777102-2">Brain Health Tips for Action</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777106-4" href="brainhealth_exercises-en.html" data-content-guid="u777106-4_content"><!-- content --><div id="u777106-3"><p id="u777106-2">Physical Activities</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777104-4" href="brainhealth_cognitive-en.html" data-content-guid="u777104-4_content"><!-- content --><div id="u777104-3"><p id="u777104-2">Cognitive Activities</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777101-4" href="brainhealth_diet-en.html" data-content-guid="u777101-4_content"><!-- content --><div id="u777101-3"><p id="u777101-2">Healthy Eating</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777100-4" href="brainhealth_emotions-en.html" data-content-guid="u777100-4_content"><!-- content --><div id="u777100-3"><p id="u777100-2">Mood Regulation</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777107-4" href="brainhealth_social-en.html" data-content-guid="u777107-4_content"><!-- content --><div id="u777107-3"><p id="u777107-2">Social Activities</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777103-4" href="healing-en.html" data-content-guid="u777103-4_content"><!-- content --><div id="u777103-3"><p id="u777103-2">Management</p></div></a></div></li>
-           <li class="AccordionPanel clearfix colelem" id="u777109"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777114-4"><!-- content --><div class="noticeboard shared_content" id="u777114-3" data-content-guid="u777114-3_content"><p id="u777114-2"><span id="u777114">Community Supportst</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777110"><!-- column --><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u777111-4" href="resources-en.html#gov" data-content-guid="u777111-4_content"><!-- content --><div id="u777111-3"><p id="u777111-2">Government &amp; Related Organisations</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u777112-4" href="resources-en.html#ha" data-content-guid="u777112-4_content"><!-- content --><div id="u777112-3"><p id="u777112-2">Hospital Authority</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u777113-4" href="resources-en.html#otherngo" data-content-guid="u777113-4_content"><!-- content --><div id="u777113-3"><p id="u777113-2">Other Local Organisations</p></div></a></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u777109"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777114-4"><!-- content --><div class="noticeboard shared_content" id="u777114-3" data-content-guid="u777114-3_content"><p id="u777114-2"><span id="u777114">Community Supports</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777110"><!-- column --><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u777111-4" href="resources-en.html#gov" data-content-guid="u777111-4_content"><!-- content --><div id="u777111-3"><p id="u777111-2">Government &amp; Related Organisations</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u777112-4" href="resources-en.html#ha" data-content-guid="u777112-4_content"><!-- content --><div id="u777112-3"><p id="u777112-2">Hospital Authority</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u777113-4" href="resources-en.html#otherngo" data-content-guid="u777113-4_content"><!-- content --><div id="u777113-3"><p id="u777113-2">Other Local Organisations</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u777115"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777116-4"><!-- content --><div class="noticeboard shared_content" id="u777116-3" data-content-guid="u777116-3_content"><p id="u777116-2"><span id="u777116">Collaborative Partners</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777117"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u777118-4" href="partnership-en.html#joinus" data-content-guid="u777118-4_content"><!-- content --><div id="u777118-3"><p id="u777118-2">Join Us</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777119-4" href="partnership-en.html#contactus" data-content-guid="u777119-4_content"><!-- content --><div id="u777119-3"><p id="u777119-2">Contact Us</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u777120"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777121-4"><!-- content --><div class="noticeboard shared_content" id="u777121-3" data-content-guid="u777121-3_content"><p id="u777121-2"><span id="u777121">FAQ</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u777122"><!-- column --><div class="position_content" id="u777122_position_content"><a class="nonblock nontext clearfix colelem shared_content" id="u777123-4" href="faq-en.html" data-content-guid="u777123-4_content"><!-- content --><div id="u777123-3"><p id="u777123-2">FAQ</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u777124-4" href="disclaimer-en.html" data-content-guid="u777124-4_content"><!-- content --><div id="u777124-3"><p id="u777124-2">Disclaimer</p></div></a></div></div></li>
-           <li class="AccordionPanel clearfix colelem" id="u777085"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777086-6"><!-- content --><div class="noticeboard shared_content" id="u777086-5" data-content-guid="u777086-5_content"><p id="u777086-4"><span><a class="nonblock" href="partnership.html"><span id="u777086">語言 Language</span></a></span></p></div></div><a class="nonblock nontext AccordionPanelContent disn clearfix colelem" id="u777087" href="partnership.html#joinus"><!-- column --><div class="sclangbtn clearfix colelem shared_content" id="u777088-4" data-content-guid="u777088-4_content"><!-- content --><div id="u777088-3"><p id="u777088-2">简体中文</p></div></div><div class="tclangbtn clearfix colelem shared_content" id="u777089-4" data-content-guid="u777089-4_content"><!-- content --><div id="u777089-3"><p>繁體中文</p></div></div></a></li>
+           <li class="AccordionPanel clearfix colelem" id="u777085"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u777086-4"><!-- content --><div class="noticeboard shared_content" id="u777086-3" data-content-guid="u777086-3_content"><p id="u777086-2"><span id="u777086">語言 Language</span></p></div></div><a class="nonblock nontext AccordionPanelContent disn clearfix colelem" id="u777087" href="partnership.html#joinus"><!-- column --><div class="sclangbtn clearfix colelem shared_content" id="u777088-4" data-content-guid="u777088-4_content"><!-- content --><div id="u777088-3"><p id="u777088-2">简体中文</p></div></div><div class="tclangbtn clearfix colelem shared_content" id="u777089-4" data-content-guid="u777089-4_content"><!-- content --><div id="u777089-3"><p>繁體中文</p></div></div></a></li>
           </ul>
          </div>
         </div>
@@ -986,8 +999,8 @@ document.addEventListener('contextmenu', function (e) {
       <div class="PamphletWidget clearfix allow_click_through widget_invisible grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-islightbox="true" data-orig-id="pamphletu777073"><!-- none box -->
        <div class="clearfix" id="pu777074"><!-- group -->
         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-lightbox="true" data-orig-id="u777074popup">
-         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u777074"><!-- stack box -->
-          <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u777075"><!-- group -->
+         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u777074"><!-- stack box -->
+          <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u777075"><!-- group -->
            <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu777076"><!-- vertical box -->
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777125"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777131-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777131-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u777126"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777128-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777129-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777127-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777130-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777077"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777078-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777078-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u777079"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777080-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777082-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777083-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777084-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777081-4_content"><!-- placeholder node --></span></div></li>
@@ -996,7 +1009,7 @@ document.addEventListener('contextmenu', function (e) {
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777109"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777114-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777114-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u777110"><!-- column --><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u777111-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u777112-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u777113-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777115"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777116-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777116-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u777117"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777118-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777119-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777120"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777121-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777121-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u777122"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777123-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u777124-4_content"><!-- placeholder node --></span></div></li>
-            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777085"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777086-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777086-5_content"><!-- placeholder node --></span></div><a class="nonblock nontext AccordionPanelContent disn clearfix colelem temp_no_id" href="partnership.html#joinus" data-orig-id="u777087"><!-- column --><span class="sclangbtn clearfix colelem placeholder" data-placeholder-for="u777088-4_content"><!-- placeholder node --></span><span class="tclangbtn clearfix colelem placeholder" data-placeholder-for="u777089-4_content"><!-- placeholder node --></span></a></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u777085"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u777086-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u777086-3_content"><!-- placeholder node --></span></div><a class="nonblock nontext AccordionPanelContent disn clearfix colelem temp_no_id" href="partnership.html#joinus" data-orig-id="u777087"><!-- column --><span class="sclangbtn clearfix colelem placeholder" data-placeholder-for="u777088-4_content"><!-- placeholder node --></span><span class="tclangbtn clearfix colelem placeholder" data-placeholder-for="u777089-4_content"><!-- placeholder node --></span></a></li>
            </ul>
           </div>
          </div>

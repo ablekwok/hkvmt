@@ -20,12 +20,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>香港警覺性及記憶篩查</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
-  <link rel="stylesheet" type="text/css" href="css/master_home-en.css?crc=3989780153"/>
-  <link rel="stylesheet" type="text/css" href="css/home-en.css?crc=3845832776" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_home-en.css?crc=4084933855"/>
+  <link rel="stylesheet" type="text/css" href="css/home-en.css?crc=3925642160" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-en.css?crc=499308567"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_home-en.css?crc=4218167107" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-en.css?crc=4023288626"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_home-en.css?crc=337754028" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -34,7 +34,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <!--custom head HTML-->
   <style>
   body {
-    width:100% !important;
+    width: 100% !important;
     overflow-x: hidden !important;
   }
 
@@ -60,15 +60,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
   .backtotop {
     transition: opacity 0.5s ease-in-out;
-    opacity: 1; 
+    opacity: 1;
     cursor: pointer;
   }
 
   .backtotop.hidden {
-    opacity: 0 ;
+    opacity: 0;
   }
 
   .waviy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
   }
@@ -97,74 +100,84 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     animation: bounce 2s ease infinite;
   }
 
+  .sclangbtn{
+    cursor: pointer;
+  }
+  .tclangbtn{
+    cursor: pointer;
+  }
+  .englangbtn{
+    cursor: pointer;
+  }
+
 </style>
 
 <script>
-  
-document.addEventListener('DOMContentLoaded', () => {
 
-const tcLangBtns = document.querySelectorAll('.tclangbtn');
+  document.addEventListener('DOMContentLoaded', () => {
 
-tcLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
+    const tcLangBtns = document.querySelectorAll('.tclangbtn');
 
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('-en.html', '.html');
-      window.location.href = newUrl;
-    } else {
-      alert('T Chinese Version Webpage Error');
-    }
-  });
-});
+    tcLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
 
-const scLangBtns = document.querySelectorAll('.sclangbtn');
-
-scLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
-
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('-en.html', '-sc.html');
-      window.location.href = newUrl;
-    } else {
-      alert('S Chinese Version Webpage Error');
-    }
-  });
-});
-
-
-  const scrolldownBtn = document.querySelector('.pulldown');
-  scrolldownBtn.style.opacity = 1;
-  window.addEventListener('scroll', () => {
-    const opacity = 1 - (window.scrollY / 200);
-    scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
-  });
-
-  const backtotopBtn = document.querySelector('.backtotop');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      backtotopBtn.style.opacity = 1;
-    } else {
-      backtotopBtn.style.opacity = 0;
-    }
-  });
-
-  backtotopBtn.addEventListener('click', () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('-en.html', '.html');
+          window.location.href = newUrl;
+        } else {
+          alert('T Chinese Version Webpage Error');
+        }
+      });
     });
+
+    const scLangBtns = document.querySelectorAll('.sclangbtn');
+
+    scLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
+
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('-en.html', '-sc.html');
+          window.location.href = newUrl;
+        } else {
+          alert('S Chinese Version Webpage Error');
+        }
+      });
+    });
+
+
+    const scrolldownBtn = document.querySelector('.pulldown');
+    scrolldownBtn.style.opacity = 1;
+    window.addEventListener('scroll', () => {
+      const opacity = 1 - (window.scrollY / 200);
+      scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
+    });
+
+    const backtotopBtn = document.querySelector('.backtotop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backtotopBtn.style.opacity = 1;
+      } else {
+        backtotopBtn.style.opacity = 0;
+      }
+    });
+
+    backtotopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
   });
 
-});
 
 
-
-document.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-});
+  document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
 
 
 </script>
@@ -173,207 +186,217 @@ document.addEventListener('contextmenu', function (e) {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
-<script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 
 <style>
+  ul.slider {
+    padding: 0px;
+    height: 100%;
 
-ul.slider{
-  padding: 0px;
-  height: 100%;
-  
-}
+  }
 
-.tns-nav {
-  text-align: center;
-  margin: 10px 0;
-  
-}
+  .tns-nav {
+    text-align: center;
+    margin: 10px 0;
 
-.tns-nav > [aria-controls] {
-  width: 9px;
-  height: 9px;
-  padding: 0;
-  margin: 0 5px;
-  border-radius: 80%;
-  background: #ddd;
-  border: 0;
-}
+  }
 
-.tns-nav > [aria-controls].tns-nav-active {
-background: orange;
-}
+  .tns-nav>[aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 80%;
+    background: #ddd;
+    border: 0;
+  }
 
-.tns-controls > [aria-controls] {
-background:transparent;
-border:0;
-color:white;
-font-size:clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
-line-height:1.4;
-padding: 1px;
-}
+  .tns-nav>[aria-controls].tns-nav-active {
+    background: orange;
+  }
 
-
-.tns-controls  {
-text-align:right;
-}
-
-.tns-outer > button[data-action="stop"] {
-display: none;
-}
-
-.tns-outer > button[data-action="start"] {
-display: none;
-}
-
-ul.slider p{
-  text-align: right;
-  padding: 0px;
-  margin: 0px;
-}
-
-ul.slider img{
-  width: 100%;
-  height: auto;
-}
-
-.sliderblock{
-text-align:left;
-color:white;
-height:auto;
-margin-top:10px;
-vertical-align: middle;
-}
-
-.sliderimg{
-vertical-align: middle;
-display:inline-flex;
-width:146px;
-height:110px;
-object-fit: cover;
-}
-
-.slidertext{
-display:inline-flex;
-padding-left:5px;
-flex-direction: column;
-vertical-align: middle;
-}
-
-.stickright{
-z-index:99;
-position: absolute;
-right:0;
-width:fit-content;
-height:auto;
-background: rgba(0, 0, 0, 0.4);
-padding:15px;
-border-radius: 20px;
-font-size: clamp(1.125rem, 0.5625rem + 1.1719vw, 1.3rem);
-line-height:1.5;
-color:white;
-}
-
-.coverVideo{
-  height:85vh;
-}
-
-@media screen and (max-width: 1025px) {
-.stickright{
-position: relative;
-width:auto;
-line-height:1.5;
-}
-
-.sliderimg{
-vertical-align: middle;
-display:inline-flex;
-width:auto;
-height:80px;
-}
-
-.coverVideo{
-  height:55vh;
-}
-}
-
-.visitpanel{
-z-index:99;
-position: absolute;
-right:0;
-top:2px;
-width:auto;
-height:auto;
-padding:10px;
-font-size: calc(20px - 2px);
-line-height:1.5;
-color:white;
-text-align:right;
-}
+  .tns-controls>[aria-controls] {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
+    line-height: 1.4;
+    padding: 1px;
+  }
 
 
+  .tns-controls {
+    text-align: right;
+  }
 
+  .tns-outer>button[data-action="stop"] {
+    display: none;
+  }
+
+  .tns-outer>button[data-action="start"] {
+    display: none;
+  }
+
+  ul.slider p {
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  ul.slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .sliderblock {
+    text-align: left;
+    color: white;
+    height: auto;
+    margin-top: 10px;
+    vertical-align: middle;
+  }
+
+  .sliderimg {
+    vertical-align: middle;
+    display: inline-flex;
+    width: auto;
+    height: 110px;
+  }
+
+  .slidertext {
+    display: inline-flex;
+    padding-left: 5px;
+    flex-direction: column;
+    vertical-align: middle;
+    text-wrap: balance;
+  }
+
+  .stickright {
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    width: fit-content;
+    height: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 20px;
+    font-size: clamp(1.125rem, 0.5625rem + 1.1719vw, 1.3rem);
+    line-height: 1.5;
+    color: white;
+  }
+
+  .coverVideo {
+    height: 85vh;
+  }
+
+  @media screen and (max-width: 1025px) {
+    .stickright {
+      position: relative;
+      width: auto;
+      line-height: 1.5;
+    }
+
+    .sliderimg {
+      vertical-align: middle;
+      display: inline-flex;
+      width: auto;
+      height: 80px;
+    }
+
+    .coverVideo {
+      height: 55vh;
+    }
+  }
+
+  .visitpanel {
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: calc(20px - 2px);
+    line-height: 1.5;
+    color: white;
+    text-align: right;
+  }
+
+  .bouncingtext {
+    position: relative;
+  }
+
+  .bouncingtext .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+
+  .bouncingtext .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
 </style>
 
 
 <script>
 
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
 
-var visitCloudData;
-var visitText = document.getElementById("visitNum");
+    var visitCloudData;
+    var visitText = document.getElementById("visitNum");
 
-const firebaseConfig = {
-        apiKey: "AIzaSyCO7Uopu8_ZdxVx-e-5ojgsenXh_i3LcaA",
-        authDomain: "hk-vmt.firebaseapp.com",
-        databaseURL: "https://hk-vmt-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "hk-vmt",
-        storageBucket: "hk-vmt.appspot.com",
-        messagingSenderId: "934265370881",
-        appId: "1:934265370881:web:6e64c6387fc046feaf0300"
+    if (firebase.apps.length === 0) {
+
+      const firebaseConfig = {
+      apiKey: "AIzaSyCO7Uopu8_ZdxVx-e-5ojgsenXh_i3LcaA",
+      authDomain: "hk-vmt.firebaseapp.com",
+      databaseURL: "https://hk-vmt-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "hk-vmt",
+      storageBucket: "hk-vmt.appspot.com",
+      messagingSenderId: "934265370881",
+      appId: "1:934265370881:web:6e64c6387fc046feaf0300"
     };
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
     var database = firebase.database();
     const auth = firebase.auth();
 
     firebase.auth().signInWithEmailAndPassword("hkvmt@test.com", "12345678").then(() => {
 
-        firebase.database().ref(firebase.auth().currentUser.uid).once('value', function (snapshot) {
-            visitCloudData = snapshot.val().visit;
-            visitCloudData++;
-            visitText.innerHTML = visitCloudData;
+      firebase.database().ref(firebase.auth().currentUser.uid).once('value', function (snapshot) {
+        visitCloudData = snapshot.val().visit;
+        visitCloudData++;
+        visitText.innerHTML = visitCloudData;
 
-            firebase.database().ref(firebase.auth().currentUser.uid).update({
-                visit: visitCloudData
-            });
-
+        firebase.database().ref(firebase.auth().currentUser.uid).update({
+          visit: visitCloudData
         });
 
+      });
+
     });
-});
+
+  }
+  });
+
 
 </script>
   <!--HTML Widget code-->
   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.6.1/animate.min.css">
-
             <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 		
 
 		
-<style>
-.animtype2{font-size:16px;text-align:left}.animt2{font-family:inherit;color:#21824B;font-size:1.5em;font-weight:400;font-style:normal;text-transform:none;letter-spacing:1px;line-height:1}@media screen and (max-width:576px){.animtype2{font-size:11px}}
-</style>
-
-<style>
-.animtype1{font-size:16px;text-align:left}.animt1{font-family:inherit;color:#21824B;font-size:1.5em;font-weight:400;font-style:normal;text-transform:none;letter-spacing:1px;line-height:1}@media screen and (max-width:576px){.animtype1{font-size:11px}}
-</style>
-
   <!--/*
 
 */
@@ -383,10 +406,6 @@ const firebaseConfig = {
 
   <div class="breakpoint active" id="bp_infinity" data-min-width="1281"><!-- responsive breakpoint node -->
    <div class="clearfix" id="page"><!-- group -->
-    <div class="size_fixed grpelem shared_content" id="u781687" data-content-guid="u781687_content"><!-- custom html -->
-     
-
-    </div>
     <div class="clearfix grpelem shared_content" id="pu811017" data-content-guid="pu811017_content"><!-- column -->
      <div class="size_fixed colelem shared_content" id="u811017" data-content-guid="u811017_content"><!-- custom html -->
       
@@ -724,16 +743,6 @@ const firebaseConfig = {
       <div class="browser_width grpelem shared_content" id="buttonu780843-bw" data-content-guid="buttonu780843-bw_content">
        <div class="Button height85 museBGSize" id="buttonu780843"><!-- container box --></div>
       </div>
-      <div class="size_fixed grpelem shared_content" id="u780844" data-content-guid="u780844_content"><!-- custom html -->
-       
-<div class="animtype2"><span class="animt2">To promote early cognitive risk management</span></div>
-
-      </div>
-      <div class="size_fixed grpelem shared_content" id="u780840" data-content-guid="u780840_content"><!-- custom html -->
-       
-<div class="animtype1"><span class="animt1">To boost brain health in community</span></div>
-
-      </div>
       <div class="browser_width grpelem shared_content" id="u780839-bw" data-content-guid="u780839-bw_content">
        <div class="museBGSize" id="u780839"><!-- group -->
         <div class="clearfix" id="u780839_align_to_page">
@@ -777,6 +786,50 @@ const firebaseConfig = {
        </div>
       </div>
       <a class="anchor_item grpelem shared_content" id="intro" data-content-guid="intro_content"></a>
+      <div class="grpelem shared_content" id="u815320" data-content-guid="u815320_content"><!-- custom html -->
+           <div class="bouncingtext">
+        <span class="text-wrapper">
+            <span class="letters">To boost brain health in community</span>
+        </span>
+    </div>
+
+    <div class="bouncingtext">
+        <span class="text-wrapper">
+            <span class="letters">To promote early cognitive risk management</span>
+        </span>
+    </div>
+
+
+<script>
+var bouncingtext = document.querySelectorAll('.bouncingtext .letters');
+for (let b = 0; b < bouncingtext.length; b++) {
+        bouncingtext[b].innerHTML = bouncingtext[b].textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+}
+
+
+    anime.timeline({ loop: true })
+        .add({
+            targets: '.bouncingtext .letter',
+            rotateY: [-90, 0],
+            duration: 1300,
+            delay: (el, i) => 45 * i
+        })
+        .add({
+            targets: '.bouncingtext .letter',
+            opacity: [1, 1],
+            delay: 5000
+        })
+        .add({
+            targets: '.bouncingtext .letter',
+            translateX: [0, 30],
+            opacity: [1, 0],
+            easing: "easeInExpo",
+            duration: 1100,
+            delay: (el, i) => 45 * i,
+        });
+
+</script>
+      </div>
       <div class="noticeboard grpelem shared_content" id="u781684" data-content-guid="u781684_content"><!-- custom html -->
        <div class="stickright">
 Key News
@@ -789,7 +842,7 @@ Key News
   
     
   <div class="sliderblock">
-  <a href="mediaactivities-en.html#gallery"><span class="sliderimg"><img  src="https://hkvmt.com/images/pic_event13.jpg" style="border-radius: 10px;" alt="Gerontech & Innovation Expo cum Summit 2022 "/></span><span class="slidertext">Gerontech & Innovation Expo cum Summit 2022 </span></a></div>
+  <a href="mediaactivities-en.html#gallery"><span class="sliderimg"><img  src="https://hkvmt.com/images/pic_event13.jpg" style="border-radius: 10px;" alt="Gerontech & Innovation Expo cum Summit 2022 "/></span><span class="slidertext">Gerontech & Innovation Expo<br>cum Summit 2022 </span></a></div>
 
   <div class="sliderblock">
       <a href="https://hkbu.questionpro.com/t/AaJdXZ1rSH"><span class="sliderimg"><img src="https://www.hkvmt.com/images/poster%20bworklife.jpg" style="border-radius: 10px;" alt="「腦動耆職•豐盛人生」免費公眾講座"/></span><span class="slidertext">「腦動耆職•豐盛人生」<br>免費公眾講座</span></a></div>
@@ -957,12 +1010,10 @@ var slider = tns({
     </div>
     <div class="clearfix grpelem" id="pu811388"><!-- group -->
      <div class="shadow rounded-corners shared_content" id="u811388" data-content-guid="u811388_content"><!-- simple frame --></div>
-     <a class="nonblock nontext museBGSize shared_content" id="u811389" href="index.html" data-content-guid="u811389_content"><!-- simple frame --></a>
+     <a class="nonblock nontext MuseLinkActive museBGSize shared_content" id="u811389" href="home-en.html" data-content-guid="u811389_content"><!-- simple frame --></a>
      <div class="shadow rounded-corners shared_content" id="u811390" data-content-guid="u811390_content"><!-- simple frame --></div>
      <a class="nonblock nontext clearfix shared_content" id="u811391-4" href="index.html" data-content-guid="u811391-4_content"><!-- content --><p id="u811391-2">繁</p></a>
-     <div class="clearfix shared_content" id="u811392-4" data-content-guid="u811392-4_content"><!-- content -->
-      <p id="u811392-2">简</p>
-     </div>
+     <a class="nonblock nontext clearfix shared_content" id="u811392-4" href="home-cn.html" data-content-guid="u811392-4_content"><!-- content --><p id="u811392-2">简</p></a>
      <nav class="MenuBar clearfix" id="menuu811393"><!-- horizontal box -->
       <div class="MenuItemContainer clearfix grpelem" id="u811394"><!-- vertical box -->
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u811395" href="home-en.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u811398-4"><!-- content --><p id="u811398-2" class="shared_content" data-content-guid="u811398-2_content"><span id="u811398">About HK-VMT</span></p></div></a>
@@ -1080,9 +1131,7 @@ var slider = tns({
          </div>
          <a class="nonblock nontext museBGSize grpelem shared_content" id="u811724" href="https://www.facebook.com/%E9%A6%99%E6%B8%AF%E8%AD%A6%E8%A6%BA%E6%80%A7%E5%8F%8A%E8%A8%98%E6%86%B6%E7%AF%A9%E6%9F%A5-109626367985008" data-content-guid="u811724_content"><!-- simple frame --></a>
          <a class="nonblock nontext clearfix grpelem shared_content" id="u811711-4" href="index.html" data-content-guid="u811711-4_content"><!-- content --><p id="u811711-2">繁</p></a>
-         <div class="clearfix grpelem shared_content" id="u811704-4" data-content-guid="u811704-4_content"><!-- content -->
-          <p id="u811704-2">简</p>
-         </div>
+         <a class="nonblock nontext clearfix grpelem shared_content" id="u811704-4" href="home-cn.html" data-content-guid="u811704-4_content"><!-- content --><p id="u811704-2">简</p></a>
         </div>
         <div class="clearfix colelem shared_content" id="u811731-4" data-content-guid="u811731-4_content"><!-- content -->
          <p id="u811731-2">© Hong Kong - Vigilance and Memory Test&nbsp; 2024</p>
@@ -1112,7 +1161,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_1280" data-min-width="1026" data-max-width="1280"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u781687_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu811017_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu780841"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu780841"><!-- group -->
@@ -1266,9 +1314,8 @@ var slider = tns({
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u780845-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu780843-bw_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780844_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780840_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u780839-bw_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u815320_content"><!-- placeholder node --></span>
       <span class="noticeboard grpelem placeholder" data-placeholder-for="u781684_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u781195_content"><!-- placeholder node --></span>
@@ -1281,10 +1328,10 @@ var slider = tns({
     </div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu811388"><!-- group -->
      <span class="shadow rounded-corners placeholder" data-placeholder-for="u811388_content"><!-- placeholder node --></span>
-     <span class="nonblock nontext museBGSize placeholder" data-placeholder-for="u811389_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext MuseLinkActive museBGSize placeholder" data-placeholder-for="u811389_content"><!-- placeholder node --></span>
      <span class="shadow rounded-corners placeholder" data-placeholder-for="u811390_content"><!-- placeholder node --></span>
      <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u811391-4_content"><!-- placeholder node --></span>
-     <span class="clearfix placeholder" data-placeholder-for="u811392-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u811392-4_content"><!-- placeholder node --></span>
      <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu811393"><!-- horizontal box -->
       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u811394"><!-- vertical box -->
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem temp_no_id" href="home-en.html" data-orig-id="u811395"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u811398-4"><!-- content --><span class="placeholder" data-placeholder-for="u811398-2_content"><!-- placeholder node --></span></div></a>
@@ -1391,7 +1438,7 @@ var slider = tns({
         <div class="clearfix colelem" id="pu811724"><!-- group -->
          <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u811724_content"><!-- placeholder node --></span>
          <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811711-4_content"><!-- placeholder node --></span>
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
         </div>
         <span class="clearfix colelem placeholder" data-placeholder-for="u811731-4_content"><!-- placeholder node --></span>
        </div>
@@ -1418,7 +1465,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_1025" data-min-width="770" data-max-width="1025"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u781687_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu811017_content"><!-- placeholder node --></span>
     <div class="browser_width" id="u811697-bw">
      <div class="shadow" id="u811697"><!-- simple frame --></div>
@@ -1521,8 +1567,6 @@ var slider = tns({
       <div class="browser_width grpelem shared_content" id="buttonu780842-bw" data-content-guid="buttonu780842-bw_content">
        <div class="Button height55 museBGSize" id="buttonu780842"><!-- container box --></div>
       </div>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780844_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780840_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u780839-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u780839"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u780839_align_to_page">
@@ -1545,6 +1589,7 @@ var slider = tns({
       </div>
       <span class="SlideFromR clearfix grpelem placeholder" data-placeholder-for="u781287-4_content"><!-- placeholder node --></span>
       <span class="fadein museBGSize rounded-corners transition shadow grpelem placeholder" data-placeholder-for="u781314_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u815320_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u781195_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u781284_content"><!-- placeholder node --></span>
@@ -1567,9 +1612,9 @@ var slider = tns({
      </div>
     </div>
     <div class="clearfix grpelem" id="pu811389"><!-- group -->
-     <span class="nonblock nontext museBGSize placeholder" data-placeholder-for="u811389_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext MuseLinkActive museBGSize placeholder" data-placeholder-for="u811389_content"><!-- placeholder node --></span>
      <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u811391-4_content"><!-- placeholder node --></span>
-     <span class="clearfix placeholder" data-placeholder-for="u811392-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u811392-4_content"><!-- placeholder node --></span>
      <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu811393"><!-- horizontal box -->
       <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u811394"><!-- vertical box -->
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem temp_no_id" href="home-en.html" data-orig-id="u811395"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-orig-id="u811398-4"><!-- content --><span class="placeholder" data-placeholder-for="u811398-2_content"><!-- placeholder node --></span></div></a>
@@ -1671,7 +1716,7 @@ var slider = tns({
        <div class="clearfix colelem" id="pu811729-4"><!-- group -->
         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811729-4_content"><!-- placeholder node --></span>
         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811725-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
        </div>
        <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811708-4_content"><!-- placeholder node --></span>
        <span class="clearfix colelem placeholder" data-placeholder-for="u811731-4_content"><!-- placeholder node --></span>
@@ -1687,7 +1732,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_769" data-min-width="577" data-max-width="769"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u781687_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu811017_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu780841"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu780841"><!-- group -->
@@ -1755,8 +1799,6 @@ var slider = tns({
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u780845-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu780842-bw_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780844_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780840_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u780839-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u780839"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u780839_align_to_page">
@@ -1779,19 +1821,20 @@ var slider = tns({
         </div>
        </div>
       </div>
+      <span class="grpelem placeholder" data-placeholder-for="u815320_content"><!-- placeholder node --></span>
       <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu811633" data-islightbox="true"><!-- none box -->
        <div class="popup_anchor" id="u811639popup" data-lightbox="true">
         <div class="ContainerGroup clearfix" id="u811639"><!-- stack box -->
          <div class="Container invi clearfix grpelem" id="u811640"><!-- group -->
           <ul class="AccordionWidget clearfix grpelem" id="accordionu811641"><!-- vertical box -->
-           <li class="AccordionPanel clearfix colelem" id="u811663"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811669-6"><!-- content --><div class="noticeboard shared_content" id="u811669-5" data-content-guid="u811669-5_content"><p id="u811669-4"><span><a class="nonblock" href="index.html"><span id="u811669">About HK-VMT</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811664"><!-- column --><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811666-4" href="home-en.html#intro" data-content-guid="u811666-4_content"><!-- content --><div id="u811666-3"><p id="u811666-2">Test Introduction</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811665-4" href="home-en.html#compare" data-content-guid="u811665-4_content"><!-- content --><div id="u811665-3"><p id="u811665-2">Test Features</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811668-4" href="home-en.html#mission" data-content-guid="u811668-4_content"><!-- content --><div id="u811668-3"><p id="u811668-2">Establishing Aims</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811667-4" href="home-en.html#team" data-content-guid="u811667-4_content"><!-- content --><div id="u811667-3"><p id="u811667-2">R&amp;D Team</p></div></a></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u811663"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811669-6"><!-- content --><div class="noticeboard shared_content" id="u811669-5" data-content-guid="u811669-5_content"><p id="u811669-4"><span><a class="nonblock" href="home-en.html"><span id="u811669">About HK-VMT</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811664"><!-- column --><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811666-4" href="home-en.html#intro" data-content-guid="u811666-4_content"><!-- content --><div id="u811666-3"><p id="u811666-2">Test Introduction</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811665-4" href="home-en.html#compare" data-content-guid="u811665-4_content"><!-- content --><div id="u811665-3"><p id="u811665-2">Test Features</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811668-4" href="home-en.html#mission" data-content-guid="u811668-4_content"><!-- content --><div id="u811668-3"><p id="u811668-2">Establishing Aims</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u811667-4" href="home-en.html#team" data-content-guid="u811667-4_content"><!-- content --><div id="u811667-3"><p id="u811667-2">R&amp;D Team</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u811682"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811689-4"><!-- content --><div class="noticeboard shared_content" id="u811689-3" data-content-guid="u811689-3_content"><p id="u811689-2"><span id="u811689">Test NOW</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811683"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u811684-4" href="https://hkbu.questionpro.com/UserEntrance" target="_blank" data-content-guid="u811684-4_content"><!-- content --><div id="u811684-3"><p id="u811684-2">Login</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811686-4" href="https://hkbu.questionpro.com/registration" target="_blank" data-content-guid="u811686-4_content"><!-- content --><div id="u811686-3"><p id="u811686-2">User Registration</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811687-4" href="https://hkbu.questionpro.com/hkvmt-desktop" target="_blank" data-content-guid="u811687-4_content"><!-- content --><div id="u811687-3"><p id="u811687-2">HK-VMT Test</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811688-4" href="https://hkbu.questionpro.com/CARSTest" target="_blank" data-content-guid="u811688-4_content"><!-- content --><div id="u811688-3"><p id="u811688-2">CARS Test</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811685-4" href="https://hkbu.questionpro.com/personalCMS" target="_blank" data-content-guid="u811685-4_content"><!-- content --><div id="u811685-3"><p id="u811685-2">Central Management Platform</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u811690"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811696-4"><!-- content --><div class="noticeboard shared_content" id="u811696-3" data-content-guid="u811696-3_content"><p id="u811696-2"><span id="u811696">What's New</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811691"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u811692-4" href="mediaactivities-en.html#talks" data-content-guid="u811692-4_content"><!-- content --><div id="u811692-3"><p id="u811692-2">Public Talks</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811693-4" href="mediaactivities-en.html#research" data-content-guid="u811693-4_content"><!-- content --><div id="u811693-3"><p id="u811693-2">Research Participation</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811695-4" href="mediaactivities-en.html#news" data-content-guid="u811695-4_content"><!-- content --><div id="u811695-3"><p id="u811695-2">Media Reports</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811694-4" href="mediaactivities-en.html#gallery" data-content-guid="u811694-4_content"><!-- content --><div id="u811694-3"><p id="u811694-2">Photo Albums</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u811670"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811681-6"><!-- content --><div class="noticeboard shared_content" id="u811681-5" data-content-guid="u811681-5_content"><p id="u811681-4"><span><a class="nonblock" href="brainhealth-en.html"><span id="u811681">Brain Health Information</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811671"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u811680-4" href="stages-en.html" data-content-guid="u811680-4_content"><!-- content --><div id="u811680-3"><p id="u811680-2">Different Stages of Cognitive Decline</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811672-4" href="risks-en.html" data-content-guid="u811672-4_content"><!-- content --><div id="u811672-3"><p id="u811672-2">Risk Factors</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811673-4" href="healthtips-en.html" data-content-guid="u811673-4_content"><!-- content --><div id="u811673-3"><p id="u811673-2">Brain Health Tips for Action</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811676-4" href="brainhealth_exercises-en.html" data-content-guid="u811676-4_content"><!-- content --><div id="u811676-3"><p id="u811676-2">Physical Activities</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811677-4" href="brainhealth_cognitive-en.html" data-content-guid="u811677-4_content"><!-- content --><div id="u811677-3"><p id="u811677-2">Cognitive Activities</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811678-4" href="brainhealth_diet-en.html" data-content-guid="u811678-4_content"><!-- content --><div id="u811678-3"><p id="u811678-2">Healthy Eating</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811675-4" href="brainhealth_emotions-en.html" data-content-guid="u811675-4_content"><!-- content --><div id="u811675-3"><p id="u811675-2">Mood Regulation</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811674-4" href="brainhealth_social-en.html" data-content-guid="u811674-4_content"><!-- content --><div id="u811674-3"><p id="u811674-2">Social Activities</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811679-4" href="healing-en.html" data-content-guid="u811679-4_content"><!-- content --><div id="u811679-3"><p id="u811679-2">Management</p></div></a></div></li>
-           <li class="AccordionPanel clearfix colelem" id="u811647"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811648-4"><!-- content --><div class="noticeboard shared_content" id="u811648-3" data-content-guid="u811648-3_content"><p id="u811648-2"><span id="u811648">Community Supportst</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811649"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u811651-4" href="resources-en.html#gov" data-content-guid="u811651-4_content"><!-- content --><div id="u811651-3"><p id="u811651-2">Government &amp; Related Organisations</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811650-4" href="resources-en.html#ha" data-content-guid="u811650-4_content"><!-- content --><div id="u811650-3"><p id="u811650-2">Hospital Authority</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811652-4" href="resources-en.html#otherngo" data-content-guid="u811652-4_content"><!-- content --><div id="u811652-3"><p id="u811652-2">Other Local Organisations</p></div></a></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u811647"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811648-4"><!-- content --><div class="noticeboard shared_content" id="u811648-3" data-content-guid="u811648-3_content"><p id="u811648-2"><span id="u811648">Community Supports</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811649"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u811651-4" href="resources-en.html#gov" data-content-guid="u811651-4_content"><!-- content --><div id="u811651-3"><p id="u811651-2">Government &amp; Related Organisations</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811650-4" href="resources-en.html#ha" data-content-guid="u811650-4_content"><!-- content --><div id="u811650-3"><p id="u811650-2">Hospital Authority</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811652-4" href="resources-en.html#otherngo" data-content-guid="u811652-4_content"><!-- content --><div id="u811652-3"><p id="u811652-2">Other Local Organisations</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u811653"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811657-4"><!-- content --><div class="noticeboard shared_content" id="u811657-3" data-content-guid="u811657-3_content"><p id="u811657-2"><span id="u811657">Collaborative Partners</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811654"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u811656-4" href="partnership-en.html#joinus" data-content-guid="u811656-4_content"><!-- content --><div id="u811656-3"><p id="u811656-2">Join Us</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811655-4" href="partnership-en.html#contactus" data-content-guid="u811655-4_content"><!-- content --><div id="u811655-3"><p id="u811655-2">Contact Us</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u811658"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811662-4"><!-- content --><div class="noticeboard shared_content" id="u811662-3" data-content-guid="u811662-3_content"><p id="u811662-2"><span id="u811662">FAQ</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u811659"><!-- column --><div class="position_content" id="u811659_position_content"><a class="nonblock nontext clearfix colelem shared_content" id="u811661-4" href="faq-en.html" data-content-guid="u811661-4_content"><!-- content --><div id="u811661-3"><p id="u811661-2">FAQ</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811660-4" href="disclaimer-en.html" data-content-guid="u811660-4_content"><!-- content --><div id="u811660-3"><p id="u811660-2">Disclaimer</p></div></a></div></div></li>
-           <li class="AccordionPanel clearfix colelem" id="u811642"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811643-6"><!-- content --><div class="noticeboard shared_content" id="u811643-5" data-content-guid="u811643-5_content"><p id="u811643-4"><span><a class="nonblock" href="partnership.html"><span id="u811643">語言 Language</span></a></span></p></div></div><div class="pointer_cursor AccordionPanelContent clearfix colelem" id="u811644"><!-- column --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><div class="clearfix colelem shared_content" id="u811646-4" data-content-guid="u811646-4_content"><!-- content --><div id="u811646-3"><p id="u811646-2">简体中文</p></div></div><a class="nonblock nontext clearfix colelem shared_content" id="u811645-4" href="index.html" data-content-guid="u811645-4_content"><!-- content --><div id="u811645-3"><p>繁體中文</p></div></a></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u811642"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u811643-4"><!-- content --><div class="noticeboard shared_content" id="u811643-3" data-content-guid="u811643-3_content"><p id="u811643-2"><span id="u811643">語言 Language</span></p></div></div><div class="pointer_cursor AccordionPanelContent disn clearfix colelem" id="u811644"><!-- column --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><a class="nonblock nontext clearfix colelem shared_content" id="u811646-4" href="home-cn.html" data-content-guid="u811646-4_content"><!-- content --><div id="u811646-3"><p id="u811646-2">简体中文</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u811645-4" href="index.html" data-content-guid="u811645-4_content"><!-- content --><div id="u811645-3"><p>繁體中文</p></div></a></div></li>
           </ul>
          </div>
         </div>
@@ -1843,7 +1886,7 @@ var slider = tns({
      <div class="browser_width" id="u811699-bw">
       <div class="gradient" id="u811699"><!-- simple frame --></div>
      </div>
-     <span class="nonblock nontext museBGSize placeholder" data-placeholder-for="u811389_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext MuseLinkActive museBGSize placeholder" data-placeholder-for="u811389_content"><!-- placeholder node --></span>
      <span class="museBGSize backtotop placeholder" data-placeholder-for="u811387_content"><!-- placeholder node --></span>
      <span class="pulldown museBGSize placeholder" data-placeholder-for="u811632_content"><!-- placeholder node --></span>
     </div>
@@ -1864,7 +1907,7 @@ var slider = tns({
        <div class="clearfix colelem temp_no_id" data-orig-id="pu811724"><!-- group -->
         <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u811724_content"><!-- placeholder node --></span>
         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811711-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
        </div>
        <div class="clearfix colelem" id="pu811731-4"><!-- group -->
         <span class="clearfix grpelem placeholder" data-placeholder-for="u811731-4_content"><!-- placeholder node --></span>
@@ -1886,7 +1929,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_576" data-max-width="576"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u781687_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu811017"><!-- column -->
      <span class="size_fixed colelem placeholder" data-placeholder-for="u811017_content"><!-- placeholder node --></span>
      <span class="size_fixed colelem placeholder" data-placeholder-for="u781689_content"><!-- placeholder node --></span>
@@ -2039,8 +2081,6 @@ var slider = tns({
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u780845-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu780842-bw_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780844_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u780840_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u780839-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u780839"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u780839_align_to_page">
@@ -2057,11 +2097,12 @@ var slider = tns({
        </div>
       </div>
       <span class="SlideFromR clearfix grpelem placeholder" data-placeholder-for="u781287-4_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u815320_content"><!-- placeholder node --></span>
       <div class="PamphletWidget clearfix allow_click_through widget_invisible grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-islightbox="true" data-orig-id="pamphletu811633"><!-- none box -->
        <div class="clearfix" id="pu811639"><!-- group -->
         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-lightbox="true" data-orig-id="u811639popup">
-         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u811639"><!-- stack box -->
-          <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u811640"><!-- group -->
+         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u811639"><!-- stack box -->
+          <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u811640"><!-- group -->
            <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu811641"><!-- vertical box -->
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811663"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811669-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811669-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u811664"><!-- column --><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u811666-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u811665-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u811668-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u811667-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811682"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811689-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811689-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u811683"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811684-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811686-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811687-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811688-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811685-4_content"><!-- placeholder node --></span></div></li>
@@ -2070,7 +2111,7 @@ var slider = tns({
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811647"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811648-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811648-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u811649"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811651-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811650-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811652-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811653"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811657-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811657-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u811654"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811656-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811655-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811658"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811662-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811662-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u811659"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811661-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811660-4_content"><!-- placeholder node --></span></div></li>
-            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811642"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811643-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811643-5_content"><!-- placeholder node --></span></div><div class="pointer_cursor AccordionPanelContent clearfix colelem temp_no_id" data-orig-id="u811644"><!-- column --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><span class="clearfix colelem placeholder" data-placeholder-for="u811646-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811645-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u811642"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u811643-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u811643-3_content"><!-- placeholder node --></span></div><div class="pointer_cursor AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u811644"><!-- column --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811646-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u811645-4_content"><!-- placeholder node --></span></div></li>
            </ul>
           </div>
          </div>
@@ -2164,7 +2205,7 @@ var slider = tns({
        <div class="clearfix colelem temp_no_id" data-orig-id="pu811724"><!-- group -->
         <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u811724_content"><!-- placeholder node --></span>
         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811711-4_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u811704-4_content"><!-- placeholder node --></span>
        </div>
        <span class="clearfix colelem placeholder" data-placeholder-for="u811731-4_content"><!-- placeholder node --></span>
       </div>
@@ -2209,7 +2250,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_1025'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#accordionu811641', ['#bp_769', '#bp_576'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:7}); });/* #accordionu811641 */
+Muse.Utils.initWidget('#accordionu811641', ['#bp_769', '#bp_576'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu811641 */
 Muse.Utils.initWidget('#pamphletu811633', ['#bp_769'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu811633 */
 Muse.Utils.initWidget('#pamphletu811633', ['#bp_576'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu811633 */
 Muse.Utils.fullPage('#page');/* 100% height page */
@@ -2223,8 +2264,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-<script src="https://cdn.jsdelivr.net/combine/npm/scrollmonitor@1.2.4/scrollMonitor.min.js,npm/letteringjs@0.7.0/jquery.lettering.min.js,npm/fittext@1.0.1/dist/jquery.fittext.js,npm/textillate@0.4.1/jquery.textillate.min.js"></script>
-
 			<script>
         console.log("Fluid Scroll Effects Base (1.0.0)");
       </script>
@@ -2557,13 +2596,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
     </script>
 		
-<script>
-$(document).ready(function(){$('.animt2').textillate({loop:true,minDisplayTime:5000,initialDelay:0,autoStart:true,in:{effect:'slideInLeft',delayScale:1.6,delay:80,sync:false,shuffle:false,reverse:false,},out:{effect:'slideOutRight',delayScale:1.6,delay:50,sync:false,shuffle:false,reverse:false,},type:'char'})})
-</script>
-
-<script>
-$(document).ready(function(){$('.animt1').textillate({loop:true,minDisplayTime:5000,initialDelay:0,autoStart:true,in:{effect:'slideInLeft',delayScale:1.5,delay:50,sync:false,shuffle:false,reverse:false,},out:{effect:'slideOutRight',delayScale:1.5,delay:50,sync:false,shuffle:false,reverse:false,},type:'char'})})
-</script>
-
    </body>
 </html>

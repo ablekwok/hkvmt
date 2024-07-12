@@ -20,12 +20,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>加入我們</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
-  <link rel="stylesheet" type="text/css" href="css/master_global-hk.css?crc=161377420"/>
-  <link rel="stylesheet" type="text/css" href="css/partnership.css?crc=250911451" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_global-hk.css?crc=431351260"/>
+  <link rel="stylesheet" type="text/css" href="css/partnership.css?crc=456511757" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_global-hk.css?crc=4207325371"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_partnership.css?crc=3900868927" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_global-hk.css?crc=529347304"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_partnership.css?crc=28755268" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -34,7 +34,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <!--custom head HTML-->
   <style>
   body {
-    width:100% !important;
+    width: 100% !important;
     overflow-x: hidden !important;
   }
 
@@ -60,15 +60,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
   .backtotop {
     transition: opacity 0.5s ease-in-out;
-    opacity: 1; 
+    opacity: 1;
     cursor: pointer;
   }
 
   .backtotop.hidden {
-    opacity: 0 ;
+    opacity: 0;
   }
 
   .waviy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
   }
@@ -96,75 +99,85 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   .jumping {
     animation: bounce 2s ease infinite;
   }
+  
+  .sclangbtn{
+    cursor: pointer;
+  }
+  .tclangbtn{
+    cursor: pointer;
+  }
+  .englangbtn{
+    cursor: pointer;
+  }
 
 </style>
 
 <script>
-  
-document.addEventListener('DOMContentLoaded', () => {
 
-const enLangBtns = document.querySelectorAll('.englangbtn');
+  document.addEventListener('DOMContentLoaded', () => {
 
-enLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
+    const enLangBtns = document.querySelectorAll('.englangbtn');
 
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('.html', '-en.html');
-      window.location.href = newUrl;
-    } else {
-      alert('English Version Webpage Error');
-    }
-  });
-});
+    enLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
 
-const scLangBtns = document.querySelectorAll('.sclangbtn');
-
-scLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
-
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('.html', '-sc.html');
-      window.location.href = newUrl;
-    } else {
-      alert('S Chinese Version Webpage Error');
-    }
-  });
-});
-
-
-  const scrolldownBtn = document.querySelector('.pulldown');
-  scrolldownBtn.style.opacity = 1;
-  window.addEventListener('scroll', () => {
-    const opacity = 1 - (window.scrollY / 200);
-    scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
-  });
-
-  const backtotopBtn = document.querySelector('.backtotop');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      backtotopBtn.style.opacity = 1;
-    } else {
-      backtotopBtn.style.opacity = 0;
-    }
-  });
-
-  backtotopBtn.addEventListener('click', () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('.html', '-en.html');
+          window.location.href = newUrl;
+        } else {
+          alert('English Version Webpage Error');
+        }
+      });
     });
+
+    const scLangBtns = document.querySelectorAll('.sclangbtn');
+
+    scLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
+
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('.html', '-sc.html');
+          window.location.href = newUrl;
+        } else {
+          alert('S Chinese Version Webpage Error');
+        }
+      });
+    });
+
+
+    const scrolldownBtn = document.querySelector('.pulldown');
+    scrolldownBtn.style.opacity = 1;
+    window.addEventListener('scroll', () => {
+      const opacity = 1 - (window.scrollY / 200);
+      scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
+    });
+
+    const backtotopBtn = document.querySelector('.backtotop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backtotopBtn.style.opacity = 1;
+      } else {
+        backtotopBtn.style.opacity = 0;
+      }
+    });
+
+    backtotopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
   });
 
-});
 
 
-
-document.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-});
+  document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
 
 
 </script>
@@ -316,7 +329,7 @@ document.addEventListener('contextmenu', function (e) {
        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u598285-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu598282_input" name="custom_U598282" tabindex="2" data-content-guid="widgetu598282_input_content"/><label class="wrapped-input fld-prompt" id="widgetu598282_prompt" for="widgetu598282_input"><span class="actAsPara shared_content" id="u598285-2" data-content-guid="u598285-2_content">輸入聯絡人名稱</span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem" id="widgetu598288" data-required="true" data-type="email"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem" id="u598291-4" for="widgetu598288_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u598291-4_0_content">電郵:</span></label>
+       <label class="fld-label actAsDiv clearfix grpelem" id="u598291-4" for="widgetu598288_input"><!-- content --><span class="actAsPara shared_content" id="u598291-2" data-content-guid="u598291-2_content">電郵:</span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u598289-4"><!-- content --><input class="wrapped-input shared_content" type="email" spellcheck="false" id="widgetu598288_input" name="Email" tabindex="3" data-content-guid="widgetu598288_input_content"/><label class="wrapped-input fld-prompt" id="widgetu598288_prompt" for="widgetu598288_input"><span class="actAsPara shared_content" id="u598289-2" data-content-guid="u598289-2_content">輸入電郵</span></label></span>
       </div>
       <div class="clearfix grpelem" id="u598286-4"><!-- content -->
@@ -326,7 +339,7 @@ document.addEventListener('contextmenu', function (e) {
        <p id="u598296-2" class="shared_content" data-content-guid="u598296-2_content">伺服器發生錯誤。</p>
       </div>
       <div class="clearfix grpelem" id="u598287-4"><!-- content -->
-       <p id="u598287-2" class="shared_content" data-content-guid="u598287-2_content">已寄出查詢內容</p>
+       <p class="shared_content" data-content-guid="u598287-4_0_content">已寄出查詢內容</p>
       </div>
       <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u598281-4" type="submit" value="送出" tabindex="6"><!-- content -->
        <div style="margin-top:-22px;height:22px;" class="shared_content" data-content-guid="u598281-4_0_content">
@@ -334,27 +347,27 @@ document.addEventListener('contextmenu', function (e) {
        </div>
       </button>
       <div class="fld-grp clearfix grpelem" id="widgetu598292" data-required="false"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem" id="u598294-4" for="widgetu598292_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u598294-4_0_content">詳細內容:</span></label>
+       <label class="fld-label actAsDiv clearfix grpelem" id="u598294-4" for="widgetu598292_input"><!-- content --><span class="actAsPara shared_content" id="u598294-2" data-content-guid="u598294-2_content">詳細內容:</span></label>
        <span class="fld-textarea actAsDiv clearfix grpelem" id="u598295-4"><!-- content --><textarea class="wrapped-input shared_content" id="widgetu598292_input" name="custom_U598292" tabindex="5" data-content-guid="widgetu598292_input_content"></textarea><label class="wrapped-input fld-prompt" id="widgetu598292_prompt" for="widgetu598292_input"><span class="actAsPara shared_content" id="u598295-2" data-content-guid="u598295-2_content">輸入您想查詢的內容</span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem" id="widgetu598679" data-required="true" data-type="radiogroup"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem" id="u598681-4"><!-- content --><span class="actAsPara shared_content" data-content-guid="u598681-4_0_content">查詢內容:</span></label>
+       <label class="fld-label actAsDiv clearfix grpelem" id="u598681-4"><!-- content --><span class="actAsPara shared_content" id="u598681-2" data-content-guid="u598681-2_content">查詢內容:</span></label>
        <div class="fld-grp clearfix grpelem" id="widgetu598714" data-required="false" data-type="radio"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem" id="u598715-4" for="widgetu598714_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u598715-4_0_content">申請成為協助機構</span></label>
+        <label class="fld-label actAsDiv clearfix grpelem" id="u598715-4" for="widgetu598714_input"><!-- content --><span class="actAsPara shared_content" id="u598715-2" data-content-guid="u598715-2_content">申請成為協助機構</span></label>
         <div class="fld-radiobutton museBGSize grpelem" id="u598729"><!-- simple frame -->
          <input class="wrapped-input shared_content" type="radio" value="申請成為協助機構" spellcheck="false" id="widgetu598714_input" name="custom_U598679" tabindex="4" data-content-guid="widgetu598714_input_content"/>
          <label for="widgetu598714_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem" id="widgetu598824" data-required="false" data-type="radio"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem" id="u598825-4" for="widgetu598824_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u598825-4_0_content">有關測試</span></label>
+        <label class="fld-label actAsDiv clearfix grpelem" id="u598825-4" for="widgetu598824_input"><!-- content --><span class="actAsPara shared_content" id="u598825-2" data-content-guid="u598825-2_content">有關測試</span></label>
         <div class="fld-radiobutton museBGSize grpelem" id="u598826"><!-- simple frame -->
          <input class="wrapped-input shared_content" type="radio" value="有關測試" spellcheck="false" id="widgetu598824_input" name="custom_U598679" tabindex="4" data-content-guid="widgetu598824_input_content"/>
          <label for="widgetu598824_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem" id="widgetu600840" data-required="false" data-type="radio"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem" id="u600841-4" for="widgetu600840_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u600841-4_0_content">有關管理平台</span></label>
+        <label class="fld-label actAsDiv clearfix grpelem" id="u600841-4" for="widgetu600840_input"><!-- content --><span class="actAsPara shared_content" id="u600841-2" data-content-guid="u600841-2_content">有關管理平台</span></label>
         <div class="fld-radiobutton museBGSize grpelem" id="u600842"><!-- simple frame -->
          <input class="wrapped-input shared_content" type="radio" value="有關管理平台" spellcheck="false" id="widgetu600840_input" name="custom_U598679" tabindex="4" data-content-guid="widgetu600840_input_content"/>
          <label for="widgetu600840_input"></label>
@@ -362,7 +375,7 @@ document.addEventListener('contextmenu', function (e) {
        </div>
       </div>
       <div class="fld-grp clearfix grpelem" id="widgetu600792" data-required="true"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem" id="u600794-4" for="widgetu600792_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u600794-4_0_content">機構名稱:</span></label>
+       <label class="fld-label actAsDiv clearfix grpelem" id="u600794-4" for="widgetu600792_input"><!-- content --><span class="actAsPara shared_content" id="u600794-2" data-content-guid="u600794-2_content">機構名稱:</span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u600795-4"><!-- content --><input class="wrapped-input shared_content" type="text" spellcheck="false" id="widgetu600792_input" name="custom_U600792" tabindex="1" data-content-guid="widgetu600792_input_content"/><label class="wrapped-input fld-prompt" id="widgetu600792_prompt" for="widgetu600792_input"><span class="actAsPara shared_content" id="u600795-2" data-content-guid="u600795-2_content">輸入機構名稱</span></label></span>
       </div>
      </form>
@@ -564,7 +577,7 @@ document.addEventListener('contextmenu', function (e) {
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598285-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598282_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598282_input" data-orig-id="widgetu598282_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598285-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu598288"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-2_content"><!-- placeholder node --></span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598289-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598288_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598288_input" data-orig-id="widgetu598288_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598289-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="clearfix grpelem temp_no_id" data-orig-id="u598286-4"><!-- content -->
@@ -574,33 +587,33 @@ document.addEventListener('contextmenu', function (e) {
        <span class="placeholder" data-placeholder-for="u598296-2_content"><!-- placeholder node --></span>
       </div>
       <div class="clearfix grpelem temp_no_id" data-orig-id="u598287-4"><!-- content -->
-       <span class="placeholder" data-placeholder-for="u598287-2_content"><!-- placeholder node --></span>
+       <span class="placeholder" data-placeholder-for="u598287-4_0_content"><!-- placeholder node --></span>
       </div>
       <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="送出" tabindex="12" data-orig-id="u598281-4"><!-- content -->
        <span class="placeholder" data-placeholder-for="u598281-4_0_content"><!-- placeholder node --></span>
       </button>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu598292"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-2_content"><!-- placeholder node --></span></label>
        <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598295-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598292_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598292_input" data-orig-id="widgetu598292_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598295-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="radiogroup" data-orig-id="widgetu598679"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-2_content"><!-- placeholder node --></span></label>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu598714"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598729"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu598714_input_content"><!-- placeholder node --></span>
          <label for="widgetu598714_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu598824"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598826"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu598824_input_content"><!-- placeholder node --></span>
          <label for="widgetu598824_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu600840"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u600842"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu600840_input_content"><!-- placeholder node --></span>
          <label for="widgetu600840_input"></label>
@@ -608,7 +621,7 @@ document.addEventListener('contextmenu', function (e) {
        </div>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu600792"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-2_content"><!-- placeholder node --></span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u600795-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu600792_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu600792_input" data-orig-id="widgetu600792_prompt"><span class="actAsPara placeholder" data-placeholder-for="u600795-2_content"><!-- placeholder node --></span></label></span>
       </div>
      </form>
@@ -809,7 +822,7 @@ document.addEventListener('contextmenu', function (e) {
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598285-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598282_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598282_input" data-orig-id="widgetu598282_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598285-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu598288"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-2_content"><!-- placeholder node --></span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598289-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598288_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598288_input" data-orig-id="widgetu598288_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598289-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="clearfix grpelem temp_no_id" data-orig-id="u598286-4"><!-- content -->
@@ -819,33 +832,33 @@ document.addEventListener('contextmenu', function (e) {
        <span class="placeholder" data-placeholder-for="u598296-2_content"><!-- placeholder node --></span>
       </div>
       <div class="clearfix grpelem temp_no_id" data-orig-id="u598287-4"><!-- content -->
-       <span class="placeholder" data-placeholder-for="u598287-2_content"><!-- placeholder node --></span>
+       <span class="placeholder" data-placeholder-for="u598287-4_0_content"><!-- placeholder node --></span>
       </div>
       <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="送出" tabindex="18" data-orig-id="u598281-4"><!-- content -->
        <span class="placeholder" data-placeholder-for="u598281-4_0_content"><!-- placeholder node --></span>
       </button>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu598292"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-2_content"><!-- placeholder node --></span></label>
        <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598295-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598292_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598292_input" data-orig-id="widgetu598292_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598295-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="radiogroup" data-orig-id="widgetu598679"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-2_content"><!-- placeholder node --></span></label>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu598714"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598729"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu598714_input_content"><!-- placeholder node --></span>
          <label for="widgetu598714_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu598824"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598826"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu598824_input_content"><!-- placeholder node --></span>
          <label for="widgetu598824_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu600840"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u600842"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu600840_input_content"><!-- placeholder node --></span>
          <label for="widgetu600840_input"></label>
@@ -853,7 +866,7 @@ document.addEventListener('contextmenu', function (e) {
        </div>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu600792"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-2_content"><!-- placeholder node --></span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u600795-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu600792_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu600792_input" data-orig-id="widgetu600792_prompt"><span class="actAsPara placeholder" data-placeholder-for="u600795-2_content"><!-- placeholder node --></span></label></span>
       </div>
      </form>
@@ -1035,7 +1048,7 @@ document.addEventListener('contextmenu', function (e) {
           <li class="AccordionPanel clearfix colelem" id="u726215"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u726220-6"><!-- content --><div class="noticeboard shared_content" id="u726220-5" data-content-guid="u726220-5_content"><p id="u726220-4"><span><a class="nonblock" href="resources.html"><span id="u726220">社區支援</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u726216"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u726219-4" href="resources.html#gov" data-content-guid="u726219-4_content"><!-- content --><div id="u726219-3"><p id="u726219-2">政府相關機構</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u726217-4" href="resources.html#ha" data-content-guid="u726217-4_content"><!-- content --><div id="u726217-3"><p id="u726217-2">醫院管理局</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u726218-4" href="resources.html#otherngo" data-content-guid="u726218-4_content"><!-- content --><div id="u726218-3"><p id="u726218-2">其他本地機構</p></div></a></div></li>
           <li class="AccordionPanel clearfix colelem" id="u726221"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u726222-6"><!-- content --><div class="noticeboard shared_content" id="u726222-5" data-content-guid="u726222-5_content"><p id="u726222-4"><span><a class="nonblock" href="partnership.html"><span id="u726222">協作機構</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u726223"><!-- column --><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u726225-4" href="partnership.html#joinus" data-content-guid="u726225-4_content"><!-- content --><div id="u726225-3"><p id="u726225-2">加入我們</p></div></a><a class="nonblock nontext anim_swing clearfix colelem shared_content" id="u726224-4" href="partnership.html#contactus" data-content-guid="u726224-4_content"><!-- content --><div id="u726224-3"><p id="u726224-2">聯絡我們</p></div></a></div></li>
           <li class="AccordionPanel clearfix colelem" id="u726198"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u726202-4"><!-- content --><div class="noticeboard shared_content" id="u726202-3" data-content-guid="u726202-3_content"><p id="u726202-2"><span id="u726202">常見問題</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u726199"><!-- column --><div class="position_content" id="u726199_position_content"><a class="nonblock nontext clearfix colelem shared_content" id="u726201-4" href="faq.html" data-content-guid="u726201-4_content"><!-- content --><div id="u726201-3"><p id="u726201-2">常見問題</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u726200-4" href="disclaimer.html" data-content-guid="u726200-4_content"><!-- content --><div id="u726200-3"><p id="u726200-2">免責聲明</p></div></a></div></div></li>
-          <li class="AccordionPanel clearfix colelem" id="u726193"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u726197-6"><!-- content --><div class="noticeboard shared_content" id="u726197-5" data-content-guid="u726197-5_content"><p id="u726197-4"><span><a class="nonblock" href="partnership.html"><span id="u726197">語言 Language</span></a></span></p></div></div><a class="nonblock nontext AccordionPanelContent anim_swing disn clearfix colelem" id="u726194" href="partnership.html#joinus"><!-- column --><div class="position_content" id="u726194_position_content"><div class="sclangbtn clearfix colelem shared_content" id="u726195-4" data-content-guid="u726195-4_content"><!-- content --><div id="u726195-3"><p id="u726195-2">简体中文</p></div></div><div class="englangbtn clearfix colelem shared_content" id="u726196-4" data-content-guid="u726196-4_content"><!-- content --><div id="u726196-3"><p id="u726196-2">English</p></div></div></div></a></li>
+          <li class="AccordionPanel clearfix colelem" id="u726193"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u726197-4"><!-- content --><div class="noticeboard shared_content" id="u726197-3" data-content-guid="u726197-3_content"><p id="u726197-2"><span id="u726197">語言 Language</span></p></div></div><a class="nonblock nontext AccordionPanelContent anim_swing disn clearfix colelem" id="u726194" href="partnership.html#joinus"><!-- column --><div class="position_content" id="u726194_position_content"><div class="sclangbtn clearfix colelem shared_content" id="u726195-4" data-content-guid="u726195-4_content"><!-- content --><div id="u726195-3"><p id="u726195-2">简体中文</p></div></div><div class="englangbtn clearfix colelem shared_content" id="u726196-4" data-content-guid="u726196-4_content"><!-- content --><div id="u726196-3"><p id="u726196-2">English</p></div></div></div></a></li>
          </ul>
         </div>
        </div>
@@ -1098,7 +1111,7 @@ document.addEventListener('contextmenu', function (e) {
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598285-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598282_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598282_input" data-orig-id="widgetu598282_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598285-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu598288"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-2_content"><!-- placeholder node --></span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598289-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598288_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598288_input" data-orig-id="widgetu598288_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598289-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="clearfix grpelem temp_no_id" data-orig-id="u598286-4"><!-- content -->
@@ -1108,33 +1121,33 @@ document.addEventListener('contextmenu', function (e) {
        <span class="placeholder" data-placeholder-for="u598296-2_content"><!-- placeholder node --></span>
       </div>
       <div class="clearfix grpelem temp_no_id" data-orig-id="u598287-4"><!-- content -->
-       <span class="placeholder" data-placeholder-for="u598287-2_content"><!-- placeholder node --></span>
+       <span class="placeholder" data-placeholder-for="u598287-4_0_content"><!-- placeholder node --></span>
       </div>
       <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="送出" tabindex="24" data-orig-id="u598281-4"><!-- content -->
        <span class="placeholder" data-placeholder-for="u598281-4_0_content"><!-- placeholder node --></span>
       </button>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu598292"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-2_content"><!-- placeholder node --></span></label>
        <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598295-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu598292_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598292_input" data-orig-id="widgetu598292_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598295-2_content"><!-- placeholder node --></span></label></span>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="radiogroup" data-orig-id="widgetu598679"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-2_content"><!-- placeholder node --></span></label>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu598714"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598729"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu598714_input_content"><!-- placeholder node --></span>
          <label for="widgetu598714_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu598824"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598826"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu598824_input_content"><!-- placeholder node --></span>
          <label for="widgetu598824_input"></label>
         </div>
        </div>
        <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-type="radio" data-orig-id="widgetu600840"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-2_content"><!-- placeholder node --></span></label>
         <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u600842"><!-- simple frame -->
          <span class="wrapped-input placeholder" data-placeholder-for="widgetu600840_input_content"><!-- placeholder node --></span>
          <label for="widgetu600840_input"></label>
@@ -1142,7 +1155,7 @@ document.addEventListener('contextmenu', function (e) {
        </div>
       </div>
       <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu600792"><!-- none box -->
-       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-4_0_content"><!-- placeholder node --></span></label>
+       <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-2_content"><!-- placeholder node --></span></label>
        <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u600795-4"><!-- content --><span class="wrapped-input placeholder" data-placeholder-for="widgetu600792_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu600792_input" data-orig-id="widgetu600792_prompt"><span class="actAsPara placeholder" data-placeholder-for="u600795-2_content"><!-- placeholder node --></span></label></span>
       </div>
      </form>
@@ -1152,7 +1165,7 @@ document.addEventListener('contextmenu', function (e) {
      <span class="nonblock nontext placeholder" data-placeholder-for="u722520_content"><!-- placeholder node --></span>
      <span class="pulldown placeholder" data-placeholder-for="u725672_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="6169" data-content-above-spacer="6168" data-content-below-spacer="365"></div>
+    <div class="verticalspacer" data-offset-top="6204" data-content-above-spacer="6203" data-content-below-spacer="365"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u725687-bw">
      <div class="temp_no_id" data-orig-id="u725687"><!-- group -->
       <div class="clearfix temp_no_id" data-orig-id="u725687_align_to_page">
@@ -1207,8 +1220,8 @@ document.addEventListener('contextmenu', function (e) {
      <div class="PamphletWidget clearfix allow_click_through widget_invisible colelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-islightbox="true" data-orig-id="pamphletu726170"><!-- none box -->
       <div class="clearfix" id="pu726175"><!-- group -->
        <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-lightbox="true" data-orig-id="u726175popup">
-        <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u726175"><!-- stack box -->
-         <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u726176"><!-- group -->
+        <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u726175"><!-- stack box -->
+         <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u726176"><!-- group -->
           <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu726177"><!-- vertical box -->
            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726186"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726192-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726192-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u726187"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726190-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726189-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726188-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726191-4_content"><!-- placeholder node --></span></div></li>
            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726178"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726185-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726185-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u726179"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726183-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726181-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726184-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726180-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726182-4_content"><!-- placeholder node --></span></div></li>
@@ -1217,7 +1230,7 @@ document.addEventListener('contextmenu', function (e) {
            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726215"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726220-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726220-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u726216"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726219-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726217-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726218-4_content"><!-- placeholder node --></span></div></li>
            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726221"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726222-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726222-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u726223"><!-- column --><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u726225-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u726224-4_content"><!-- placeholder node --></span></div></li>
            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726198"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726202-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726202-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u726199"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726201-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u726200-4_content"><!-- placeholder node --></span></div></li>
-           <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726193"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726197-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726197-5_content"><!-- placeholder node --></span></div><a class="nonblock nontext AccordionPanelContent anim_swing disn clearfix colelem temp_no_id" href="partnership.html#joinus" data-orig-id="u726194"><!-- group --><span class="sclangbtn clearfix grpelem placeholder" data-placeholder-for="u726195-4_content"><!-- placeholder node --></span><span class="englangbtn clearfix grpelem placeholder" data-placeholder-for="u726196-4_content"><!-- placeholder node --></span></a></li>
+           <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u726193"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u726197-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u726197-3_content"><!-- placeholder node --></span></div><a class="nonblock nontext AccordionPanelContent anim_swing disn clearfix colelem temp_no_id" href="partnership.html#joinus" data-orig-id="u726194"><!-- group --><span class="sclangbtn clearfix grpelem placeholder" data-placeholder-for="u726195-4_content"><!-- placeholder node --></span><span class="englangbtn clearfix grpelem placeholder" data-placeholder-for="u726196-4_content"><!-- placeholder node --></span></a></li>
           </ul>
          </div>
         </div>
@@ -1293,7 +1306,7 @@ document.addEventListener('contextmenu', function (e) {
      <form class="form-grp clearfix colelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u598280.php" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="widgetu598280"><!-- none box -->
       <div class="position_content" id="widgetu598280_position_content">
        <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu600792"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix colelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix colelem temp_no_id" for="widgetu600792_input" data-orig-id="u600794-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600794-2_content"><!-- placeholder node --></span></label>
         <span class="fld-input NoWrap actAsDiv clearfix colelem temp_no_id" data-orig-id="u600795-4"><!-- content --><div id="u600795-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu600792_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu600792_input" data-orig-id="widgetu600792_prompt"><span class="actAsPara placeholder" data-placeholder-for="u600795-2_content"><!-- placeholder node --></span></label></div></span>
        </div>
        <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu598282"><!-- none box -->
@@ -1301,35 +1314,35 @@ document.addEventListener('contextmenu', function (e) {
         <span class="fld-input NoWrap actAsDiv clearfix colelem temp_no_id" data-orig-id="u598285-4"><!-- content --><div id="u598285-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu598282_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598282_input" data-orig-id="widgetu598282_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598285-2_content"><!-- placeholder node --></span></label></div></span>
        </div>
        <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-type="email" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu598288"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix colelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix colelem temp_no_id" for="widgetu598288_input" data-orig-id="u598291-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598291-2_content"><!-- placeholder node --></span></label>
         <span class="fld-input NoWrap actAsDiv clearfix colelem temp_no_id" data-orig-id="u598289-4"><!-- content --><div id="u598289-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu598288_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598288_input" data-orig-id="widgetu598288_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598289-2_content"><!-- placeholder node --></span></label></div></span>
        </div>
        <div class="fld-grp clearfix colelem temp_no_id" data-required="true" data-type="radiogroup" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu598679"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix colelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix colelem temp_no_id" data-orig-id="u598681-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598681-2_content"><!-- placeholder node --></span></label>
         <div class="fld-grp clearfix colelem temp_no_id" data-required="false" data-type="radio" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu598714"><!-- none box -->
          <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598729"><!-- simple frame -->
           <span class="wrapped-input placeholder" data-placeholder-for="widgetu598714_input_content"><!-- placeholder node --></span>
           <label for="widgetu598714_input"></label>
          </div>
-         <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-4_0_content"><!-- placeholder node --></span></label>
+         <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598714_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft" data-orig-id="u598715-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598715-2_content"><!-- placeholder node --></span></label>
         </div>
         <div class="fld-grp clearfix colelem temp_no_id" data-required="false" data-type="radio" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu598824"><!-- none box -->
          <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u598826"><!-- simple frame -->
           <span class="wrapped-input placeholder" data-placeholder-for="widgetu598824_input_content"><!-- placeholder node --></span>
           <label for="widgetu598824_input"></label>
          </div>
-         <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-4_0_content"><!-- placeholder node --></span></label>
+         <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu598824_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft" data-orig-id="u598825-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598825-2_content"><!-- placeholder node --></span></label>
         </div>
         <div class="fld-grp clearfix colelem temp_no_id" data-required="false" data-type="radio" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu600840"><!-- none box -->
          <div class="fld-radiobutton museBGSize grpelem temp_no_id" data-orig-id="u600842"><!-- simple frame -->
           <span class="wrapped-input placeholder" data-placeholder-for="widgetu600840_input_content"><!-- placeholder node --></span>
           <label for="widgetu600840_input"></label>
          </div>
-         <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-4_0_content"><!-- placeholder node --></span></label>
+         <label class="fld-label actAsDiv clearfix grpelem temp_no_id" for="widgetu600840_input" data-sizePolicy="fluidWidth" data-pintopage="page_fixedLeft" data-orig-id="u600841-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u600841-2_content"><!-- placeholder node --></span></label>
         </div>
        </div>
        <div class="fld-grp clearfix colelem temp_no_id" data-required="false" data-sizePolicy="fluidWidth" data-pintopage="page_fluidx" data-orig-id="widgetu598292"><!-- none box -->
-        <label class="fld-label actAsDiv clearfix colelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-4_0_content"><!-- placeholder node --></span></label>
+        <label class="fld-label actAsDiv clearfix colelem temp_no_id" for="widgetu598292_input" data-orig-id="u598294-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u598294-2_content"><!-- placeholder node --></span></label>
         <span class="fld-textarea actAsDiv clearfix colelem temp_no_id" data-orig-id="u598295-4"><!-- content --><div id="u598295-3"><span class="wrapped-input placeholder" data-placeholder-for="widgetu598292_input_content"><!-- placeholder node --></span><label class="wrapped-input fld-prompt temp_no_id" for="widgetu598292_input" data-orig-id="widgetu598292_prompt"><span class="actAsPara placeholder" data-placeholder-for="u598295-2_content"><!-- placeholder node --></span></label></div></span>
        </div>
        <div class="clearfix colelem" id="pu598286-4"><!-- group -->
@@ -1340,7 +1353,7 @@ document.addEventListener('contextmenu', function (e) {
          <span class="placeholder" data-placeholder-for="u598296-2_content"><!-- placeholder node --></span>
         </div>
         <div class="clearfix grpelem temp_no_id" data-orig-id="u598287-4"><!-- content -->
-         <span class="placeholder" data-placeholder-for="u598287-2_content"><!-- placeholder node --></span>
+         <span class="placeholder" data-placeholder-for="u598287-4_0_content"><!-- placeholder node --></span>
         </div>
         <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="送出" tabindex="30" data-orig-id="u598281-4"><!-- content -->
          <span class="placeholder" data-placeholder-for="u598281-4_0_content"><!-- placeholder node --></span>

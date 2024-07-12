@@ -20,12 +20,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>香港警覺性及記憶篩查</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
-  <link rel="stylesheet" type="text/css" href="css/master_home-hk.css?crc=3834970539"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=99958007" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_home-hk.css?crc=27488156"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=310326345" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-hk.css?crc=366168586"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=306401052" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-hk.css?crc=3976804030"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3867791384" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -34,7 +34,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <!--custom head HTML-->
   <style>
   body {
-    width:100% !important;
+    width: 100% !important;
     overflow-x: hidden !important;
   }
 
@@ -60,15 +60,18 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
   .backtotop {
     transition: opacity 0.5s ease-in-out;
-    opacity: 1; 
+    opacity: 1;
     cursor: pointer;
   }
 
   .backtotop.hidden {
-    opacity: 0 ;
+    opacity: 0;
   }
 
   .waviy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
   }
@@ -96,75 +99,85 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   .jumping {
     animation: bounce 2s ease infinite;
   }
+  
+  .sclangbtn{
+    cursor: pointer;
+  }
+  .tclangbtn{
+    cursor: pointer;
+  }
+  .englangbtn{
+    cursor: pointer;
+  }
 
 </style>
 
 <script>
-  
-document.addEventListener('DOMContentLoaded', () => {
 
-const enLangBtns = document.querySelectorAll('.englangbtn');
+  document.addEventListener('DOMContentLoaded', () => {
 
-enLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
+    const enLangBtns = document.querySelectorAll('.englangbtn');
 
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('.html', '-en.html');
-      window.location.href = newUrl;
-    } else {
-      alert('English Version Webpage Error');
-    }
-  });
-});
+    enLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
 
-const scLangBtns = document.querySelectorAll('.sclangbtn');
-
-scLangBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const currentUrl = window.location.href;
-
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('.html', '-sc.html');
-      window.location.href = newUrl;
-    } else {
-      alert('S Chinese Version Webpage Error');
-    }
-  });
-});
-
-
-  const scrolldownBtn = document.querySelector('.pulldown');
-  scrolldownBtn.style.opacity = 1;
-  window.addEventListener('scroll', () => {
-    const opacity = 1 - (window.scrollY / 200);
-    scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
-  });
-
-  const backtotopBtn = document.querySelector('.backtotop');
-
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      backtotopBtn.style.opacity = 1;
-    } else {
-      backtotopBtn.style.opacity = 0;
-    }
-  });
-
-  backtotopBtn.addEventListener('click', () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('.html', '-en.html');
+          window.location.href = newUrl;
+        } else {
+          alert('English Version Webpage Error');
+        }
+      });
     });
+
+    const scLangBtns = document.querySelectorAll('.sclangbtn');
+
+    scLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const currentUrl = window.location.href;
+
+        if (currentUrl.includes('.html')) {
+          const newUrl = currentUrl.replace('.html', '-sc.html');
+          window.location.href = newUrl;
+        } else {
+          alert('S Chinese Version Webpage Error');
+        }
+      });
+    });
+
+
+    const scrolldownBtn = document.querySelector('.pulldown');
+    scrolldownBtn.style.opacity = 1;
+    window.addEventListener('scroll', () => {
+      const opacity = 1 - (window.scrollY / 200);
+      scrolldownBtn.style.opacity = opacity > 0 ? opacity : 0;
+    });
+
+    const backtotopBtn = document.querySelector('.backtotop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backtotopBtn.style.opacity = 1;
+      } else {
+        backtotopBtn.style.opacity = 0;
+      }
+    });
+
+    backtotopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+
   });
 
-});
 
 
-
-document.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-});
+  document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
 
 
 </script>
@@ -173,206 +186,217 @@ document.addEventListener('contextmenu', function (e) {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
-<script  src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 
 <style>
+  ul.slider {
+    padding: 0px;
+    height: 100%;
 
-ul.slider{
-  padding: 0px;
-  height: 100%;
-  
-}
+  }
 
-.tns-nav {
-  text-align: center;
-  margin: 10px 0;
-  
-}
+  .tns-nav {
+    text-align: center;
+    margin: 10px 0;
 
-.tns-nav > [aria-controls] {
-  width: 9px;
-  height: 9px;
-  padding: 0;
-  margin: 0 5px;
-  border-radius: 80%;
-  background: #ddd;
-  border: 0;
-}
+  }
 
-.tns-nav > [aria-controls].tns-nav-active {
-background: orange;
-}
+  .tns-nav>[aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 80%;
+    background: #ddd;
+    border: 0;
+  }
 
-.tns-controls > [aria-controls] {
-background:transparent;
-border:0;
-color:white;
-font-size:clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
-line-height:1.4;
-padding: 1px;
-}
+  .tns-nav>[aria-controls].tns-nav-active {
+    background: orange;
+  }
 
-
-.tns-controls  {
-text-align:right;
-}
-
-.tns-outer > button[data-action="stop"] {
-display: none;
-}
-
-.tns-outer > button[data-action="start"] {
-display: none;
-}
-
-ul.slider p{
-  text-align: right;
-  padding: 0px;
-  margin: 0px;
-}
-
-ul.slider img{
-  width: 100%;
-  height: auto;
-}
-
-.sliderblock{
-text-align:left;
-color:white;
-height:auto;
-margin-top:10px;
-vertical-align: middle;
-}
-
-.sliderimg{
-vertical-align: middle;
-display:inline-flex;
-width:auto;
-height:110px;
-}
-
-.slidertext{
-display:inline-flex;
-padding-left:5px;
-flex-direction: column;
-vertical-align: middle;
-}
-
-.stickright{
-z-index:99;
-position: absolute;
-right:0;
-width:fit-content;
-height:auto;
-background: rgba(0, 0, 0, 0.4);
-padding:15px;
-border-radius: 20px;
-font-size: clamp(1.125rem, 0.5625rem + 1.1719vw, 1.3rem);
-line-height:1.5;
-color:white;
-}
-
-.coverVideo{
-  height:85vh;
-}
-
-@media screen and (max-width: 1025px) {
-.stickright{
-position: relative;
-width:auto;
-line-height:1.5;
-}
-
-.sliderimg{
-vertical-align: middle;
-display:inline-flex;
-width:auto;
-height:80px;
-}
-
-.coverVideo{
-  height:55vh;
-}
-}
-
-.visitpanel{
-z-index:99;
-position: absolute;
-right:0;
-top:2px;
-width:auto;
-height:auto;
-padding:10px;
-font-size: calc(20px - 2px);
-line-height:1.5;
-color:white;
-text-align:right;
-}
+  .tns-controls>[aria-controls] {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
+    line-height: 1.4;
+    padding: 1px;
+  }
 
 
+  .tns-controls {
+    text-align: right;
+  }
 
+  .tns-outer>button[data-action="stop"] {
+    display: none;
+  }
+
+  .tns-outer>button[data-action="start"] {
+    display: none;
+  }
+
+  ul.slider p {
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  ul.slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .sliderblock {
+    text-align: left;
+    color: white;
+    height: auto;
+    margin-top: 10px;
+    vertical-align: middle;
+  }
+
+  .sliderimg {
+    vertical-align: middle;
+    display: inline-flex;
+    width: auto;
+    height: 110px;
+  }
+
+  .slidertext {
+    display: inline-flex;
+    padding-left: 5px;
+    flex-direction: column;
+    vertical-align: middle;
+    text-wrap: balance;
+  }
+
+  .stickright {
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    width: fit-content;
+    height: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 20px;
+    font-size: clamp(1.125rem, 0.5625rem + 1.1719vw, 1.3rem);
+    line-height: 1.5;
+    color: white;
+  }
+
+  .coverVideo {
+    height: 85vh;
+  }
+
+  @media screen and (max-width: 1025px) {
+    .stickright {
+      position: relative;
+      width: auto;
+      line-height: 1.5;
+    }
+
+    .sliderimg {
+      vertical-align: middle;
+      display: inline-flex;
+      width: auto;
+      height: 80px;
+    }
+
+    .coverVideo {
+      height: 55vh;
+    }
+  }
+
+  .visitpanel {
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: calc(20px - 2px);
+    line-height: 1.5;
+    color: white;
+    text-align: right;
+  }
+
+  .bouncingtext {
+    position: relative;
+  }
+
+  .bouncingtext .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+
+  .bouncingtext .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
 </style>
 
 
 <script>
 
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
 
-var visitCloudData;
-var visitText = document.getElementById("visitNum");
+    var visitCloudData;
+    var visitText = document.getElementById("visitNum");
 
-const firebaseConfig = {
-        apiKey: "AIzaSyCO7Uopu8_ZdxVx-e-5ojgsenXh_i3LcaA",
-        authDomain: "hk-vmt.firebaseapp.com",
-        databaseURL: "https://hk-vmt-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "hk-vmt",
-        storageBucket: "hk-vmt.appspot.com",
-        messagingSenderId: "934265370881",
-        appId: "1:934265370881:web:6e64c6387fc046feaf0300"
+    if (firebase.apps.length === 0) {
+
+      const firebaseConfig = {
+      apiKey: "AIzaSyCO7Uopu8_ZdxVx-e-5ojgsenXh_i3LcaA",
+      authDomain: "hk-vmt.firebaseapp.com",
+      databaseURL: "https://hk-vmt-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "hk-vmt",
+      storageBucket: "hk-vmt.appspot.com",
+      messagingSenderId: "934265370881",
+      appId: "1:934265370881:web:6e64c6387fc046feaf0300"
     };
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
     var database = firebase.database();
     const auth = firebase.auth();
 
     firebase.auth().signInWithEmailAndPassword("hkvmt@test.com", "12345678").then(() => {
 
-        firebase.database().ref(firebase.auth().currentUser.uid).once('value', function (snapshot) {
-            visitCloudData = snapshot.val().visit;
-            visitCloudData++;
-            visitText.innerHTML = visitCloudData;
+      firebase.database().ref(firebase.auth().currentUser.uid).once('value', function (snapshot) {
+        visitCloudData = snapshot.val().visit;
+        visitCloudData++;
+        visitText.innerHTML = visitCloudData;
 
-            firebase.database().ref(firebase.auth().currentUser.uid).update({
-                visit: visitCloudData
-            });
-
+        firebase.database().ref(firebase.auth().currentUser.uid).update({
+          visit: visitCloudData
         });
 
+      });
+
     });
-});
+
+  }
+  });
+
 
 </script>
   <!--HTML Widget code-->
   
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.6.1/animate.min.css">
-
             <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 		
 
 		
-<style>
-.animtype1{font-size:16px;text-align:center}.animt1{font-family:inherit;color:#21824B;font-size:2em;font-weight:400;font-style:normal;text-transform:none;letter-spacing:1px;line-height:1}@media screen and (max-width:576px){.animtype1{font-size:11px}}
-</style>
-
-<style>
-.animtype2{font-size:16px;text-align:center}.animt2{font-family:inherit;color:#21824B;font-size:2em;font-weight:400;font-style:normal;text-transform:none;letter-spacing:1px;line-height:1}@media screen and (max-width:576px){.animtype2{font-size:11px}}
-</style>
-
   <!--/*
 
 */
@@ -382,10 +406,6 @@ const firebaseConfig = {
 
   <div class="breakpoint active" id="bp_infinity" data-min-width="1281"><!-- responsive breakpoint node -->
    <div class="clearfix" id="page"><!-- group -->
-    <div class="size_fixed grpelem shared_content" id="u707787" data-content-guid="u707787_content"><!-- custom html -->
-     
-
-    </div>
     <div class="clearfix grpelem shared_content" id="pu729426" data-content-guid="pu729426_content"><!-- column -->
      <div class="size_fixed colelem shared_content" id="u729426" data-content-guid="u729426_content"><!-- custom html -->
       
@@ -512,7 +532,7 @@ const firebaseConfig = {
            </div>
            <a class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem shared_content" id="buttonu665072" href="https://hkbu.questionpro.com/CARSTest" target="_blank" title="認知風險小評估" data-content-guid="buttonu665072_content"><!-- container box --></a>
            <div class="rounded-corners grpelem shared_content" id="u666568" data-content-guid="u666568_content"><!-- simple frame --></div>
-           <div class="fade clearfix grpelem" id="u578857-16"><!-- content -->
+           <div class="fade clearfix grpelem shared_content" id="u578857-16" data-content-guid="u578857-16_content"><!-- content -->
             <p id="u578857-2" class="shared_content" data-content-guid="u578857-2_content">是一項簡單而準確的線上認知測試，經過大學以60歲或以上的群組作為參考進行驗證。它以單詞回憶，專注力，及圖像記憶作為評估基礎。</p>
             <p id="u578857-3" class="shared_content" data-content-guid="u578857-3_content">&nbsp;</p>
             <p id="u578857-5" class="shared_content" data-content-guid="u578857-5_content">研究已刊登於</p>
@@ -731,16 +751,6 @@ const firebaseConfig = {
       <div class="browser_width grpelem shared_content" id="buttonu456702-bw" data-content-guid="buttonu456702-bw_content">
        <div class="Button height85 museBGSize" id="buttonu456702"><!-- container box --></div>
       </div>
-      <div class="size_fixed grpelem shared_content" id="u546415" data-content-guid="u546415_content"><!-- custom html -->
-       
-<div class="animtype1"><span class="animt1">提升社區大腦健康</span></div>
-
-      </div>
-      <div class="size_fixed grpelem shared_content" id="u546974" data-content-guid="u546974_content"><!-- custom html -->
-       
-<div class="animtype2"><span class="animt2">推廣早期認知風險管理</span></div>
-
-      </div>
       <div class="browser_width grpelem shared_content" id="u583730-bw" data-content-guid="u583730-bw_content">
        <div class="museBGSize" id="u583730"><!-- group -->
         <div class="clearfix" id="u583730_align_to_page">
@@ -784,6 +794,50 @@ const firebaseConfig = {
        </div>
       </div>
       <a class="anchor_item grpelem shared_content" id="intro" data-content-guid="intro_content"></a>
+      <div class="grpelem shared_content" id="u815295" data-content-guid="u815295_content"><!-- custom html -->
+           <div class="bouncingtext">
+        <span class="text-wrapper">
+            <span class="letters">提升社區大腦健康</span>
+        </span>
+    </div>
+
+    <div class="bouncingtext">
+        <span class="text-wrapper">
+            <span class="letters">推廣早期認知風險管理</span>
+        </span>
+    </div>
+
+
+<script>
+var bouncingtext = document.querySelectorAll('.bouncingtext .letters');
+for (let b = 0; b < bouncingtext.length; b++) {
+        bouncingtext[b].innerHTML = bouncingtext[b].textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+}
+
+
+    anime.timeline({ loop: true })
+        .add({
+            targets: '.bouncingtext .letter',
+            rotateY: [-90, 0],
+            duration: 1300,
+            delay: (el, i) => 45 * i
+        })
+        .add({
+            targets: '.bouncingtext .letter',
+            opacity: [1, 1],
+            delay: 5000
+        })
+        .add({
+            targets: '.bouncingtext .letter',
+            translateX: [0, 30],
+            opacity: [1, 0],
+            easing: "easeInExpo",
+            duration: 1100,
+            delay: (el, i) => 45 * i,
+        });
+
+</script>
+      </div>
       <div class="noticeboard grpelem shared_content" id="u574152" data-content-guid="u574152_content"><!-- custom html -->
        <div class="stickright">
   重點消息  
@@ -1038,9 +1092,7 @@ var slider = tns({
      </nav>
      <a class="nonblock nontext MuseLinkActive museBGSize shared_content" id="u736874" href="index.html" data-content-guid="u736874_content"><!-- simple frame --></a>
      <a class="nonblock nontext clearfix shared_content" id="u736875-4" href="home-en.html" data-content-guid="u736875-4_content"><!-- content --><p id="u736875-2">EN</p></a>
-     <div class="clearfix shared_content" id="u736876-4" data-content-guid="u736876-4_content"><!-- content -->
-      <p id="u736876-2">简</p>
-     </div>
+     <a class="nonblock nontext clearfix shared_content" id="u736876-4" href="home-cn.html" data-content-guid="u736876-4_content"><!-- content --><p id="u736876-2">简</p></a>
     </div>
     <div class="verticalspacer" data-offset-top="7043" data-content-above-spacer="7042" data-content-below-spacer="391"></div>
     <div class="browser_width grpelem" id="u716517-bw">
@@ -1098,9 +1150,7 @@ var slider = tns({
        </div>
        <div class="clearfix grpelem shared_content" id="pu716541" data-content-guid="pu716541_content"><!-- column -->
         <a class="nonblock nontext museBGSize colelem shared_content" id="u716541" href="https://www.facebook.com/%E9%A6%99%E6%B8%AF%E8%AD%A6%E8%A6%BA%E6%80%A7%E5%8F%8A%E8%A8%98%E6%86%B6%E7%AF%A9%E6%9F%A5-109626367985008" data-content-guid="u716541_content"><!-- simple frame --></a>
-        <div class="clearfix colelem shared_content" id="u719939-4" data-content-guid="u719939-4_content"><!-- content -->
-         <p id="u719939-2">简</p>
-        </div>
+        <a class="nonblock nontext clearfix colelem shared_content" id="u719939-4" href="home-cn.html" data-content-guid="u719939-4_content"><!-- content --><p id="u719939-2">简</p></a>
         <a class="nonblock nontext clearfix colelem shared_content" id="u716537-4" href="home-en.html" data-content-guid="u716537-4_content"><!-- content --><p>EN</p></a>
        </div>
       </div>
@@ -1115,7 +1165,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_1280" data-min-width="1026" data-max-width="1280"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u707787_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu729426_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu583745"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu583745"><!-- group -->
@@ -1124,60 +1173,26 @@ var slider = tns({
         <div class="clearfix temp_no_id" data-orig-id="u583745_align_to_page">
          <span class="anchor_item colelem placeholder" data-placeholder-for="intro_content"><!-- placeholder node --></span>
          <div class="clearfix colelem temp_no_id" data-orig-id="pu578854"><!-- group -->
-          <div class="grpelem temp_no_id" data-orig-id="u578854"><!-- simple frame --></div>
-          <div class="clearfix grpelem temp_no_id" data-orig-id="u578855-4"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u578855-2"><span class="body temp_no_id" data-orig-id="u578855">測試介紹</span></p>
-          </div>
-          <div class="SlideFromL museBGSize grpelem temp_no_id" data-orig-id="u578856"><!-- simple frame --></div>
+          <span class="grpelem placeholder" data-placeholder-for="u578854_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u578855-4_content"><!-- placeholder node --></span>
+          <span class="SlideFromL museBGSize grpelem placeholder" data-placeholder-for="u578856_content"><!-- placeholder node --></span>
           <div class="fade clearfix grpelem temp_no_id" data-orig-id="u666498-18"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u666498-2">是一項用以預測往後出現認知衰退機率的風險數據模型。CARS能提供個人化的生活風險分析，有助改善生活風險因素，以減低患病風險。</p>
-           <p class="temp_no_id" data-orig-id="u666498-3">&nbsp;</p>
+           <span class="placeholder" data-placeholder-for="u666498-2_content"><!-- placeholder node --></span>
+           <span class="placeholder" data-placeholder-for="u666498-3_content"><!-- placeholder node --></span>
            <p class="temp_no_id" data-orig-id="u666498-9">研究已刊登於<span class="temp_no_id" data-orig-id="u666498-7"><a class="nonblock" href="https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-024-04879-5" target="_blank" title="BMC Geriatrics"><span class="temp_no_id" data-orig-id="u666498-5">《BMC Geriatrics》</span></a></span>。</p>
-           <p class="temp_no_id" data-orig-id="u666498-10">&nbsp;</p>
-           <p class="temp_no_id" data-orig-id="u666498-12">無須下載APP</p>
-           <p class="temp_no_id" data-orig-id="u666498-16"><span class="temp_no_id" data-orig-id="u666498-13">使用 智能電話</span><span class="temp_no_id" data-orig-id="u666498-14">、</span><span class="temp_no_id" data-orig-id="u666498-15">平板 或 電腦 就可以立即開始</span></p>
+           <span class="placeholder" data-placeholder-for="u666498-10_content"><!-- placeholder node --></span>
+           <span class="placeholder" data-placeholder-for="u666498-12_content"><!-- placeholder node --></span>
+           <span class="placeholder" data-placeholder-for="u666498-16_content"><!-- placeholder node --></span>
           </div>
-          <div class="Button fade clearfix grpelem temp_no_id" data-orig-id="buttonu666499"><!-- container box -->
-           <div class="clearfix colelem temp_no_id" data-orig-id="u666500-4"><!-- content -->
-            <p class="temp_no_id" data-orig-id="u666500-2">*支援 Chrome 和 Safari 瀏覽器</p>
-           </div>
-           <div class="clearfix colelem temp_no_id" data-orig-id="pu666501"><!-- group -->
-            <div class="museBGSize grpelem temp_no_id" title="Chrome" data-orig-id="u666501"><!-- simple frame --></div>
-            <div class="museBGSize grpelem temp_no_id" title="Safari" data-orig-id="u666502"><!-- simple frame --></div>
-           </div>
-          </div>
-          <div class="fade clearfix grpelem temp_no_id" data-orig-id="u666503-6"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u666503-2"><span class="body temp_no_id" data-orig-id="u666503">認知風險評估</span></p>
-           <p class="temp_no_id" data-orig-id="u666503-4"><span class="body temp_no_id" data-orig-id="u666503-3">Cognitive Ageing Risk Score (CARS)</span></p>
-          </div>
-          <a class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem temp_no_id" href="https://hkbu.questionpro.com/CARSTest" target="_blank" title="認知風險小評估" data-orig-id="buttonu665072"><!-- container box --></a>
-          <div class="rounded-corners grpelem temp_no_id" data-orig-id="u666568"><!-- simple frame --></div>
-          <div class="fade clearfix grpelem temp_no_id" data-orig-id="u578857-16"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u578857-2">是一項簡單而準確的線上認知測試，經過大學以60歲或以上的群組作為參考進行驗證。它以單詞回憶，專注力，及圖像記憶作為評估基礎。</p>
-           <p class="temp_no_id" data-orig-id="u578857-3">&nbsp;</p>
-           <p class="temp_no_id" data-orig-id="u578857-5">研究已刊登於</p>
-           <p class="temp_no_id" data-orig-id="u578857-9"><span class="temp_no_id" data-orig-id="u578857-8"><a class="nonblock" href="https://www.tandfonline.com/doi/full/10.1080/13607863.2018.1523878" target="_blank" title="Aging and mental health"><span class="temp_no_id" data-orig-id="u578857-6">國際老年醫學期刊《Aging and mental health》</span></a></span></p>
-           <p class="temp_no_id" data-orig-id="u578857-10">&nbsp;</p>
-           <p class="temp_no_id" data-orig-id="u578857-12">無須下載APP</p>
-           <p class="temp_no_id" data-orig-id="u578857-14">使用 平板 或 電腦 就可以立即開始</p>
-          </div>
-          <div class="Button fade clearfix grpelem temp_no_id" data-orig-id="buttonu578858"><!-- container box -->
-           <div class="clearfix colelem temp_no_id" data-orig-id="u578859-4"><!-- content -->
-            <p class="temp_no_id" data-orig-id="u578859-2">*支援 Chrome 和 Safari 瀏覽器</p>
-           </div>
-           <div class="clearfix colelem temp_no_id" data-orig-id="pu578860"><!-- group -->
-            <div class="museBGSize grpelem temp_no_id" title="Chrome" data-orig-id="u578860"><!-- simple frame --></div>
-            <div class="museBGSize grpelem temp_no_id" title="Safari" data-orig-id="u578861"><!-- simple frame --></div>
-           </div>
-          </div>
-          <div class="fade clearfix grpelem temp_no_id" data-orig-id="u578862-6"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u578862-2"><span class="body temp_no_id" data-orig-id="u578862">香港警覺性及記憶篩查</span></p>
-           <p class="temp_no_id" data-orig-id="u578862-4"><span class="body temp_no_id" data-orig-id="u578862-3">Hong Kong - Vigilance and Memory Test (HK-VMT)</span></p>
-          </div>
-          <a class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem temp_no_id" href="https://hkbu.questionpro.com/hkvmt-desktop" target="_blank" title="HK-VMT測試" data-orig-id="buttonu578863"><!-- container box --></a>
-          <div class="Button clearfix grpelem temp_no_id" data-orig-id="buttonu721406"><!-- container box -->
-           <div class="SlideFromR museBGSize grpelem temp_no_id" data-orig-id="u721423"><!-- simple frame --></div>
-          </div>
+          <span class="Button fade clearfix grpelem placeholder" data-placeholder-for="buttonu666499_content"><!-- placeholder node --></span>
+          <span class="fade clearfix grpelem placeholder" data-placeholder-for="u666503-6_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem placeholder" data-placeholder-for="buttonu665072_content"><!-- placeholder node --></span>
+          <span class="rounded-corners grpelem placeholder" data-placeholder-for="u666568_content"><!-- placeholder node --></span>
+          <span class="fade clearfix grpelem placeholder" data-placeholder-for="u578857-16_content"><!-- placeholder node --></span>
+          <span class="Button fade clearfix grpelem placeholder" data-placeholder-for="buttonu578858_content"><!-- placeholder node --></span>
+          <span class="fade clearfix grpelem placeholder" data-placeholder-for="u578862-6_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem placeholder" data-placeholder-for="buttonu578863_content"><!-- placeholder node --></span>
+          <span class="Button clearfix grpelem placeholder" data-placeholder-for="buttonu721406_content"><!-- placeholder node --></span>
          </div>
          <span class="anchor_item colelem placeholder" data-placeholder-for="compare_content"><!-- placeholder node --></span>
          <span class="clearfix colelem placeholder" data-placeholder-for="u582699_content"><!-- placeholder node --></span>
@@ -1209,9 +1224,8 @@ var slider = tns({
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u714332-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu456702-bw_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546415_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546974_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u583730-bw_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u815295_content"><!-- placeholder node --></span>
       <span class="noticeboard grpelem placeholder" data-placeholder-for="u574152_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u583248_content"><!-- placeholder node --></span>
@@ -1302,7 +1316,7 @@ var slider = tns({
      </nav>
      <span class="nonblock nontext MuseLinkActive museBGSize placeholder" data-placeholder-for="u736874_content"><!-- placeholder node --></span>
      <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u736875-4_content"><!-- placeholder node --></span>
-     <span class="clearfix placeholder" data-placeholder-for="u736876-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u736876-4_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="7016" data-content-above-spacer="7015" data-content-below-spacer="369"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u716517-bw">
@@ -1347,7 +1361,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_1025" data-min-width="770" data-max-width="1025"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u707787_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu729426_content"><!-- placeholder node --></span>
     <div class="browser_width" id="u715100-bw">
      <div class="shadow" id="u715100"><!-- simple frame --></div>
@@ -1455,8 +1468,6 @@ var slider = tns({
       <div class="browser_width grpelem shared_content" id="buttonu719876-bw" data-content-guid="buttonu719876-bw_content">
        <div class="Button height55 museBGSize" id="buttonu719876"><!-- container box --></div>
       </div>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546415_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546974_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u583730-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u583730"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u583730_align_to_page">
@@ -1481,6 +1492,7 @@ var slider = tns({
       </div>
       <span class="SlideFromR clearfix grpelem placeholder" data-placeholder-for="u583210-4_content"><!-- placeholder node --></span>
       <span class="fadein museBGSize rounded-corners transition shadow grpelem placeholder" data-placeholder-for="u718582_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u815295_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="u583248_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u583224_content"><!-- placeholder node --></span>
@@ -1572,7 +1584,7 @@ var slider = tns({
      </nav>
      <span class="nonblock nontext MuseLinkActive museBGSize placeholder" data-placeholder-for="u736874_content"><!-- placeholder node --></span>
      <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u736875-4_content"><!-- placeholder node --></span>
-     <span class="clearfix placeholder" data-placeholder-for="u736876-4_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u736876-4_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="7390" data-content-above-spacer="7389" data-content-below-spacer="444"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u716517-bw">
@@ -1623,7 +1635,7 @@ var slider = tns({
         <div class="clearfix colelem temp_no_id" data-orig-id="pu716541"><!-- group -->
          <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u716541_content"><!-- placeholder node --></span>
          <div class="clearfix grpelem" id="pu719939-4"><!-- column -->
-          <span class="clearfix colelem placeholder" data-placeholder-for="u719939-4_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u719939-4_content"><!-- placeholder node --></span>
           <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u716537-4_content"><!-- placeholder node --></span>
          </div>
         </div>
@@ -1640,7 +1652,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_769" data-min-width="577" data-max-width="769"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u707787_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu729426_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu583745"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu583745"><!-- group -->
@@ -1741,8 +1752,6 @@ var slider = tns({
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u714332-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu719876-bw_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546415_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546974_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u583730-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u583730"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u583730_align_to_page">
@@ -1765,6 +1774,7 @@ var slider = tns({
         </div>
        </div>
       </div>
+      <span class="grpelem placeholder" data-placeholder-for="u815295_content"><!-- placeholder node --></span>
       <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu715348" data-islightbox="true"><!-- none box -->
        <div class="popup_anchor" id="u715353popup" data-lightbox="true">
         <div class="ContainerGroup clearfix" id="u715353"><!-- stack box -->
@@ -1777,7 +1787,7 @@ var slider = tns({
            <li class="AccordionPanel clearfix colelem" id="u715405"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u715406-6"><!-- content --><div class="noticeboard shared_content" id="u715406-5" data-content-guid="u715406-5_content"><p id="u715406-4"><span><a class="nonblock" href="resources.html"><span id="u715406">社區支援</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u715407"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u715408-4" href="resources.html#gov" data-content-guid="u715408-4_content"><!-- content --><div id="u715408-3"><p id="u715408-2">政府相關機構</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u715410-4" href="resources.html#ha" data-content-guid="u715410-4_content"><!-- content --><div id="u715410-3"><p id="u715410-2">醫院管理局</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u715409-4" href="resources.html#otherngo" data-content-guid="u715409-4_content"><!-- content --><div id="u715409-3"><p id="u715409-2">其他本地機構</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u715364"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u715368-6"><!-- content --><div class="noticeboard shared_content" id="u715368-5" data-content-guid="u715368-5_content"><p id="u715368-4"><span><a class="nonblock" href="partnership.html"><span id="u715368">協作機構</span></a></span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u715365"><!-- column --><a class="nonblock nontext clearfix colelem shared_content" id="u715367-4" href="partnership.html#joinus" data-content-guid="u715367-4_content"><!-- content --><div id="u715367-3"><p id="u715367-2">加入我們</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u715366-4" href="partnership.html#contactus" data-content-guid="u715366-4_content"><!-- content --><div id="u715366-3"><p id="u715366-2">聯絡我們</p></div></a></div></li>
            <li class="AccordionPanel clearfix colelem" id="u715388"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u715392-4"><!-- content --><div class="noticeboard shared_content" id="u715392-3" data-content-guid="u715392-3_content"><p id="u715392-2"><span id="u715392">常見問題</span></p></div></div><div class="AccordionPanelContent disn clearfix colelem" id="u715389"><!-- column --><div class="position_content" id="u715389_position_content"><a class="nonblock nontext clearfix colelem shared_content" id="u715391-4" href="faq.html" data-content-guid="u715391-4_content"><!-- content --><div id="u715391-3"><p id="u715391-2">常見問題</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u715390-4" href="disclaimer.html" data-content-guid="u715390-4_content"><!-- content --><div id="u715390-3"><p id="u715390-2">免責聲明</p></div></a></div></div></li>
-           <li class="AccordionPanel clearfix colelem" id="u715400"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u715404-6"><!-- content --><div class="noticeboard shared_content" id="u715404-5" data-content-guid="u715404-5_content"><p id="u715404-4"><span><a class="nonblock" href="partnership.html"><span id="u715404">語言 Language</span></a></span></p></div></div><div class="pointer_cursor AccordionPanelContent clearfix colelem" id="u715401"><!-- column --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><div class="position_content" id="u715401_position_content"><div class="clearfix colelem shared_content" id="u715403-4" data-content-guid="u715403-4_content"><!-- content --><div id="u715403-3"><p id="u715403-2">简体中文</p></div></div><a class="nonblock nontext clearfix colelem shared_content" id="u715402-4" href="home-en.html" data-content-guid="u715402-4_content"><!-- content --><div id="u715402-3"><p id="u715402-2">English</p></div></a></div></div></li>
+           <li class="AccordionPanel clearfix colelem" id="u715400"><!-- vertical box --><div class="AccordionPanelTab clearfix colelem" id="u715404-4"><!-- content --><div class="noticeboard shared_content" id="u715404-3" data-content-guid="u715404-3_content"><p id="u715404-2"><span id="u715404">語言 Language</span></p></div></div><div class="pointer_cursor AccordionPanelContent disn clearfix colelem" id="u715401"><!-- column --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><div class="position_content" id="u715401_position_content"><a class="nonblock nontext clearfix colelem shared_content" id="u715403-4" href="home-cn.html" data-content-guid="u715403-4_content"><!-- content --><div id="u715403-3"><p id="u715403-2">简体中文</p></div></a><a class="nonblock nontext clearfix colelem shared_content" id="u715402-4" href="home-en.html" data-content-guid="u715402-4_content"><!-- content --><div id="u715402-3"><p id="u715402-2">English</p></div></a></div></div></li>
           </ul>
          </div>
         </div>
@@ -1830,7 +1840,7 @@ var slider = tns({
         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u716512-4_content"><!-- placeholder node --></span>
         <div class="clearfix colelem temp_no_id" data-orig-id="pu716541"><!-- group -->
          <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u716541_content"><!-- placeholder node --></span>
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u719939-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u719939-4_content"><!-- placeholder node --></span>
          <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u716537-4_content"><!-- placeholder node --></span>
         </div>
         <span class="clearfix colelem placeholder" data-placeholder-for="u716513-4_content"><!-- placeholder node --></span>
@@ -1856,7 +1866,6 @@ var slider = tns({
   </div>
   <div class="breakpoint" id="bp_576" data-max-width="576"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u707787_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu729426"><!-- column -->
      <span class="size_fixed colelem placeholder" data-placeholder-for="u729426_content"><!-- placeholder node --></span>
      <span class="size_fixed colelem placeholder" data-placeholder-for="u721840_content"><!-- placeholder node --></span>
@@ -2015,8 +2024,6 @@ var slider = tns({
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u714332-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu719876-bw_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546415_content"><!-- placeholder node --></span>
-      <span class="size_fixed grpelem placeholder" data-placeholder-for="u546974_content"><!-- placeholder node --></span>
       <div class="browser_width grpelem temp_no_id" data-orig-id="u583730-bw">
        <div class="museBGSize temp_no_id" data-orig-id="u583730"><!-- group -->
         <div class="clearfix temp_no_id" data-orig-id="u583730_align_to_page">
@@ -2033,11 +2040,12 @@ var slider = tns({
        </div>
       </div>
       <span class="SlideFromR clearfix grpelem placeholder" data-placeholder-for="u583210-4_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u815295_content"><!-- placeholder node --></span>
       <div class="PamphletWidget clearfix allow_click_through widget_invisible grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-islightbox="true" data-orig-id="pamphletu715348"><!-- none box -->
        <div class="clearfix" id="pu715353"><!-- group -->
         <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-lightbox="true" data-orig-id="u715353popup">
-         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u715353"><!-- stack box -->
-          <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u715354"><!-- group -->
+         <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u715353"><!-- stack box -->
+          <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u715354"><!-- group -->
            <ul class="AccordionWidget clearfix grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="accordionu715355"><!-- vertical box -->
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715393"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715399-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715399-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u715394"><!-- column --><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u715397-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u715395-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u715396-4_content"><!-- placeholder node --></span><span class="nonblock nontext anim_swing clearfix colelem placeholder" data-placeholder-for="u715398-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715356"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715363-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715363-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u715357"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715360-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715361-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715362-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715359-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715358-4_content"><!-- placeholder node --></span></div></li>
@@ -2046,7 +2054,7 @@ var slider = tns({
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715405"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715406-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715406-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u715407"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715408-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715410-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715409-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715364"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715368-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715368-5_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u715365"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715367-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715366-4_content"><!-- placeholder node --></span></div></li>
             <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715388"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715392-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715392-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u715389"><!-- column --><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715391-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u715390-4_content"><!-- placeholder node --></span></div></li>
-            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715400"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715404-6"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715404-5_content"><!-- placeholder node --></span></div><div class="pointer_cursor AccordionPanelContent clearfix colelem temp_no_id" data-orig-id="u715401"><!-- group --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><span class="clearfix grpelem placeholder" data-placeholder-for="u715403-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u715402-4_content"><!-- placeholder node --></span></div></li>
+            <li class="AccordionPanel clearfix colelem temp_no_id" data-orig-id="u715400"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem temp_no_id" data-orig-id="u715404-4"><!-- content --><span class="noticeboard placeholder" data-placeholder-for="u715404-3_content"><!-- placeholder node --></span></div><div class="pointer_cursor AccordionPanelContent disn clearfix colelem temp_no_id" data-orig-id="u715401"><!-- group --><a class="block" href="partnership.html#joinus"><!-- Block link tag --></a><span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u715403-4_content"><!-- placeholder node --></span><span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u715402-4_content"><!-- placeholder node --></span></div></li>
            </ul>
           </div>
          </div>
@@ -2145,7 +2153,7 @@ var slider = tns({
        </div>
        <div class="clearfix colelem temp_no_id" data-orig-id="pu716541"><!-- group -->
         <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u716541_content"><!-- placeholder node --></span>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u719939-4_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u719939-4_content"><!-- placeholder node --></span>
         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u716537-4_content"><!-- placeholder node --></span>
        </div>
        <span class="clearfix colelem placeholder" data-placeholder-for="u716513-4_content"><!-- placeholder node --></span>
@@ -2191,7 +2199,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_1025'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#accordionu715355', ['#bp_769', '#bp_576'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:7}); });/* #accordionu715355 */
+Muse.Utils.initWidget('#accordionu715355', ['#bp_769', '#bp_576'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu715355 */
 Muse.Utils.initWidget('#pamphletu715348', ['#bp_769'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu715348 */
 Muse.Utils.initWidget('#pamphletu715348', ['#bp_576'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu715348 */
 Muse.Utils.fullPage('#page');/* 100% height page */
@@ -2205,8 +2213,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-<script src="https://cdn.jsdelivr.net/combine/npm/scrollmonitor@1.2.4/scrollMonitor.min.js,npm/letteringjs@0.7.0/jquery.lettering.min.js,npm/fittext@1.0.1/dist/jquery.fittext.js,npm/textillate@0.4.1/jquery.textillate.min.js"></script>
-
 			<script>
         console.log("Fluid Scroll Effects Base (1.0.0)");
       </script>
@@ -2539,13 +2545,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 
     </script>
 		
-<script>
-$(document).ready(function(){$('.animt1').textillate({loop:true,minDisplayTime:5000,initialDelay:0,autoStart:true,in:{effect:'slideInLeft',delayScale:1.5,delay:50,sync:false,shuffle:false,reverse:false,},out:{effect:'slideOutRight',delayScale:1.5,delay:50,sync:false,shuffle:false,reverse:false,},type:'char'})})
-</script>
-
-<script>
-$(document).ready(function(){$('.animt2').textillate({loop:true,minDisplayTime:5000,initialDelay:0,autoStart:true,in:{effect:'slideInLeft',delayScale:1.6,delay:80,sync:false,shuffle:false,reverse:false,},out:{effect:'slideOutRight',delayScale:1.6,delay:50,sync:false,shuffle:false,reverse:false,},type:'char'})})
-</script>
-
    </body>
 </html>
