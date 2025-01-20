@@ -19,13 +19,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="shortcut icon" href="images/home-en-favicon.ico?crc=3891198573"/>
   <title>Hong Kong - Vigilance and Memory Test (HK-VMT)</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3840747868"/>
-  <link rel="stylesheet" type="text/css" href="css/master_home-en.css?crc=401191208"/>
-  <link rel="stylesheet" type="text/css" href="css/home-en.css?crc=3769225490" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
+  <link rel="stylesheet" type="text/css" href="css/master_home-en.css?crc=3872218650"/>
+  <link rel="stylesheet" type="text/css" href="css/home-en.css?crc=3819806483" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-en.css?crc=4023288626"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_home-en.css?crc=4187267978" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-en.css?crc=499308567"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_home-en.css?crc=94770486" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -400,11 +400,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   }
 
   .tick {
-    color: lightgreen;
-    text-shadow: 0px 0px 4px #000000;
-    padding: 0px;
-    font-size: 120%;
+    width: 15%;
+    height: auto;
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 26px;
+    max-width: 26px;
   }
+
 </style>
 
 <script>
@@ -416,14 +419,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     if (firebase.apps.length === 0) {
 
       const firebaseConfig = {
-        apiKey: "AIzaSyCO7Uopu8_ZdxVx-e-5ojgsenXh_i3LcaA",
-        authDomain: "hk-vmt.firebaseapp.com",
-        databaseURL: "https://hk-vmt-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "hk-vmt",
-        storageBucket: "hk-vmt.appspot.com",
-        messagingSenderId: "934265370881",
-        appId: "1:934265370881:web:6e64c6387fc046feaf0300"
-      };
+    apiKey: "AIzaSyCfgmfpAcHpk0fdoGuMqsxE2Er3ssRxb7w",
+    authDomain: "hk-vmt-hkbu.firebaseapp.com",
+    databaseURL: "https://hk-vmt-hkbu-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "hk-vmt-hkbu",
+    storageBucket: "hk-vmt-hkbu.appspot.com",
+    messagingSenderId: "545761852277",
+    appId: "1:545761852277:web:6a89f5a7975c6330a3313c",
+    measurementId: "G-RDRY0S9S7P"
+  };
 
       firebase.initializeApp(firebaseConfig);
 
@@ -640,27 +644,33 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <tr>
             <td>Detect early cognitive deficit</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>Detect mild cognitive impairment</td>
-            <td class="tick" style="color:white; text-shadow: 0px 0px 0px #000000;">✔</td>
-            <td class="tick">✔</td>
+            <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>Automated scoring</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>Instant result</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>User management system</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>Personalized risk assessment <div class="star-container">
@@ -668,7 +678,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
                     <div class="star-text">NEW</div>
             </td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>Recommendations for lifestyle modification <div class="star-container">
@@ -676,12 +687,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
                     <div class="star-text">NEW</div>
             </td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>Carbon reduction and environmental protection</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
     </tbody>
 </table>
@@ -822,7 +835,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
     <a href="mediaactivities-en.html#gallery"><span class="sliderimg"><img  src="https://hkvmt.com/images/pic_event13.jpg" style="border-radius: 10px;" alt="Gerontech & Innovation Expo cum Summit 2022 "/></span><span class="slidertext">Gerontech & Innovation Expo<br>cum Summit 2022 </span></a></div>
   
     <div class="sliderblock">
-        <a href="https://www.facebook.com/permalink.php/?story_fbid=473246108405803&id=100071612522195"><span class="sliderimg"><img src="https://www.hkvmt.com/images/poster%20bworklife.jpg" style="border-radius: 10px;" alt="Public talk on “Dementia prevention and brain health management at pre-retired age”"/></span><span class="slidertext">Public talk on “Dementia <br>prevention and brain health<br>management at pre-retired<br> age”</span></a></div>
+        <a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://www.hkvmt.com/images/poster%20bworklife.jpg" style="border-radius: 10px;" alt="Public talk on “Dementia prevention and brain health management at pre-retired age”"/></span><span class="slidertext">Public talk on “Dementia <br>prevention and brain health<br>management at pre-retired<br> age”</span></a></div>
     
     <div class="sliderblock">
     <a href="mediaactivities-en.html#research"><span class="sliderimg"><img src="https://www.hkvmt.com/images/poster%20rlif.jpg" style="border-radius: 10px;" alt="Loneliness in Chinese older adults:<br>A 2-year longitudinal study."/></span><span class="slidertext">Loneliness in Chinese older adults:<br>A 2-year longitudinal study</span></a></div>
@@ -831,18 +844,18 @@ for (let b = 0; b < bouncingtext.length; b++) {
     <a href="mediaactivities-en.html#research"><span class="sliderimg"><img  src="https://hkvmt.com/images/facebookpost50plusreset.jpg" style="border-radius: 10px;" alt="Online 50s has started! 2024"/></span><span class="slidertext">Online 50s has started! 2024</span></a></div>
     
       
-    <div class="sliderblock"><a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5159.jpg" style="border-radius: 10px;" alt="Hong Kong - Vigilance and Memory Test:<br>Self-Detection and Monitoring"/></span><span class="slidertext">Hong Kong - Vigilance and Memory Test:<br>Self-Detection and Monitoring<br>Speaker: Dr. FUNG, Wai Tung, Ada<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
+    <div class="sliderblock"><a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5159.jpg" style="border-radius: 10px;" alt="Hong Kong - Vigilance and Memory Test:<br>Self-Detection and Monitoring"/></span><span class="slidertext">Hong Kong - Vigilance and Memory Test:<br>Self-Detection and Monitoring<br>Speaker: Dr. FUNG, Wai Tung, Ada<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
       
     <div class="sliderblock">
-    <a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5184.jpg" style="border-radius: 10px;" alt="Exercise Intervention: Muscular Strength<br>Training and Body-Mind Integration"/></span><span class="slidertext">Exercise Intervention: Muscular Strength<br>Training and Body-Mind Integration<br>Speaker: Dr. TAM, Tsz King, Bjorn<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
+    <a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5184.jpg" style="border-radius: 10px;" alt="Exercise Intervention: Muscular Strength<br>Training and Body-Mind Integration"/></span><span class="slidertext">Exercise Intervention: Muscular Strength<br>Training and Body-Mind Integration<br>Speaker: Dr. TAM, Tsz King, Bjorn<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
     
       
     <div class="sliderblock">
-    <a href="mediaactivities-en.html"><span class="sliderimg"><img  src="https://hkvmt.com/images/spe_5233.jpg" style="border-radius: 10px;" alt="Chinese Medicine and Dementia"/></span><span class="slidertext">Chinese Medicine and Dementia<br>Speaker: Dr. CHUA, Ka Kit, Tony<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
+    <a href="mediaactivities-en.html"><span class="sliderimg"><img  src="https://hkvmt.com/assets/spe_5233.jpg" style="border-radius: 10px;" alt="Chinese Medicine and Dementia"/></span><span class="slidertext">Chinese Medicine and Dementia<br>Speaker: Dr. CHUA, Ka Kit, Tony<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
     
      
     <div class="sliderblock">
-    <a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5318.jpg" style="border-radius: 10px;" alt="Modern Chinese Medicine Health Care"/></span><span class="slidertext">Modern Chinese Medicine Health Care<br>Speaker: Dr. Wendy WONG<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
+    <a href="mediaactivities-en.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5318.jpg" style="border-radius: 10px;" alt="Modern Chinese Medicine Health Care"/></span><span class="slidertext">Modern Chinese Medicine Health Care<br>Speaker: Dr. Wendy WONG<br><div style="font-size:smaller;">(July 21, 2023)</div></span></a></div>
     
 
     <div class="sliderblock">
@@ -851,14 +864,14 @@ for (let b = 0; b < bouncingtext.length; b++) {
     </div>
 
     <div class="sliderblock">
-      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_08.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_08.jpg" style="border-radius: 10px;"
             alt="Optimizing your Productivity for Brain Health?" /></span><span class="slidertext">Optimizing your Productivity for Brain Health?<br>Speaker: Dr. Vincent LEE<br>
           <div style="font-size:smaller;">(July 27, 2024)</div>
         </span></a>
     </div>
 
     <div class="sliderblock">
-      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_11.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_11.jpg" style="border-radius: 10px;"
             alt="How to build Cognitive Reserve?" /></span><span class="slidertext">How to build Cognitive Reserve?<br>Speaker: Dr. FUNG, Wai Tung, Ada<br>
           <div style="font-size:smaller;">(July 27, 2024)</div>
         </span></a>
@@ -866,7 +879,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
 
 
     <div class="sliderblock">
-      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_09.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_09.jpg" style="border-radius: 10px;"
             alt="Dementia and Financial Planning" /></span><span class="slidertext">Dementia and Financial Planning 
             <br>Speaker: Dr. Cindy TAM<br>
           <div style="font-size:smaller;">(July 27, 2024)</div>
@@ -875,7 +888,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
 
 
     <div class="sliderblock">
-      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_07.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities-en.htmll"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_07.jpg" style="border-radius: 10px;"
             alt="Exercise Strategies for Middle-aged" /></span><span class="slidertext">Exercise Strategies for Middle-aged<br>Speaker: Mr Lam Ka Po George<br>
           <div style="font-size:smaller;">(July 27, 2024)</div>
         </span></a>
@@ -892,7 +905,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
 
     <div class="sliderblock">
       <a href="mediaactivities-en.htmll#gallery"><span class="sliderimg"><img src="https://hkvmt.com/images/kaitakhealth1.jpg" style="border-radius: 10px;"
-            alt="Kai Tak Health Carnival" /></span><span class="slidertext">Kai Tak Health Carnival<div style="font-size:smaller;">(September 25, 2024)</div></span></a>
+            alt="Brain Health Day at Kai Tak Health Carnival" /></span><span class="slidertext">Brain Health Day at<br>Kai Tak Health Carnival<div style="font-size:smaller;">(September 25, 2024)</div></span></a>
     </div>
 
     <div class="sliderblock">
@@ -998,29 +1011,15 @@ for (let b = 0; b < bouncingtext.length; b++) {
        </div>
       </div>
      </div>
-     <div class="clearfix colelem shared_content" id="pu781232" data-content-guid="pu781232_content"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="u781232" data-content-guid="u781232_content"><!-- group -->
-       <div class="fadein clearfix grpelem" id="u781234"><!-- column -->
-        <div class="fadein museBGSize rounded-corners colelem shared_content" id="u781233" data-content-guid="u781233_content"><!-- simple frame --></div>
-        <div class="fadein clearfix colelem shared_content" id="u781235-10" data-content-guid="u781235-10_content"><!-- content -->
-         <p id="u781235-2">Ms. KWOK Cheuk Lam, Able</p>
-         <p id="u781235-3">&nbsp;</p>
-         <p id="u781235-5">System Technology Officer,</p>
-         <p id="u781235-7">Hong Kong Baptist University</p>
-         <p id="u781235-8">&nbsp;</p>
-        </div>
-       </div>
-      </div>
-      <div class="clearfix grpelem" id="u781266"><!-- group -->
-       <div class="fadein clearfix grpelem" id="u781268"><!-- column -->
-        <div class="fadein museBGSize rounded-corners colelem shared_content" id="u781269" data-content-guid="u781269_content"><!-- simple frame --></div>
-        <div class="fadein clearfix colelem shared_content" id="u781267-10" data-content-guid="u781267-10_content"><!-- content -->
-         <p id="u781267-2">Mr. LEUNG Tik Man, Dicky</p>
-         <p id="u781267-3">&nbsp;</p>
-         <p id="u781267-5">Community Outreach Officer,</p>
-         <p id="u781267-7">Hong Kong Baptist University</p>
-         <p id="u781267-8">&nbsp;</p>
-        </div>
+     <div class="clearfix colelem shared_content" id="u781266" data-content-guid="u781266_content"><!-- group -->
+      <div class="fadein clearfix grpelem" id="u781268"><!-- column -->
+       <div class="fadein museBGSize rounded-corners colelem shared_content" id="u781269" data-content-guid="u781269_content"><!-- simple frame --></div>
+       <div class="fadein clearfix colelem shared_content" id="u781267-10" data-content-guid="u781267-10_content"><!-- content -->
+        <p id="u781267-2">Mr. LEUNG Tik Man, Dicky</p>
+        <p id="u781267-3">&nbsp;</p>
+        <p id="u781267-5">Community Outreach Officer,</p>
+        <p id="u781267-7">Hong Kong Baptist University</p>
+        <p id="u781267-8">&nbsp;</p>
        </div>
       </div>
      </div>
@@ -1267,7 +1266,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
      <span class="clearfix colelem placeholder" data-placeholder-for="u781284_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u781254_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu781322_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu781232_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u781266_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u781219_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu781289_content"><!-- placeholder node --></span>
     </div>
@@ -1461,8 +1460,8 @@ for (let b = 0; b < bouncingtext.length; b++) {
            <p id="u781262-2">Traditional testing</p>
           </div>
           <span class="Button fadein clearfix grpelem placeholder" data-placeholder-for="buttonu781248_content"><!-- placeholder node --></span>
+          <span class="anchor_item grpelem placeholder" data-placeholder-for="mission_content"><!-- placeholder node --></span>
          </div>
-         <span class="anchor_item colelem placeholder" data-placeholder-for="mission_content"><!-- placeholder node --></span>
          <span class="clearfix colelem placeholder" data-placeholder-for="u781237_content"><!-- placeholder node --></span>
         </div>
        </div>
@@ -1503,7 +1502,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
       <span class="clearfix grpelem placeholder" data-placeholder-for="u781227_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u781309_content"><!-- placeholder node --></span>
      </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu781232_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u781266_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u781219_content"><!-- placeholder node --></span>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu781289"><!-- group -->
       <span class="clearfix grpelem placeholder" data-placeholder-for="u781289_content"><!-- placeholder node --></span>
@@ -1738,14 +1737,11 @@ for (let b = 0; b < bouncingtext.length; b++) {
       <span class="clearfix grpelem placeholder" data-placeholder-for="u781227_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u781309_content"><!-- placeholder node --></span>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu781232"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u781232_content"><!-- placeholder node --></span>
-      <div class="clearfix grpelem temp_no_id" data-orig-id="u781266"><!-- group -->
-       <div class="fadein clearfix grpelem temp_no_id" data-orig-id="u781268"><!-- column -->
-        <div class="position_content" id="u781268_position_content">
-         <span class="fadein museBGSize rounded-corners colelem placeholder" data-placeholder-for="u781269_content"><!-- placeholder node --></span>
-         <span class="fadein clearfix colelem placeholder" data-placeholder-for="u781267-10_content"><!-- placeholder node --></span>
-        </div>
+     <div class="clearfix colelem temp_no_id" data-orig-id="u781266"><!-- group -->
+      <div class="fadein clearfix grpelem temp_no_id" data-orig-id="u781268"><!-- column -->
+       <div class="position_content" id="u781268_position_content">
+        <span class="fadein museBGSize rounded-corners colelem placeholder" data-placeholder-for="u781269_content"><!-- placeholder node --></span>
+        <span class="fadein clearfix colelem placeholder" data-placeholder-for="u781267-10_content"><!-- placeholder node --></span>
        </div>
       </div>
      </div>
@@ -1957,12 +1953,6 @@ for (let b = 0; b < bouncingtext.length; b++) {
        <span class="fadein clearfix colelem placeholder" data-placeholder-for="u781310-9_content"><!-- placeholder node --></span>
       </div>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="u781232"><!-- group -->
-      <div class="fadein clearfix grpelem temp_no_id" data-orig-id="u781234"><!-- column -->
-       <span class="fadein museBGSize rounded-corners colelem placeholder" data-placeholder-for="u781233_content"><!-- placeholder node --></span>
-       <span class="fadein clearfix colelem placeholder" data-placeholder-for="u781235-10_content"><!-- placeholder node --></span>
-      </div>
-     </div>
      <div class="clearfix colelem temp_no_id" data-orig-id="u781266"><!-- group -->
       <div class="fadein clearfix grpelem temp_no_id" data-orig-id="u781268"><!-- column -->
        <span class="fadein museBGSize rounded-corners colelem placeholder" data-placeholder-for="u781269_content"><!-- placeholder node --></span>
@@ -1987,7 +1977,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
      </div>
     </div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu811698_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="9280" data-content-above-spacer="9280" data-content-below-spacer="473" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="8891" data-content-above-spacer="8890" data-content-below-spacer="473" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u811714-bw">
      <div class="temp_no_id" data-orig-id="u811714"><!-- column -->
       <div class="clearfix temp_no_id" data-orig-id="u811714_align_to_page">

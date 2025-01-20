@@ -19,13 +19,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <link rel="shortcut icon" href="images/home-hk-favicon.ico?crc=3891198573"/>
   <title>香港警覺性及記憶篩查</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3840747868"/>
-  <link rel="stylesheet" type="text/css" href="css/master_home-hk.css?crc=222206707"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3994883506" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=455485524"/>
+  <link rel="stylesheet" type="text/css" href="css/master_home-hk.css?crc=4218113727"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=411518698" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-hk.css?crc=3976804030"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3788565062" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-hk.css?crc=366168586"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=495482905" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -400,11 +400,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   }
 
   .tick {
-    color: lightgreen;
-    text-shadow: 0px 0px 4px #000000;
-    padding: 0px;
-    font-size: 120%;
+    width: 15%;
+    height: auto;
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 26px;
+    max-width: 26px;
   }
+
 </style>
 
 <script>
@@ -416,14 +419,15 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     if (firebase.apps.length === 0) {
 
       const firebaseConfig = {
-        apiKey: "AIzaSyCO7Uopu8_ZdxVx-e-5ojgsenXh_i3LcaA",
-        authDomain: "hk-vmt.firebaseapp.com",
-        databaseURL: "https://hk-vmt-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "hk-vmt",
-        storageBucket: "hk-vmt.appspot.com",
-        messagingSenderId: "934265370881",
-        appId: "1:934265370881:web:6e64c6387fc046feaf0300"
-      };
+    apiKey: "AIzaSyCfgmfpAcHpk0fdoGuMqsxE2Er3ssRxb7w",
+    authDomain: "hk-vmt-hkbu.firebaseapp.com",
+    databaseURL: "https://hk-vmt-hkbu-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "hk-vmt-hkbu",
+    storageBucket: "hk-vmt-hkbu.appspot.com",
+    messagingSenderId: "545761852277",
+    appId: "1:545761852277:web:6a89f5a7975c6330a3313c",
+    measurementId: "G-RDRY0S9S7P"
+  };
 
       firebase.initializeApp(firebaseConfig);
 
@@ -589,7 +593,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
            </div>
            <a class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem shared_content" id="buttonu665072" href="https://hkbu.questionpro.com/CARSTest" target="_blank" title="認知風險小評估" data-content-guid="buttonu665072_content"><!-- container box --></a>
            <div class="rounded-corners grpelem shared_content" id="u666568" data-content-guid="u666568_content"><!-- simple frame --></div>
-           <div class="fade clearfix grpelem" id="u578857-16"><!-- content -->
+           <div class="fade clearfix grpelem shared_content" id="u578857-16" data-content-guid="u578857-16_content"><!-- content -->
             <p id="u578857-2" class="shared_content" data-content-guid="u578857-2_content">是一項簡單而準確的線上認知測試，經過大學以60歲或以上的群組作為參考進行驗證。它以單詞回憶，專注力，及圖像記憶作為評估基礎。</p>
             <p id="u578857-3" class="shared_content" data-content-guid="u578857-3_content">&nbsp;</p>
             <p id="u578857-5" class="shared_content" data-content-guid="u578857-5_content">研究已刊登於</p>
@@ -648,27 +652,33 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <tr>
             <td>偵測早期認知缺損</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>偵測輕度認知障礙</td>
-            <td class="tick" style="color:white; text-shadow: 0px 0px 0px #000000;">✔</td>
-            <td class="tick">✔</td>
+            <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>自動計分</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>即時結果顯示</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>用戶管理平台</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>個人化風險分析 <div class="star-container">
@@ -676,7 +686,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
                     <div class="star-text">新</div>
             </td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>生活改善建議 <div class="star-container">
@@ -684,12 +695,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
                     <div class="star-text">新</div>
             </td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+            <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
         <tr>
             <td>減碳環保</td>
             <td>&nbsp;</td>
-            <td class="tick">✔</td>
+                      <td><img class="tick" src="https://hkvmt.com/assets/tickwhite.png" alt="Tick">
+            </td>
         </tr>
     </tbody>
 </table>
@@ -728,39 +741,33 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="browser_width grpelem shared_content" id="buttonu456702-bw" data-content-guid="buttonu456702-bw_content">
        <div class="Button height85 museBGSize" id="buttonu456702"><!-- container box --></div>
       </div>
-      <div class="browser_width grpelem shared_content" id="u583730-bw" data-content-guid="u583730-bw_content">
+      <div class="browser_width grpelem" id="u583730-bw">
        <div class="museBGSize" id="u583730"><!-- group -->
         <div class="clearfix" id="u583730_align_to_page">
          <a class="anchor_item grpelem shared_content" id="team" data-content-guid="team_content"></a>
-         <div class="clearfix grpelem" id="pu583221"><!-- column -->
-          <div class="clearfix colelem shared_content" id="u583221" data-content-guid="u583221_content"><!-- column -->
-           <div class="clearfix colelem shared_content" id="u583223-4" data-content-guid="u583223-4_content"><!-- content -->
-            <p id="u583223-2"><span class="body" id="u583223">成立目的</span></p>
-           </div>
-           <div class="rounded-corners colelem shared_content" id="u583222" data-content-guid="u583222_content"><!-- simple frame --></div>
-          </div>
-          <div class="clearfix colelem" id="pu718582"><!-- group -->
+         <div class="clearfix grpelem" id="ppu718582"><!-- column -->
+          <div class="clearfix colelem shared_content" id="pu718582" data-content-guid="pu718582_content"><!-- group -->
            <div class="fadein museBGSize rounded-corners transition shadow grpelem shared_content" id="u718582" data-content-guid="u718582_content"><!-- simple frame --></div>
            <div class="SlideFromR clearfix grpelem shared_content" id="u583210-4" data-content-guid="u583210-4_content"><!-- content -->
             <p id="u583210-2">我們為所有希望優化大腦健康的人士提供免費自我認知檢測服務及個人風險管理健康建議。</p>
            </div>
           </div>
           <div class="fadein rounded-corners colelem shared_content" id="u583217" data-content-guid="u583217_content"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="pu718678"><!-- group -->
+          <div class="clearfix colelem shared_content" id="pu718678" data-content-guid="pu718678_content"><!-- group -->
            <div class="fadein museBGSize rounded-corners transition shadow grpelem shared_content" id="u718678" data-content-guid="u718678_content"><!-- simple frame --></div>
            <div class="SlideFromR clearfix grpelem" id="u583212-8"><!-- content -->
             <p id="u583212-6"><span id="u583212">協助服務機構找出有</span><span id="u583212-2" class="shared_content" data-content-guid="u583212-2_content">「</span><span id="u583212-3">早期認知缺損</span><span id="u583212-4" class="shared_content" data-content-guid="u583212-4_content">」及</span><span id="u583212-5">「輕度認知障礙」的人士促進早期預防</span></p>
            </div>
           </div>
           <div class="fadein rounded-corners colelem shared_content" id="u583218" data-content-guid="u583218_content"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="pu718716"><!-- group -->
+          <div class="clearfix colelem shared_content" id="pu718716" data-content-guid="pu718716_content"><!-- group -->
            <div class="fadein museBGSize rounded-corners transition shadow grpelem shared_content" id="u718716" data-content-guid="u718716_content"><!-- simple frame --></div>
            <div class="SlideFromR clearfix grpelem shared_content" id="u583213-4" data-content-guid="u583213-4_content"><!-- content -->
             <p id="u583213-2">提高大眾對大腦健康管理的意識</p>
            </div>
           </div>
           <div class="fadein rounded-corners colelem shared_content" id="u583219" data-content-guid="u583219_content"><!-- simple frame --></div>
-          <div class="clearfix colelem" id="pu718731"><!-- group -->
+          <div class="clearfix colelem shared_content" id="pu718731" data-content-guid="pu718731_content"><!-- group -->
            <div class="fadein museBGSize rounded-corners transition shadow grpelem shared_content" id="u718731" data-content-guid="u718731_content"><!-- simple frame --></div>
            <div class="SlideFromR clearfix grpelem shared_content" id="u583216-4" data-content-guid="u583216-4_content"><!-- content -->
             <p id="u583216-2">推進本地有關 「認知障礙症」 臨床前期的研究</p>
@@ -771,6 +778,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
       </div>
       <a class="anchor_item grpelem shared_content" id="intro" data-content-guid="intro_content"></a>
+      <div class="clearfix grpelem shared_content" id="u583221" data-content-guid="u583221_content"><!-- column -->
+       <div class="clearfix colelem shared_content" id="u583223-4" data-content-guid="u583223-4_content"><!-- content -->
+        <p id="u583223-2"><span class="body" id="u583223">成立目的</span></p>
+       </div>
+       <div class="rounded-corners colelem shared_content" id="u583222" data-content-guid="u583222_content"><!-- simple frame --></div>
+      </div>
       <div class="grpelem shared_content" id="u815295" data-content-guid="u815295_content"><!-- custom html -->
            <div class="bouncingtext">
         <span class="text-wrapper">
@@ -833,7 +846,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
     </div>
 
     <div class="sliderblock">
-      <a href="https://www.facebook.com/permalink.php/?story_fbid=473246108405803&id=100071612522195"><span class="sliderimg"><img
+      <a href="mediaactivities.html"><span class="sliderimg"><img
             src="https://www.hkvmt.com/images/poster%20bworklife.jpg" style="border-radius: 10px; object-fit: cover;"
             alt="「腦動耆職•豐盛人生」免費公眾講座" /></span><span class="slidertext">「腦動耆職•豐盛人生」<br>免費公眾講座</span></a>
     </div>
@@ -850,27 +863,27 @@ for (let b = 0; b < bouncingtext.length; b++) {
     </div>
 
 
-    <div class="sliderblock"><a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5159.jpg"
+    <div class="sliderblock"><a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5159.jpg"
             style="border-radius: 10px;" alt="自我偵查及監察" /></span><span class="slidertext">自我偵查及監察<br>講者: 馮慧東博士<br>
           <div style="font-size:smaller;">(2023-7-21)</div>
         </span></a></div>
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5184.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5184.jpg" style="border-radius: 10px;"
             alt="運動是良藥: 肌力訓練與身心整合" /></span><span class="slidertext">運動是良藥:肌力訓練與身心整合<br>講者: 譚子敬博士<br>
           <div style="font-size:smaller;">(2023-7-21)</div>
         </span></a>
     </div>
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5233.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5233.jpg" style="border-radius: 10px;"
             alt="中醫與認知障礙症" /></span><span class="slidertext">中醫與認知障礙症<br>講者: 蔡嘉傑博士<br>
           <div style="font-size:smaller;">(2023-7-21)</div>
         </span></a>
     </div>
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/spe_5318.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/spe_5318.jpg" style="border-radius: 10px;"
             alt="現代中醫養生學" /></span><span class="slidertext">現代中醫養生學<br>講者: 黃韻婷博士<br>
           <div style="font-size:smaller;">(2023-7-21)</div>
         </span></a>
@@ -882,14 +895,14 @@ for (let b = 0; b < bouncingtext.length; b++) {
     </div>
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_08.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_08.jpg" style="border-radius: 10px;"
             alt="保持「腦力」：如何長做長有?" /></span><span class="slidertext">保持「腦力」：如何長做長有?<br>講者: 李允平博士<br>
           <div style="font-size:smaller;">(2024-7-27)</div>
         </span></a>
     </div>
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_11.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_11.jpg" style="border-radius: 10px;"
             alt="儲「腦」本：從何開始?" /></span><span class="slidertext">儲「腦」本：從何開始?<br>講者: 馮慧東博士<br>
           <div style="font-size:smaller;">(2024-7-27)</div>
         </span></a>
@@ -897,7 +910,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
 
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_09.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_09.jpg" style="border-radius: 10px;"
             alt="預設財務安排" /></span><span class="slidertext">預設財務安排<br>講者: 譚煥芝醫生<br>
           <div style="font-size:smaller;">(2024-7-27)</div>
         </span></a>
@@ -905,7 +918,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
 
 
     <div class="sliderblock">
-      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/images/dpbhm2024_07.jpg" style="border-radius: 10px;"
+      <a href="mediaactivities.html"><span class="sliderimg"><img src="https://hkvmt.com/assets/dpbhm2024_07.jpg" style="border-radius: 10px;"
             alt="中年人的運動淺談" /></span><span class="slidertext">中年人的運動淺談<br>講者: 林家寶先生<br>
           <div style="font-size:smaller;">(2024-7-27)</div>
         </span></a>
@@ -923,7 +936,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
 
     <div class="sliderblock">
       <a href="mediaactivities.html#gallery"><span class="sliderimg"><img src="https://hkvmt.com/images/kaitakhealth1.jpg" style="border-radius: 10px;"
-            alt="啟德健康嘉年華" /></span><span class="slidertext">啟德健康嘉年華<div style="font-size:smaller;">(2024-9-25)</div></span></a>
+            alt="社區腦健康體驗日 啟德健康嘉年華" /></span><span class="slidertext">社區腦健康體驗日<br>啟德健康嘉年華<div style="font-size:smaller;">(2024-9-25)</div></span></a>
     </div>
 
     <div class="sliderblock">
@@ -1030,27 +1043,14 @@ for (let b = 0; b < bouncingtext.length; b++) {
        </div>
       </div>
      </div>
-     <div class="clearfix colelem shared_content" id="pu583239" data-content-guid="pu583239_content"><!-- group -->
-      <div class="clearfix grpelem" id="u583239"><!-- group -->
-       <div class="fadein clearfix grpelem" id="u583242"><!-- column -->
-        <div class="fadein museBGSize rounded-corners colelem shared_content" id="u583241" data-content-guid="u583241_content"><!-- simple frame --></div>
-        <div class="fadein clearfix colelem shared_content" id="u583240-9" data-content-guid="u583240-9_content"><!-- content -->
-         <p id="u583240-2">郭卓霖</p>
-         <p id="u583240-3">&nbsp;</p>
-         <p id="u583240-5">香港浸會大學</p>
-         <p id="u583240-7">網絡科技主任</p>
-        </div>
-       </div>
-      </div>
-      <div class="clearfix grpelem" id="u629781"><!-- group -->
-       <div class="fadein clearfix grpelem" id="u629783"><!-- column -->
-        <div class="fadein museBGSize rounded-corners colelem shared_content" id="u629784" data-content-guid="u629784_content"><!-- simple frame --></div>
-        <div class="fadein clearfix colelem shared_content" id="u629782-9" data-content-guid="u629782-9_content"><!-- content -->
-         <p id="u629782-2">梁迪珉</p>
-         <p id="u629782-3">&nbsp;</p>
-         <p id="u629782-5">香港浸會大學</p>
-         <p id="u629782-7">社區外展主任</p>
-        </div>
+     <div class="clearfix colelem shared_content" id="u629781" data-content-guid="u629781_content"><!-- group -->
+      <div class="fadein clearfix grpelem" id="u629783"><!-- column -->
+       <div class="fadein museBGSize rounded-corners colelem shared_content" id="u629784" data-content-guid="u629784_content"><!-- simple frame --></div>
+       <div class="fadein clearfix colelem shared_content" id="u629782-9" data-content-guid="u629782-9_content"><!-- content -->
+        <p id="u629782-2">梁迪珉</p>
+        <p id="u629782-3">&nbsp;</p>
+        <p id="u629782-5">香港浸會大學</p>
+        <p id="u629782-7">社區外展主任</p>
        </div>
       </div>
      </div>
@@ -1167,7 +1167,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
      <a class="nonblock nontext clearfix shared_content" id="u736875-4" href="home-en.html" data-content-guid="u736875-4_content"><!-- content --><p id="u736875-2">EN</p></a>
      <a class="nonblock nontext clearfix shared_content" id="u736876-4" href="home-sc.html" data-content-guid="u736876-4_content"><!-- content --><p id="u736876-2">简</p></a>
     </div>
-    <div class="verticalspacer" data-offset-top="7043" data-content-above-spacer="7042" data-content-below-spacer="391"></div>
+    <div class="verticalspacer" data-offset-top="7096" data-content-above-spacer="7096" data-content-below-spacer="391"></div>
     <div class="browser_width grpelem" id="u716517-bw">
      <div id="u716517"><!-- group -->
       <div class="clearfix" id="u716517_align_to_page">
@@ -1246,11 +1246,9 @@ for (let b = 0; b < bouncingtext.length; b++) {
         <div class="clearfix temp_no_id" data-orig-id="u583745_align_to_page">
          <span class="anchor_item colelem placeholder" data-placeholder-for="intro_content"><!-- placeholder node --></span>
          <div class="clearfix colelem temp_no_id" data-orig-id="pu578854"><!-- group -->
-          <div class="grpelem temp_no_id" data-orig-id="u578854"><!-- simple frame --></div>
-          <div class="clearfix grpelem temp_no_id" data-orig-id="u578855-4"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u578855-2"><span class="body temp_no_id" data-orig-id="u578855">測試介紹</span></p>
-          </div>
-          <div class="SlideFromL museBGSize grpelem temp_no_id" data-orig-id="u578856"><!-- simple frame --></div>
+          <span class="grpelem placeholder" data-placeholder-for="u578854_content"><!-- placeholder node --></span>
+          <span class="clearfix grpelem placeholder" data-placeholder-for="u578855-4_content"><!-- placeholder node --></span>
+          <span class="SlideFromL museBGSize grpelem placeholder" data-placeholder-for="u578856_content"><!-- placeholder node --></span>
           <div class="fade clearfix grpelem temp_no_id" data-orig-id="u666498-18"><!-- content -->
            <p class="temp_no_id" data-orig-id="u666498-2">是一項用以預測往後出現認知衰退機率的風險數據模型。CARS能提供個人化的生活風險分析，有助改善生活風險因素，以減低患病風險。</p>
            <p class="temp_no_id" data-orig-id="u666498-3">&nbsp;</p>
@@ -1259,47 +1257,15 @@ for (let b = 0; b < bouncingtext.length; b++) {
            <p class="temp_no_id" data-orig-id="u666498-12">無須下載APP</p>
            <p class="temp_no_id" data-orig-id="u666498-16"><span class="temp_no_id" data-orig-id="u666498-13">使用 智能電話</span><span class="temp_no_id" data-orig-id="u666498-14">、</span><span class="temp_no_id" data-orig-id="u666498-15">平板 或 電腦 就可以立即開始</span></p>
           </div>
-          <div class="Button fade clearfix grpelem temp_no_id" data-orig-id="buttonu666499"><!-- container box -->
-           <div class="clearfix colelem temp_no_id" data-orig-id="u666500-4"><!-- content -->
-            <p class="temp_no_id" data-orig-id="u666500-2">*支援 Chrome 和 Safari 瀏覽器</p>
-           </div>
-           <div class="clearfix colelem temp_no_id" data-orig-id="pu666501"><!-- group -->
-            <div class="museBGSize grpelem temp_no_id" title="Chrome" data-orig-id="u666501"><!-- simple frame --></div>
-            <div class="museBGSize grpelem temp_no_id" title="Safari" data-orig-id="u666502"><!-- simple frame --></div>
-           </div>
-          </div>
-          <div class="fade clearfix grpelem temp_no_id" data-orig-id="u666503-6"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u666503-2"><span class="body temp_no_id" data-orig-id="u666503">認知風險評估</span></p>
-           <p class="temp_no_id" data-orig-id="u666503-4"><span class="body temp_no_id" data-orig-id="u666503-3">Cognitive Ageing Risk Score (CARS)</span></p>
-          </div>
-          <a class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem temp_no_id" href="https://hkbu.questionpro.com/CARSTest" target="_blank" title="認知風險小評估" data-orig-id="buttonu665072"><!-- container box --></a>
-          <div class="rounded-corners grpelem temp_no_id" data-orig-id="u666568"><!-- simple frame --></div>
-          <div class="fade clearfix grpelem temp_no_id" data-orig-id="u578857-16"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u578857-2">是一項簡單而準確的線上認知測試，經過大學以60歲或以上的群組作為參考進行驗證。它以單詞回憶，專注力，及圖像記憶作為評估基礎。</p>
-           <p class="temp_no_id" data-orig-id="u578857-3">&nbsp;</p>
-           <p class="temp_no_id" data-orig-id="u578857-5">研究已刊登於</p>
-           <p class="temp_no_id" data-orig-id="u578857-9"><span class="temp_no_id" data-orig-id="u578857-8"><a class="nonblock" href="https://www.tandfonline.com/doi/full/10.1080/13607863.2018.1523878" target="_blank" title="Aging and mental health"><span class="temp_no_id" data-orig-id="u578857-6">國際老年醫學期刊《Aging and mental health》</span></a></span></p>
-           <p class="temp_no_id" data-orig-id="u578857-10">&nbsp;</p>
-           <p class="temp_no_id" data-orig-id="u578857-12">無須下載APP</p>
-           <p class="temp_no_id" data-orig-id="u578857-14">使用 平板 或 電腦 就可以立即開始</p>
-          </div>
-          <div class="Button fade clearfix grpelem temp_no_id" data-orig-id="buttonu578858"><!-- container box -->
-           <div class="clearfix colelem temp_no_id" data-orig-id="u578859-4"><!-- content -->
-            <p class="temp_no_id" data-orig-id="u578859-2">*支援 Chrome 和 Safari 瀏覽器</p>
-           </div>
-           <div class="clearfix colelem temp_no_id" data-orig-id="pu578860"><!-- group -->
-            <div class="museBGSize grpelem temp_no_id" title="Chrome" data-orig-id="u578860"><!-- simple frame --></div>
-            <div class="museBGSize grpelem temp_no_id" title="Safari" data-orig-id="u578861"><!-- simple frame --></div>
-           </div>
-          </div>
-          <div class="fade clearfix grpelem temp_no_id" data-orig-id="u578862-6"><!-- content -->
-           <p class="temp_no_id" data-orig-id="u578862-2"><span class="body temp_no_id" data-orig-id="u578862">香港警覺性及記憶篩查</span></p>
-           <p class="temp_no_id" data-orig-id="u578862-4"><span class="body temp_no_id" data-orig-id="u578862-3">Hong Kong - Vigilance and Memory Test (HK-VMT)</span></p>
-          </div>
-          <a class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem temp_no_id" href="https://hkbu.questionpro.com/hkvmt-desktop" target="_blank" title="HK-VMT測試" data-orig-id="buttonu578863"><!-- container box --></a>
-          <div class="Button clearfix grpelem temp_no_id" data-orig-id="buttonu721406"><!-- container box -->
-           <div class="SlideFromR museBGSize grpelem temp_no_id" data-orig-id="u721423"><!-- simple frame --></div>
-          </div>
+          <span class="Button fade clearfix grpelem placeholder" data-placeholder-for="buttonu666499_content"><!-- placeholder node --></span>
+          <span class="fade clearfix grpelem placeholder" data-placeholder-for="u666503-6_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem placeholder" data-placeholder-for="buttonu665072_content"><!-- placeholder node --></span>
+          <span class="rounded-corners grpelem placeholder" data-placeholder-for="u666568_content"><!-- placeholder node --></span>
+          <span class="fade clearfix grpelem placeholder" data-placeholder-for="u578857-16_content"><!-- placeholder node --></span>
+          <span class="Button fade clearfix grpelem placeholder" data-placeholder-for="buttonu578858_content"><!-- placeholder node --></span>
+          <span class="fade clearfix grpelem placeholder" data-placeholder-for="u578862-6_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext Button fadein shadow museBGSize rounded-corners grpelem placeholder" data-placeholder-for="buttonu578863_content"><!-- placeholder node --></span>
+          <span class="Button clearfix grpelem placeholder" data-placeholder-for="buttonu721406_content"><!-- placeholder node --></span>
          </div>
          <span class="anchor_item colelem placeholder" data-placeholder-for="compare_content"><!-- placeholder node --></span>
          <div class="clearfix colelem temp_no_id" data-orig-id="pu845914"><!-- group -->
@@ -1314,7 +1280,23 @@ for (let b = 0; b < bouncingtext.length; b++) {
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u714332-bw_content"><!-- placeholder node --></span>
       <span class="browser_width grpelem placeholder" data-placeholder-for="buttonu456702-bw_content"><!-- placeholder node --></span>
-      <span class="browser_width grpelem placeholder" data-placeholder-for="u583730-bw_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u583730-bw">
+       <div class="museBGSize temp_no_id" data-orig-id="u583730"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u583730_align_to_page">
+         <span class="anchor_item grpelem placeholder" data-placeholder-for="team_content"><!-- placeholder node --></span>
+         <div class="clearfix grpelem" id="pu583221"><!-- column -->
+          <span class="clearfix colelem placeholder" data-placeholder-for="u583221_content"><!-- placeholder node --></span>
+          <span class="clearfix colelem placeholder" data-placeholder-for="pu718582_content"><!-- placeholder node --></span>
+          <span class="fadein rounded-corners colelem placeholder" data-placeholder-for="u583217_content"><!-- placeholder node --></span>
+          <span class="clearfix colelem placeholder" data-placeholder-for="pu718678_content"><!-- placeholder node --></span>
+          <span class="fadein rounded-corners colelem placeholder" data-placeholder-for="u583218_content"><!-- placeholder node --></span>
+          <span class="clearfix colelem placeholder" data-placeholder-for="pu718716_content"><!-- placeholder node --></span>
+          <span class="fadein rounded-corners colelem placeholder" data-placeholder-for="u583219_content"><!-- placeholder node --></span>
+          <span class="clearfix colelem placeholder" data-placeholder-for="pu718731_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
       <span class="grpelem placeholder" data-placeholder-for="u815295_content"><!-- placeholder node --></span>
       <span class="noticeboard grpelem placeholder" data-placeholder-for="u574152_content"><!-- placeholder node --></span>
      </div>
@@ -1322,7 +1304,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
      <span class="clearfix colelem placeholder" data-placeholder-for="u583224_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u629744_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu583227_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu583239_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u629781_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u629829_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu583244_content"><!-- placeholder node --></span>
     </div>
@@ -1408,7 +1390,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
      <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u736875-4_content"><!-- placeholder node --></span>
      <span class="nonblock nontext clearfix placeholder" data-placeholder-for="u736876-4_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="7116" data-content-above-spacer="7115" data-content-below-spacer="369"></div>
+    <div class="verticalspacer" data-offset-top="7126" data-content-above-spacer="7126" data-content-below-spacer="369"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u716517-bw">
      <div class="temp_no_id" data-orig-id="u716517"><!-- group -->
       <div class="clearfix temp_no_id" data-orig-id="u716517_align_to_page">
@@ -1549,7 +1531,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
       <span class="clearfix grpelem placeholder" data-placeholder-for="u583235_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u583231_content"><!-- placeholder node --></span>
      </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu583239_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u629781_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u629829_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu583244_content"><!-- placeholder node --></span>
     </div>
@@ -1811,7 +1793,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
       <span class="clearfix grpelem placeholder" data-placeholder-for="u583235_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u583231_content"><!-- placeholder node --></span>
      </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu583239_content"><!-- placeholder node --></span>
+     <span class="clearfix colelem placeholder" data-placeholder-for="u629781_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u629829_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu583244_content"><!-- placeholder node --></span>
     </div>
@@ -1942,6 +1924,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
           <span class="clearfix colelem placeholder" data-placeholder-for="u583223-4_content"><!-- placeholder node --></span>
           <span class="rounded-corners colelem placeholder" data-placeholder-for="u583222_content"><!-- placeholder node --></span>
          </div>
+         <span class="fadein museBGSize rounded-corners transition shadow colelem placeholder" data-placeholder-for="u718582_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
@@ -1963,7 +1946,6 @@ for (let b = 0; b < bouncingtext.length; b++) {
        </div>
       </div>
       <span class="SlideFromR clearfix grpelem placeholder" data-placeholder-for="u583210-4_content"><!-- placeholder node --></span>
-      <span class="fadein museBGSize rounded-corners transition shadow grpelem placeholder" data-placeholder-for="u718582_content"><!-- placeholder node --></span>
       <span class="grpelem placeholder" data-placeholder-for="u815295_content"><!-- placeholder node --></span>
       <div class="PamphletWidget clearfix allow_click_through widget_invisible grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-islightbox="true" data-orig-id="pamphletu715348"><!-- none box -->
        <div class="clearfix" id="pu715353"><!-- group -->
@@ -2024,12 +2006,6 @@ for (let b = 0; b < bouncingtext.length; b++) {
        <span class="fadein clearfix colelem placeholder" data-placeholder-for="u583234-11_content"><!-- placeholder node --></span>
       </div>
      </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="u583239"><!-- group -->
-      <div class="fadein clearfix grpelem temp_no_id" data-orig-id="u583242"><!-- column -->
-       <span class="fadein museBGSize rounded-corners colelem placeholder" data-placeholder-for="u583241_content"><!-- placeholder node --></span>
-       <span class="fadein clearfix colelem placeholder" data-placeholder-for="u583240-9_content"><!-- placeholder node --></span>
-      </div>
-     </div>
      <div class="clearfix colelem temp_no_id" data-orig-id="u629781"><!-- group -->
       <div class="fadein clearfix grpelem temp_no_id" data-orig-id="u629783"><!-- column -->
        <span class="fadein museBGSize rounded-corners colelem placeholder" data-placeholder-for="u629784_content"><!-- placeholder node --></span>
@@ -2054,7 +2030,7 @@ for (let b = 0; b < bouncingtext.length; b++) {
      </div>
     </div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu715346_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="8871" data-content-above-spacer="8870" data-content-below-spacer="431" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="8541" data-content-above-spacer="8541" data-content-below-spacer="431" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="browser_width grpelem temp_no_id" data-orig-id="u716517-bw">
      <div class="temp_no_id" data-orig-id="u716517"><!-- column -->
       <div class="clearfix temp_no_id" data-orig-id="u716517_align_to_page">
